@@ -36,6 +36,26 @@ The core promise should be expressed through outcomes:
 
 Velu's services should be presented as the way these outcomes are created. Deliverables such as bookkeeping, reconciliations, budget reports, grant budgets, dashboards, and advisory meetings should support the promise rather than lead the message.
 
+## Messaging Hierarchy
+
+Website content should generally communicate:
+
+Outcome -> Capability -> Service -> Deliverable
+
+- Outcome = the leadership result the nonprofit seeks.
+- Capability = the organizational capability required to achieve the outcome.
+- Service = the Velu service that helps create the capability.
+- Deliverable = the specific outputs, reports, meetings, analyses, or accounting activities provided through the service.
+
+Example:
+
+Funding Confidence
+-> Grant Management Capability
+-> Grant Advisory & Compliance
+-> Grant budgets, grant reporting support, compliance monitoring, restricted fund tracking
+
+Website copy should generally move from outcome to deliverable rather than leading with deliverables.
+
 ## 3. Financial Foundation Messaging
 
 Financial Foundation messaging should focus on trust, reliability, clarity, and reduced administrative burden.
@@ -57,6 +77,8 @@ Supporting deliverables may include bookkeeping, reconciliations, month-end clos
 Service page guidance:
 
 Lead with the outcome of a stronger financial foundation. Then explain how outsourced accounting creates that foundation through accurate books, timely close processes, fund accounting, and usable reports.
+
+Website content should generally communicate Outcome -> Capability -> Service -> Deliverable before discussing specific deliverables in detail.
 
 ## 4. Program-Finance Connection Messaging
 
@@ -83,6 +105,8 @@ Service page guidance:
 
 Lead with the outcome of stronger program-finance connection. Then explain how fractional CFO and advisory support helps leaders use budgets, reports, forecasts, and analysis to understand the financial reality behind their programs.
 
+Website content should generally communicate Outcome -> Capability -> Service -> Deliverable before discussing specific deliverables in detail.
+
 ## 5. Funding Confidence Messaging
 
 Funding Confidence messaging should focus on responsible funding management, restricted fund visibility, compliance readiness, and stronger funder reporting.
@@ -106,6 +130,8 @@ Supporting deliverables may include grant budget development, restricted funding
 Service page guidance:
 
 Lead with the outcome of funding confidence. Then explain how grant advisory and compliance support helps nonprofits manage restricted funding, meet funder expectations, and strengthen future funding readiness.
+
+Website content should generally communicate Outcome -> Capability -> Service -> Deliverable before discussing specific deliverables in detail.
 
 ## 6. Sustainable Growth Messaging
 
@@ -149,6 +175,8 @@ Homepage copy should not open by listing services in isolation. The page should 
 ## 8. Service Page Messaging Rules
 
 Service pages should lead with outcomes and support them with deliverables.
+
+Website content should generally communicate Outcome -> Capability -> Service -> Deliverable before discussing specific deliverables in detail.
 
 Messaging rules:
 
@@ -195,3 +223,9 @@ Discovery calls should use service language after the desired outcomes are under
 - Fractional CFO & Advisory for program-finance connection and leadership decision support
 - Grant Advisory & Compliance for funding confidence
 - Integrated service support for sustainable growth
+
+## Revision History
+
+| Date | Version | Summary | Owner |
+| --- | --- | --- | --- |
+| 2026-06-20 | 1.1 | Standardized website messaging hierarchy terminology and aligned messaging framework with service page framework guidance. | Tyler Wilcox |

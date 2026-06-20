@@ -6,7 +6,7 @@
 
 - Source Name: Velu Service Outcome Framework
 - Type: Internal Strategic Messaging Framework
-- Related Document: [docs/velu-service-outcome-framework.md](docs/velu-service-outcome-framework.md)
+- Related Document: [docs/12-velu-service-outcome-framework.md](docs/12-velu-service-outcome-framework.md)
 - Owner: Velu
 
 Notes:
