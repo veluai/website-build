@@ -20,16 +20,18 @@ It documents approved image assets, page section usage, purpose, repository file
 | Grant Reporting | Funding Confidence Capability – Grant Reporting | Grant reporting capability icon | capability-grant-reporting.png | assets/images/grant-advisory-compliance/capability-grant-reporting.png | PNG | 1254 x 1254 | Nonprofit grant reporting illustration showing financial reports, supporting documentation, accountability, and funder reporting requirements. | Approved | Present | Implementation status pending verification | Pending | Tyler Wilcox |
 | Grant Reimbursements | Funding Confidence Capability – Grant Reimbursements | Grant reimbursements capability icon | capability-grant-reimbursements.png | assets/images/grant-advisory-compliance/capability-grant-reimbursements.png | PNG | 1254 x 1254 | Nonprofit grant reimbursement illustration showing documented expenses, reimbursement requests, and grant funding returned to support program operations. | Approved | Present | Implementation status pending verification | Pending | Tyler Wilcox |
 | Funding Confidence | Funding Confidence Capability – Funding Confidence | Funding confidence capability icon | capability-funding-confidence.png | assets/images/grant-advisory-compliance/capability-funding-confidence.png | PNG | 1254 x 1254 | Funding confidence illustration representing strong grant financial management, compliance, stewardship, and readiness for future funding opportunities. | Approved | Present | Implementation status pending verification | Pending | Tyler Wilcox |
+| Grant Advisory & Compliance Social Share | SEO and Social Sharing | Social and Open Graph preview image | grant-advisory-compliance-social-share.png | assets/images/grant-advisory-compliance/grant-advisory-compliance-social-share.png | PNG | 1731 x 909 | Not applicable to the social metadata field. | Approved | Present | Added to website-builder SEO image field; live output pending verification | https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39c58e610e9ace506de5d5.png | Tyler Wilcox |
 
 ## Asset Status Summary
 
-- Total final page images: 10
+- Total final page images and social assets: 11
 - Primary page images present: 5
 - Funding Confidence capability icons present: 5
+- Social-sharing images present: 1
 - Approved alt text documented: Yes
-- Repository asset status: Present for all ten final assets
-- Website implementation status: Implementation status pending verification
-- Website image URL status: Pending
+- Repository asset status: Present for all eleven final assets
+- Website implementation status: Implementation status pending verification for page images and capability icons; social-sharing image added to website-builder SEO image field with live output pending verification
+- Website image URL status: Pending for page images and capability icons; hosted GoHighLevel URL documented for social-sharing image
 
 ## Future AI Agent Instructions
 

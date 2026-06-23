@@ -1,0 +1,373 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://velu.us/services/client-advisory-services#webpage",
+      "url": "https://velu.us/services/client-advisory-services",
+      "name": "Client Advisory Services",
+      "description": "Velu's client advisory services help nonprofit leaders connect programs, funding, and financial strategy through budgeting, financial analysis, forecasting, structured advisory meetings, and board-ready reporting.",
+      "mainEntity": {
+        "@id": "https://velu.us/services/client-advisory-services#service"
+      },
+      "breadcrumb": {
+        "@id": "https://velu.us/services/client-advisory-services#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://velu.us/#organization"
+      },
+      "image": [
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3452440a683b64feed2e46.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3466e2f0a5585082d3abba.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a34677c6dd61c546a37fd51.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3468376a6dd1b69a14a780.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3468c4de4900e889a524ed.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3470936a6dd1b69a15d078.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a347482de4900e889a6a2fd.png"
+      ],
+      "potentialAction": {
+        "@type": "ScheduleAction",
+        "name": "Schedule a Discovery Call",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://velu.us/get-started/"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://velu.us/services/client-advisory-services#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://velu.us"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://velu.us/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Client Advisory Services",
+          "item": "https://velu.us/services/client-advisory-services"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://velu.us/services/client-advisory-services#service",
+      "url": "https://velu.us/services/client-advisory-services",
+      "name": "Client Advisory Services",
+      "serviceType": "Nonprofit Advisory Services",
+      "category": "Nonprofit Financial Advisory Services",
+      "description": "Velu's client advisory services help nonprofit organizations understand financial performance, connect programs and funding, evaluate opportunities and risks, forecast future results, and make informed leadership decisions.",
+      "provider": {
+        "@id": "https://velu.us/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Nonprofit Organizations"
+      },
+      "keywords": [
+        "nonprofit advisory services",
+        "client advisory services",
+        "nonprofit CFO advisory",
+        "nonprofit financial planning",
+        "nonprofit budgeting",
+        "budget performance analysis",
+        "financial forecasting",
+        "board reporting",
+        "nonprofit financial strategy",
+        "nonprofit financial management"
+      ],
+      "image": [
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3452440a683b64feed2e46.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3466e2f0a5585082d3abba.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a34677c6dd61c546a37fd51.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3468376a6dd1b69a14a780.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3468c4de4900e889a524ed.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3470936a6dd1b69a15d078.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a347482de4900e889a6a2fd.png"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Nonprofit Client Advisory Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Budgeting & Financial Planning",
+              "description": "Budgeting and financial planning support that helps nonprofit leaders build organizational, program, and grant budgets aligned with funding, staffing, resources, and mission priorities."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Budget Performance Analysis",
+              "description": "Budget performance analysis that helps nonprofit leaders compare actual financial results to plan, identify funding gaps, monitor financial health, evaluate program performance, and understand financial trends."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Forecasting & Financial Visibility",
+              "description": "Financial forecasting and visibility services that help nonprofit leaders evaluate future funding, staffing, cash flow, scenario planning, and long-term financial projections."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Board & Leadership Reporting",
+              "description": "Board and leadership reporting services that help nonprofits communicate financial performance through board-ready reports, dashboards, KPI reporting, liquidity analysis, and executive financial summaries."
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "12",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Albert Varas"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2020-08-19",
+          "reviewBody": "Tyler has been a fantastic financial leader for us during a tremendous growth stage for our non-profit. His help is invaluable in painting a clear picture of our finances & budgets so that we can continue to move the organization forward. It would have been difficult, if not impossible, to have tripled our budget in the past couple of years without Tyler's guidance and expertise."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Blanca Mejia"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-06-20",
+          "reviewBody": "It has been an enormous pleasure to work with Tyler and his team. We are a very small nonprofit in South Omaha, but with a big heart to serve our community. Tyler and Luis have been a big piece in our journey. The Velu LLC team is a group of people who care about you. They take the time to ensure you understand and are doing well in your business."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jade Rogers"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2020-08-10",
+          "reviewBody": "Detail oriented, thorough, great service and a pleasure to work with! I have nothing but praise for Velu + Tyler!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Michael Lewan"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-05-19",
+          "reviewBody": "As a new nonprofit organization, we really appreciated the time and care Tyler gave us in filing our first ever 990 form. He turned what could have been a very complicated and laborious compliance obligation into easy to understand and manageable series of tasks."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Gretchen Ellis"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2024-08-13",
+          "reviewBody": "Tyler and his team are incredible to work with - efficient, thorough, and kind. Tyler's team completely remapped our chart of accounts and customized things to our nonprofit's needs. His team was efficient, helpful and understanding of the needs of nonprofits. We feel lucky and grateful for their support."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Erin Goodwin"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-08-01",
+          "reviewBody": "Thanks to Tyler and his intern Joselyn, we now have a proper accounting system set up, and we know how to maintain it. I am so grateful and delighted to move forward with financial transparency. Velu has been an absolute blessing."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "McKenna Kiogima"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2023-09-29",
+          "reviewBody": "Amazing assistance, communication, and people. Went above and beyond to help us set our QuickBooks up for success, couldn't have had a better experience!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Alex Goswami"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2023-06-23",
+          "reviewBody": "Velu is organized, great tech stack, and very responsive. Not to mention experts in their field. Highly recommend!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Dr. Erin Busch"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2022-08-20",
+          "reviewBody": "Tyler was amazing to work with! He was extremely clear and consistent in all of our interactions, and was very patient with me as I navigated accounting software for the first time. I would highly recommend Tyler and his team to anyone who is looking for help getting started."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Nelson"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2020-12-05",
+          "reviewBody": "Quality of work is exceptional and valued contributor on our board."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Rachel Ziegler"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2024-01-05",
+          "reviewBody": "Sharing a conversation with Tyler helped me grasp some key fundamental concepts so I can begin structuring my nonprofit appropriately and leave the organization in good hands. So thankful!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Mike Pichik"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-09-30",
+          "reviewBody": "Tyler Wilcox and the team at Velu have been phenomenal to work with. We are a new non-profit and they were great choice to navigate a very complex annual return!"
+        }
+      ],
+      "potentialAction": {
+        "@type": "ScheduleAction",
+        "name": "Schedule a Discovery Call",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://velu.us/get-started/"
+        }
+      }
+    },
+    {
+      "@type": "AccountingService",
+      "@id": "https://velu.us/#organization",
+      "name": "Velu",
+      "legalName": "Velu LLC",
+      "url": "https://velu.us",
+      "description": "Velu is a nonprofit-focused accounting and advisory firm that helps organizations build reliable cloud-based financial systems, maintain accurate accounting records, and gain the financial visibility needed to make informed decisions. Through outsourced accounting, financial reporting, compliance support, and strategic advisory services, Velu helps nonprofit leaders strengthen financial stewardship, improve operational effectiveness, and support long-term sustainability.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1402 Jones St #1004",
+        "addressLocality": "Omaha",
+        "addressRegion": "NE",
+        "postalCode": "68102",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-402-578-0622",
+      "email": "info@velu.us",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Check, Credit Card, ACH",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/velucpa/",
+        "https://www.google.com/maps/place/Velu+LLC,+1402+Jones+St+%231004,+Omaha,+NE+68102"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-402-578-0622",
+        "contactType": "customer service",
+        "email": "info@velu.us",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a224bccfc95b245497d57f8.jpg"
+      },
+      "image": [
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3452440a683b64feed2e46.png"
+      ]
+    }
+  ]
+}
+</script>

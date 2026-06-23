@@ -1,0 +1,373 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://velu.us/services/grant-advisory-compliance-services#webpage",
+      "url": "https://velu.us/services/grant-advisory-compliance-services",
+      "name": "Velu | Omaha-Based Nonprofit Grant Advisory & Compliance Services",
+      "description": "Velu helps nonprofits manage grant budgets, reporting, reimbursements, restricted funding, compliance, and future funding readiness.",
+      "isPartOf": {
+        "@id": "https://velu.us/#website"
+      },
+      "mainEntity": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+      },
+      "about": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+      },
+      "breadcrumb": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://velu.us/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage"
+      },
+      "image": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#schedule-action"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage",
+      "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39c58e610e9ace506de5d5.png",
+      "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39c58e610e9ace506de5d5.png",
+      "width": 1731,
+      "height": 909,
+      "name": "Grant Advisory & Compliance Services",
+      "caption": "Grant Advisory & Compliance services for nonprofit grant budgeting, reporting, reimbursements, compliance, and funding confidence.",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://velu.us/services/grant-advisory-compliance-services#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://velu.us/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://velu.us/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Grant Advisory & Compliance",
+          "item": "https://velu.us/services/grant-advisory-compliance-services"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://velu.us/services/grant-advisory-compliance-services#service",
+      "url": "https://velu.us/services/grant-advisory-compliance-services",
+      "name": "Grant Advisory & Compliance Services",
+      "serviceType": "Nonprofit Grant Advisory and Compliance Services",
+      "category": "Nonprofit Grant Financial Management and Compliance",
+      "description": "Velu helps nonprofit leaders manage the financial side of grant funding through funding strategy, grant budgeting, reporting, reimbursements, restricted funding management, compliance support, stewardship, and future funding readiness.",
+      "provider": {
+        "@id": "https://velu.us/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Nonprofit Organizations"
+      },
+      "image": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage"
+      },
+      "keywords": [
+        "nonprofit grant advisory services",
+        "nonprofit grant compliance services",
+        "nonprofit grant management",
+        "nonprofit grant reporting",
+        "grant budgeting for nonprofits",
+        "restricted funding management",
+        "grant reimbursement support",
+        "nonprofit funding strategy",
+        "grant financial management",
+        "funder confidence",
+        "future funding readiness"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#offer-catalog",
+        "name": "Grant Advisory & Compliance Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Grant Strategy & Funding Visibility",
+              "description": "Understand current and future funding opportunities, identify risks, and evaluate how grant-dependent programs affect sustainability."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Grant Budgeting & Planning",
+              "description": "Build realistic grant budgets that connect funding requirements, program costs, and organizational priorities."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Restricted Funding & Compliance",
+              "description": "Manage reporting, reimbursements, restricted funding, documentation, and compliance responsibilities after an award."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Funder Confidence & Sustainability",
+              "description": "Demonstrate strong stewardship, strengthen funder trust, and improve readiness for future funding."
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "12",
+        "ratingCount": "12",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Albert Varas"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2020-08-19",
+          "reviewBody": "Tyler has been a fantastic financial leader for us during a tremendous growth stage for our non-profit. His help is invaluable in painting a clear picture of our finances & budgets so that we can continue to move the organization forward. It would have been difficult, if not impossible, to have tripled our budget in the past couple of years without Tyler's guidance and expertise.",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Blanca Mejia"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-06-20",
+          "reviewBody": "It has been an enormous pleasure to work with Tyler and his team. We are a very small nonprofit in South Omaha, but with a big heart to serve our community. Tyler and Luis have been a big piece in our journey. The Velu LLC team is a group of people who care about you. They take the time to ensure you understand and are doing well in your business.",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jade Rogers"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2020-08-10",
+          "reviewBody": "Detail oriented, thorough, great service and a pleasure to work with! I have nothing but praise for Velu + Tyler!",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Michael Lewan"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-05-19",
+          "reviewBody": "As a new nonprofit organization, we really appreciated the time and care Tyler gave us in filing our first ever 990 form. He turned what could have been a very complicated and laborious compliance obligation into easy to understand and manageable series of tasks.",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Gretchen Ellis"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2024-08-13",
+          "reviewBody": "Tyler and his team are incredible to work with - efficient, thorough, and kind. Tyler's team completely remapped our chart of accounts and customized things to our nonprofit's needs. His team was efficient, helpful and understanding of the needs of nonprofits. We feel lucky and grateful for their support.",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Erin Goodwin"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-08-01",
+          "reviewBody": "Thanks to Tyler and his intern Joselyn, we now have a proper accounting system set up, and we know how to maintain it. I am so grateful and delighted to move forward with financial transparency. Velu has been an absolute blessing.",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "McKenna Kiogima"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2023-09-29",
+          "reviewBody": "Amazing assistance, communication, and people. Went above and beyond to help us set our QuickBooks up for success, couldn't have had a better experience!",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Alex Goswami"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2023-06-23",
+          "reviewBody": "Velu is organized, great tech stack, and very responsive. Not to mention experts in their field. Highly recommend!",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Dr. Erin Busch"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2022-08-20",
+          "reviewBody": "Tyler was amazing to work with! He was extremely clear and consistent in all of our interactions, and was very patient with me as I navigated accounting software for the first time. I would highly recommend Tyler and his team to anyone who is looking for help getting started.",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Nelson"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2020-12-05",
+          "reviewBody": "Quality of work is exceptional and valued contributor on our board.",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Rachel Ziegler"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2024-01-05",
+          "reviewBody": "Sharing a conversation with Tyler helped me grasp some key fundamental concepts so I can begin structuring my nonprofit appropriately and leave the organization in good hands. So thankful!",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Mike Pichik"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "datePublished": "2025-09-30",
+          "reviewBody": "Tyler Wilcox and the team at Velu have been phenomenal to work with. We are a new non-profit and they were great choice to navigate a very complex annual return!",
+          "itemReviewed": {
+            "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScheduleAction",
+      "@id": "https://velu.us/services/grant-advisory-compliance-services#schedule-action",
+      "name": "Schedule a Discovery Call",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://velu.us/get-started/"
+      },
+      "object": {
+        "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+      }
+    }
+  ]
+}
