@@ -308,6 +308,12 @@ When live verification is complete, document:
 
 Tyler Wilcox has confirmed that the Grant Advisory & Compliance page carousel uses the approved 12 nonprofit-focused reviews from `Reviews.docx`.
 
+`Reviews.docx` is the authoritative source for reviewer names, full review bodies, dates, and ratings.
+
+The approved Client Advisory schema source may be used to confirm coordinated JSON structure, but it is a reference-only source for review content. The prior Client Advisory schema contains shortened or edited versions of four review bodies: Blanca Mejia, Erin Goodwin, McKenna Kiogima, and Dr. Erin Busch.
+
+The Grant Advisory & Compliance schema uses the complete review bodies from `Reviews.docx`. JSON structure may follow the coordinated service-page convention, but testimonial content must match `Reviews.docx` exactly.
+
 Included reviewers:
 
 1. Albert Varas
