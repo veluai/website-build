@@ -295,14 +295,15 @@ Velu helps nonprofits prepare accurate Form 990 filings, protect tax-exempt stat
 
 Visual concept:
 
-Create a branded social-sharing image built around a clear Form 990 filing-confidence message.
+Create a branded social-sharing image built around a clear Form 990 filing-confidence message. The final approved social-sharing image does not include a nonprofit leader.
 
 The image should feature:
 
 * A prominent Form 990 document
-* A nonprofit leader reviewing or approving the filing
+* The headline `Nonprofit Tax Services`
+* The supporting line `Form 990 Preparation & Tax-Exempt Status Applications`
 * A subtle shield or protected-status symbol
-* Organized filing materials or checklist cues
+* Filing, checklist, or ready-to-file visual cues
 * A clean, professional composition that remains legible at smaller social-preview sizes
 * Velu branding consistent with the rest of the website
 
@@ -321,7 +322,7 @@ Communicate:
 
 Composition:
 
-* Main visual and subject centered or slightly right-weighted
+* Main visual centered or slightly right-weighted
 * Clear space for the short title
 * Form 990 and protected-status imagery should be immediately recognizable
 * The image should still work when cropped or displayed at a small size
