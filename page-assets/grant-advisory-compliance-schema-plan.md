@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Document the approved schema structure, entity relationships, source fields, and remaining verification requirements for the Grant Advisory & Compliance service page before production JSON-LD is generated and entered into GoHighLevel.
+Document the approved schema structure, entity relationships, source fields, and remaining verification requirements for the Grant Advisory & Compliance service page before production JSON-LD is entered into GoHighLevel.
 
 ## Page Identity
 
@@ -51,7 +51,7 @@ Preferred coordinated convention:
 - Service pages reference those entities by `@id`.
 - Service pages should not duplicate the full `WebSite` or `AccountingService` entities.
 - Each service page defines its own `WebPage`, `BreadcrumbList`, `Service`, page image, OfferCatalog, and ScheduleAction.
-- A service page may include reviews and AggregateRating only when the review set is visibly represented and verified.
+- Review markup for broad Velu testimonials should remain governed by the broader website schema strategy and should not be attached to a page-specific Service entity unless the reviews are specifically for that service.
 - Each service-page `WebPage` should reference `https://velu.us/#website` through `isPartOf`.
 - Each service provider should reference `https://velu.us/#organization`.
 - Draft inconsistencies among the unpublished service-page schemas should not be treated as established production conventions.
@@ -87,7 +87,7 @@ The launch-ready page schema uses an `@graph` containing exactly five top-level 
 
 The OfferCatalog is embedded in the Service entity.
 
-The AggregateRating and 12 Review records are attached to the Service entity.
+The final Grant Advisory & Compliance page JSON-LD does not include Review or AggregateRating properties.
 
 Do not create a duplicate full AccountingService organization entity on this service page unless the existing site implementation requires it.
 
@@ -116,8 +116,6 @@ https://velu.us/services/grant-advisory-compliance-services#schedule-action
 
 Primary page image:
 https://velu.us/services/grant-advisory-compliance-services#primaryimage
-
-Review IDs should be assigned only after exact visible review records are verified.
 
 ## WebPage Plan
 
@@ -266,6 +264,8 @@ Current status:
 
 The social-sharing image has been added in the website builder, and its hosted GoHighLevel media asset URL has been documented.
 
+GoHighLevel required a `creator` property for the `ImageObject` when the schema was entered into the dedicated Schema Markup JSON View.
+
 Image name:
 
 Grant Advisory & Compliance Social Share
@@ -282,6 +282,12 @@ Hosted URL source:
 
 GoHighLevel media asset
 
+Image creator:
+
+Velu, referenced through the planned organization ID:
+
+https://velu.us/#organization
+
 Website-builder status:
 
 Added
@@ -294,6 +300,8 @@ The hosted image URL and source dimensions are verified for launch preparation.
 
 The ImageObject may be included in the launch-ready JSON-LD.
 
+The ImageObject includes a `creator` property identifying Velu as the image creator through the planned organization ID.
+
 Live retrieval and generated page-source relationships remain pending publication and live technical verification.
 
 When live verification is complete, document:
@@ -304,7 +312,7 @@ When live verification is complete, document:
 - Caption or name
 - Relationship to the WebPage and Service
 
-## Review and Aggregate Rating Plan
+## Visible Review Carousel and Schema Decision
 
 Tyler Wilcox has confirmed that the Grant Advisory & Compliance page carousel uses the approved 12 nonprofit-focused reviews from `Reviews.docx`.
 
@@ -312,9 +320,13 @@ Tyler Wilcox has confirmed that the Grant Advisory & Compliance page carousel us
 
 The approved Client Advisory schema source may be used to confirm coordinated JSON structure, but it is a reference-only source for review content. The prior Client Advisory schema contains shortened or edited versions of four review bodies: Blanca Mejia, Erin Goodwin, McKenna Kiogima, and Dr. Erin Busch.
 
-The Grant Advisory & Compliance schema uses the complete review bodies from `Reviews.docx`. JSON structure may follow the coordinated service-page convention, but testimonial content must match `Reviews.docx` exactly.
+The visible review carousel remains part of the approved page content. The testimonials are broad reviews of Velu and its nonprofit accounting and advisory work, and they are not all specifically reviews of the Grant Advisory & Compliance service.
 
-Included reviewers:
+Because the reviews are broad Velu testimonials, Review and AggregateRating markup will not be attached to the page-specific Grant Advisory & Compliance Service entity. The final Grant Advisory & Compliance page JSON-LD contains no Review or AggregateRating properties.
+
+Review markup may remain governed centrally through the homepage organization schema, subject to the broader website schema strategy.
+
+Visible carousel reviewers:
 
 1. Albert Varas
 2. Blanca Mejia
@@ -338,29 +350,16 @@ Reason for exclusion:
 
 These two reviews are not part of the approved nonprofit-focused service-page review set.
 
-Aggregate rating:
-
-- Rating value: 5
-- Best rating: 5
-- Worst rating: 1
-- Review count: 12
-- Rating count: 12
-
 Status:
 
-Verified against the approved nonprofit-focused review set and confirmed as the review set used by the page carousel.
+Verified as the visible nonprofit-focused carousel review set only. These records are not page-specific schema requirements for the Grant Advisory & Compliance JSON-LD.
 
-Review schema may be included because the approved 12-review set is visible through the page carousel.
+Schema requirements:
 
-Review entity requirements:
-
-- Review authors, review text, dates, and ratings must be copied exactly from `Reviews.docx`.
-- Do not paraphrase, shorten, correct grammar, or otherwise edit testimonial text inside schema.
-- Use only the 12 approved nonprofit-focused reviewers.
-- Do not include Graham Christensen or Lani C.
-- Each Review should use a rating value of 5.
-- The coordinated replacement service-page convention attaches the reviews and AggregateRating to the page-specific Service entity.
-- Each Review uses `itemReviewed` referencing the Grant Advisory & Compliance Service entity.
+- Do not attach Review records to the page-specific Service entity.
+- Do not attach AggregateRating to the page-specific Service entity.
+- Do not add the carousel reviews elsewhere in this page-level JSON-LD.
+- Do not add a separate organization review entity in this page-level JSON-LD.
 
 ## Organization Reference
 
@@ -380,7 +379,6 @@ Organization details should remain governed by the central schema standard.
 
 Launch-ready schema and post-publication verification still require:
 
-- Entry into GoHighLevel
 - Coordinated publication of the replacement homepage and service pages
 - Live page-source inspection after publication
 - Duplicate and conflict checks after publication
@@ -400,12 +398,14 @@ After production JSON-LD is created and entered:
 - Inspect the live page source
 - Confirm no duplicate Service, WebPage, BreadcrumbList, or organization entities
 - Confirm all URLs resolve
-- Confirm review markup matches visible review content
+- Confirm no Review or AggregateRating markup exists in the Grant Advisory & Compliance page-level JSON-LD
 - Confirm the canonical URL matches the schema URL
 - Update the page schema inventory only after implementation and validation status are known
 
 ## Current Status
 
-Launch-ready production JSON-LD has been generated and locally validated.
+Launch-ready schema entered and saved in GoHighLevel; pending publication and live technical verification.
 
-The schema has not yet been entered into GoHighLevel or published. All live technical verification remains pending.
+The schema was entered into the GoHighLevel dedicated Schema Markup JSON View without `<script type="application/ld+json">` tags because the dedicated JSON View accepts pure JSON. GoHighLevel's built-in validation passed, and the schema was saved in GoHighLevel.
+
+The visible review carousel remains on the page. The page remains unpublished. Schema.org Validator testing, Google Rich Results testing, live-source inspection, and all post-publication verification remain pending.
