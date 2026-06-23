@@ -191,7 +191,9 @@ Velu helps nonprofits prepare Form 990, Form 990-EZ, and Form 990-N filings and 
 
 Author:
 
-Velu
+Tyler Wilcox, CPA
+
+This matches the author convention used across Velu's substantive service pages.
 
 Language:
 
@@ -205,9 +207,50 @@ Social image:
 
 Use the approved social-sharing image after upload to GoHighLevel.
 
+GoHighLevel keyword field — copy/paste value:
+
+nonprofit tax services, Form 990 preparation, Form 990 filing, Form 990-EZ preparation, Form 990-EZ filing, Form 990-N preparation, Form 990-N filing, nonprofit tax preparation, nonprofit tax compliance, nonprofit federal tax filing, nonprofit tax-exempt status applications, nonprofit tax exemption, tax-exempt status reinstatement, Form 1023, Form 1023-EZ, Form 1024
+
 Custom meta tags:
 
-Pending final GoHighLevel implementation review.
+Each item should be entered as a separate custom meta-tag name/value pair in GoHighLevel.
+
+### subject
+
+Nonprofit Tax Services & Form 990 Preparation
+
+### classification
+
+Nonprofit Federal Tax Compliance and Tax-Exempt Status Services
+
+### category
+
+Nonprofit Tax Services
+
+### coverage
+
+United States
+
+### audience
+
+Nonprofit Leaders
+
+### topic
+
+Form 990 Preparation, Form 990-EZ Filing, Form 990-N Filing, Tax-Exempt Status Applications and Reinstatement
+
+### summary
+
+Nonprofit tax services focused on Form 990 preparation, federal filing compliance, and support for organizations applying for or restoring tax-exempt status.
+
+Implementation status:
+
+* Author field: Approved — Tyler Wilcox, CPA
+* Keyword field: Approved
+* Custom meta tags: Approved
+* Actual GoHighLevel entry: Pending confirmation unless already entered
+* Publication: Pending
+* Live technical verification: Pending
 
 Schema markup:
 
