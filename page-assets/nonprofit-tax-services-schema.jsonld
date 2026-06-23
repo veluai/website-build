@@ -43,10 +43,7 @@
       "name": "Nonprofit Tax Services",
       "caption": "Nonprofit tax services for Form 990 preparation, filing confidence, and tax-exempt status applications.",
       "creator": {
-        "@type": "Organization",
-        "@id": "https://velu.us/#organization",
-        "name": "Velu",
-        "url": "https://velu.us/"
+        "@id": "https://velu.us/#organization"
       },
       "inLanguage": "en-US"
     },

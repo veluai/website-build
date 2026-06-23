@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Document the approved schema strategy, planned entities, entity relationships, source fields, service boundaries, and remaining verification requirements for the Nonprofit Tax Services page before production JSON-LD is generated and entered into GoHighLevel.
+Document the final implemented schema strategy, entities, entity relationships, source fields, service boundaries, and remaining verification requirements for the Nonprofit Tax Services page.
 
 ## Page Identity
 
@@ -46,9 +46,9 @@ nonprofit tax services
 - Cross-page relationships remain pending publication and live technical verification.
 - The current public website should not be treated as evidence that the replacement-page schema is live.
 
-## Launch Schema Convention
+## Final Schema Structure
 
-Plan a page-level `@graph` containing exactly five top-level entities:
+The page-level `@graph` contains exactly five top-level entities:
 
 1. WebPage
 2. ImageObject
@@ -56,7 +56,10 @@ Plan a page-level `@graph` containing exactly five top-level entities:
 4. Service
 5. ScheduleAction
 
-The OfferCatalog should be embedded within the Service entity.
+The `Service` contains an embedded `OfferCatalog` with exactly two offers:
+
+1. Form 990 Preparation
+2. Tax-Exempt Status Applications
 
 Do not include top-level:
 
@@ -68,6 +71,21 @@ Do not include top-level:
 * FAQPage
 
 Do not attach broad Velu reviews to the page-specific Service entity.
+
+Final schema decisions:
+
+* The page references the global website entity at `https://velu.us/#website`
+* The page references the global organization entity at `https://velu.us/#organization`
+* The page canonical URL is `https://velu.us/services/nonprofit-tax-services`
+* The primary image is the approved social-sharing image
+* The CTA action points to `https://velu.us/get-started/`
+* Reviews are intentionally excluded from the page-level schema
+* `AggregateRating` is intentionally excluded
+* `FAQPage` is intentionally excluded
+* No duplicate full `WebSite` or organization entity is defined on the page
+* The JSON-LD is pure JSON with no script tags
+* The JSON-LD was entered into GoHighLevel
+* GoHighLevel validation passed successfully
 
 ## Planned Entity IDs
 
@@ -197,7 +215,7 @@ Catalog name:
 
 Nonprofit Tax Services
 
-Plan exactly two Offer items.
+The embedded OfferCatalog contains exactly two Offer items.
 
 ### Offer 1: Form 990 Preparation
 
@@ -280,7 +298,7 @@ The `creator` should identify Velu through:
 
 https://velu.us/#organization
 
-The hosted image URL is available, so launch-ready JSON-LD can now be generated.
+The hosted image URL is available and is used by the launch-ready JSON-LD.
 
 ## Breadcrumb Plan
 
@@ -408,9 +426,6 @@ This boundary may inform schema wording but should not be inserted as contractua
 
 ## Pending Requirements
 
-* GoHighLevel page implementation
-* GoHighLevel schema entry
-* GoHighLevel schema validation
 * Coordinated publication of the replacement website
 * Live page-source inspection
 * Duplicate-entity checks
@@ -423,4 +438,20 @@ This boundary may inform schema wording but should not be inserted as contractua
 
 ## Current Status
 
-Launch-ready JSON-LD generated and locally validated; pending GoHighLevel entry, publication, and live technical verification.
+Schema strategy complete.
+
+JSON-LD generated.
+
+Local JSON syntax validation complete.
+
+Entered into GoHighLevel.
+
+GoHighLevel validation passed.
+
+Publication pending.
+
+Live source verification pending.
+
+Schema.org Validator testing pending.
+
+Google Rich Results Test pending.

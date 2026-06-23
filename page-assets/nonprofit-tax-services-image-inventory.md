@@ -38,7 +38,7 @@ Hero section beside the H1 and supporting copy
 
 Purpose:
 
-Communicate organized Form 990 preparation, filing confidence, and protection of tax-exempt status through a calm nonprofit-leadership scene.
+Hero image for filing confidence.
 
 Approved alt text:
 
@@ -58,11 +58,15 @@ Pending
 
 GoHighLevel upload status:
 
-Pending
+Uploaded to GoHighLevel
 
 GoHighLevel alt-text status:
 
-Pending
+Alt text entered and confirmed
+
+Responsive display status:
+
+Confirmed
 
 Live-page verification status:
 
@@ -96,7 +100,7 @@ Protect Your Tax-Exempt Status Through Accurate Filing section
 
 Purpose:
 
-Show how financial, governance, program, and organizational information comes together in an accurate Form 990 filing that supports tax-exempt status and public accountability.
+Illustrates how Form 990 brings together nonprofit financial, governance, program, and organizational information.
 
 Approved alt text:
 
@@ -116,11 +120,15 @@ Pending
 
 GoHighLevel upload status:
 
-Pending
+Uploaded to GoHighLevel
 
 GoHighLevel alt-text status:
 
-Pending
+Alt text entered and confirmed
+
+Responsive display status:
+
+Confirmed
 
 Live-page verification status:
 
@@ -154,7 +162,7 @@ Form 990 Preparation service area
 
 Purpose:
 
-Illustrate a structured preparation workflow moving from organized client information through review and electronic filing.
+Supports the Form 990 Preparation service section.
 
 Approved alt text:
 
@@ -174,11 +182,15 @@ Pending
 
 GoHighLevel upload status:
 
-Pending
+Uploaded to GoHighLevel
 
 GoHighLevel alt-text status:
 
-Pending
+Alt text entered and confirmed
+
+Responsive display status:
+
+Confirmed
 
 Live-page verification status:
 
@@ -212,7 +224,7 @@ Tax-Exempt Status Applications service area
 
 Purpose:
 
-Show nonprofit leaders receiving tax-exempt status approval after moving through an organized application process.
+Supports the Tax-Exempt Status Applications service section.
 
 Approved alt text:
 
@@ -232,11 +244,15 @@ Pending
 
 GoHighLevel upload status:
 
-Pending
+Uploaded to GoHighLevel
 
 GoHighLevel alt-text status:
 
-Pending
+Alt text entered and confirmed
+
+Responsive display status:
+
+Confirmed
 
 Live-page verification status:
 
@@ -270,7 +286,7 @@ GoHighLevel SEO and social-sharing image field; not displayed as primary webpage
 
 Purpose:
 
-Represent Nonprofit Tax Services through Form 990 preparation, filing readiness, and protection of tax-exempt status in social previews.
+Open Graph, social sharing, and schema primary image.
 
 Webpage alt text:
 
@@ -290,15 +306,23 @@ https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279
 
 GoHighLevel upload status:
 
-Completed
+Uploaded
 
 GoHighLevel alt-text status:
 
 Not applicable unless rendered in page content
 
+GoHighLevel social metadata status:
+
+Entered in GoHighLevel social metadata
+
+JSON-LD ImageObject usage:
+
+Used by the JSON-LD ImageObject
+
 Live-page verification status:
 
-Pending publication
+Live retrieval verification pending publication
 
 ## Social Image Notes
 
