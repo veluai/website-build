@@ -8,6 +8,10 @@ Related approved page-copy file:
 
 page-assets/nonprofit-tax-services-page-copy.md
 
+Final repository image folder:
+
+assets/images/tax-services/
+
 ## Visual System
 
 Use the same clean vector-illustration family as the other Velu service pages.
@@ -41,6 +45,14 @@ Do not use:
 Image name:
 
 IMAGE_Velu_Nonprofit Tax Services_Form 990 Filing Confidence
+
+Final filename:
+
+form-990-filing-confidence.png
+
+Repository path:
+
+assets/images/tax-services/form-990-filing-confidence.png
 
 Purpose:
 
@@ -85,6 +97,14 @@ Composition:
 Image name:
 
 IMAGE_Velu_Nonprofit Tax Services_Protect Tax-Exempt Status
+
+Final filename:
+
+protect-tax-exempt-status.png
+
+Repository path:
+
+assets/images/tax-services/protect-tax-exempt-status.png
 
 Purpose:
 
@@ -138,6 +158,14 @@ Image name:
 
 IMAGE_Velu_Nonprofit Tax Services_Form 990 Preparation
 
+Final filename:
+
+form-990-preparation.png
+
+Repository path:
+
+assets/images/tax-services/form-990-preparation.png
+
 Purpose:
 
 Support the Form 990 Preparation service area.
@@ -188,6 +216,14 @@ Composition:
 Image name:
 
 IMAGE_Velu_Nonprofit Tax Services_Tax-Exempt Status Applications
+
+Final filename:
+
+tax-exempt-status-applications.png
+
+Repository path:
+
+assets/images/tax-services/tax-exempt-status-applications.png
 
 Purpose:
 
@@ -241,6 +277,14 @@ Image name:
 
 IMAGE_Velu_Nonprofit Tax Services_Social Share
 
+Final filename:
+
+nonprofit-tax-services-social-share.png
+
+Repository path:
+
+assets/images/tax-services/nonprofit-tax-services-social-share.png
+
 Purpose:
 
 Provide the Open Graph and social-sharing image for the Nonprofit Tax Services page.
@@ -285,8 +329,16 @@ Composition:
 
 ## Implementation Notes
 
-These image briefs are approved concept directions only.
+All five approved Nonprofit Tax Services images have been added to the repository.
 
-Do not generate prompts in this file.
-Do not generate images in this step.
-Do not assign final repository filenames, live URLs, alt text, or implementation status yet unless a later workflow step specifically requests them.
+Final image assets are stored in `assets/images/tax-services/`.
+
+The images are approved for page implementation.
+
+Hosted URLs remain pending.
+
+GoHighLevel implementation remains pending.
+
+Final alt-text entry remains pending.
+
+Live-page verification remains pending.
