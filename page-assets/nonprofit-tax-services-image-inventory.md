@@ -286,11 +286,11 @@ Approved
 
 Hosted image URL:
 
-Pending
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png
 
 GoHighLevel upload status:
 
-Pending
+Completed
 
 GoHighLevel alt-text status:
 

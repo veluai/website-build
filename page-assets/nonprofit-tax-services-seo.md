@@ -94,11 +94,11 @@ Social-sharing image dimensions:
 
 Hosted social-sharing image URL:
 
-Pending
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png
 
 GoHighLevel social-image implementation:
 
-Pending
+Uploaded to GoHighLevel; hosted URL captured. Publication and live verification remain pending.
 
 The social-sharing image is metadata-only and does not require a webpage alt-text entry unless later displayed within the page content.
 
@@ -205,7 +205,9 @@ https://velu.us/services/nonprofit-tax-services
 
 Social image:
 
-Use the approved social-sharing image after upload to GoHighLevel.
+Use the approved hosted social-sharing image:
+
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png
 
 GoHighLevel keyword field — copy/paste value:
 

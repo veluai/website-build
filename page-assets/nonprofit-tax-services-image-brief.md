@@ -285,6 +285,10 @@ Repository path:
 
 assets/images/tax-services/nonprofit-tax-services-social-share.png
 
+Hosted social-sharing image URL:
+
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png
+
 Purpose:
 
 Provide the Open Graph and social-sharing image for the Nonprofit Tax Services page.
@@ -336,7 +340,9 @@ Final image assets are stored in `assets/images/tax-services/`.
 
 The images are approved for page implementation.
 
-Hosted URLs remain pending.
+The social-sharing image has been uploaded to GoHighLevel, and its hosted URL has been documented.
+
+Hosted URLs for the four content images remain pending.
 
 GoHighLevel implementation remains pending.
 

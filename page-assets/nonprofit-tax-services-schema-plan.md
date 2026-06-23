@@ -249,7 +249,11 @@ Dimensions:
 
 Hosted image URL:
 
-Pending GoHighLevel upload
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png
+
+Primary-image status:
+
+Hosted URL available for launch-ready JSON-LD generation.
 
 Planned name:
 
@@ -276,7 +280,7 @@ The `creator` should identify Velu through:
 
 https://velu.us/#organization
 
-The final JSON-LD must not be generated until the hosted image URL is available.
+The hosted image URL is available, so launch-ready JSON-LD can now be generated.
 
 ## Breadcrumb Plan
 
@@ -404,9 +408,8 @@ This boundary may inform schema wording but should not be inserted as contractua
 
 ## Pending Requirements
 
-* Hosted social-sharing image URL
 * GoHighLevel page implementation
-* Final JSON-LD generation
+* GoHighLevel schema entry
 * GoHighLevel schema validation
 * Coordinated publication of the replacement website
 * Live page-source inspection
@@ -420,4 +423,4 @@ This boundary may inform schema wording but should not be inserted as contractua
 
 ## Current Status
 
-Schema strategy documented for launch; pending hosted image URL, JSON-LD generation, GoHighLevel implementation, publication, and live technical verification.
+Launch-ready JSON-LD generated and locally validated; pending GoHighLevel entry, publication, and live technical verification.

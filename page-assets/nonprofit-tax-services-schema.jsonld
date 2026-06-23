@@ -1,0 +1,154 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://velu.us/services/nonprofit-tax-services#webpage",
+      "url": "https://velu.us/services/nonprofit-tax-services",
+      "name": "Velu | Omaha-Based Nonprofit Tax Services & Form 990 Preparation",
+      "description": "Velu helps nonprofits prepare Form 990, Form 990-EZ, and Form 990-N filings and navigate tax-exempt status applications with greater confidence.",
+      "isPartOf": {
+        "@id": "https://velu.us/#website"
+      },
+      "mainEntity": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#service"
+      },
+      "about": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#service"
+      },
+      "breadcrumb": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://velu.us/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage"
+      },
+      "image": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#schedule-action"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage",
+      "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png",
+      "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png",
+      "width": 1731,
+      "height": 909,
+      "name": "Nonprofit Tax Services",
+      "caption": "Nonprofit tax services for Form 990 preparation, filing confidence, and tax-exempt status applications.",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://velu.us/#organization",
+        "name": "Velu",
+        "url": "https://velu.us/"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://velu.us/services/nonprofit-tax-services#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://velu.us/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://velu.us/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nonprofit Tax Services",
+          "item": "https://velu.us/services/nonprofit-tax-services"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://velu.us/services/nonprofit-tax-services#service",
+      "url": "https://velu.us/services/nonprofit-tax-services",
+      "name": "Nonprofit Tax Services",
+      "serviceType": "Nonprofit Tax Preparation and Tax-Exempt Status Application Services",
+      "category": "Nonprofit Federal Tax Compliance Services",
+      "description": "Velu helps nonprofit organizations prepare and file Form 990, Form 990-EZ, and Form 990-N and supports organizations applying for or restoring federal tax-exempt status.",
+      "provider": {
+        "@id": "https://velu.us/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Nonprofit Organizations"
+      },
+      "image": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage"
+      },
+      "keywords": [
+        "nonprofit tax services",
+        "Form 990 preparation",
+        "Form 990 filing",
+        "Form 990-EZ preparation",
+        "Form 990-EZ filing",
+        "Form 990-N preparation",
+        "Form 990-N filing",
+        "nonprofit tax preparation",
+        "nonprofit tax compliance",
+        "nonprofit federal tax filing",
+        "nonprofit tax-exempt status applications",
+        "nonprofit tax exemption",
+        "tax-exempt status reinstatement",
+        "Form 1023",
+        "Form 1023-EZ",
+        "Form 1024"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "@id": "https://velu.us/services/nonprofit-tax-services#offer-catalog",
+        "name": "Nonprofit Tax Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 990 Preparation",
+              "description": "Prepare and file Form 990, Form 990-EZ, or Form 990-N with support for applicable schedules, public-support testing, extensions, client review, and electronic filing."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tax-Exempt Status Applications",
+              "description": "Support for nonprofit organizations applying for or restoring federal tax-exempt status through an organized application process covering required financial, organizational, operational, and governance information."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ScheduleAction",
+      "@id": "https://velu.us/services/nonprofit-tax-services#schedule-action",
+      "name": "Schedule a Discovery Call",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://velu.us/get-started/"
+      },
+      "object": {
+        "@id": "https://velu.us/services/nonprofit-tax-services#service"
+      }
+    }
+  ]
+}
