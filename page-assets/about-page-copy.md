@@ -17,23 +17,18 @@
 
 Tyler Wilcox, CPA founded Velu to help nonprofit leaders build stronger financial foundations and make more confident decisions.
 
-With more than 15 years of accounting experience—including over a decade serving nonprofits as an outsourced consultant—Tyler has worked with dozens of organizations across the United States, primarily throughout the Midwest. His experience ranges from supporting startup nonprofits to working with organizations approaching $10 million in annual activity.
+With more than 15 years of accounting experience—including over a decade serving nonprofits—Tyler has supported dozens of organizations across the United States, from startups to nonprofits approaching $10 million in annual activity.
 
-Tyler’s work has included nonprofit accounting, financial reporting, Form 990 preparation, federal tax compliance, and financial guidance for executives and boards. His earlier experience in consulting and auditing also shaped how he approaches the work today: financial information should not only be accurate and compliant; it should help leaders understand their organizations, strengthen accountability, and make better decisions.
+His experience spans nonprofit accounting, financial reporting, Form 990 preparation, federal tax compliance, consulting, and audit. That background shapes Velu’s approach today: financial information should be accurate and compliant, but it should also help leaders strengthen accountability and make better decisions.
 
 Tyler is a Certified Public Accountant, a QuickBooks ProAdvisor Level 2, and holds the AICPA Nonprofit Level 1 Certificate.
 
-That experience has brought Tyler and Velu alongside nonprofit leaders working across a wide range of missions, funding models, and stages of organizational growth.
-
 ### Credential Highlights
 
-* More than 15 years of accounting experience
-* More than a decade serving nonprofit organizations
-* Dozens of nonprofits supported
-* Experience from startup through approximately $10 million in annual activity
-* Certified Public Accountant
-* QuickBooks ProAdvisor Level 2
-* AICPA Nonprofit Level 1 Certificate
+* `15+ Years` — `Accounting Experience`
+* `10+ Years` — `Serving Nonprofits`
+* `Dozens of Nonprofits` — `Served Across the U.S.`
+* `Startup to $10M` — `Orgs Supported`
 
 ### Implementation Notes
 
@@ -112,32 +107,7 @@ That experience helped shape why Velu was founded and how the firm approaches no
 * The card grid should be easy to scan on desktop and stack cleanly on mobile.
 * The recommended desktop layout is five cards per row if the available width supports it; otherwise use a balanced three- or four-column layout.
 
-## Section 3: A More Connected Approach to Nonprofit Finance
-
-### A More Connected Approach to Nonprofit Finance
-
-Nonprofit leaders are often expected to make important decisions without dependable financial systems, timely reporting, or enough experienced financial support.
-
-The accounting may eventually get completed, but it does not always provide the clarity leadership teams, boards, and funders need. Compliance deadlines drive the process. Financial reports explain what has already happened but offer limited visibility into what may be ahead. As organizations grow, the financial systems and processes supporting them do not always grow at the same pace.
-
-Velu was founded to offer a more connected approach.
-
-Rather than treating accounting, compliance, and financial guidance as separate needs, Velu helps nonprofits build a financial foundation that brings them together. That means establishing reliable systems, producing information leaders can trust, meeting important reporting and tax responsibilities, and helping organizations understand the financial implications of the decisions in front of them.
-
-The goal is not simply to maintain the books. It is to help nonprofit leaders better understand their resources, responsibilities, risks, and opportunities so they can lead with greater confidence over the long run.
-
-### Implementation Notes
-
-* This section should feel strategic and editorial rather than biographical.
-* It may use a supporting illustration showing connected accounting, compliance, reporting, and financial guidance.
-* Do not create a separate values section.
-* Velu’s values should be expressed naturally through the language:
-  * Accountability through reliable systems and reporting
-  * Communication through useful financial information
-  * Innovation through a connected approach
-  * Selflessness through long-term support of nonprofit leadership
-
-## Closing CTA
+## Section 3: Closing CTA
 
 ### Looking for a Financial Partner Who Understands Nonprofits?
 
@@ -157,9 +127,8 @@ The final page flow is:
 
 1. Meet Tyler Wilcox, CPA
 2. Experience Across the Nonprofit Sector
-3. A More Connected Approach to Nonprofit Finance
-4. Closing CTA
+3. Closing CTA
 
 The intended persuasive progression is:
 
-`Credibility → Sector Relevance → Velu’s Point of View → Conversion`
+`Credibility → Sector Relevance → Conversion`

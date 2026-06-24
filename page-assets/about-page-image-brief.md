@@ -205,135 +205,6 @@ Member service, association support, industry/professional community
 - Do not create long illustrative scenes for each card
 - Keep them compact and consistent
 
-## Section 3 Image
-
-### Image Name
-
-`about-connected-nonprofit-financial-approach`
-
-### Section Supported
-
-A More Connected Approach to Nonprofit Finance
-
-### Purpose
-
-Support the section explaining Velu’s point of view and approach by visually summarizing how the firm’s major service areas work together.
-
-### Core Message
-
-Velu helps nonprofit organizations build stronger financial foundations by connecting reliable, cloud-based financial systems, financial visibility, grant support, and nonprofit tax compliance into one more cohesive financial approach.
-
-### Approved Organizing Idea
-
-Use the Velu Financial Growth Framework as the organizing idea for this image.
-
-This image should visually summarize how Velu’s major service areas connect and reinforce one another.
-
-### Four Connected Service Areas
-
-The image should represent four connected areas of support:
-
-#### 1. Outsourced Accounting
-
-Focus on:
-
-- Reliable, cloud-based financial systems
-- Accurate financial records
-- Timely financial reporting
-- Dependable accounting processes
-
-#### 2. Client Advisory Services
-
-Focus on:
-
-- Connecting programs and finances
-- Financial visibility
-- Intentional advisory meetings
-- Better leadership decision-making
-
-#### 3. Grant Advisory & Compliance
-
-Focus on:
-
-- Funding visibility
-- Grant budgeting
-- Reporting and reimbursements
-- Restricted funding and compliance
-
-#### 4. Nonprofit Tax Services
-
-Focus on:
-
-- Form 990 preparation
-- Federal filing compliance
-- Tax-exempt status applications
-- Protection of tax-exempt status
-
-### Strategic Outcomes to Communicate
-
-The framework should also communicate that these connected capabilities support broader outcomes such as:
-
-- Financial clarity
-- Stronger leadership decisions
-- Funder confidence
-- Long-term sustainability
-- Greater mission impact
-
-### Composition Recommendation
-
-Preferred composition:
-A connected horizontal framework or a visually integrated framework built around the Velu Financial Growth Framework.
-
-Suggested directional flow:
-
-`Outsourced Accounting → Client Advisory Services → Grant Advisory & Compliance → Nonprofit Tax Services`
-
-This should communicate connection and reinforcement, not a rigid funnel or mandatory purchase sequence.
-
-### Additional Direction
-
-- The four service areas should feel connected rather than isolated
-- Avoid four unrelated boxes
-- Avoid generic finance graphics
-- Avoid making tax services appear to be the “final goal”
-- The image should feel strategic rather than transactional
-- The image should summarize the firm’s overall approach across the site
-
-### Visual Elements to Consider
-
-Use visual cues for:
-
-- Cloud-based accounting systems
-- Reporting and financial visibility
-- Connecting programs and finances
-- Advisory conversations or intentional advisory meetings
-- Grants and restricted funding
-- Form 990 and nonprofit tax compliance
-- Connected workflows
-- Funder confidence
-- Sustainable growth
-- Mission impact
-
-### Style Requirements
-
-- Match the approved Velu illustration family
-- Clean vector / infographic style
-- White background or similarly clean background treatment
-- Navy / blue primary palette
-- Light gray supporting elements
-- Restrained green accents
-- Minimal embedded text
-- Clear visual hierarchy
-- Professional nonprofit advisory aesthetic
-- Strategic and organized visual tone
-
-### Implementation Notes
-
-- This image supports the firm-approach section, not an individual service page
-- It should visually summarize the full Velu approach represented across the site
-- It may become one of the key strategic visuals on the About page
-- Keep the content aligned with the approved page copy
-
 ## Social-Sharing Image
 
 ### Image Name
@@ -354,7 +225,7 @@ About page
 
 ### Core Message
 
-Introduce Velu as a founder-led nonprofit CPA firm with deep nonprofit experience and a connected approach to financial support.
+Introduce Velu as a founder-led nonprofit CPA firm with deep nonprofit expertise and a mission-driven approach to financial support.
 
 ### Approved Headline
 
@@ -397,7 +268,7 @@ The image should communicate:
 - Founder credibility
 - Nonprofit specialization
 - Professional expertise
-- Connected financial support
+- Mission-driven financial support
 - Long-term partnership
 - Calm confidence
 
@@ -428,7 +299,6 @@ Include only:
 Do not include:
 
 - A detailed service list
-- The full Financial Growth Framework
 - Credential lists
 - Years-of-experience claims
 - Geographic claims
@@ -468,15 +338,15 @@ Preserve Tyler’s recognizable:
 
 ## Visual System Summary
 
-The About page should use four coordinated visual components:
+The About page should use three coordinated visual components:
 
 1. A founder-led Tyler portrait
-2. A clean ten-card nonprofit sector icon system
-3. A strategic Velu-approach framework image
-4. An About-page social-sharing image
+2. A ten-icon nonprofit-sector visual system
+3. An About-page social-sharing image
 
 Together, these should help the page communicate:
 
 - Founder credibility
-- Nonprofit sector familiarity
-- A connected approach to nonprofit finance
+- Nonprofit-sector familiarity
+- Nonprofit expertise
+- Mission-driven financial support

@@ -403,46 +403,7 @@ Fallback:
 * Accessibility implementation pending
 * Live verification pending publication
 
-## Image 12: Connected Nonprofit Financial Approach
-
-### Image Name
-
-`IMAGE_Velu_About_Connected Nonprofit Financial Approach`
-
-### Intended Placement
-
-Section 3: A More Connected Approach to Nonprofit Finance
-
-### Purpose
-
-Summarize the Velu Financial Growth Framework by showing how outsourced accounting, client advisory services, grant advisory and compliance, and nonprofit tax services work together to support nonprofit financial clarity, leadership decisions, funder confidence, long-term sustainability, and mission impact.
-
-### Image Type
-
-Meaningful content image
-
-### Approved Alt Text
-
-`Velu Financial Growth Framework connecting outsourced accounting, client advisory, grant compliance, and nonprofit tax services to support clarity, funder confidence, sustainability, and mission impact.`
-
-### Implementation Notes
-
-* Do not use empty alt text
-* Place beside or beneath the Section 3 copy
-* Ensure labels remain readable at desktop and tablet sizes
-* On mobile, use full available width
-* Confirm the final image does not imply that services must be purchased in a rigid sequence
-* Confirm final filename, dimensions, and hosted URL after upload
-
-### Status
-
-* Visual direction approved
-* Final image approved
-* GoHighLevel upload pending
-* Alt-text entry pending
-* Live verification pending publication
-
-## Image 13: About Velu Social Share
+## Image 12: About Velu Social Share
 
 ### Image Name
 
@@ -496,18 +457,16 @@ The approved About-page image set includes:
 
 * 1 founder image
 * 10 nonprofit-sector icons
-* 1 strategic financial framework illustration
 * 1 social-sharing image
 
 Total approved assets:
 
-`13`
+`12`
 
 ### Accessibility Summary
 
 * Tyler portrait: meaningful alt text required
 * Sector icons: decorative empty alt text preferred
-* Financial Growth Framework image: meaningful alt text required
 * Social-sharing image: no webpage alt text required while metadata-only
 
 ### Remaining Implementation Tasks

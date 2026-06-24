@@ -250,186 +250,7 @@ Avoid social-media imagery, casual friendship symbols, or generic networking cli
 
 Transparent background. No text.
 
-# Section 3 Strategic Framework Image
-
-## Prompt 12: Velu Connected Nonprofit Financial Approach
-
-### Image Name
-
-`IMAGE_Velu_About_Connected Nonprofit Financial Approach`
-
-### Purpose
-
-Support the “A More Connected Approach to Nonprofit Finance” section and summarize Velu’s company-wide approach.
-
-### Production Prompt
-
-Create a wide, clean, modern vector infographic illustrating the Velu Financial Growth Framework as a connected approach to nonprofit finance.
-
-The image must show four interconnected service capabilities working together to support a nonprofit organization:
-
-1. Outsourced Accounting
-2. Client Advisory Services
-3. Grant Advisory & Compliance
-4. Nonprofit Tax Services
-
-Use a cohesive framework rather than four isolated product boxes.
-
-The visual should communicate that these areas reinforce one another and collectively create a stronger financial foundation.
-
-## Service-Area Visual Content
-
-### Outsourced Accounting
-
-Show visual cues for:
-
-* Reliable, cloud-based financial systems
-* Accurate accounting records
-* Timely financial reporting
-* Dependable financial processes
-
-Possible imagery:
-
-* Secure cloud platform
-* Connected accounting records
-* Organized ledger or dashboard
-* Completed reporting workflow
-
-### Client Advisory Services
-
-Show visual cues for:
-
-* Connecting programs and finances
-* Financial visibility
-* Intentional advisory meetings
-* Better leadership decisions
-
-Possible imagery:
-
-* Program and financial data connected together
-* Leadership dashboard
-* Advisor and nonprofit leader in a structured meeting
-* Decision pathway based on clear financial information
-
-Do not label this as strategic planning.
-
-### Grant Advisory & Compliance
-
-Show visual cues for:
-
-* Funding visibility
-* Grant budgeting
-* Reporting and reimbursements
-* Restricted funding and compliance
-
-Possible imagery:
-
-* Funding pipeline
-* Grant budget
-* Reimbursement workflow
-* Restricted-fund allocation
-* Compliance check or approved report
-
-### Nonprofit Tax Services
-
-Show visual cues for:
-
-* Form 990 preparation
-* Federal filing compliance
-* Tax-exempt status applications
-* Protection of tax-exempt status
-
-Possible imagery:
-
-* Form 990 document
-* Electronic filing
-* Compliance shield
-* Tax-exempt approval or protected status
-
-## Framework Outcomes
-
-The connected service areas should visibly contribute to these broader outcomes:
-
-* Financial clarity
-* Stronger leadership decisions
-* Funder confidence
-* Long-term sustainability
-* Greater mission impact
-
-The outcomes may be represented through clear visual symbols rather than extensive text.
-
-Possible imagery:
-
-* Clear financial dashboard
-* Confident nonprofit leadership
-* Funder or grant confidence indicator
-* Sustainable growth path
-* Mission or community impact
-
-## Composition
-
-Preferred format:
-
-* Wide horizontal infographic
-* Integrated visual pathway or framework
-* Strong financial foundation beneath the four capabilities
-* Connected arrows, pathways, or shared framework elements
-* Nonprofit leadership or mission impact positioned as the beneficiary of the connected system
-
-A possible visual hierarchy is:
-
-`Reliable Financial Foundation`
-
-supporting:
-
-`Outsourced Accounting ↔ Client Advisory Services ↔ Grant Advisory & Compliance ↔ Nonprofit Tax Services`
-
-leading toward:
-
-`Clarity → Leadership Confidence → Funder Confidence → Long-Term Sustainability → Mission Impact`
-
-The image must not imply that every service must be purchased in a fixed sequence.
-
-Use two-way connections, shared foundations, or an integrated framework to communicate reinforcement rather than a rigid sales funnel.
-
-## Style Requirements
-
-* Match the approved Velu illustration family
-* Clean professional vector infographic
-* White background
-* Navy and blue primary palette
-* Light gray supporting details
-* Restrained green accents
-* Balanced use of people, systems, and documents
-* Clear visual hierarchy
-* Minimal text
-* Large, readable labels only where necessary
-* No spelling errors
-* No generic corporate investment imagery
-* No stock-market charts
-* No excessive decorative detail
-
-## Avoid
-
-* Four disconnected boxes
-* A rigid left-to-right sales funnel
-* Treating nonprofit tax services as the final objective
-* Using “strategic planning” as a service label
-* Generic calculator or bookkeeping imagery
-* Excessive embedded copy
-* Small unreadable labels
-* Making the framework appear relevant only to large nonprofits
-* Making grants or tax appear separate from the broader financial foundation
-
-### Recommended Output
-
-* Wide landscape orientation
-* Approximately 16:9 or 1.9:1
-* High-resolution PNG
-* White or transparent background
-* Suitable for display beside or beneath Section 3 copy
-
-## Prompt 13: About Velu Social-Sharing Image
+## Prompt 12: About Velu Social-Sharing Image
 
 ### Image Name
 
@@ -470,7 +291,7 @@ The design should communicate:
 * Founder credibility
 * Nonprofit-sector experience
 * Professional financial guidance
-* A connected approach to nonprofit finance
+* Mission-driven financial support
 * Long-term partnership
 * Calm confidence
 
@@ -515,7 +336,6 @@ Do not add:
 * CTA text
 * Years-of-experience claims
 * Geographic claims
-* Detailed framework labels
 * Review language
 * Additional headlines
 * Small explanatory copy
@@ -528,8 +348,6 @@ Do not add:
 * Multiple people
 * Tiny text
 * Overly corporate or impersonal styling
-* A detailed infographic
-* A rigid service funnel
 * Excessive branding
 * Unsupported claims
 
@@ -555,8 +373,7 @@ Generate images in this order:
 1. Tyler founder portrait after an approved Tyler photograph is supplied
 2. One sample sector icon for style approval
 3. Remaining nine icons after the sample style is approved
-4. Connected nonprofit financial approach framework
-5. About-page social-sharing image using the approved Tyler portrait
-6. Final consistency review across all About-page visuals
+4. About-page social-sharing image using the approved Tyler portrait
+5. Final consistency review across all About-page visuals
 
 Do not generate all ten sector icons before the icon style is approved.

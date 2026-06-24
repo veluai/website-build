@@ -18,8 +18,9 @@ The schema should help search engines understand that:
 * This is Velu’s official About page
 * Tyler Wilcox, CPA is the founder and primary person featured
 * Velu is a nonprofit-focused CPA and accounting firm
-* Tyler has substantial nonprofit accounting, Form 990, consulting, and audit experience
+* Tyler has substantial nonprofit accounting, Form 990, consulting, tax, and audit experience
 * Velu serves nonprofits across multiple sectors
+* Velu takes a mission-driven approach to financial services
 * The page is part of the existing Velu website and organization entity structure
 
 The schema should support the visible page without introducing claims or entities not presented on the page.
@@ -295,7 +296,10 @@ Confirm these before generating the final schema:
 7. Whether credential objects can be represented confidently with valid Schema.org properties
 8. Final visible page URL and canonical URL
 9. Final CTA URL
-10. Final heading structure and page copy
+10. Final heading structure and page copy:
+    * H1: `Meet Tyler Wilcox, CPA`
+    * H2: `Experience Across the Nonprofit Sector`
+    * H2: `Looking for a Financial Partner Who Understands Nonprofits?`
 
 ## Proposed Validation Checklist
 

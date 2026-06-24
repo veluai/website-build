@@ -20,11 +20,10 @@ Users seeking information about Velu, Tyler Wilcox, CPA, and the firm’s experi
 
 Users evaluating whether Velu has:
 
-* Relevant nonprofit accounting experience
+* Nonprofit expertise
 * Experience across their nonprofit sector
 * CPA leadership
-* Form 990 and compliance experience
-* A strategic and connected approach to nonprofit financial support
+* Mission-driven financial services
 
 ## Recommended URL
 
@@ -106,7 +105,7 @@ Use this comma-separated value:
 
 ### Open Graph Description
 
-`Learn about Tyler Wilcox, CPA, Velu’s nonprofit-sector experience, and the connected financial approach behind the firm.`
+`Learn about Tyler Wilcox, CPA, Velu’s nonprofit-sector expertise, and the experience behind the firm’s mission-driven financial services.`
 
 ### Open Graph URL
 
@@ -166,11 +165,11 @@ Status:
 
 ### topic
 
-`Tyler Wilcox CPA, Nonprofit Accounting Experience, Nonprofit Sector Expertise and Connected Financial Support`
+`Tyler Wilcox CPA, Nonprofit Accounting Experience, Nonprofit Sector Expertise and Mission-Driven Financial Services`
 
 ### summary
 
-`Learn about Tyler Wilcox, CPA, Velu’s experience serving nonprofit organizations, and the firm’s connected approach to accounting, compliance, grants, tax, and financial guidance.`
+`Learn about Tyler Wilcox, CPA, Velu’s experience serving nonprofit organizations, and the expertise behind the firm’s accounting, grant, tax, compliance, and financial advisory services.`
 
 ## On-Page SEO Alignment
 
@@ -183,7 +182,6 @@ Document that the visible page should include:
 ### Supporting H2 Headings
 
 * `Experience Across the Nonprofit Sector`
-* `A More Connected Approach to Nonprofit Finance`
 * `Looking for a Financial Partner Who Understands Nonprofits?`
 
 Confirm that only one H1 is used.
@@ -198,7 +196,7 @@ The About page may link naturally to:
 * Nonprofit Tax Services
 * Get Started
 
-Do not overload the page with service links. Links should support the connected-finance message and remain useful to visitors.
+Do not overload the page with service links. Links should support the mission-driven financial services message and remain useful to visitors.
 
 ## Geographic Positioning
 
@@ -228,7 +226,6 @@ Do not introduce unverified counts, awards, rankings, or unsupported claims.
 Record the following:
 
 * Tyler portrait requires meaningful alt text
-* Financial Growth Framework illustration requires meaningful alt text
 * The ten sector icons should use empty decorative alt text when the visible card title and description provide the same information
 * Do not add keyword-heavy alt text to decorative icons
 * Social-sharing metadata does not use webpage alt text unless the social image is also rendered visibly on the page
