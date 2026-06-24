@@ -1,0 +1,266 @@
+# About Page SEO
+
+## Page Status
+
+* Page: About
+* Proposed URL: `/about`
+* SEO planning status: Approved
+* GoHighLevel entry status: Pending
+* Social-sharing image status: Pending
+* Schema status: Pending separate workflow
+* Live verification status: Pending publication
+
+## Search Intent
+
+### Primary Intent
+
+Users seeking information about Velu, Tyler Wilcox, CPA, and the firm’s experience serving nonprofit organizations.
+
+### Supporting Intent
+
+Users evaluating whether Velu has:
+
+* Relevant nonprofit accounting experience
+* Experience across their nonprofit sector
+* CPA leadership
+* Form 990 and compliance experience
+* A strategic and connected approach to nonprofit financial support
+
+## Recommended URL
+
+`https://velu.us/about`
+
+Relative path:
+
+`/about`
+
+## Recommended Primary Keyword
+
+`nonprofit CPA firm`
+
+## Recommended Secondary Keywords
+
+* nonprofit accounting firm
+* nonprofit accountant
+* Tyler Wilcox CPA
+* nonprofit accounting advisor
+* nonprofit financial consulting
+* nonprofit Form 990 experience
+* nonprofit accounting services
+* Omaha nonprofit CPA
+* Midwest nonprofit CPA firm
+* nonprofit financial management
+* nonprofit sector accounting experience
+
+Use keywords naturally. Do not force exact-match repetition into visible copy.
+
+## Recommended SEO Title
+
+`Velu | Omaha-Based Nonprofit CPA Firm Led by Tyler Wilcox, CPA`
+
+Character count: `62`
+
+The approved title:
+
+* Follows the approved Velu sitewide `Velu | Omaha-Based...` convention
+* Identifies Velu as a nonprofit CPA firm
+* Keeps Tyler Wilcox, CPA central to the About page
+* Identifies the firm as Omaha-based while recognizing that Velu serves organizations nationally, primarily throughout the Midwest
+
+## Recommended Meta Description
+
+`Meet Tyler Wilcox, CPA and learn how Velu’s nonprofit experience helps organizations build stronger financial foundations and make confident decisions.`
+
+Character count: `151`
+
+The meta description should emphasize:
+
+* Tyler Wilcox, CPA
+* Nonprofit experience
+* Stronger financial foundations
+* Confident leadership decisions
+
+## Recommended Canonical URL
+
+`https://velu.us/about`
+
+## Recommended Author
+
+`Tyler Wilcox, CPA`
+
+## Recommended Language
+
+`en-US`
+
+## Recommended Keyword Field
+
+Use this comma-separated value:
+
+`nonprofit CPA firm, nonprofit accounting firm, nonprofit accountant, Tyler Wilcox CPA, nonprofit accounting advisor, nonprofit financial consulting, nonprofit Form 990 experience, nonprofit accounting services, Omaha nonprofit CPA, Midwest nonprofit CPA firm, nonprofit financial management, nonprofit sector accounting experience`
+
+## Open Graph Metadata
+
+### Open Graph Title
+
+`About Velu | Nonprofit CPA Firm Led by Tyler Wilcox, CPA`
+
+### Open Graph Description
+
+`Learn about Tyler Wilcox, CPA, Velu’s nonprofit-sector experience, and the connected financial approach behind the firm.`
+
+### Open Graph URL
+
+`https://velu.us/about`
+
+### Open Graph Type
+
+`website`
+
+### Open Graph Image
+
+Pending creation or selection of an approved social-sharing image.
+
+Do not automatically use Tyler’s portrait or the Financial Growth Framework image without confirming that the selected image works appropriately in a social-sharing crop.
+
+Recommended social-image direction:
+
+* Tyler Wilcox as the clear founder
+* Velu branding
+* Concise headline such as `About Velu`
+* Supporting line such as `Nonprofit Experience. Connected Financial Support.`
+* Professional, restrained layout
+* Approximately 1.91:1 aspect ratio
+* Minimal text
+* No unsupported claims
+
+## Recommended Custom Meta Tags
+
+### subject
+
+`Velu Nonprofit CPA Firm and Founder`
+
+### classification
+
+`Nonprofit Accounting Firm and Financial Advisory Services`
+
+### category
+
+`About Velu`
+
+### coverage
+
+`United States`
+
+### audience
+
+`Nonprofit Leaders`
+
+### topic
+
+`Tyler Wilcox CPA, Nonprofit Accounting Experience, Nonprofit Sector Expertise and Connected Financial Support`
+
+### summary
+
+`Learn about Tyler Wilcox, CPA, Velu’s experience serving nonprofit organizations, and the firm’s connected approach to accounting, compliance, grants, tax, and financial guidance.`
+
+## On-Page SEO Alignment
+
+Document that the visible page should include:
+
+### Primary H1
+
+`Meet Tyler Wilcox, CPA`
+
+### Supporting H2 Headings
+
+* `Experience Across the Nonprofit Sector`
+* `A More Connected Approach to Nonprofit Finance`
+* `Looking for a Financial Partner Who Understands Nonprofits?`
+
+Confirm that only one H1 is used.
+
+### Internal Linking Opportunities
+
+The About page may link naturally to:
+
+* Outsourced Accounting
+* Client Advisory Services
+* Grant Advisory & Compliance
+* Nonprofit Tax Services
+* Get Started
+
+Do not overload the page with service links. Links should support the connected-finance message and remain useful to visitors.
+
+## Geographic Positioning
+
+The page may accurately state that Velu serves nonprofit organizations across the United States, primarily throughout the Midwest.
+
+Do not describe Velu as serving only Omaha or only the Midwest.
+
+The approved SEO title identifies Velu as Omaha-based in accordance with the sitewide `Velu | Omaha-Based...` convention. This firm identification does not limit the service area: Velu serves nonprofit organizations nationally, primarily throughout the Midwest.
+
+## Credibility Claims
+
+Approved claims include:
+
+* More than 15 years of accounting experience
+* More than a decade serving nonprofit organizations
+* Dozens of nonprofits supported
+* Experience from startup organizations through approximately $10 million in annual activity
+* Certified Public Accountant
+* QuickBooks ProAdvisor Level 2
+* AICPA Nonprofit Level 1 Certificate
+* Experience across the ten approved nonprofit sectors
+
+Do not introduce unverified counts, awards, rankings, or unsupported claims.
+
+## Image SEO and Accessibility
+
+Record the following:
+
+* Tyler portrait requires meaningful alt text
+* Financial Growth Framework illustration requires meaningful alt text
+* The ten sector icons should use empty decorative alt text when the visible card title and description provide the same information
+* Do not add keyword-heavy alt text to decorative icons
+* Social-sharing metadata does not use webpage alt text unless the social image is also rendered visibly on the page
+
+Refer to:
+
+`page-assets/about-page-image-inventory.md`
+
+for the approved accessibility treatment.
+
+## Approval Status
+
+The following items are approved:
+
+* Final SEO title
+* Final meta description
+* Primary keyword: `nonprofit CPA firm`
+* Canonical URL: `https://velu.us/about`
+* Author: `Tyler Wilcox, CPA`
+* Language: `en-US`
+* Keyword field
+* Open Graph title
+* Open Graph description
+* Open Graph URL and type
+* Custom meta tags
+* On-page heading alignment
+* Geographic positioning
+* Approved credibility claims
+* Image accessibility approach
+
+## Pending Decisions
+
+The following items remain pending:
+
+* Final social-sharing image
+* Hosted social-image URL
+* GoHighLevel metadata entry
+* Schema plan and JSON-LD
+* Publication
+* Live canonical verification
+* Live metadata verification
+* Open Graph verification
+* Robots/noindex review
+* XML sitemap inclusion
