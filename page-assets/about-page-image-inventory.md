@@ -3,19 +3,26 @@
 ## Page Status
 
 * Page: About
-* Proposed URL: `/about`
+* Final URL: `/about-us`
 * Image planning status: Complete
 * Image selection status: Approved
-* GoHighLevel upload status: Pending
-* Alt-text entry status: Pending
-* Hosted image URLs: Pending
+* GoHighLevel upload status: Complete for all 12 approved assets
+* Alt-text implementation status: Complete
+* Accessibility implementation status: Complete
+* Hosted image URLs: Recorded for all 12 approved assets
 * Live-page verification: Pending publication
+* Open Graph implementation: Pending
+* Live social-preview verification: Pending publication
 
 ## Image 1: Tyler Wilcox Founder Portrait
 
 ### Image Name
 
 `IMAGE_Velu_About_Tyler Wilcox CPA`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png`
 
 ### Intended Placement
 
@@ -37,16 +44,17 @@ Meaningful content image
 
 * Tyler should remain the clear visual focus
 * Use beside or near the founder introduction
-* Do not use decorative empty alt text
 * Verify that the final approved Tyler image matches the intended professional founder portrait direction
-* Confirm final filename, dimensions, and hosted URL after upload
+* Confirm final filename and dimensions
 
 ### Status
 
 * Visual direction approved
 * Final image approved
-* GoHighLevel upload pending
-* Alt-text entry pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Alt-text entry complete
+* Alt-text verified in GoHighLevel
 * Live verification pending publication
 
 ## Sector Card Icon System
@@ -55,29 +63,21 @@ Meaningful content image
 
 The ten nonprofit-sector icons belong to one coordinated visual system.
 
-Because each icon appears inside a card that already includes the sector title and explanatory sentence, the icon should generally be treated as decorative to avoid redundant screen-reader output.
+Each icon is a meaningful supporting image that reinforces its nonprofit-sector concept.
 
 ### Recommended Accessibility Treatment
 
-Use empty alt text:
-
-`alt=""`
-
-for each sector icon when:
-
-* The sector title appears visibly in the same card
-* The explanatory sentence appears visibly in the same card
-* The icon does not communicate information beyond the visible text
-
-Do not repeat the sector title as alt text when the visible card already provides the same information.
-
-If GoHighLevel does not allow empty alt text, use the shortest practical descriptive phrase and avoid keyword stuffing.
+Use concise descriptive alt text that communicates the sector concept naturally without keyword stuffing.
 
 ## Image 2: Affordable Housing Icon
 
 ### Image Name
 
 `ICON_Velu_About_Affordable Housing`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2d05ed0b3a26211d2fc1.png`
 
 ### Intended Placement
 
@@ -89,21 +89,19 @@ Visually reinforce housing access, neighborhood stability, and community develop
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback only if empty alt text is not supported:
+### Approved Alt Text
 
 `Affordable housing and community development.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 3: Workforce Development Icon
@@ -111,6 +109,10 @@ Fallback only if empty alt text is not supported:
 ### Image Name
 
 `ICON_Velu_About_Workforce Development`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2dfc817563b473dbfe07.png`
 
 ### Intended Placement
 
@@ -122,21 +124,19 @@ Visually reinforce training, job readiness, professional growth, and economic mo
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Workforce development and job readiness.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 4: Youth and Family Services Icon
@@ -144,6 +144,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Youth and Family Services`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2e71659bec99fce53ea3.png`
 
 ### Intended Placement
 
@@ -155,21 +159,19 @@ Visually reinforce care, development, safety, and supportive family relationship
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Youth and family support services.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 5: Human Services Icon
@@ -177,6 +179,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Human Services`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2f8707cf451b94aa2fb1.png`
 
 ### Intended Placement
 
@@ -188,21 +194,19 @@ Visually reinforce community wellbeing, essential services, dignity, and practic
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Human services and community support.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 6: Food Insecurity Icon
@@ -210,6 +214,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Food Insecurity`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2ff5817563b473dc7b9e.png`
 
 ### Intended Placement
 
@@ -221,21 +229,19 @@ Visually reinforce nourishment, food distribution, hunger relief, and community 
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Food access and hunger relief.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 7: Sustainable and Regenerative Agriculture Icon
@@ -243,6 +249,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Sustainable and Regenerative Agriculture`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c3258ed0b3a26211e537b.png`
 
 ### Intended Placement
 
@@ -254,21 +264,19 @@ Visually reinforce land stewardship, resilient growing systems, sustainability, 
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Sustainable and regenerative agriculture.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 8: Rural and Economic Development Icon
@@ -276,6 +284,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Rural and Economic Development`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c32a7b3c8655da2a8959d.png`
 
 ### Intended Placement
 
@@ -287,21 +299,19 @@ Visually reinforce local investment, entrepreneurship, regional opportunity, and
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Rural and economic development.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 9: Education and Schools Icon
@@ -309,6 +319,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Education and Schools`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c32f307cf451b94aac58f.png`
 
 ### Intended Placement
 
@@ -320,21 +334,19 @@ Visually reinforce learning, student support, schools, and educational developme
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Education and school support.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 10: Arts and Culture Icon
@@ -342,6 +354,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Arts and Culture`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c3355817563b473dd1d5d.png`
 
 ### Intended Placement
 
@@ -353,21 +369,19 @@ Visually reinforce creative expression, cultural programming, and community enri
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Arts and cultural programming.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 11: Membership Associations Icon
@@ -375,6 +389,10 @@ Fallback:
 ### Image Name
 
 `ICON_Velu_About_Membership Associations`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c338aafaedd1c896657c3.png`
 
 ### Intended Placement
 
@@ -386,21 +404,19 @@ Visually reinforce member service, industry connection, collaboration, and profe
 
 ### Image Type
 
-Decorative supporting icon
+Meaningful supporting image
 
-### Approved Alt Treatment
-
-`alt=""`
-
-Fallback:
+### Approved Alt Text
 
 `Membership associations and professional communities.`
 
 ### Status
 
 * Approved
-* Upload pending
-* Accessibility implementation pending
+* GoHighLevel upload complete
+* Hosted URL recorded
+* Approved descriptive alt text entered
+* Alt text verified in GoHighLevel
 * Live verification pending publication
 
 ## Image 12: About Velu Social Share
@@ -412,6 +428,10 @@ Fallback:
 ### Filename
 
 `about-velu-social-share.png`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
 
 ### Intended Placement
 
@@ -446,8 +466,8 @@ If the image is later displayed visibly on the page, create meaningful alt text 
 * Visual direction approved
 * Final image produced
 * Final image approved
-* GoHighLevel upload pending
-* Hosted URL pending
+* GoHighLevel upload complete
+* Hosted URL recorded
 * Open Graph implementation pending
 * Live social-preview verification pending publication
 
@@ -465,16 +485,15 @@ Total approved assets:
 
 ### Accessibility Summary
 
-* Tyler portrait: meaningful alt text required
-* Sector icons: decorative empty alt text preferred
+* Tyler portrait: approved meaningful alt text entered and verified
+* Sector icons: concise descriptive alt text approved; GoHighLevel entry and verification pending
 * Social-sharing image: no webpage alt text required while metadata-only
 
 ### Remaining Implementation Tasks
 
 * Confirm exact production filenames
 * Record image dimensions
-* Upload images to GoHighLevel
-* Enter approved alt text or decorative empty alt values
-* Record hosted URLs where applicable
 * Verify desktop, tablet, and mobile display
 * Confirm live image retrieval after publication
+* Complete Open Graph implementation
+* Verify live social previews after publication

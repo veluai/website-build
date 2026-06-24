@@ -3,7 +3,7 @@
 ## Page Status
 
 * Page: About
-* Proposed URL: `/about`
+* Final URL: `/about-us`
 * Primary audience: Nonprofit executive directors, leadership teams, and board members
 * Primary objective: Build trust in Tyler Wilcox, CPA and demonstrate Velu’s nonprofit-sector experience
 * Primary CTA: Book Your Discovery Call

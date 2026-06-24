@@ -3,10 +3,10 @@
 ## Page Status
 
 * Page: About
-* Proposed URL: `/about`
+* Page path: `/about-us`
 * SEO planning status: Approved
-* GoHighLevel entry status: Pending
-* Social-sharing image status: Created and approved; implementation pending
+* GoHighLevel entry status: Entered and confirmed
+* Social-sharing image status: Entered and confirmed
 * Schema status: Pending separate workflow
 * Live verification status: Pending publication
 
@@ -27,11 +27,11 @@ Users evaluating whether Velu has:
 
 ## Recommended URL
 
-`https://velu.us/about`
+`https://velu.us/about-us`
 
 Relative path:
 
-`/about`
+`/about-us`
 
 ## Recommended Primary Keyword
 
@@ -81,7 +81,7 @@ The meta description should emphasize:
 
 ## Recommended Canonical URL
 
-`https://velu.us/about`
+`https://velu.us/about-us`
 
 ## Recommended Author
 
@@ -109,7 +109,7 @@ Use this comma-separated value:
 
 ### Open Graph URL
 
-`https://velu.us/about`
+`https://velu.us/about-us`
 
 ### Open Graph Type
 
@@ -125,6 +125,10 @@ Approved filename:
 
 `about-velu-social-share.png`
 
+Hosted image URL:
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
+
 Approved headline:
 
 `About Velu`
@@ -137,8 +141,9 @@ Status:
 
 * Social-sharing image created
 * Social-sharing image approved
-* Hosted image URL pending
-* GoHighLevel Open Graph entry pending
+* Hosted image URL recorded
+* Social image entered and confirmed in GoHighLevel
+* Separate Open Graph title, URL, and description fields are not available in the current GoHighLevel page settings
 * Live social-preview verification pending publication
 
 ## Recommended Custom Meta Tags
@@ -226,8 +231,8 @@ Do not introduce unverified counts, awards, rankings, or unsupported claims.
 Record the following:
 
 * Tyler portrait requires meaningful alt text
-* The ten sector icons should use empty decorative alt text when the visible card title and description provide the same information
-* Do not add keyword-heavy alt text to decorative icons
+* The ten sector icons use concise descriptive alt text
+* Sector-icon alt text should describe each concept naturally without keyword stuffing
 * Social-sharing metadata does not use webpage alt text unless the social image is also rendered visibly on the page
 
 Refer to:
@@ -243,7 +248,7 @@ The following items are approved:
 * Final SEO title
 * Final meta description
 * Primary keyword: `nonprofit CPA firm`
-* Canonical URL: `https://velu.us/about`
+* Canonical URL: `https://velu.us/about-us`
 * Author: `Tyler Wilcox, CPA`
 * Language: `en-US`
 * Keyword field
@@ -261,16 +266,33 @@ The following items are approved:
 * Final supporting line
 * Approved filename
 
-## Pending Decisions
+## GoHighLevel Implementation Status
+
+The following fields are entered and confirmed:
+
+* Page path: `/about-us`
+* SEO title
+* Meta description
+* Canonical URL: `https://velu.us/about-us`
+* Author
+* Language
+* Keywords
+* Social image
+* Custom meta tags
+
+Separate Open Graph title, URL, and description fields are not available in the current GoHighLevel page settings.
+
+Do not add a `robots` meta tag.
+
+## Pending Verification
 
 The following items remain pending:
 
-* Hosted social-image URL
-* GoHighLevel metadata entry
 * Schema plan and JSON-LD
 * Publication
-* Live canonical verification
-* Live metadata verification
-* Open Graph verification
-* Robots/noindex review
-* XML sitemap inclusion
+* Indexing verification pending publication
+* Live canonical verification pending publication
+* Live metadata verification pending publication
+* Live social-preview verification pending publication
+* Robots/noindex verification pending publication
+* XML sitemap verification pending publication

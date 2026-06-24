@@ -3,8 +3,8 @@
 ## Page Status
 
 * Page: About
-* URL: `https://velu.us/about`
-* Relative path: `/about`
+* URL: `https://velu.us/about-us`
+* Relative path: `/about-us`
 * Schema planning status: Draft for approval
 * JSON-LD generation status: Pending
 * GoHighLevel entry status: Pending
@@ -50,26 +50,26 @@ Do not duplicate full `WebSite`, `Organization`, `AccountingService`, or `Profes
 
 ### Recommended ID
 
-`https://velu.us/about#webpage`
+`https://velu.us/about-us#webpage`
 
 ### Recommended Properties
 
 * `@type`: `AboutPage`
-* `@id`: `https://velu.us/about#webpage`
-* `url`: `https://velu.us/about`
+* `@id`: `https://velu.us/about-us#webpage`
+* `url`: `https://velu.us/about-us`
 * `name`: `Velu | Omaha-Based Nonprofit CPA Firm Led by Tyler Wilcox, CPA`
 * `description`: `Meet Tyler Wilcox, CPA and learn how Velu’s nonprofit experience helps organizations build stronger financial foundations and make confident decisions.`
 * `isPartOf`: reference `https://velu.us/#website`
 * `about`: references both:
   * `https://velu.us/#organization`
-  * `https://velu.us/about#tyler-wilcox`
-* `mainEntity`: reference `https://velu.us/about#tyler-wilcox`
+  * `https://velu.us/about-us#tyler-wilcox`
+* `mainEntity`: reference `https://velu.us/about-us#tyler-wilcox`
 * `publisher`: reference `https://velu.us/#organization`
-* `breadcrumb`: reference `https://velu.us/about#breadcrumb`
-* `primaryImageOfPage`: reference `https://velu.us/about#primaryimage`
-* `image`: reference `https://velu.us/about#primaryimage`
+* `breadcrumb`: reference `https://velu.us/about-us#breadcrumb`
+* `primaryImageOfPage`: reference `https://velu.us/about-us#primaryimage`
+* `image`: reference `https://velu.us/about-us#primaryimage`
 * `inLanguage`: `en-US`
-* `potentialAction`: reference `https://velu.us/about#schedule-action`
+* `potentialAction`: reference `https://velu.us/about-us#schedule-action`
 
 ### Notes
 
@@ -82,7 +82,7 @@ Do not duplicate full `WebSite`, `Organization`, `AccountingService`, or `Profes
 
 ### Recommended ID
 
-`https://velu.us/about#primaryimage`
+`https://velu.us/about-us#primaryimage`
 
 ### Recommended Image
 
@@ -96,9 +96,9 @@ Use the approved About-page social-sharing image:
 ### Recommended Properties
 
 * `@type`: `ImageObject`
-* `@id`: `https://velu.us/about#primaryimage`
-* `url`: pending hosted image URL
-* `contentUrl`: pending hosted image URL
+* `@id`: `https://velu.us/about-us#primaryimage`
+* `url`: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
+* `contentUrl`: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
 * `width`: pending final confirmed dimensions
 * `height`: pending final confirmed dimensions
 * `name`: `About Velu`
@@ -108,7 +108,7 @@ Use the approved About-page social-sharing image:
 
 ### Notes
 
-Do not generate final JSON-LD until the hosted image URL and exact dimensions are available.
+The hosted social-image URL is recorded. Do not generate final JSON-LD until the exact dimensions and other required inputs are available.
 
 The metadata-only social image does not require webpage alt text.
 
@@ -116,7 +116,7 @@ The metadata-only social image does not require webpage alt text.
 
 ### Recommended ID
 
-`https://velu.us/about#breadcrumb`
+`https://velu.us/about-us#breadcrumb`
 
 ### Recommended Items
 
@@ -125,7 +125,7 @@ The metadata-only social image does not require webpage alt text.
    * URL: `https://velu.us/`
 2. About
 
-   * URL: `https://velu.us/about`
+   * URL: `https://velu.us/about-us`
 
 ### Recommended Structure
 
@@ -137,7 +137,7 @@ Do not add a Services breadcrumb because the About page is not a service page.
 
 ### Recommended ID
 
-`https://velu.us/about#tyler-wilcox`
+`https://velu.us/about-us#tyler-wilcox`
 
 ### Recommended Type
 
@@ -146,17 +146,17 @@ Do not add a Services breadcrumb because the About page is not a service page.
 ### Recommended Properties
 
 * `@type`: `Person`
-* `@id`: `https://velu.us/about#tyler-wilcox`
+* `@id`: `https://velu.us/about-us#tyler-wilcox`
 * `name`: `Tyler Wilcox`
 * `honorificSuffix`: `CPA`
 * `jobTitle`: `Founder`
 * `description`: concise summary grounded in the approved page copy
-* `url`: `https://velu.us/about`
-* `image`: reference the approved Tyler founder image if a hosted URL is available; otherwise reference the page primary image only if appropriate
+* `url`: `https://velu.us/about-us`
+* `image`: reference the approved Tyler founder image at `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png`
 * `worksFor`: reference `https://velu.us/#organization`
 * `affiliation`: reference `https://velu.us/#organization`
 * `knowsAbout`: an array of approved professional topics
-* `mainEntityOfPage`: reference `https://velu.us/about#webpage`
+* `mainEntityOfPage`: reference `https://velu.us/about-us#webpage`
 
 ### Recommended Description Direction
 
@@ -233,12 +233,12 @@ Avoid overloading the JSON-LD with unsupported sector entities.
 
 ### Recommended ID
 
-`https://velu.us/about#schedule-action`
+`https://velu.us/about-us#schedule-action`
 
 ### Recommended Properties
 
 * `@type`: `ScheduleAction`
-* `@id`: `https://velu.us/about#schedule-action`
+* `@id`: `https://velu.us/about-us#schedule-action`
 * `name`: `Schedule a Discovery Call`
 * `target`:
   * `@type`: `EntryPoint`
@@ -287,16 +287,13 @@ Do not add:
 
 Confirm these before generating the final schema:
 
-1. Hosted About-page social-image URL
-2. Exact social-image dimensions
-3. Whether the Tyler founder image will have a stable hosted URL
-4. Exact official organization entity ID used across the approved site schema
-5. Exact official website entity ID used across the approved site schema
-6. Whether the visible page retains all approved credibility claims
-7. Whether credential objects can be represented confidently with valid Schema.org properties
-8. Final visible page URL and canonical URL
-9. Final CTA URL
-10. Final heading structure and page copy:
+1. Exact social-image dimensions
+2. Exact official organization entity ID used across the approved site schema
+3. Exact official website entity ID used across the approved site schema
+4. Whether the visible page retains all approved credibility claims
+5. Whether credential objects can be represented confidently with valid Schema.org properties
+6. Final CTA URL
+7. Final heading structure and page copy:
     * H1: `Meet Tyler Wilcox, CPA`
     * H2: `Experience Across the Nonprofit Sector`
     * H2: `Looking for a Financial Partner Who Understands Nonprofits?`
@@ -340,11 +337,13 @@ Record these as complete:
 * Person-entity strategy documented
 * Review and FAQ exclusions documented
 * Required inputs identified
+* Hosted social-image URL recorded
+* Stable Tyler founder-image URL recorded
+* Final page URL and canonical URL confirmed as `https://velu.us/about-us`
 
 Record these as pending:
 
 * Schema-plan approval
-* Hosted social-image URL
 * Exact social-image dimensions
 * Final credential-property decision
 * JSON-LD generation
