@@ -103,7 +103,9 @@ Associations serving members, industries, professions, and shared economic or co
 
 ### Looking for a Financial Partner Who Understands Nonprofits?
 
-Work with a nonprofit-focused CPA firm that connects dependable accounting, compliance, and financial guidance so your organization can make confident decisions and build for the future.
+Your organization deserves financial support built around its mission, funding environment, and leadership needs.
+
+Let’s talk about where your organization is today, the challenges you’re facing, and how Velu can help.
 
 CTA label:
 
@@ -112,6 +114,10 @@ CTA label:
 CTA URL:
 
 `https://velu.us/get-started/`
+
+Supporting line:
+
+`No obligation · 30-minute conversation · See if we’re the right fit`
 
 ## Page Structure Summary
 

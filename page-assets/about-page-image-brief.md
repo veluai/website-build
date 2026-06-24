@@ -25,6 +25,11 @@
 
 `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png`
 
+### Dimensions
+
+- Width: `1672`
+- Height: `941`
+
 ### Section Supported
 
 Meet Tyler Wilcox, CPA
@@ -270,6 +275,11 @@ Member service, association support, industry/professional community
 ### Hosted URL
 
 `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
+
+### Dimensions
+
+- Width: `1732`
+- Height: `908`
 
 ### Purpose
 

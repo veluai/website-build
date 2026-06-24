@@ -5,9 +5,12 @@
 * Page: About
 * URL: `https://velu.us/about-us`
 * Relative path: `/about-us`
-* Schema planning status: Draft for approval
-* JSON-LD generation status: Pending
-* GoHighLevel entry status: Pending
+* Schema planning status: Approved
+* JSON-LD generation status: Complete
+* Local validation status: Complete
+* GoHighLevel entry status: Complete
+* GoHighLevel page-level validation status: Complete
+* Five-entity JSON-LD implementation status: Complete
 * Publication status: Pending
 * Live validation status: Pending publication
 
@@ -37,8 +40,8 @@ Use the following top-level entities:
 
 The About page should reference the existing global entities:
 
-* Website: `https://velu.us/#website`
-* Organization: `https://velu.us/#organization`
+* Website: `https://velu.us/#website` — confirmed
+* Organization: `https://velu.us/#organization` — confirmed
 
 Do not duplicate full `WebSite`, `Organization`, `AccountingService`, or `ProfessionalService` entities on this page.
 
@@ -99,8 +102,8 @@ Use the approved About-page social-sharing image:
 * `@id`: `https://velu.us/about-us#primaryimage`
 * `url`: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
 * `contentUrl`: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
-* `width`: pending final confirmed dimensions
-* `height`: pending final confirmed dimensions
+* `width`: `1732`
+* `height`: `908`
 * `name`: `About Velu`
 * `caption`: `About Velu, a nonprofit-focused CPA firm led by Tyler Wilcox, CPA.`
 * `creator`: reference `https://velu.us/#organization`
@@ -108,7 +111,7 @@ Use the approved About-page social-sharing image:
 
 ### Notes
 
-The hosted social-image URL is recorded. Do not generate final JSON-LD until the exact dimensions and other required inputs are available.
+The hosted social-image URL and exact dimensions are confirmed and included in the generated JSON-LD.
 
 The metadata-only social image does not require webpage alt text.
 
@@ -190,17 +193,11 @@ The visible page includes:
 * QuickBooks ProAdvisor Level 2
 * AICPA Nonprofit Level 1 Certificate
 
-Research the appropriate Schema.org property treatment before final JSON-LD generation.
+Separate structured credential objects are intentionally omitted.
 
-Possible approaches may include:
+Credentials remain represented in the visible page copy and the Person description.
 
-* `hasCredential` using `EducationalOccupationalCredential`
-* A concise `description`
-* `knowsAbout`
-
-Do not invent credential identifiers, issuing URLs, certification dates, or expiration dates.
-
-If the correct Schema.org structure cannot be confidently supported, retain the credentials in visible page copy and omit structured credential objects rather than using uncertain markup.
+Do not add credential IDs, dates, issuing URLs, or credential entities.
 
 ## Nonprofit Sector Experience
 
@@ -249,6 +246,8 @@ Avoid overloading the JSON-LD with unsupported sector entities.
 
 Because the About page promotes a relationship with Velu rather than one specific service, the action object should reference the organization rather than a page-level service entity.
 
+The final CTA URL is confirmed as `https://velu.us/get-started/`.
+
 ## Review and Rating Policy
 
 Do not add:
@@ -283,24 +282,25 @@ Do not add:
 * A duplicated full Organization entity
 * A duplicated full WebSite entity
 
-## Required Inputs Before JSON-LD Generation
+## Approved Inputs for JSON-LD Generation
 
-Confirm these before generating the final schema:
+The following inputs are confirmed:
 
-1. Exact social-image dimensions
-2. Exact official organization entity ID used across the approved site schema
-3. Exact official website entity ID used across the approved site schema
-4. Whether the visible page retains all approved credibility claims
-5. Whether credential objects can be represented confidently with valid Schema.org properties
-6. Final CTA URL
-7. Final heading structure and page copy:
-    * H1: `Meet Tyler Wilcox, CPA`
-    * H2: `Experience Across the Nonprofit Sector`
-    * H2: `Looking for a Financial Partner Who Understands Nonprofits?`
+* Global organization entity ID: `https://velu.us/#organization`
+* Global website entity ID: `https://velu.us/#website`
+* Visible page retains the approved credibility claims
+* Separate structured credential objects will be omitted
+* Credentials remain represented in visible page copy and the Person description
+* Final CTA URL: `https://velu.us/get-started/`
+* Final heading structure:
+  * H1: `Meet Tyler Wilcox, CPA`
+  * H2: `Experience Across the Nonprofit Sector`
+  * H2: `Looking for a Financial Partner Who Understands Nonprofits?`
+* Final page copy confirmed
 
-## Proposed Validation Checklist
+## Validation Checklist
 
-Before GoHighLevel entry, validate:
+Completed locally:
 
 * Pure JSON syntax
 * No Markdown fences
@@ -318,6 +318,8 @@ Before GoHighLevel entry, validate:
 * No FAQPage
 * No unsupported claims
 
+The generated graph contains exactly five top-level entities with unique `@id` values. Local About-page references resolve to graph entities, and global Website and Organization entities are referenced only by `@id`.
+
 After publication, validate:
 
 * Live page source
@@ -332,24 +334,44 @@ After publication, validate:
 
 Record these as complete:
 
+* Schema-plan architecture approved
 * Page schema strategy drafted
 * Proposed entity structure documented
 * Person-entity strategy documented
 * Review and FAQ exclusions documented
 * Required inputs identified
-* Hosted social-image URL recorded
-* Stable Tyler founder-image URL recorded
+* Exact social-image dimensions confirmed: `1732 × 908`
+* Hosted social-image URL confirmed
+* Stable founder-image URL confirmed
 * Final page URL and canonical URL confirmed as `https://velu.us/about-us`
+* Schema-plan approval
+* Final credential-property decision: omit separate structured credential objects
+* Organization entity ID confirmed as `https://velu.us/#organization`
+* Website entity ID confirmed as `https://velu.us/#website`
+* Final CTA confirmed as `https://velu.us/get-started/`
+* Final heading and page-copy confirmation
+* Approved credibility-claim confirmation
+* JSON-LD generation
+* Local JSON syntax validation
+* Five-entity graph validation
+* Entity-ID uniqueness validation
+* Canonical URL and reference validation
+* Local exclusion checks
+* JSON-LD entered in GoHighLevel
+* GoHighLevel accepted the JSON-LD without errors
+* GoHighLevel page-level schema validation complete
+* Saved schema remains visible in GoHighLevel
+* Five-entity JSON-LD implementation complete
 
 Record these as pending:
 
-* Schema-plan approval
-* Exact social-image dimensions
-* Final credential-property decision
-* JSON-LD generation
-* Local syntax validation
-* GoHighLevel entry
-* GoHighLevel validation
 * Publication
 * Live source verification
-* External schema validation
+* Live canonical verification
+* Live metadata verification
+* Live image retrieval verification
+* Schema.org Validator
+* Google Rich Results Test
+* Robots/noindex verification
+* XML sitemap verification
+* Live social-preview verification

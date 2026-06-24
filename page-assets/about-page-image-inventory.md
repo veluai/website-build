@@ -24,6 +24,11 @@
 
 `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png`
 
+### Dimensions
+
+* Width: `1672`
+* Height: `941`
+
 ### Intended Placement
 
 Section 1: Meet Tyler Wilcox, CPA
@@ -433,6 +438,11 @@ Meaningful supporting image
 
 `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png`
 
+### Dimensions
+
+* Width: `1732`
+* Height: `908`
+
 ### Intended Placement
 
 Open Graph and social-sharing metadata for the About page
@@ -486,7 +496,7 @@ Total approved assets:
 ### Accessibility Summary
 
 * Tyler portrait: approved meaningful alt text entered and verified
-* Sector icons: concise descriptive alt text approved; GoHighLevel entry and verification pending
+* Sector icons: approved descriptive alt text entered and verified for all ten icons
 * Social-sharing image: no webpage alt text required while metadata-only
 
 ### Remaining Implementation Tasks
