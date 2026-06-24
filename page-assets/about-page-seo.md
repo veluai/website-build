@@ -6,7 +6,7 @@
 * Proposed URL: `/about`
 * SEO planning status: Approved
 * GoHighLevel entry status: Pending
-* Social-sharing image status: Pending
+* Social-sharing image status: Created and approved; implementation pending
 * Schema status: Pending separate workflow
 * Live verification status: Pending publication
 
@@ -118,20 +118,29 @@ Use this comma-separated value:
 
 ### Open Graph Image
 
-Pending creation or selection of an approved social-sharing image.
+Approved image name:
 
-Do not automatically use Tyler’s portrait or the Financial Growth Framework image without confirming that the selected image works appropriately in a social-sharing crop.
+`IMAGE_Velu_About_Social Share`
 
-Recommended social-image direction:
+Approved filename:
 
-* Tyler Wilcox as the clear founder
-* Velu branding
-* Concise headline such as `About Velu`
-* Supporting line such as `Nonprofit Experience. Connected Financial Support.`
-* Professional, restrained layout
-* Approximately 1.91:1 aspect ratio
-* Minimal text
-* No unsupported claims
+`about-velu-social-share.png`
+
+Approved headline:
+
+`About Velu`
+
+Approved supporting line:
+
+`Nonprofit Expertise. Mission-Driven Finances.`
+
+Status:
+
+* Social-sharing image created
+* Social-sharing image approved
+* Hosted image URL pending
+* GoHighLevel Open Graph entry pending
+* Live social-preview verification pending publication
 
 ## Recommended Custom Meta Tags
 
@@ -249,12 +258,16 @@ The following items are approved:
 * Geographic positioning
 * Approved credibility claims
 * Image accessibility approach
+* Final social-sharing image concept
+* Final social-sharing image
+* Final headline
+* Final supporting line
+* Approved filename
 
 ## Pending Decisions
 
 The following items remain pending:
 
-* Final social-sharing image
 * Hosted social-image URL
 * GoHighLevel metadata entry
 * Schema plan and JSON-LD

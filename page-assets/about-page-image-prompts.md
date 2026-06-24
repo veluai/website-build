@@ -461,7 +461,7 @@ Include exactly this headline:
 
 Include exactly this supporting line:
 
-`Nonprofit Experience. Connected Financial Support.`
+`Nonprofit Expertise. Mission-Driven Finances.`
 
 Use Velu branding in a clean and restrained way.
 
@@ -506,7 +506,7 @@ The design should communicate:
 Use only:
 
 * `About Velu`
-* `Nonprofit Experience. Connected Financial Support.`
+* `Nonprofit Expertise. Mission-Driven Finances.`
 
 Do not add:
 
@@ -540,6 +540,13 @@ Do not add:
 * Standard background
 * Suitable for Open Graph and major social-sharing previews
 * No transparent background required
+
+### Production Status
+
+* Final social-sharing image generated
+* Final social-sharing image approved
+* Approved filename: `about-velu-social-share.png`
+* Upload and hosted URL remain pending
 
 ## Production Sequence
 

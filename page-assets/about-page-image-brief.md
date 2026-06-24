@@ -5,9 +5,12 @@
 - Page: About
 - Proposed URL: `/about`
 - Brief status: Approved for image planning
-- Image generation status: Pending
-- Website implementation status: Pending
+- Image generation status: Complete
+- GoHighLevel upload and implementation status: Pending
 - Hosted image URLs: Pending
+- Alt-text implementation status: Pending
+- Live-page verification status: Pending publication
+- Live social-preview verification status: Pending publication
 
 ## Section 1 Image
 
@@ -335,7 +338,11 @@ Use visual cues for:
 
 ### Image Name
 
-`about-velu-social-share`
+`IMAGE_Velu_About_Social Share`
+
+### Approved Filename
+
+`about-velu-social-share.png`
 
 ### Purpose
 
@@ -355,7 +362,7 @@ Introduce Velu as a founder-led nonprofit CPA firm with deep nonprofit experienc
 
 ### Approved Supporting Line
 
-`Nonprofit Experience. Connected Financial Support.`
+`Nonprofit Expertise. Mission-Driven Finances.`
 
 ### Approved Visual Direction
 
@@ -415,7 +422,7 @@ The image should communicate:
 Include only:
 
 - `About Velu`
-- `Nonprofit Experience. Connected Financial Support.`
+- `Nonprofit Expertise. Mission-Driven Finances.`
 - Velu branding where appropriate
 
 Do not include:
@@ -448,8 +455,16 @@ Preserve Tyler’s recognizable:
 - Intended for Open Graph and social-sharing metadata
 - Not intended to appear as a visible content image unless separately approved
 - No webpage alt text is required while the image remains metadata-only
-- Record final dimensions and hosted URL after production and upload
-- Social-image production remains pending
+- Record final dimensions and hosted URL after upload
+
+### Status
+
+- Social-sharing image visual direction approved
+- Final social-sharing image produced
+- Final social-sharing image approved
+- GoHighLevel upload pending
+- Hosted URL pending
+- Live social-preview verification pending publication
 
 ## Visual System Summary
 

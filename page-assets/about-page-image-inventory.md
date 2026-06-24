@@ -442,23 +442,73 @@ Meaningful content image
 * Alt-text entry pending
 * Live verification pending publication
 
+## Image 13: About Velu Social Share
+
+### Image Name
+
+`IMAGE_Velu_About_Social Share`
+
+### Filename
+
+`about-velu-social-share.png`
+
+### Intended Placement
+
+Open Graph and social-sharing metadata for the About page
+
+### Purpose
+
+Introduce Velu as a founder-led nonprofit CPA firm and communicate nonprofit expertise and a mission-driven approach to financial support.
+
+### Approved Text
+
+Headline:
+
+`About Velu`
+
+Supporting line:
+
+`Nonprofit Expertise. Mission-Driven Finances.`
+
+### Image Type
+
+Metadata-only social-sharing image
+
+### Accessibility Treatment
+
+No webpage alt text is required while the image is used only in metadata.
+
+If the image is later displayed visibly on the page, create meaningful alt text at that time.
+
+### Status
+
+* Visual direction approved
+* Final image produced
+* Final image approved
+* GoHighLevel upload pending
+* Hosted URL pending
+* Open Graph implementation pending
+* Live social-preview verification pending publication
+
 ## Image Inventory Summary
 
 The approved About-page image set includes:
 
-* 1 founder portrait
+* 1 founder image
 * 10 nonprofit-sector icons
 * 1 strategic financial framework illustration
+* 1 social-sharing image
 
 Total approved assets:
 
-`12`
+`13`
 
 ### Accessibility Summary
 
 * Tyler portrait: meaningful alt text required
 * Sector icons: decorative empty alt text preferred
 * Financial Growth Framework image: meaningful alt text required
+* Social-sharing image: no webpage alt text required while metadata-only
 
 ### Remaining Implementation Tasks
 
