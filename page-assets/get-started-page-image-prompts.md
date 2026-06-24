@@ -8,7 +8,7 @@
 * Approved image count: `1`
 * Visible content images: `0`
 * Metadata-only social images: `1`
-* Image-generation status: Pending
+* Image-generation status: Complete
 
 ## Image 1: Get Started Social Share
 
@@ -16,7 +16,7 @@
 
 `IMAGE_Velu_Get Started_Social Share`
 
-### Recommended Filename
+### Final Filename
 
 `get-started-velu-social-share.png`
 
@@ -121,10 +121,12 @@ Approve the image only if:
 ### Status
 
 * Prompt approved
-* Image generation pending
-* Final image approval pending
-* Exact dimensions pending
-* GoHighLevel upload pending
-* Hosted image URL pending
+* Prompt complete
+* Image generated
+* Final image approved
+* Final filename confirmed
+* Exact dimensions confirmed: `1731 × 909`
+* GoHighLevel upload complete
+* Hosted URL recorded: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png`
 * Metadata implementation pending
 * Live social-preview verification pending publication

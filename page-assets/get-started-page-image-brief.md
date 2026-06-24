@@ -7,8 +7,8 @@
 * Image-planning status: Approved
 * Visible content-image requirement: None
 * Social-sharing image requirement: One metadata-only image
-* Image-generation status: Pending
-* GoHighLevel upload status: Pending
+* Image-generation status: Complete
+* GoHighLevel upload status: Complete
 * Open Graph implementation status: Pending
 * Live social-preview verification: Pending publication
 
@@ -39,9 +39,13 @@ The embedded calendar should remain the dominant visual element.
 
 `IMAGE_Velu_Get Started_Social Share`
 
-### Recommended Filename
+### Final Filename
 
 `get-started-velu-social-share.png`
+
+### Hosted URL
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png`
 
 ### Purpose
 
@@ -103,8 +107,9 @@ Do not include additional copy.
 ### Format
 
 * High-resolution PNG
-* Approximately 1200 × 630 pixels
-* Approximate aspect ratio: 1.91:1
+* Width: `1731`
+* Height: `909`
+* Aspect ratio: approximately `1.90:1`
 
 ### Accessibility Treatment
 
@@ -115,10 +120,12 @@ If it is later displayed visibly on the page, create meaningful alt text at that
 ### Status
 
 * Social image concept approved
-* Image generation pending
-* Final image approval pending
-* GoHighLevel upload pending
-* Hosted URL pending
+* Image generation complete
+* Final image approved
+* Final filename confirmed
+* Final dimensions confirmed
+* GoHighLevel upload complete
+* Hosted URL recorded
 * Open Graph implementation pending
 * Live social-preview verification pending publication
 
