@@ -429,6 +429,118 @@ Use two-way connections, shared foundations, or an integrated framework to commu
 * White or transparent background
 * Suitable for display beside or beneath Section 3 copy
 
+## Prompt 13: About Velu Social-Sharing Image
+
+### Image Name
+
+`IMAGE_Velu_About_Social Share`
+
+### Purpose
+
+Create the Open Graph and social-sharing image for the Velu About page.
+
+### Source-Image Requirement
+
+Use an approved professional photograph of Tyler Wilcox, CPA as the source image.
+
+Do not generate Tyler’s appearance without a reference photograph.
+
+Preserve Tyler’s recognizable identity, facial structure, age, proportions, and professional appearance.
+
+### Production Prompt
+
+Create a polished, professional social-sharing image for the About page of Velu, a nonprofit-focused CPA firm.
+
+Use Tyler Wilcox, CPA as the clear founder and primary visual focus.
+
+Place Tyler’s approved portrait on one side of the composition. Use the opposite side for concise branding and text.
+
+Include exactly this headline:
+
+`About Velu`
+
+Include exactly this supporting line:
+
+`Nonprofit Experience. Connected Financial Support.`
+
+Use Velu branding in a clean and restrained way.
+
+The design should communicate:
+
+* Founder credibility
+* Nonprofit-sector experience
+* Professional financial guidance
+* A connected approach to nonprofit finance
+* Long-term partnership
+* Calm confidence
+
+### Composition
+
+* Wide social-sharing format
+* Approximately 1.91:1
+* Recommended output around 1200 × 630 or proportionally equivalent
+* Tyler on one side
+* Text and branding on the other
+* Strong negative space
+* Clear visual hierarchy
+* Large, readable typography
+* Safe margins for social-platform cropping
+
+### Style
+
+* Match the approved Velu visual family
+* Navy and blue primary palette
+* White or light neutral background areas
+* Light gray supporting elements
+* Restrained green accents
+* Professional and modern
+* Founder-led
+* Minimal and polished
+* No visual clutter
+* No exaggerated gradients
+* No excessive shadows
+* No novelty effects
+
+### Text Rules
+
+Use only:
+
+* `About Velu`
+* `Nonprofit Experience. Connected Financial Support.`
+
+Do not add:
+
+* Service lists
+* Credential lists
+* CTA text
+* Years-of-experience claims
+* Geographic claims
+* Detailed framework labels
+* Review language
+* Additional headlines
+* Small explanatory copy
+
+### Avoid
+
+* Altering Tyler’s recognizable identity
+* Generic stock-photo appearance
+* Group-photo emphasis
+* Multiple people
+* Tiny text
+* Overly corporate or impersonal styling
+* A detailed infographic
+* A rigid service funnel
+* Excessive branding
+* Unsupported claims
+
+### Recommended Output
+
+* High-resolution PNG
+* Approximately 1.91:1
+* Standard background
+* Suitable for Open Graph and major social-sharing previews
+* No transparent background required
+
 ## Production Sequence
 
 Generate images in this order:
@@ -437,6 +549,7 @@ Generate images in this order:
 2. One sample sector icon for style approval
 3. Remaining nine icons after the sample style is approved
 4. Connected nonprofit financial approach framework
-5. Final consistency review across all About-page visuals
+5. About-page social-sharing image using the approved Tyler portrait
+6. Final consistency review across all About-page visuals
 
 Do not generate all ten sector icons before the icon style is approved.

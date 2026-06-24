@@ -331,13 +331,134 @@ Use visual cues for:
 - It may become one of the key strategic visuals on the About page
 - Keep the content aligned with the approved page copy
 
+## Social-Sharing Image
+
+### Image Name
+
+`about-velu-social-share`
+
+### Purpose
+
+Provide the Open Graph and social-sharing image for the Velu About page.
+
+### Page Supported
+
+About page
+
+### Core Message
+
+Introduce Velu as a founder-led nonprofit CPA firm with deep nonprofit experience and a connected approach to financial support.
+
+### Approved Headline
+
+`About Velu`
+
+### Approved Supporting Line
+
+`Nonprofit Experience. Connected Financial Support.`
+
+### Approved Visual Direction
+
+Use Tyler Wilcox, CPA as the clear focal point.
+
+The image should combine:
+
+- Tyler’s approved professional portrait
+- Velu branding
+- The approved headline
+- The approved supporting line
+- A clean, restrained professional layout
+
+Tyler should remain the unmistakable founder and primary visual subject.
+
+### Composition Guidance
+
+Recommended layout:
+
+- Tyler’s portrait on one side
+- Headline, supporting line, and Velu branding on the other
+- Clear negative space
+- Strong hierarchy
+- Balanced composition suitable for social preview crops
+
+The layout may place Tyler on either side depending on the approved portrait orientation and available negative space.
+
+### Visual Tone
+
+The image should communicate:
+
+- Founder credibility
+- Nonprofit specialization
+- Professional expertise
+- Connected financial support
+- Long-term partnership
+- Calm confidence
+
+### Style Requirements
+
+- Approximately 1.91:1 aspect ratio
+- Recommended dimensions near 1200 × 630 or a similar proportional size
+- Match the approved Velu visual family
+- Navy and blue primary palette
+- White or light supporting background areas
+- Restrained green accents
+- Clean, modern, professional presentation
+- Minimal text
+- Large, readable typography
+- No unnecessary service lists
+- No small framework labels
+- No excessive decoration
+- No unsupported claims
+
+### Image Content Rules
+
+Include only:
+
+- `About Velu`
+- `Nonprofit Experience. Connected Financial Support.`
+- Velu branding where appropriate
+
+Do not include:
+
+- A detailed service list
+- The full Financial Growth Framework
+- Credential lists
+- Years-of-experience claims
+- Geographic claims
+- Small unreadable copy
+- Review excerpts
+- CTA text
+- Multiple team members
+
+### Source-Image Requirement
+
+The image must use an approved photograph of Tyler Wilcox.
+
+Do not invent or materially alter Tyler’s appearance.
+
+Preserve Tyler’s recognizable:
+
+- Facial features
+- Age
+- Proportions
+- Professional appearance
+
+### Implementation Notes
+
+- Intended for Open Graph and social-sharing metadata
+- Not intended to appear as a visible content image unless separately approved
+- No webpage alt text is required while the image remains metadata-only
+- Record final dimensions and hosted URL after production and upload
+- Social-image production remains pending
+
 ## Visual System Summary
 
-The About page should use three coordinated visual components:
+The About page should use four coordinated visual components:
 
 1. A founder-led Tyler portrait
 2. A clean ten-card nonprofit sector icon system
 3. A strategic Velu-approach framework image
+4. An About-page social-sharing image
 
 Together, these should help the page communicate:
 
