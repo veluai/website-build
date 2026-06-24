@@ -87,14 +87,6 @@ Organizations supporting creative expression, cultural preservation, public prog
 
 Associations serving members, industries, professions, and shared economic or community interests.
 
-### Closing Copy for the Sector Section
-
-Working across these sectors has exposed Velu to different revenue models, restricted funding requirements, grant structures, reporting obligations, program economics, and stages of organizational growth. That perspective allows the firm to adapt its approach to the realities of each organization rather than applying the same accounting model to every nonprofit.
-
-Although these organizations serve different communities and operate within different financial environments, many face the same underlying challenge: their accounting, compliance, and financial guidance are often disconnected from one another.
-
-That experience helped shape why Velu was founded and how the firm approaches nonprofit financial support today.
-
 ### Implementation Notes
 
 * Use a clean ten-card grid.
