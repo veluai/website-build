@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://velu.us/get-started/#webpage",
+      "url": "https://velu.us/get-started/",
+      "name": "Book a Nonprofit Accounting Discovery Call | Velu",
+      "description": "Schedule a 45-minute discovery call with Tyler J. Wilcox, CPA to discuss your nonprofit’s financial needs, current challenges, and goals.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://velu.us/#website"
+      },
+      "about": {
+        "@id": "https://velu.us/#organization"
+      },
+      "publisher": {
+        "@id": "https://velu.us/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://velu.us/get-started/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://velu.us/get-started/#primaryimage"
+      },
+      "image": {
+        "@id": "https://velu.us/get-started/#primaryimage"
+      },
+      "mainEntity": {
+        "@id": "https://velu.us/get-started/#schedule-action"
+      },
+      "potentialAction": {
+        "@id": "https://velu.us/get-started/#schedule-action"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://velu.us/get-started/#primaryimage",
+      "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png",
+      "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png",
+      "width": 1731,
+      "height": 909,
+      "name": "Book a Discovery Call",
+      "caption": "Book a 45-minute discovery call with Velu for nonprofit accounting and financial guidance.",
+      "inLanguage": "en-US",
+      "creator": {
+        "@id": "https://velu.us/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://velu.us/get-started/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://velu.us/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Get Started",
+          "item": "https://velu.us/get-started/"
+        }
+      ]
+    },
+    {
+      "@type": "ScheduleAction",
+      "@id": "https://velu.us/get-started/#schedule-action",
+      "name": "Discovery Call With Tyler J. Wilcox, CPA",
+      "description": "Schedule a 45-minute conversation with Tyler J. Wilcox, CPA to discuss a nonprofit organization’s financial needs, challenges, and goals.",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://velu.us/get-started/",
+        "actionPlatform": [
+          "https://schema.org/DesktopWebPlatform",
+          "https://schema.org/MobileWebPlatform"
+        ]
+      },
+      "object": {
+        "@id": "https://velu.us/#organization"
+      }
+    }
+  ]
+}

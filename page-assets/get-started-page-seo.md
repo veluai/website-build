@@ -5,9 +5,10 @@
 * Page: Get Started
 * Page path: `/get-started/`
 * SEO-planning status: Approved
-* GoHighLevel entry status: Pending
-* Social-sharing image status: Approved and uploaded
+* GoHighLevel entry status: Complete
+* Social-sharing image metadata status: Complete
 * Schema status: Pending separate workflow
+* Publication status: Pending
 * Live verification status: Pending publication
 
 ## Search and Conversion Intent
@@ -129,8 +130,18 @@ Status:
 * Image approved
 * GoHighLevel upload complete
 * Hosted URL recorded
-* Metadata entry pending
+* Social-sharing image entered successfully in GoHighLevel
+* Social-sharing image metadata entry complete
 * Live social-preview verification pending publication
+
+Separate GoHighLevel fields are not available for:
+
+* Open Graph title
+* Open Graph description
+* Open Graph URL
+* Open Graph type
+
+The approved Open Graph values above remain documented for reference and were not entered as separate fields.
 
 ## Recommended Custom Meta Tags
 
@@ -224,29 +235,39 @@ Do not add:
 
 ## GoHighLevel Implementation Checklist
 
-Pending entry:
+Entered and confirmed:
 
-* Page path
+* Page path: `/get-started/`
 * SEO title
 * Meta description
-* Canonical URL
+* Canonical URL: `https://velu.us/get-started/`
 * Author
 * Language
 * Keywords
 * Social-sharing image
 * Custom meta tags
 
-Separate Open Graph title, URL, and description fields may not be available in the current GoHighLevel page settings. Record their availability during implementation.
+Social-sharing image URL entered:
+
+`https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png`
+
+Final image dimensions:
+
+* Width: `1731`
+* Height: `909`
+
+Separate GoHighLevel fields are not available for Open Graph title, description, URL, or type.
+
+No `robots` meta tag was added.
 
 ## Pending Verification
 
-* GoHighLevel SEO entry
-* Social-image metadata entry
 * Publication
 * Live title verification
 * Live meta-description verification
 * Live canonical verification
 * Live social-preview verification
+* Indexing verification pending publication
 * Robots/noindex verification
 * XML sitemap verification
 * Schema planning and implementation
