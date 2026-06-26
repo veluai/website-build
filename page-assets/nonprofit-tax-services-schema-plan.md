@@ -307,13 +307,10 @@ Use:
 1. Home
    URL: https://velu.us/
 
-2. Services
-   URL: https://velu.us/services/
-
-3. Nonprofit Tax Services
+2. Nonprofit Tax Services
    URL: https://velu.us/services/nonprofit-tax-services
 
-`/services/` is the planned intermediate breadcrumb page for the coordinated replacement website.
+There is no dedicated `/services/` landing page. Do not include a `/services/` breadcrumb item unless a real Services landing page is created.
 
 ## ScheduleAction Plan
 
@@ -323,7 +320,7 @@ ScheduleAction
 
 Name:
 
-Schedule a Discovery Call
+Book Your Discovery Call
 
 Target:
 

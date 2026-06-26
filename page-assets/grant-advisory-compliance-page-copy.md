@@ -22,7 +22,7 @@ Book Your Discovery Call
 
 CTA supporting text:
 
-No obligation · 30-minute conversation · See if we're the right fit
+No obligation · 45-minute conversation · See if we're the right fit
 
 CTA URL:
 
@@ -164,7 +164,7 @@ Book Your Discovery Call
 
 CTA supporting text:
 
-No obligation · 30-minute conversation · See if we're the right fit
+No obligation · 45-minute conversation · See if we're the right fit
 
 CTA URL:
 

@@ -224,13 +224,10 @@ Use this logical hierarchy:
 1. Home
    URL: https://velu.us/
 
-2. Services
-   URL: https://velu.us/services/
-
-3. Grant Advisory & Compliance
+2. Grant Advisory & Compliance
    URL: https://velu.us/services/nonprofit-grant-advisory-compliance-services
 
-`/services/` is the coordinated intermediate breadcrumb page for the replacement website.
+There is no dedicated `/services/` landing page. Do not include a `/services/` breadcrumb item unless a real Services landing page is created.
 
 ## ScheduleAction Plan
 

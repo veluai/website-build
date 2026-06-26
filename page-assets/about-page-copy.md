@@ -117,7 +117,7 @@ CTA URL:
 
 Supporting line:
 
-`No obligation · 30-minute conversation · See if we’re the right fit`
+`No obligation · 45-minute conversation · See if we're the right fit`
 
 ## Page Structure Summary
 

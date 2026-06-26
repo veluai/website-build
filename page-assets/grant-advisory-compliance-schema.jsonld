@@ -63,12 +63,6 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Services",
-          "item": "https://velu.us/services/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Grant Advisory & Compliance",
           "item": "https://velu.us/services/nonprofit-grant-advisory-compliance-services"
         }
@@ -152,7 +146,7 @@
     {
       "@type": "ScheduleAction",
       "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#schedule-action",
-      "name": "Schedule a Discovery Call",
+      "name": "Book Your Discovery Call",
       "target": {
         "@type": "EntryPoint",
         "urlTemplate": "https://velu.us/get-started/"
