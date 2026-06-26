@@ -97,7 +97,14 @@ Supporting line:
 
 ## Custom Meta Tags
 
-Custom meta tags are implemented in GoHighLevel and must be transcribed exactly before publication.
+| Tag name | Tag value |
+|---|---|
+| `subject` | `Nonprofit Accounting and Advisory Services` |
+| `classification` | `Nonprofit Accounting, Advisory and Consulting` |
+| `audience` | `Nonprofit Leaders` |
+| `category` | `Nonprofit Financial Management` |
+| `topic` | `Nonprofit Accounting, Advisory, Budgeting and Grant Management` |
+| `summary` | `Nonprofit-focused accounting, advisory and consulting services helping organizations build financial clarity, confidence and sustainable growth.` |
 
 ## SEO Implementation Status
 
@@ -107,7 +114,7 @@ Custom meta tags are implemented in GoHighLevel and must be transcribed exactly 
 - Author: Implemented in GoHighLevel
 - Language: Implemented in GoHighLevel
 - Keywords: Implemented in GoHighLevel
-- Custom meta tags: Implemented in GoHighLevel
+- Custom meta tags: Exact names and values transcribed from GoHighLevel
 - Social-sharing image: Implemented in GoHighLevel
 - Publication: Pending
 - Live technical verification: Pending

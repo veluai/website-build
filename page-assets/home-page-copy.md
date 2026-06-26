@@ -56,27 +56,27 @@ Nonprofit leaders make decisions every day that affect their mission, funding, a
 
 ### Unclear Financial Picture
 
-Exact current GHL body copy to be transcribed from page builder before publication.
+Financial reports may tell you what happened last month, but not what it means for your organization's future.
 
 ### Funding Feels Unpredictable
 
-Exact current GHL body copy to be transcribed from page builder before publication.
+Without reliable forecasting and planning, every funding decision can feel reactive instead of strategic.
 
 ### Programs and Finances Don't Connect
 
-Exact current GHL body copy to be transcribed from page builder before publication.
+Many nonprofits struggle to understand how funding, staffing, and program outcomes work together.
 
 ### Growth Creates Complexity
 
-Exact current GHL body copy to be transcribed from page builder before publication.
+As organizations grow, financial processes, reporting requirements, and operational demands become harder to manage.
 
 ### Limited Financial Leadership
 
-Exact current GHL body copy to be transcribed from page builder before publication.
+Not every nonprofit needs a full-time CFO, but every growing nonprofit needs financial guidance.
 
 ### Mission Gets Stuck in Administration
 
-Exact current GHL body copy to be transcribed from page builder before publication.
+Your leadership team should spend more time advancing your mission and less time worrying about accounting.
 
 ## Section 3: Services
 
