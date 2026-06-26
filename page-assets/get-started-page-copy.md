@@ -8,6 +8,10 @@
 * Primary audience: Nonprofit executive directors, leadership teams, and board members
 * Primary objective: Encourage qualified nonprofit leaders to schedule a discovery call
 * Page-copy status: Approved for implementation
+* Visible desktop page content: Approved
+* Mobile-page review: Complete
+* Visible mobile page content: Approved
+* Final visible page content: Approved
 
 ## Section 1: Booking Introduction
 
@@ -19,9 +23,7 @@ There is no obligation. The conversation is simply an opportunity to learn more 
 
 ## Section 2: Calendar
 
-### Discovery Call With Tyler J. Wilcox, CPA
-
-45-minute conversation for nonprofit leaders
+### Find a Time That Works for You
 
 `[Existing embedded GoHighLevel calendar]`
 
@@ -29,7 +31,8 @@ There is no obligation. The conversation is simply an opportunity to learn more 
 
 * Retain the existing GoHighLevel calendar embed
 * Do not change the calendar workflow or appointment configuration
-* Place the appointment title and duration directly above the calendar
+* The embedded calendar displays `Discovery Call With Tyler J. Wilcox, CPA`
+* The embedded calendar displays the duration as `45 min`
 * Keep the calendar as the primary visual focus of the page
 * Use a restrained white card or content container
 * Avoid surrounding the calendar with distracting content
@@ -57,7 +60,7 @@ Email us at `info@velu.us` and we’ll be happy to help.
 ## Heading Structure
 
 * H1: `Book a Discovery Call`
-* H2: `Discovery Call With Tyler J. Wilcox, CPA`
+* H2: `Find a Time That Works for You`
 * H2: `Having Trouble Finding a Time That Works?`
 
 Use only one H1.

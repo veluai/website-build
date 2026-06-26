@@ -8,6 +8,10 @@
 * GoHighLevel entry status: Complete
 * Social-sharing image metadata status: Complete
 * Schema status: Pending separate workflow
+* Visible desktop page content: Approved
+* Mobile-page review: Complete
+* Visible mobile page content: Approved
+* Final visible page content: Approved
 * Publication status: Pending
 * Live verification status: Pending publication
 
@@ -181,7 +185,7 @@ The approved Open Graph values above remain documented for reference and were no
 
 ### Supporting H2 Headings
 
-* `Discovery Call With Tyler J. Wilcox, CPA`
+* `Find a Time That Works for You`
 * `Having Trouble Finding a Time That Works?`
 
 Confirm that only one H1 is used.

@@ -12,7 +12,7 @@ Nonprofit Tax Services
 
 Canonical URL:
 
-https://velu.us/services/nonprofit-tax-services
+https://velu.us/services/tax-services
 
 SEO title:
 
@@ -76,7 +76,7 @@ Final schema decisions:
 
 * The page references the global website entity at `https://velu.us/#website`
 * The page references the global organization entity at `https://velu.us/#organization`
-* The page canonical URL is `https://velu.us/services/nonprofit-tax-services`
+* The page canonical URL is `https://velu.us/services/tax-services`
 * The primary image is the approved social-sharing image
 * The CTA action points to `https://velu.us/get-started/`
 * Reviews are intentionally excluded from the page-level schema
@@ -91,27 +91,27 @@ Final schema decisions:
 
 WebPage:
 
-https://velu.us/services/nonprofit-tax-services#webpage
+https://velu.us/services/tax-services#webpage
 
 Service:
 
-https://velu.us/services/nonprofit-tax-services#service
+https://velu.us/services/tax-services#service
 
 BreadcrumbList:
 
-https://velu.us/services/nonprofit-tax-services#breadcrumb
+https://velu.us/services/tax-services#breadcrumb
 
 OfferCatalog:
 
-https://velu.us/services/nonprofit-tax-services#offer-catalog
+https://velu.us/services/tax-services#offer-catalog
 
 ScheduleAction:
 
-https://velu.us/services/nonprofit-tax-services#schedule-action
+https://velu.us/services/tax-services#schedule-action
 
 Primary image:
 
-https://velu.us/services/nonprofit-tax-services#primaryimage
+https://velu.us/services/tax-services#primaryimage
 
 Website reference:
 
@@ -145,7 +145,7 @@ Plan these fields and relationships:
 
 URL:
 
-https://velu.us/services/nonprofit-tax-services
+https://velu.us/services/tax-services
 
 Name:
 
@@ -311,7 +311,7 @@ Use:
    URL: https://velu.us/services/
 
 3. Nonprofit Tax Services
-   URL: https://velu.us/services/nonprofit-tax-services
+   URL: https://velu.us/services/tax-services
 
 `/services/` is the planned intermediate breadcrumb page for the coordinated replacement website.
 

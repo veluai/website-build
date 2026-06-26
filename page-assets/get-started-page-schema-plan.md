@@ -8,7 +8,12 @@
 * Schema-planning status: Approved
 * JSON-LD generation status: Complete
 * Local validation status: Complete
-* GoHighLevel entry status: Pending
+* Visible desktop page content: Approved
+* Mobile-page review: Complete
+* Visible mobile page content: Approved
+* Final visible page content: Approved
+* GoHighLevel schema entry status: Complete
+* GoHighLevel page-level validation status: Complete
 * Publication status: Pending
 * Live validation status: Pending publication
 
@@ -290,12 +295,13 @@ Do not add:
 * Booking destination: `https://velu.us/get-started/`
 * Appointment name: `Discovery Call With Tyler J. Wilcox, CPA`
 * Appointment duration: `45 minutes`
+* Appointment name and `45 min` duration are displayed within the embedded calendar, not as a separate visible page H2
 * Fallback email visible in page copy: `info@velu.us`
 * Social-image URL: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png`
 * Social-image dimensions: `1731 × 909`
 * Final heading structure:
   * H1: `Book a Discovery Call`
-  * H2: `Discovery Call With Tyler J. Wilcox, CPA`
+  * H2: `Find a Time That Works for You`
   * H2: `Having Trouble Finding a Time That Works?`
 * Direct `email` property decision: omitted
 * Tyler cross-page Person-reference decision: omitted
@@ -361,6 +367,10 @@ Record as complete:
 * Final image URL and dimensions confirmed
 * Final appointment name and duration confirmed
 * Final page-copy and heading confirmation
+* Visible desktop page content approved
+* Mobile-page review complete
+* Visible mobile page content approved
+* Final visible page content approved
 * JSON-LD generation
 * Local JSON syntax validation
 * Four-entity graph validation
@@ -371,11 +381,17 @@ Record as complete:
 * ScheduleAction target validation
 * Prohibited-entity review
 * Placeholder and wrapper review
+* GoHighLevel schema entry
+* JSON-LD accepted by GoHighLevel without errors
+* GoHighLevel page-level validation
+* GoHighLevel accepted exactly four top-level entities:
+  1. `ContactPage`
+  2. `ImageObject`
+  3. `BreadcrumbList`
+  4. `ScheduleAction`
 
 Record as pending:
 
-* GoHighLevel entry
-* GoHighLevel page-level validation
 * Publication
 * Live source verification
 * Schema.org Validator

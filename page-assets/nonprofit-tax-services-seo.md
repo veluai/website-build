@@ -8,11 +8,11 @@ Nonprofit Tax Services
 
 Final relative URL:
 
-/services/nonprofit-tax-services
+/services/tax-services
 
 Expected full URL:
 
-https://velu.us/services/nonprofit-tax-services
+https://velu.us/services/tax-services
 
 Visible H1:
 
@@ -68,11 +68,11 @@ These are supporting topics and should be used naturally. They should not all be
 
 ## Canonical URL
 
-https://velu.us/services/nonprofit-tax-services
+https://velu.us/services/tax-services
 
 Recommended canonical tag:
 
-`<link rel="canonical" href="https://velu.us/services/nonprofit-tax-services">`
+`<link rel="canonical" href="https://velu.us/services/tax-services">`
 
 ## Approved Social Metadata
 
@@ -179,7 +179,7 @@ The SEO record must not state or imply that Velu provides:
 
 Page URL:
 
-/services/nonprofit-tax-services
+/services/tax-services
 
 SEO title:
 
@@ -201,7 +201,7 @@ en-US
 
 Canonical URL:
 
-https://velu.us/services/nonprofit-tax-services
+https://velu.us/services/tax-services
 
 Social image:
 
