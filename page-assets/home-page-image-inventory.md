@@ -77,7 +77,6 @@ Metadata-only social image:
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
 - GoHighLevel alt-text status: Entered and confirmed
-- GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
 
@@ -87,7 +86,6 @@ Metadata-only social image:
 - Page placement: Growing a Nonprofit Is Hard When Your Finances Are Holding You Back
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
-- GoHighLevel alt-text status: Entered and confirmed
 - GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
@@ -99,7 +97,6 @@ Metadata-only social image:
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
 - GoHighLevel alt-text status: Entered and confirmed
-- GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
 
@@ -109,7 +106,6 @@ Metadata-only social image:
 - Page placement: Growing a Nonprofit Is Hard When Your Finances Are Holding You Back
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
-- GoHighLevel alt-text status: Entered and confirmed
 - GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
@@ -121,7 +117,6 @@ Metadata-only social image:
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
 - GoHighLevel alt-text status: Entered and confirmed
-- GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
 
@@ -131,7 +126,6 @@ Metadata-only social image:
 - Page placement: Growing a Nonprofit Is Hard When Your Finances Are Holding You Back
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
-- GoHighLevel alt-text status: Entered and confirmed
 - GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
@@ -143,7 +137,6 @@ Metadata-only social image:
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
 - GoHighLevel alt-text status: Entered and confirmed
-- GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
 
@@ -153,7 +146,6 @@ Metadata-only social image:
 - Page placement: How We Help Nonprofits Move Forward
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
-- GoHighLevel alt-text status: Entered and confirmed
 - GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
@@ -165,7 +157,6 @@ Metadata-only social image:
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
 - GoHighLevel alt-text status: Entered and confirmed
-- GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
 
@@ -175,7 +166,6 @@ Metadata-only social image:
 - Page placement: How We Help Nonprofits Move Forward
 - Accessibility treatment: Informative supporting image
 - Current alt text: Entered in GoHighLevel; exact text not yet transcribed
-- GoHighLevel alt-text status: Entered and confirmed
 - GoHighLevel alt-text status: Entered and confirmed
 - Manual verification: Complete
 - Documentation status: Exact text transcription pending
@@ -200,4 +190,4 @@ The Home social-sharing metadata image exists at `assets/images/home/home-velu-s
 - SHA-256 checksums matched before and after rename for all 13 approved assets.
 - No approved Home-page asset remains loose in the root `assets/images/` folder.
 - Files in other page-specific folders were not treated as loose Home-page assets.
-- Current alt text was not documented in the repository source files reviewed for this task; GoHighLevel should be checked before changing live alt text.
+- GoHighLevel alt-text implementation is confirmed for all 13 visible Home images. Exact repository transcription remains pending for 10 supporting images.

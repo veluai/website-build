@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#webpage",
+      "url": "https://velu.us/services/nonprofit-client-advisory-services",
+      "name": "Velu | Omaha-Based Nonprofit Advisory Services",
+      "description": "Velu offers nonprofit advisory services including budgeting, forecasting, financial analysis, and strategic guidance for better decisions.",
+      "isPartOf": {
+        "@id": "https://velu.us/#website"
+      },
+      "mainEntity": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#service"
+      },
+      "about": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#service"
+      },
+      "breadcrumb": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://velu.us/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#primaryimage"
+      },
+      "image": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#primaryimage"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#schedule-action"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#primaryimage",
+      "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3eba9014a2b82bfeed66ee.png",
+      "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3eba9014a2b82bfeed66ee.png",
+      "width": 1733,
+      "height": 907,
+      "name": "Client Advisory Services",
+      "caption": "Nonprofit client advisory services for budgeting, forecasting, financial foresight, and leadership decision-making.",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://velu.us/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://velu.us/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Client Advisory Services",
+          "item": "https://velu.us/services/nonprofit-client-advisory-services"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#service",
+      "url": "https://velu.us/services/nonprofit-client-advisory-services",
+      "name": "Client Advisory Services",
+      "serviceType": "Nonprofit Client Advisory Services",
+      "category": "Nonprofit Financial Advisory Services",
+      "description": "Velu helps nonprofit organizations connect programs, funding, staffing, and financial strategy through budgeting, performance analysis, forecasting, structured advisory meetings, and board-ready reporting.",
+      "provider": {
+        "@id": "https://velu.us/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Nonprofit organizations seeking budgeting, forecasting, financial analysis, leadership reporting, and strategic financial guidance."
+      },
+      "keywords": [
+        "nonprofit advisory services",
+        "nonprofit financial advisory services",
+        "nonprofit CFO services",
+        "nonprofit financial planning",
+        "nonprofit budgeting",
+        "nonprofit forecasting",
+        "nonprofit financial reporting",
+        "nonprofit financial analysis",
+        "nonprofit consulting services",
+        "nonprofit financial management",
+        "board financial reporting",
+        "nonprofit budget development",
+        "cash flow forecasting",
+        "strategic financial planning",
+        "grant budgeting",
+        "nonprofit growth strategy",
+        "financial sustainability",
+        "nonprofit leadership reporting",
+        "program budgeting",
+        "nonprofit accounting advisory"
+      ],
+      "image": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#primaryimage"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#offer-catalog",
+        "name": "Nonprofit Client Advisory Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Budgeting & Financial Planning",
+              "description": "Budgeting and financial planning support that helps nonprofit leaders build organizational, program, and grant budgets aligned with funding, staffing, resources, and mission priorities."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Budget Performance Analysis",
+              "description": "Budget performance analysis that helps nonprofit leaders compare actual financial results to plan, identify funding gaps, monitor financial health, evaluate program performance, and understand financial trends."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Forecasting & Financial Visibility",
+              "description": "Financial forecasting and visibility services that help nonprofit leaders evaluate future funding, staffing, cash flow, scenario planning, and long-term financial projections."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Board & Leadership Reporting",
+              "description": "Board and leadership reporting services that help nonprofits communicate financial performance through board-ready reports, dashboards, KPI reporting, liquidity analysis, and executive financial summaries."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ScheduleAction",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#schedule-action",
+      "name": "Book Your Discovery Call",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://velu.us/get-started/"
+      },
+      "object": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#service"
+      }
+    }
+  ]
+}

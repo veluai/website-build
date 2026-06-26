@@ -6,7 +6,7 @@ Production-source record only. Final filenames, hosted URLs, dimensions, accessi
 
 This document stores approved and future image prompts for the Grant Advisory & Compliance service page.
 
-Only the hero image prompt is approved in this version. Supporting image prompt sections are placeholders for future development.
+The hero image prompt and all four supporting image prompts are approved production-source records. Final implementation details are governed by the Grant Advisory & Compliance image inventory.
 
 ## Source Documents
 
@@ -119,9 +119,14 @@ Approved By: Tyler Wilcox
 
 Approval Date: 2026-06-20
 
-Implementation Status: Not yet implemented on website
+GoHighLevel implementation status: Implemented in intended page section
 
-Image URL: Pending
+Hosted URL: https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a36d17a0a683b64fe2fb45d.png
+GoHighLevel upload status: Uploaded and confirmed
+GoHighLevel alt-text status: Entered and confirmed
+Responsive display status: Desktop and mobile display confirmed
+Publication status: Pending
+Live verification status: Pending publication
 
 The approved hero image should be treated as the master Pillar 3 framework asset for this page. Future edits should use the approved image as the reference asset unless Tyler Wilcox approves regenerating it.
 
@@ -139,9 +144,14 @@ Approved By: Tyler Wilcox
 
 Approval Date: 2026-06-20
 
-Implementation Status: Not yet implemented on website
+GoHighLevel implementation status: Implemented in intended page section
 
-Image URL: Pending
+Hosted URL: https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39af5428e2dab9ea4ecf80.png
+GoHighLevel upload status: Uploaded and confirmed
+GoHighLevel alt-text status: Entered and confirmed
+Responsive display status: Desktop and mobile display confirmed
+Publication status: Pending
+Live verification status: Pending publication
 
 Production Prompt:
 
@@ -171,9 +181,14 @@ Approved By: Tyler Wilcox
 
 Approval Date: 2026-06-20
 
-Implementation Status: Not yet implemented on website
+GoHighLevel implementation status: Implemented in intended page section
 
-Image URL: Pending
+Hosted URL: https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39b01928e2dab9ea4f0eaf.png
+GoHighLevel upload status: Uploaded and confirmed
+GoHighLevel alt-text status: Entered and confirmed
+Responsive display status: Desktop and mobile display confirmed
+Publication status: Pending
+Live verification status: Pending publication
 
 Production Prompt:
 
@@ -203,9 +218,14 @@ Approved By: Tyler Wilcox
 
 Approval Date: 2026-06-20
 
-Implementation Status: Not yet implemented on website
+GoHighLevel implementation status: Implemented in intended page section
 
-Image URL: Pending
+Hosted URL: https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39b03371752c7f3e0c56c3.png
+GoHighLevel upload status: Uploaded and confirmed
+GoHighLevel alt-text status: Entered and confirmed
+Responsive display status: Desktop and mobile display confirmed
+Publication status: Pending
+Live verification status: Pending publication
 
 Production Prompt:
 
@@ -235,9 +255,14 @@ Approved By: Tyler Wilcox
 
 Approval Date: 2026-06-20
 
-Implementation Status: Not yet implemented on website
+GoHighLevel implementation status: Implemented in intended page section
 
-Image URL: Pending
+Hosted URL: https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39b04a21502f4c6105276f.png
+GoHighLevel upload status: Uploaded and confirmed
+GoHighLevel alt-text status: Entered and confirmed
+Responsive display status: Desktop and mobile display confirmed
+Publication status: Pending
+Live verification status: Pending publication
 
 Production Prompt:
 
