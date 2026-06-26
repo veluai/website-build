@@ -1,5 +1,7 @@
 # Grant Advisory & Compliance Image Prompts
 
+Production-source record only. Final filenames, hosted URLs, dimensions, accessibility treatment, approved labels, and implementation status are governed by the Grant Advisory & Compliance image inventory.
+
 ## Purpose
 
 This document stores approved and future image prompts for the Grant Advisory & Compliance service page.
@@ -187,15 +189,15 @@ Do not make the image look like tax preparation, generic bookkeeping, cluttered 
 
 Do not require a transparent background. If background removal is needed later, handle it as a separate production step after image generation.
 
-## Supporting Image 3 – Restricted Grant Funding & Compliance
+## Supporting Image 3 – Restricted Funding & Compliance
 
 Prompt Status: Approved
 
 Generated Image Status: Complete
 
-Approved Image: Restricted Grant Funding & Compliance
+Approved Image: Restricted Funding & Compliance
 
-Purpose: Supporting image for Restricted Grant Funding & Compliance service pillar.
+Purpose: Supporting image for Restricted Funding & Compliance service pillar.
 
 Approved By: Tyler Wilcox
 
@@ -207,7 +209,7 @@ Image URL: Pending
 
 Production Prompt:
 
-Create a clean white-background Velu-style illustration for the Restricted Grant Funding & Compliance service pillar on the Grant Advisory & Compliance service page.
+Create a clean white-background Velu-style illustration for the Restricted Funding & Compliance service pillar on the Grant Advisory & Compliance service page.
 
 The image should show awarded grant funding administration through grant reporting, reimbursement requests, supporting schedules, documentation, reimbursement funding, restricted grant funding, and compliance support. The visual should feel organized and approachable.
 
