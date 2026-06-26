@@ -4,15 +4,15 @@
 
 - Page: About
 - Final URL: `/about-us`
-- Brief status: Approved for image planning
+- Brief status: Approved and implemented
 - Image generation status: Complete
 - GoHighLevel upload status: Complete for all 12 approved assets
-- Website implementation status: Pending verification
+- Website implementation status: Implemented in GoHighLevel; live verification pending publication
 - Hosted image URLs: Recorded for all 12 approved assets
 - Alt-text implementation status: Complete
 - Accessibility implementation status: Complete
 - Live-page verification status: Pending publication
-- Open Graph implementation status: Pending
+- Social image selection status: Complete in GoHighLevel
 - Live social-preview verification status: Pending publication
 
 ## Section 1 Image
@@ -400,7 +400,7 @@ Preserve Tyler’s recognizable:
 - Final social-sharing image approved
 - GoHighLevel upload complete
 - Hosted URL recorded
-- Open Graph implementation pending
+- Social image selected in GoHighLevel
 - Live social-preview verification pending publication
 
 ## Visual System Summary

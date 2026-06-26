@@ -1,5 +1,7 @@
 # Nonprofit Tax Services Image Prompts
 
+Production-source record only. Final filenames, hosted URLs, dimensions, accessibility treatment, and implementation status are governed by the Nonprofit Tax Services image inventory.
+
 ## Shared Visual Standard
 
 Every prompt should require:
@@ -282,12 +284,14 @@ Create a branded social-sharing image for Velu’s Nonprofit Tax Services page.
 
 Use a clean vector illustration matching the approved Velu website visual family.
 
+Final approved output contains no nonprofit leader. The Tax image inventory governs the final asset.
+
 Feature:
 
 * A prominent Form 990 document
-* A confident nonprofit leader reviewing or approving the filing
 * A subtle shield or protected-status symbol
 * Organized filing documents or checklist cues
+* No people
 * Strong visual contrast that remains clear at small preview sizes
 * A clean composition with dedicated space for short text
 * Velu-style professional nonprofit advisory branding
@@ -296,7 +300,7 @@ Approved embedded headline:
 
 Nonprofit Tax Services
 
-Optional supporting line only if it remains clearly legible:
+Approved embedded supporting line:
 
 Form 990 Preparation & Tax-Exempt Status Applications
 
@@ -320,7 +324,11 @@ Composition:
 
 Negative instructions:
 
-* No text other than the approved headline and optional supporting line
+* No people
+* No nonprofit leader
+* No portrait
+* No text other than the approved headline and supporting line
+* No additional text
 * No misspellings
 * No IRS seal or official government imagery
 * No penalties, warnings, audits, or fear-based visuals

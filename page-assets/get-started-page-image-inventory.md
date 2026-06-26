@@ -10,7 +10,7 @@
 * Image-generation status: Complete
 * GoHighLevel upload status: Complete
 * Hosted image URL status: Recorded
-* Open Graph implementation status: Pending
+* Social image selection status: Complete in GoHighLevel
 * Live social-preview verification: Pending publication
 
 ## Visible Content Images
@@ -85,7 +85,7 @@ No webpage alt text is required while the image remains metadata-only.
 * Final dimensions confirmed
 * GoHighLevel upload complete
 * Hosted image URL recorded
-* Metadata implementation pending
+* Metadata implementation complete in GoHighLevel
 * Live social-preview verification pending publication
 
 ## Image Inventory Summary
@@ -98,6 +98,5 @@ Approved image assets:
 
 ## Remaining Implementation Tasks
 
-* Enter the image in page metadata
-* Complete SEO and Open Graph implementation
+* Verify live Open Graph output after publication
 * Verify live social preview after publication

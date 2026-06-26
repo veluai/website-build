@@ -7,7 +7,7 @@
 * SEO planning status: Approved
 * GoHighLevel entry status: Entered and confirmed
 * Social-sharing image status: Entered and confirmed
-* Schema status: Pending separate workflow
+* Schema status: Entered and validated in GoHighLevel
 * Live verification status: Pending publication
 
 ## Search Intent
@@ -288,7 +288,7 @@ Do not add a `robots` meta tag.
 
 The following items remain pending:
 
-* Schema plan and JSON-LD
+* Schema.org Validator testing pending publication
 * Publication
 * Indexing verification pending publication
 * Live canonical verification pending publication

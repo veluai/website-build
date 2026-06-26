@@ -7,7 +7,7 @@
 * SEO-planning status: Approved
 * GoHighLevel entry status: Complete
 * Social-sharing image metadata status: Complete
-* Schema status: Pending separate workflow
+* Schema status: Entered and validated in GoHighLevel
 * Visible desktop page content: Approved
 * Mobile-page review: Complete
 * Visible mobile page content: Approved
@@ -274,4 +274,4 @@ No `robots` meta tag was added.
 * Indexing verification pending publication
 * Robots/noindex verification
 * XML sitemap verification
-* Schema planning and implementation
+* Schema.org Validator testing pending publication

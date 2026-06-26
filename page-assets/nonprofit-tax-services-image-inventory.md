@@ -8,6 +8,18 @@ Document the final approved image assets, intended page placement, dimensions, r
 
 assets/images/tax-services/
 
+## Page-Level Status Summary
+
+* Visible content images: 4
+* Metadata-only social images: 1
+* All five assets stored in repository
+* All five assets uploaded to GoHighLevel
+* Visible image alt text entered and confirmed
+* Social image selected in GoHighLevel
+* Hosted URLs documented for all five approved image assets
+* Publication pending
+* Live verification pending publication
+
 ## Image Records
 
 ### 1. Form 990 Filing Confidence
@@ -54,7 +66,7 @@ Approved
 
 Hosted image URL:
 
-Pending
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a73ccb2e956bc24ec5066.png
 
 GoHighLevel upload status:
 
@@ -116,7 +128,7 @@ Approved
 
 Hosted image URL:
 
-Pending
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a755b2ed3b9e3239df8ff.png
 
 GoHighLevel upload status:
 
@@ -178,7 +190,7 @@ Approved
 
 Hosted image URL:
 
-Pending
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a79595ff04dbbc3b50217.png
 
 GoHighLevel upload status:
 
@@ -240,7 +252,7 @@ Approved
 
 Hosted image URL:
 
-Pending
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a79f92ed3b9e3239e761c.png
 
 GoHighLevel upload status:
 
@@ -314,7 +326,7 @@ Not applicable unless rendered in page content
 
 GoHighLevel social metadata status:
 
-Entered in GoHighLevel social metadata
+Entered and selected in GoHighLevel social metadata
 
 JSON-LD ImageObject usage:
 

@@ -98,7 +98,9 @@ https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279
 
 GoHighLevel social-image implementation:
 
-Uploaded to GoHighLevel; hosted URL captured. Publication and live verification remain pending.
+Uploaded to GoHighLevel; hosted URL captured; social image selected in GoHighLevel. Publication and live verification remain pending.
+
+Separate Open Graph title, description, URL, and type fields are not available in the current GoHighLevel page settings. The approved Open Graph title and description above remain documented for reference.
 
 The social-sharing image is metadata-only and does not require a webpage alt-text entry unless later displayed within the page content.
 
@@ -258,9 +260,8 @@ Implementation status:
 * Language: Implemented and confirmed in GoHighLevel
 * Keywords: Implemented and confirmed in GoHighLevel
 * Custom meta tags: Implemented and confirmed in GoHighLevel
-* Open Graph title: Implemented and confirmed in GoHighLevel
-* Open Graph description: Implemented and confirmed in GoHighLevel
-* Social-sharing image: Implemented and confirmed in GoHighLevel
+* Open Graph title and description: Documented for reference; separate GoHighLevel fields are not available in the current page settings
+* Social-sharing image: Selected and confirmed in GoHighLevel
 * JSON-LD schema entry: Implemented and confirmed in GoHighLevel
 * GoHighLevel schema validation: Passed
 * Publication: Pending
@@ -276,7 +277,8 @@ Use:
 
 * Approved
 * Generated for launch
-* Pending GoHighLevel implementation
+* Implemented in GoHighLevel
+* GoHighLevel validation passed
 * Pending publication
 * Pending live technical verification
 
@@ -295,7 +297,7 @@ The following remain pending until publication:
 * Confirm live page URL resolves
 * Confirm canonical tag in page source
 * Confirm SEO title and meta description in page source
-* Confirm Open Graph title, description, and image
+* Confirm live Open Graph output and social image
 * Confirm image retrieval
 * Confirm heading hierarchy
 * Confirm content-image alt text
@@ -308,4 +310,4 @@ The following remain pending until publication:
 
 ## Current Status
 
-SEO metadata, social metadata, custom meta tags, social-sharing image, and JSON-LD schema have been implemented and confirmed in GoHighLevel. Publication and live technical verification remain pending.
+SEO metadata, custom meta tags, social-sharing image selection, and JSON-LD schema have been implemented and confirmed in GoHighLevel. Separate Open Graph title, description, URL, and type fields are not available in the current page settings. Publication and live technical verification remain pending.

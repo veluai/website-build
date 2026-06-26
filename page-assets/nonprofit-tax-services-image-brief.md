@@ -54,6 +54,10 @@ Repository path:
 
 assets/images/tax-services/form-990-filing-confidence.png
 
+Hosted URL:
+
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a73ccb2e956bc24ec5066.png
+
 Purpose:
 
 Support the hero section of the Nonprofit Tax Services page.
@@ -105,6 +109,10 @@ protect-tax-exempt-status.png
 Repository path:
 
 assets/images/tax-services/protect-tax-exempt-status.png
+
+Hosted URL:
+
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a755b2ed3b9e3239df8ff.png
 
 Purpose:
 
@@ -166,6 +174,10 @@ Repository path:
 
 assets/images/tax-services/form-990-preparation.png
 
+Hosted URL:
+
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a79595ff04dbbc3b50217.png
+
 Purpose:
 
 Support the Form 990 Preparation service area.
@@ -224,6 +236,10 @@ tax-exempt-status-applications.png
 Repository path:
 
 assets/images/tax-services/tax-exempt-status-applications.png
+
+Hosted URL:
+
+https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a79f92ed3b9e3239e761c.png
 
 Purpose:
 
@@ -314,7 +330,7 @@ The image should feature:
 Recommended text treatment:
 
 * Nonprofit Tax Services
-* Optional supporting line: Form 990 Preparation & Tax-Exempt Status Applications
+* Supporting line: Form 990 Preparation & Tax-Exempt Status Applications
 
 Communicate:
 
@@ -338,14 +354,14 @@ All five approved Nonprofit Tax Services images have been added to the repositor
 
 Final image assets are stored in `assets/images/tax-services/`.
 
-The images are approved for page implementation.
+The four visible content images are implemented in the GoHighLevel page builder. Live verification remains pending publication.
 
-The social-sharing image has been uploaded to GoHighLevel, and its hosted URL has been documented.
+The social-sharing image has been uploaded to GoHighLevel, selected in GoHighLevel, and its hosted URL has been documented.
 
-Hosted URLs for the four content images remain pending.
+Hosted URLs for all four visible content images are documented in the repository.
 
-GoHighLevel implementation remains pending.
+GoHighLevel implementation is complete for the social-sharing image and all four visible content images. Hosted URLs are documented for all five approved Tax image assets. Live verification remains pending publication.
 
-Final alt-text entry remains pending.
+Final alt-text entry status is documented in the Nonprofit Tax Services image inventory.
 
 Live-page verification remains pending.

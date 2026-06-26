@@ -8,8 +8,8 @@
 * Primary objective: Build trust in Tyler Wilcox, CPA and demonstrate Velu’s nonprofit-sector experience
 * Primary CTA: Book Your Discovery Call
 * CTA URL: `https://velu.us/get-started/`
-* Copy status: Approved for image planning and page implementation
-* SEO, image, and schema work: Pending separate workflows
+* Copy status: Approved and implemented in GoHighLevel; publication and live verification pending
+* SEO, image, and schema work: Implemented in GoHighLevel; publication and live verification pending
 
 ## Section 1: Meet Tyler Wilcox, CPA
 

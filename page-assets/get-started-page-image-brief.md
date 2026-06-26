@@ -9,7 +9,7 @@
 * Social-sharing image requirement: One metadata-only image
 * Image-generation status: Complete
 * GoHighLevel upload status: Complete
-* Open Graph implementation status: Pending
+* Social image selection status: Complete in GoHighLevel
 * Live social-preview verification: Pending publication
 
 ## Visible Page Image Strategy
@@ -126,7 +126,7 @@ If it is later displayed visibly on the page, create meaningful alt text at that
 * Final dimensions confirmed
 * GoHighLevel upload complete
 * Hosted URL recorded
-* Open Graph implementation pending
+* Social image selected in GoHighLevel
 * Live social-preview verification pending publication
 
 ## Visual System Summary

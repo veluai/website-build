@@ -1,5 +1,7 @@
 # Get Started Page Image Prompts
 
+Production-source record only. Final filename, hosted URL, dimensions, and implementation status are governed by the Get Started image inventory.
+
 ## Page Status
 
 * Page: Get Started
@@ -128,5 +130,5 @@ Approve the image only if:
 * Exact dimensions confirmed: `1731 × 909`
 * GoHighLevel upload complete
 * Hosted URL recorded: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png`
-* Metadata implementation pending
+* Metadata implementation complete in GoHighLevel
 * Live social-preview verification pending publication

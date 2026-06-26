@@ -38,7 +38,7 @@ nonprofit tax services
 
 - The replacement Velu website remains unpublished.
 - The Nonprofit Tax Services page is part of the coordinated replacement website.
-- The replacement homepage is expected to define:
+- The replacement homepage defines the following global entities in the repository and GoHighLevel implementation:
   - `https://velu.us/#website`
   - `https://velu.us/#organization`
 - The service-page schema should reference those IDs.
@@ -87,7 +87,7 @@ Final schema decisions:
 * The JSON-LD was entered into GoHighLevel
 * GoHighLevel validation passed successfully
 
-## Planned Entity IDs
+## Entity IDs
 
 WebPage:
 
@@ -127,7 +127,7 @@ Type:
 
 WebPage
 
-Plan these fields and relationships:
+The implemented WebPage uses these fields and relationships:
 
 * `@id`
 * `url`
@@ -178,11 +178,11 @@ Name:
 
 Nonprofit Tax Services
 
-Recommended service type:
+Implemented service type:
 
 Nonprofit Tax Preparation and Tax-Exempt Status Application Services
 
-Recommended category:
+Implemented category:
 
 Nonprofit Federal Tax Compliance Services
 
@@ -198,7 +198,7 @@ Audience:
 
 Nonprofit organizations requiring Form 990 filing support or assistance applying for or restoring federal tax-exempt status.
 
-Recommended description:
+Implemented description:
 
 Velu helps nonprofit organizations prepare and file Form 990, Form 990-EZ, and Form 990-N and supports organizations applying for or restoring federal tax-exempt status.
 
@@ -253,7 +253,7 @@ Do not name specific application forms in the OfferCatalog description unless la
 
 ## ImageObject Plan
 
-Use the final approved social-sharing image as the page-level primary image unless implementation review determines that the hero image is more appropriate.
+The final approved social-sharing image is used as the page-level primary image.
 
 Preferred image:
 
@@ -271,13 +271,13 @@ https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279
 
 Primary-image status:
 
-Hosted URL available for launch-ready JSON-LD generation.
+Implemented in the JSON-LD and entered in GoHighLevel.
 
-Planned name:
+Implemented name:
 
 Nonprofit Tax Services
 
-Planned caption:
+Implemented caption:
 
 Nonprofit tax services for Form 990 preparation, filing confidence, and tax-exempt status applications.
 
@@ -340,7 +340,7 @@ Do not invent:
 
 ## Keywords Plan
 
-The future Service entity may include these keywords:
+The implemented Service entity may use the following approved keywords where present in the final JSON-LD:
 
 * nonprofit tax services
 * Form 990 preparation
@@ -441,7 +441,9 @@ JSON-LD generated.
 
 Local JSON syntax validation complete.
 
-Entered into GoHighLevel.
+Entered and saved in GoHighLevel.
+
+Revised two-item breadcrumb JSON-LD re-entered and saved in GoHighLevel.
 
 GoHighLevel validation passed.
 

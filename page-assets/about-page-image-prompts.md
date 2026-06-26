@@ -1,5 +1,7 @@
 # About Page Image Prompts
 
+Production-source record only. Final filenames, hosted URLs, dimensions, accessibility treatment, and implementation status are governed by the About image inventory.
+
 ## Shared Visual Standard
 
 Apply these requirements to all generated illustrations and icons unless a prompt specifically states otherwise:
@@ -364,7 +366,7 @@ Do not add:
 * Final social-sharing image generated
 * Final social-sharing image approved
 * Approved filename: `about-velu-social-share.png`
-* Upload and hosted URL remain pending
+* Final upload status and hosted URL are governed by the About image inventory
 
 ## Production Sequence
 

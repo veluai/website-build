@@ -11,7 +11,7 @@
 * Accessibility implementation status: Complete
 * Hosted image URLs: Recorded for all 12 approved assets
 * Live-page verification: Pending publication
-* Open Graph implementation: Pending
+* Social image selection in GoHighLevel: Complete
 * Live social-preview verification: Pending publication
 
 ## Image 1: Tyler Wilcox Founder Portrait
@@ -50,7 +50,7 @@ Meaningful content image
 * Tyler should remain the clear visual focus
 * Use beside or near the founder introduction
 * Verify that the final approved Tyler image matches the intended professional founder portrait direction
-* Confirm final filename and dimensions
+* Use the approved hosted URL and dimensions documented in this inventory
 
 ### Status
 
@@ -478,7 +478,7 @@ If the image is later displayed visibly on the page, create meaningful alt text 
 * Final image approved
 * GoHighLevel upload complete
 * Hosted URL recorded
-* Open Graph implementation pending
+* Social image selected in GoHighLevel
 * Live social-preview verification pending publication
 
 ## Image Inventory Summary
@@ -501,9 +501,7 @@ Total approved assets:
 
 ### Remaining Implementation Tasks
 
-* Confirm exact production filenames
-* Record image dimensions
 * Verify desktop, tablet, and mobile display
 * Confirm live image retrieval after publication
-* Complete Open Graph implementation
+* Verify live Open Graph output after publication
 * Verify live social previews after publication
