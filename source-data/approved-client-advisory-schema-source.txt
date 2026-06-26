@@ -4,15 +4,15 @@
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://velu.us/services/client-advisory-services#webpage",
-      "url": "https://velu.us/services/client-advisory-services",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#webpage",
+      "url": "https://velu.us/services/nonprofit-client-advisory-services",
       "name": "Client Advisory Services",
       "description": "Velu's client advisory services help nonprofit leaders connect programs, funding, and financial strategy through budgeting, financial analysis, forecasting, structured advisory meetings, and board-ready reporting.",
       "mainEntity": {
-        "@id": "https://velu.us/services/client-advisory-services#service"
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#service"
       },
       "breadcrumb": {
-        "@id": "https://velu.us/services/client-advisory-services#breadcrumb"
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#breadcrumb"
       },
       "publisher": {
         "@id": "https://velu.us/#organization"
@@ -37,7 +37,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://velu.us/services/client-advisory-services#breadcrumb",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -55,14 +55,14 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Client Advisory Services",
-          "item": "https://velu.us/services/client-advisory-services"
+          "item": "https://velu.us/services/nonprofit-client-advisory-services"
         }
       ]
     },
     {
       "@type": "Service",
-      "@id": "https://velu.us/services/client-advisory-services#service",
-      "url": "https://velu.us/services/client-advisory-services",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#service",
+      "url": "https://velu.us/services/nonprofit-client-advisory-services",
       "name": "Client Advisory Services",
       "serviceType": "Nonprofit Advisory Services",
       "category": "Nonprofit Financial Advisory Services",

@@ -12,7 +12,7 @@ Grant Advisory & Compliance
 
 Canonical URL:
 
-https://velu.us/services/grant-advisory-compliance-services
+https://velu.us/services/nonprofit-grant-advisory-compliance-services
 
 SEO title:
 
@@ -100,22 +100,22 @@ https://velu.us/#organization
 Use:
 
 WebPage:
-https://velu.us/services/grant-advisory-compliance-services#webpage
+https://velu.us/services/nonprofit-grant-advisory-compliance-services#webpage
 
 Service:
-https://velu.us/services/grant-advisory-compliance-services#service
+https://velu.us/services/nonprofit-grant-advisory-compliance-services#service
 
 BreadcrumbList:
-https://velu.us/services/grant-advisory-compliance-services#breadcrumb
+https://velu.us/services/nonprofit-grant-advisory-compliance-services#breadcrumb
 
 OfferCatalog:
-https://velu.us/services/grant-advisory-compliance-services#offer-catalog
+https://velu.us/services/nonprofit-grant-advisory-compliance-services#offer-catalog
 
 ScheduleAction:
-https://velu.us/services/grant-advisory-compliance-services#schedule-action
+https://velu.us/services/nonprofit-grant-advisory-compliance-services#schedule-action
 
 Primary page image:
-https://velu.us/services/grant-advisory-compliance-services#primaryimage
+https://velu.us/services/nonprofit-grant-advisory-compliance-services#primaryimage
 
 ## WebPage Plan
 
@@ -228,7 +228,7 @@ Use this logical hierarchy:
    URL: https://velu.us/services/
 
 3. Grant Advisory & Compliance
-   URL: https://velu.us/services/grant-advisory-compliance-services
+   URL: https://velu.us/services/nonprofit-grant-advisory-compliance-services
 
 `/services/` is the coordinated intermediate breadcrumb page for the replacement website.
 

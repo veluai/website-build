@@ -134,7 +134,7 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Outsourced Accounting",
-              "url": "https://velu.us/services/outsourced-accounting-services",
+              "url": "https://velu.us/services/nonprofit-outsourced-accounting-services",
               "description": "Reliable nonprofit bookkeeping and accounting services that help organizations build accurate reporting, streamlined financial processes, and dependable accounting systems."
             }
           },
@@ -143,7 +143,7 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Client Advisory Services",
-              "url": "https://velu.us/services/client-advisory-services",
+              "url": "https://velu.us/services/nonprofit-client-advisory-services",
               "description": "Nonprofit advisory services that help leaders connect programs, funding, budgeting, forecasting, financial strategy, and decision-making."
             }
           },
@@ -152,7 +152,7 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Grant Advisory and Compliance",
-              "url": "https://velu.us/services/grant-advisory-compliance-services",
+              "url": "https://velu.us/services/nonprofit-grant-advisory-compliance-services",
               "description": "Grant advisory and compliance services that help nonprofits strengthen grant budgeting, management, reporting, reimbursement processes, restricted funding oversight, and funder accountability."
             }
           },
@@ -161,7 +161,7 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Nonprofit Tax Services",
-              "url": "https://velu.us/services/tax-services",
+              "url": "https://velu.us/services/nonprofit-tax-services",
               "description": "Nonprofit tax services that help organizations prepare accurate Form 990 filings, support federal and state compliance, and communicate financial information transparently."
             }
           }

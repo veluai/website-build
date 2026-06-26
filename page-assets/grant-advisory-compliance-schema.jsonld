@@ -3,39 +3,39 @@
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://velu.us/services/grant-advisory-compliance-services#webpage",
-      "url": "https://velu.us/services/grant-advisory-compliance-services",
+      "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#webpage",
+      "url": "https://velu.us/services/nonprofit-grant-advisory-compliance-services",
       "name": "Velu | Omaha-Based Nonprofit Grant Advisory & Compliance Services",
       "description": "Velu helps nonprofits manage grant budgets, reporting, reimbursements, restricted funding, compliance, and future funding readiness.",
       "isPartOf": {
         "@id": "https://velu.us/#website"
       },
       "mainEntity": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#service"
       },
       "about": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#service"
       },
       "breadcrumb": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#breadcrumb"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#breadcrumb"
       },
       "publisher": {
         "@id": "https://velu.us/#organization"
       },
       "primaryImageOfPage": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#primaryimage"
       },
       "image": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#primaryimage"
       },
       "inLanguage": "en-US",
       "potentialAction": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#schedule-action"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#schedule-action"
       }
     },
     {
       "@type": "ImageObject",
-      "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage",
+      "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#primaryimage",
       "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39c58e610e9ace506de5d5.png",
       "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39c58e610e9ace506de5d5.png",
       "width": 1731,
@@ -52,7 +52,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://velu.us/services/grant-advisory-compliance-services#breadcrumb",
+      "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -70,14 +70,14 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Grant Advisory & Compliance",
-          "item": "https://velu.us/services/grant-advisory-compliance-services"
+          "item": "https://velu.us/services/nonprofit-grant-advisory-compliance-services"
         }
       ]
     },
     {
       "@type": "Service",
-      "@id": "https://velu.us/services/grant-advisory-compliance-services#service",
-      "url": "https://velu.us/services/grant-advisory-compliance-services",
+      "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#service",
+      "url": "https://velu.us/services/nonprofit-grant-advisory-compliance-services",
       "name": "Grant Advisory & Compliance Services",
       "serviceType": "Nonprofit Grant Advisory and Compliance Services",
       "category": "Nonprofit Grant Financial Management and Compliance",
@@ -94,7 +94,7 @@
         "audienceType": "Nonprofit Organizations"
       },
       "image": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#primaryimage"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#primaryimage"
       },
       "keywords": [
         "nonprofit grant advisory services",
@@ -111,7 +111,7 @@
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#offer-catalog",
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#offer-catalog",
         "name": "Grant Advisory & Compliance Services",
         "itemListElement": [
           {
@@ -151,14 +151,14 @@
     },
     {
       "@type": "ScheduleAction",
-      "@id": "https://velu.us/services/grant-advisory-compliance-services#schedule-action",
+      "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#schedule-action",
       "name": "Schedule a Discovery Call",
       "target": {
         "@type": "EntryPoint",
         "urlTemplate": "https://velu.us/get-started/"
       },
       "object": {
-        "@id": "https://velu.us/services/grant-advisory-compliance-services#service"
+        "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#service"
       }
     }
   ]

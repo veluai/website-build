@@ -96,7 +96,7 @@ Outcome heading:
 
 Link:
 
-`https://velu.us/services/outsourced-accounting-services`
+`https://velu.us/services/nonprofit-outsourced-accounting-services`
 
 ### Client Advisory Services
 
@@ -110,7 +110,7 @@ Outcome heading:
 
 Link:
 
-`https://velu.us/services/client-advisory-services`
+`https://velu.us/services/nonprofit-client-advisory-services`
 
 ### Grant Advisory & Compliance
 
@@ -124,7 +124,7 @@ Outcome heading:
 
 Link:
 
-`https://velu.us/services/grant-advisory-compliance-services`
+`https://velu.us/services/nonprofit-grant-advisory-compliance-services`
 
 ### The Outcome
 

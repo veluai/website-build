@@ -138,7 +138,7 @@ Service Page:
 
 ### Outsourced Accounting Services
 
-- URL: https://velu.us/services/outsourced-accounting-services
+- URL: https://velu.us/services/nonprofit-outsourced-accounting-services
 - Primary schema purpose: Support nonprofit outsourced accounting service authority.
 - Offer catalog pillars:
   - Financial Reporting
@@ -148,7 +148,7 @@ Service Page:
 
 ### Client Advisory Services
 
-- URL: https://velu.us/services/client-advisory-services
+- URL: https://velu.us/services/nonprofit-client-advisory-services
 - Primary schema purpose: Support nonprofit advisory services authority.
 - Offer catalog pillars:
   - Budgeting & Financial Planning

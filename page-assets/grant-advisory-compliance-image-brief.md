@@ -11,7 +11,7 @@ This brief does not create final images, image URLs, schema, or final implemente
 ## Page Context
 
 - Page name: Grant Advisory & Compliance
-- URL: `/services/grant-advisory-compliance`
+- URL: `/services/nonprofit-grant-advisory-compliance-services`
 - Primary outcome: Funding Confidence
 - Secondary outcome: Sustainable Growth
 - Primary CTA: https://velu.us/get-started/

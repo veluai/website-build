@@ -86,10 +86,10 @@ Supporting image 2:
 
 ## Service Catalog URLs
 
-- Outsourced Accounting: `https://velu.us/services/outsourced-accounting-services`
-- Client Advisory Services: `https://velu.us/services/client-advisory-services`
-- Grant Advisory and Compliance: `https://velu.us/services/grant-advisory-compliance-services`
-- Nonprofit Tax Services: `https://velu.us/services/tax-services`
+- Outsourced Accounting: `https://velu.us/services/nonprofit-outsourced-accounting-services`
+- Client Advisory Services: `https://velu.us/services/nonprofit-client-advisory-services`
+- Grant Advisory and Compliance: `https://velu.us/services/nonprofit-grant-advisory-compliance-services`
+- Nonprofit Tax Services: `https://velu.us/services/nonprofit-tax-services`
 
 ## Organization Details
 

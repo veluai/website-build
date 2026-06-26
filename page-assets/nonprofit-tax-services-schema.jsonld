@@ -3,39 +3,39 @@
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://velu.us/services/tax-services#webpage",
-      "url": "https://velu.us/services/tax-services",
+      "@id": "https://velu.us/services/nonprofit-tax-services#webpage",
+      "url": "https://velu.us/services/nonprofit-tax-services",
       "name": "Velu | Omaha-Based Nonprofit Tax Services & Form 990 Preparation",
       "description": "Velu helps nonprofits prepare Form 990, Form 990-EZ, and Form 990-N filings and navigate tax-exempt status applications with greater confidence.",
       "isPartOf": {
         "@id": "https://velu.us/#website"
       },
       "mainEntity": {
-        "@id": "https://velu.us/services/tax-services#service"
+        "@id": "https://velu.us/services/nonprofit-tax-services#service"
       },
       "about": {
-        "@id": "https://velu.us/services/tax-services#service"
+        "@id": "https://velu.us/services/nonprofit-tax-services#service"
       },
       "breadcrumb": {
-        "@id": "https://velu.us/services/tax-services#breadcrumb"
+        "@id": "https://velu.us/services/nonprofit-tax-services#breadcrumb"
       },
       "publisher": {
         "@id": "https://velu.us/#organization"
       },
       "primaryImageOfPage": {
-        "@id": "https://velu.us/services/tax-services#primaryimage"
+        "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage"
       },
       "image": {
-        "@id": "https://velu.us/services/tax-services#primaryimage"
+        "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage"
       },
       "inLanguage": "en-US",
       "potentialAction": {
-        "@id": "https://velu.us/services/tax-services#schedule-action"
+        "@id": "https://velu.us/services/nonprofit-tax-services#schedule-action"
       }
     },
     {
       "@type": "ImageObject",
-      "@id": "https://velu.us/services/tax-services#primaryimage",
+      "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage",
       "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png",
       "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a6e6b967e20d6279d975c.png",
       "width": 1731,
@@ -49,7 +49,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://velu.us/services/tax-services#breadcrumb",
+      "@id": "https://velu.us/services/nonprofit-tax-services#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -67,14 +67,14 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Nonprofit Tax Services",
-          "item": "https://velu.us/services/tax-services"
+          "item": "https://velu.us/services/nonprofit-tax-services"
         }
       ]
     },
     {
       "@type": "Service",
-      "@id": "https://velu.us/services/tax-services#service",
-      "url": "https://velu.us/services/tax-services",
+      "@id": "https://velu.us/services/nonprofit-tax-services#service",
+      "url": "https://velu.us/services/nonprofit-tax-services",
       "name": "Nonprofit Tax Services",
       "serviceType": "Nonprofit Tax Preparation and Tax-Exempt Status Application Services",
       "category": "Nonprofit Federal Tax Compliance Services",
@@ -91,7 +91,7 @@
         "audienceType": "Nonprofit Organizations"
       },
       "image": {
-        "@id": "https://velu.us/services/tax-services#primaryimage"
+        "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage"
       },
       "keywords": [
         "nonprofit tax services",
@@ -113,7 +113,7 @@
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "@id": "https://velu.us/services/tax-services#offer-catalog",
+        "@id": "https://velu.us/services/nonprofit-tax-services#offer-catalog",
         "name": "Nonprofit Tax Services",
         "itemListElement": [
           {
@@ -137,14 +137,14 @@
     },
     {
       "@type": "ScheduleAction",
-      "@id": "https://velu.us/services/tax-services#schedule-action",
+      "@id": "https://velu.us/services/nonprofit-tax-services#schedule-action",
       "name": "Schedule a Discovery Call",
       "target": {
         "@type": "EntryPoint",
         "urlTemplate": "https://velu.us/get-started/"
       },
       "object": {
-        "@id": "https://velu.us/services/tax-services#service"
+        "@id": "https://velu.us/services/nonprofit-tax-services#service"
       }
     }
   ]

@@ -28,11 +28,11 @@ Nonprofit grant advisory and compliance services
 
 Relative URL:
 
-/services/grant-advisory-compliance-services
+/services/nonprofit-grant-advisory-compliance-services
 
 Expected full URL:
 
-https://velu.us/services/grant-advisory-compliance-services
+https://velu.us/services/nonprofit-grant-advisory-compliance-services
 
 Status:
 
@@ -97,7 +97,7 @@ Avoid keyword stuffing.
 
 Expected canonical URL:
 
-https://velu.us/services/grant-advisory-compliance-services
+https://velu.us/services/nonprofit-grant-advisory-compliance-services
 
 Status:
 
@@ -145,7 +145,7 @@ Do not state that `og:image` has been confirmed in the live page source until th
 Enter the following into the page SEO settings:
 
 Page path:
-/services/grant-advisory-compliance-services
+/services/nonprofit-grant-advisory-compliance-services
 
 SEO title:
 Velu | Omaha-Based Nonprofit Grant Advisory & Compliance Services
@@ -154,7 +154,7 @@ Meta description:
 Velu helps nonprofits manage grant budgets, reporting, reimbursements, restricted funding, compliance, and future funding readiness.
 
 Canonical URL:
-https://velu.us/services/grant-advisory-compliance-services
+https://velu.us/services/nonprofit-grant-advisory-compliance-services
 
 Keywords:
 Entered in GoHighLevel; live technical verification pending.
