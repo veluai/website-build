@@ -1,0 +1,205 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#webpage",
+      "url": "https://velu.us/services/nonprofit-outsourced-accounting-services",
+      "name": "Velu | Omaha-Based Nonprofit Outsourced Accounting Services",
+      "description": "Cloud-based outsourced accounting for nonprofits in Omaha, delivering financial reporting, fund accounting, compliance, and insight.",
+      "isPartOf": {
+        "@id": "https://velu.us/#website"
+      },
+      "mainEntity": {
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#service"
+      },
+      "about": {
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#service"
+      },
+      "publisher": {
+        "@id": "https://velu.us/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#primaryimage",
+        "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3e5de2163e40d862572bde.png",
+        "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3e5de2163e40d862572bde.png",
+        "width": 1731,
+        "height": 909,
+        "name": "Outsourced Accounting for Nonprofits",
+        "caption": "Outsourced accounting for nonprofits focused on building a reliable financial foundation."
+      },
+      "image": [
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3e5de2163e40d862572bde.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a357d7c0a683b64fe0edf90.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a35a2410b9538a6a71649ba.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3452440a683b64feed2e46.png"
+      ],
+      "potentialAction": {
+        "@type": "ScheduleAction",
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#schedule-action",
+        "name": "Book Your Discovery Call",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://velu.us/get-started/",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#primaryimage",
+      "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3e5de2163e40d862572bde.png",
+      "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3e5de2163e40d862572bde.png",
+      "width": 1731,
+      "height": 909,
+      "name": "Outsourced Accounting for Nonprofits",
+      "caption": "Outsourced accounting for nonprofits focused on building a reliable financial foundation.",
+      "creator": {
+        "@id": "https://velu.us/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://velu.us/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Outsourced Accounting for Nonprofits",
+          "item": "https://velu.us/services/nonprofit-outsourced-accounting-services"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#service",
+      "url": "https://velu.us/services/nonprofit-outsourced-accounting-services",
+      "name": "Outsourced Accounting for Nonprofits",
+      "serviceType": "Nonprofit Outsourced Accounting Services",
+      "category": "Nonprofit Accounting Services",
+      "description": "Velu helps nonprofit organizations build reliable cloud-based accounting systems, maintain accurate financial records, strengthen fund accounting, improve financial reporting, and gain the financial visibility needed to make confident decisions.",
+      "provider": {
+        "@id": "https://velu.us/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Nonprofit organizations, nonprofit executives, finance leaders, executive directors, and boards"
+      },
+      "image": [
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3e5de2163e40d862572bde.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a357d7c0a683b64fe0edf90.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a35a2410b9538a6a71649ba.png",
+        "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3452440a683b64feed2e46.png"
+      ],
+      "keywords": [
+        "nonprofit outsourced accounting",
+        "nonprofit accounting services",
+        "outsourced accounting for nonprofits",
+        "cloud-based nonprofit accounting",
+        "nonprofit accounting",
+        "fund accounting",
+        "nonprofit financial reporting",
+        "grant accounting",
+        "grant reporting",
+        "nonprofit bookkeeping",
+        "nonprofit CPA services",
+        "board financial reporting",
+        "nonprofit financial management",
+        "financial visibility",
+        "budget-to-actual reporting",
+        "Omaha nonprofit accounting",
+        "Nebraska nonprofit accounting"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#offer-catalog",
+        "name": "Nonprofit Outsourced Accounting Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Financial Reporting",
+              "description": "Clear, timely nonprofit financial reporting, including monthly financial statements, budget-to-actual reporting, board-ready reporting packages, cash- and accrual-basis reporting, and custom reports."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fund Accounting",
+              "description": "Fund accounting support for grants, programs, and restricted funds, including restricted fund tracking, grant reporting support, program-level reporting, revenue recognition, and fund balance monitoring."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Financial Visibility",
+              "description": "Financial analysis and reporting that helps nonprofit leaders understand trends, risks, and opportunities through variance analysis, benchmarking, cash flow analysis, general ledger management, and financial health monitoring."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounting Operations",
+              "description": "Dependable nonprofit accounting systems and processes, including timely bookkeeping, bank reconciliations, internal accountant oversight, chart of accounts maintenance, and month-end close procedures."
+            }
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ScheduleAction",
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#schedule-action",
+        "name": "Book Your Discovery Call",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://velu.us/get-started/",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
+    },
+    {
+      "@type": "ScheduleAction",
+      "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#schedule-action",
+      "name": "Book Your Discovery Call",
+      "agent": {
+        "@id": "https://velu.us/#organization"
+      },
+      "object": {
+        "@id": "https://velu.us/services/nonprofit-outsourced-accounting-services#service"
+      },
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://velu.us/get-started/",
+        "actionPlatform": [
+          "https://schema.org/DesktopWebPlatform",
+          "https://schema.org/MobileWebPlatform"
+        ]
+      }
+    }
+  ]
+}
