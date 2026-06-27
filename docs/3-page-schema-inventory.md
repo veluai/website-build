@@ -18,7 +18,7 @@ This inventory reflects repository-documented replacement-site schema, not verif
 | Outsourced Accounting Services | https://velu.us/services/nonprofit-outsourced-accounting-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
 | Grant Advisory & Compliance | https://velu.us/services/nonprofit-grant-advisory-compliance-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
 | Nonprofit Tax Services | https://velu.us/services/nonprofit-tax-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 2 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
-| Client Advisory Services | https://velu.us/services/nonprofit-client-advisory-services | Current page-specific backfill incomplete | Pending current backfill | Excluded by current policy | Excluded by current policy | Pending | Pending | Pending | Pending | Historical/source schema exists under `source-data`; do not treat as current implementation | Service Page Schema Standard | Tyler Wilcox |
+| Client Advisory Services | https://velu.us/services/nonprofit-client-advisory-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
 
 ## Page Notes
 
@@ -67,11 +67,15 @@ This inventory reflects repository-documented replacement-site schema, not verif
 
 ### Client Advisory Services
 
-- Current page-specific backfill is incomplete.
-- Historical/source schema exists under `source-data`.
-- Do not treat source schema as current implementation.
-- Do not copy Review or AggregateRating markup from the historical source.
-- Final entity structure remains pending current page backfill.
+- Schema plan exists at `page-assets/client-advisory-services-schema-plan.md`.
+- Production JSON-LD exists at `page-assets/client-advisory-services-schema.jsonld`.
+- Replacement JSON-LD was generated, locally validated, entered in GoHighLevel, saved, and accepted by page-level GoHighLevel validation.
+- Old schema was removed.
+- Uses approved global IDs: `https://velu.us/#website` and `https://velu.us/#organization`.
+- Uses two-item service breadcrumb: Home -> Nonprofit Client Advisory Services.
+- Does not include a `/services/` breadcrumb item.
+- Excludes page-level Review and AggregateRating markup.
+- Publication remains pending; live validation remains pending publication.
 
 ### Legal Pages
 

@@ -179,16 +179,16 @@ Do not duplicate all review text in this copy file. Use the review inventory as 
 
 ## Section 6: Final CTA
 
-## Ready to Move From Insight to Foresight?
+## Ready to Lead With More Financial Clarity?
 
-When leadership understands the financial story behind the organization... better decisions follow.
+Velu helps nonprofit leaders understand the numbers behind their mission, make confident decisions, and build the financial discipline needed for long-term impact.
 
 Benefit list:
 
-- Understand financial performance
-- Evaluate opportunities and risks
-- Plan for sustainable growth
-- Make informed leadership decisions
+- ✓ See what your financials are really telling you
+- ✓ Make decisions with clearer insight
+- ✓ Strengthen accountability across your organization
+- ✓ Build toward sustainable mission growth
 
 Final CTA:
 
@@ -209,7 +209,7 @@ Final CTA microcopy:
 - H2: How We Help Nonprofits Move Forward
 - H2: Why Nonprofits Choose Velu
 - H2: What Nonprofit Leaders Say About Working With Velu
-- H2: Ready to Move From Insight to Foresight?
+- H2: Ready to Lead With More Financial Clarity?
 
 Card titles and differentiator headings should be H3s or equivalent semantic subheadings beneath their section H2s.
 

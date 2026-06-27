@@ -51,7 +51,7 @@ Target:
 
 ### How We Help Nonprofit Leaders Connect Programs and Finances
 
-`Financial reports alone don't create better decisions.`
+`Reports become more useful when leaders have time and support to interpret what they mean.`
 
 `Our advisory services combine budgeting, financial analysis, forecasting, and structured advisory meetings to help nonprofit leaders understand their numbers, evaluate opportunities, and confidently plan for the future.`
 
@@ -107,7 +107,7 @@ Target:
 
 `Financial reports alone don't create better decisions.`
 
-`They need time to understand what those reports mean, discuss challenges, evaluate opportunities, and make informed decisions.`
+`Better decisions come from a consistent rhythm of review, conversation, and planning.`
 
 `That's why every advisory engagement includes a structured cadence of financial analysis, planning, and advisory meetings designed to support leadership throughout the year.`
 

@@ -43,6 +43,12 @@ There is no obligation. The conversation is simply an opportunity to learn more 
 
 Email us at `info@velu.us` and we’ll be happy to help.
 
+Implementation note:
+
+* `info@velu.us` appears as plain text.
+* No active `mailto:` link is used.
+* This treatment is intentional because GoHighLevel `mailto:` behavior did not work reliably during preview/testing.
+
 ## Design Direction
 
 * White or very light neutral background

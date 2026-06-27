@@ -124,11 +124,11 @@ The goal is not simply to complete reports. It is to help leaders understand how
 
 Section heading:
 
-What Nonprofit Leaders Say About Working With Velu
+What Nonprofit Leaders Say About Velu’s Grant Advisory Support
 
 Supporting copy:
 
-Helping organizations build stronger financial futures is more than our goal—it's what our clients experience every day.
+Grant funding is easier to manage when leaders have clear budgets, organized reporting, and confidence that restricted funds are being tracked with care.
 
 Implementation note:
 

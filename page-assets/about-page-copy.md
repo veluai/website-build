@@ -19,7 +19,7 @@ Tyler Wilcox, CPA founded Velu to help nonprofit leaders build stronger financia
 
 With more than 15 years of accounting experience—including over a decade serving nonprofits—Tyler has supported dozens of organizations across the United States, from startups to nonprofits approaching $10 million in annual activity.
 
-His experience spans nonprofit accounting, financial reporting, Form 990 preparation, federal tax compliance, consulting, and audit. That background shapes Velu’s approach today: financial information should be accurate and compliant, but it should also help leaders strengthen accountability and make better decisions.
+His experience spans nonprofit accounting, Form 990 preparation, federal and state tax compliance, consulting, audit, and advisory work with organizations navigating growth, complexity, and decision-making. That background shapes Velu’s approach today: financial information should be accurate and compliant, but it should also help leaders understand what is happening, evaluate options, strengthen accountability, and make better decisions.
 
 Tyler is a Certified Public Accountant, a QuickBooks ProAdvisor Level 2, and holds the AICPA Nonprofit Level 1 Certificate.
 

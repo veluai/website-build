@@ -19,6 +19,9 @@ Meta description:
 
 `Cloud-based outsourced accounting for nonprofits in Omaha, delivering financial reporting, fund accounting, compliance, and insight.`
 
+- Character count: 132
+- GoHighLevel limit: Must remain under 155 characters
+
 Author:
 
 `Tyler Wilcox, CPA`

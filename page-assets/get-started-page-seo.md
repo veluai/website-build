@@ -65,6 +65,9 @@ Use these terms naturally. Do not force keyword repetition into the visible page
 
 `Schedule a 45-minute discovery call with Tyler J. Wilcox, CPA to discuss your nonprofit’s financial needs, current challenges, and goals.`
 
+* Character count: 137
+* GoHighLevel limit: Must remain under 155 characters
+
 ## Recommended Canonical URL
 
 `https://velu.us/get-started/`

@@ -16,6 +16,9 @@ Meta description:
 
 `Velu helps nonprofit leaders build cloud-based accounting systems, gain financial clarity, strengthen grant management, and plan for sustainable growth.`
 
+- Character count: 152
+- GoHighLevel limit: Must remain under 155 characters
+
 Author:
 
 `Tyler Wilcox, CPA`

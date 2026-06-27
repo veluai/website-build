@@ -20,6 +20,9 @@
 
 `Velu offers Nonprofit advisory services including budgeting, forecasting, financial analysis, and strategic guidance for better decisions.`
 
+- Character count: 138
+- GoHighLevel limit: Must remain under 155 characters
+
 ### Author
 
 `Tyler Wilcox, CPA`
@@ -73,15 +76,17 @@ Do not claim separate implementation of:
 
 ## Schema Status
 
-- Current schema entered in GoHighLevel
-- Current schema accepted and validated by GoHighLevel
-- Current schema saved on unpublished page
-- No other schema blocks entered
-- Current schema requires replacement under present standards
+- Production schema plan exists.
+- Production JSON-LD exists.
+- Replacement schema was generated and locally validated.
+- Replacement schema was entered, validated, and saved in GoHighLevel.
+- Old schema was removed.
+- Page-level GoHighLevel validation passed.
+- No other schema blocks entered.
 - Publication status: Pending
-- Live technical verification status: Pending publication
+- Live schema validation status: Pending publication
 
-## Current Schema Replacement Reasons
+## Superseded Schema Issues Resolved
 
 - Wrong canonical URL and entity IDs
 - Three-item breadcrumb

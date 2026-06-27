@@ -134,6 +134,28 @@ Image SEO standards are governed by:
 
 Image SEO should support accessibility, page relevance, and nonprofit-specific context. Alt text should describe the actual image before attempting to reinforce search terms.
 
+## GoHighLevel Meta Description Length Standard
+
+GoHighLevel meta descriptions must remain under 155 characters.
+
+- Character count includes spaces and punctuation.
+- Target range should generally be 120-150 characters.
+- Never approve or instruct entry of a description without counting it first.
+- Repository SEO records should include the final character count.
+- If a description exceeds 154 characters, revise it before GHL entry.
+- Do not mark a meta description as entered or confirmed until the exact final version is saved in GHL.
+- This limit applies to all current and future page SEO records.
+
+Implementation checklist:
+
+1. Draft the description.
+2. Count all characters, including spaces and punctuation.
+3. Confirm the count is 154 or fewer.
+4. Record the count in the page SEO file.
+5. Enter the exact approved version in GHL.
+6. Confirm the saved value matches the repository exactly.
+7. Keep live verification pending until publication.
+
 ## Future SEO Roadmap
 
 Future clusters include:
