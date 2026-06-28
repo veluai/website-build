@@ -74,7 +74,7 @@ There is no real `/services/` landing page. Do not include a `/services/` breadc
 ## Required ScheduleAction
 
 - Name: `Book Your Discovery Call`
-- Target: `https://velu.us/get-started/`
+- Target: `https://velu.us/get-started`
 - Object: Reference the page-specific Service entity at `https://velu.us/services/nonprofit-client-advisory-services#service`
 
 Do not invent duration, availability, pricing, or guarantees in schema.

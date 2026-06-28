@@ -22,7 +22,7 @@ Book Your Discovery Call
 
 CTA URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 ## Why It Matters
 
@@ -98,7 +98,7 @@ Book Your Discovery Call
 
 CTA URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 ## Approved Service Boundaries
 

@@ -55,7 +55,7 @@ Each service page hero should include:
 
 - Outcome-focused headline
 - Nonprofit-specific supporting copy
-- Primary CTA to https://velu.us/get-started/
+- Primary CTA to https://velu.us/get-started
 - Velu Financial Growth Framework hero visual when the page maps to one of the approved outcome pillars
 - Clear connection to the relevant outcome pillar
 
@@ -118,7 +118,7 @@ Review markup must reflect actual review content. Reviews should support the pag
 
 Primary CTA:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 Service pages should avoid competing CTAs unless approved. Secondary links may support education or related-service discovery, but they should not distract qualified prospects from the primary get-started conversion path.
 

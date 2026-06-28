@@ -28,7 +28,7 @@ Book Your Discovery Call
 
 CTA URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 Primary SEO topic:
 
@@ -78,7 +78,7 @@ Final schema decisions:
 * The page references the global organization entity at `https://velu.us/#organization`
 * The page canonical URL is `https://velu.us/services/nonprofit-tax-services`
 * The primary image is the approved social-sharing image
-* The CTA action points to `https://velu.us/get-started/`
+* The CTA action points to `https://velu.us/get-started`
 * Reviews are intentionally excluded from the page-level schema
 * `AggregateRating` is intentionally excluded
 * `FAQPage` is intentionally excluded
@@ -324,7 +324,7 @@ Book Your Discovery Call
 
 Target:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 Object:
 

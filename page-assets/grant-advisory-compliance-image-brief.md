@@ -14,7 +14,7 @@ This brief documents the approved visual strategy and current implementation sta
 - URL: `/services/nonprofit-grant-advisory-compliance-services`
 - Primary outcome: Funding Confidence
 - Secondary outcome: Sustainable Growth
-- Primary CTA: https://velu.us/get-started/
+- Primary CTA: https://velu.us/get-started
 
 ## Visual Direction
 

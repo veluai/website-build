@@ -8,8 +8,8 @@ This record documents the current implementation status of Velu's legal pages on
 
 - Page exists in GHL: Confirmed
 - Page-builder name: `privacy-policy`
-- Path: `/privacy-policy/`
-- Canonical URL: `https://velu.us/privacy-policy/`
+- Path: `/privacy-policy`
+- Canonical URL: `https://velu.us/privacy-policy`
 - Visible H1: Privacy Policy
 - Effective date: June 25, 2026
 - Visible copy status: Final approved copy implemented in GoHighLevel
@@ -43,8 +43,8 @@ This record documents the current implementation status of Velu's legal pages on
 
 - Page exists in GHL: Confirmed
 - Page-builder name: `terms-and-conditions`
-- Path: `/terms-and-conditions/`
-- Canonical URL: `https://velu.us/terms-and-conditions/`
+- Path: `/terms-and-conditions`
+- Canonical URL: `https://velu.us/terms-and-conditions`
 - Visible H1: Terms and Conditions
 - Effective date: June 25, 2026
 - Visible copy status: Implemented in GoHighLevel

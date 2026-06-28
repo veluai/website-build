@@ -3,8 +3,8 @@
 ## Page Status
 
 * Page: Get Started
-* Final URL: `/get-started/`
-* Canonical URL: `https://velu.us/get-started/`
+* Final URL: `/get-started`
+* Canonical URL: `https://velu.us/get-started`
 * Primary audience: Nonprofit executive directors, leadership teams, and board members
 * Primary objective: Encourage qualified nonprofit leaders to schedule a discovery call
 * Page-copy status: Approved for implementation

@@ -24,7 +24,7 @@ Manage Grant Funding with Greater Confidence
 
 Primary conversion URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 Organization entity:
 
@@ -237,7 +237,7 @@ Book Your Discovery Call
 
 Target:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 Action type:
 

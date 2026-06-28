@@ -18,7 +18,7 @@
 ## Primary CTA
 
 - CTA: `Book Your Discovery Call`
-- CTA URL: `https://velu.us/get-started/`
+- CTA URL: `https://velu.us/get-started`
 - CTA microcopy: `No obligation · 45-minute conversation · See if we're the right fit`
 
 ## Section 1: Hero
@@ -53,7 +53,7 @@ Primary CTA:
 
 CTA URL:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 CTA microcopy:
 
@@ -234,7 +234,7 @@ CTA:
 
 CTA URL:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 CTA microcopy:
 

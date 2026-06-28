@@ -60,7 +60,7 @@ The repository is broadly consistent on these standards:
 - Current page JSON-LD files are pure JSON and parse successfully.
 - Current page JSON-LD files avoid page-level `Review` and `AggregateRating` markup.
 - Social-sharing images are generally stored in `assets/images/`, documented with hosted URLs, and marked metadata-only where appropriate.
-- The primary CTA destination is consistently `https://velu.us/get-started/`.
+- The primary CTA destination is consistently `https://velu.us/get-started`.
 - The repository generally treats Git history as version history in new page-asset records.
 
 ## Page Documentation Inventory
@@ -68,8 +68,8 @@ The repository is broadly consistent on these standards:
 | Page name | Final URL | Copy file | SEO file | Schema-plan file | JSON-LD file | Image inventory | Image brief | Image prompts | Review inventory or reference | Desktop status | Mobile status | GHL implementation status | Publication status | Live-validation status | Completeness assessment | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Home | `https://velu.us/` | `page-assets/home-page-copy.md` | `page-assets/home-page-seo.md` | `page-assets/home-page-schema-plan.md` | `page-assets/home-page-schema.jsonld` | `page-assets/home-page-image-inventory.md` | Not documented | Not documented | `page-assets/home-page-review-inventory.md` | Completed | Deferred | Implemented in GoHighLevel | Pending | Pending | Complete | Image brief/prompts are not required now that inventory and implementation records exist, but absence should be intentional. |
-| About | `https://velu.us/about-us/` | `page-assets/about-page-copy.md` | `page-assets/about-page-seo.md` | `page-assets/about-page-schema-plan.md` | `page-assets/about-page-schema.jsonld` | `page-assets/about-page-image-inventory.md` | `page-assets/about-page-image-brief.md` | `page-assets/about-page-image-prompts.md` | Not applicable | Not documented | Not documented | Entered and confirmed in SEO/schema/image files | Pending | Pending | Complete with status conflicts | Copy and SEO files still contain stale pending-workflow language. |
-| Get Started | `https://velu.us/get-started/` | `page-assets/get-started-page-copy.md` | `page-assets/get-started-page-seo.md` | `page-assets/get-started-page-schema-plan.md` | `page-assets/get-started-page-schema.jsonld` | `page-assets/get-started-page-image-inventory.md` | `page-assets/get-started-page-image-brief.md` | `page-assets/get-started-page-image-prompts.md` | Not applicable | Complete | Complete | SEO and schema entered/validated in GoHighLevel | Pending | Pending | Complete | Image brief says Open Graph implementation pending while SEO indicates social image entry complete. |
+| About | `https://velu.us/about-us` | `page-assets/about-page-copy.md` | `page-assets/about-page-seo.md` | `page-assets/about-page-schema-plan.md` | `page-assets/about-page-schema.jsonld` | `page-assets/about-page-image-inventory.md` | `page-assets/about-page-image-brief.md` | `page-assets/about-page-image-prompts.md` | Not applicable | Not documented | Not documented | Entered and confirmed in SEO/schema/image files | Pending | Pending | Complete with status conflicts | Copy and SEO files still contain stale pending-workflow language. |
+| Get Started | `https://velu.us/get-started` | `page-assets/get-started-page-copy.md` | `page-assets/get-started-page-seo.md` | `page-assets/get-started-page-schema-plan.md` | `page-assets/get-started-page-schema.jsonld` | `page-assets/get-started-page-image-inventory.md` | `page-assets/get-started-page-image-brief.md` | `page-assets/get-started-page-image-prompts.md` | Not applicable | Complete | Complete | SEO and schema entered/validated in GoHighLevel | Pending | Pending | Complete | Image brief says Open Graph implementation pending while SEO indicates social image entry complete. |
 | Outsourced Accounting | `https://velu.us/services/nonprofit-outsourced-accounting-services` | `page-assets/outsourced-accounting-page-copy.md` | `page-assets/outsourced-accounting-page-seo.md` | `page-assets/outsourced-accounting-page-schema-plan.md` | `page-assets/outsourced-accounting-page-schema.jsonld` | `page-assets/outsourced-accounting-page-image-inventory.md` | Not documented | Not documented | References `page-assets/home-page-review-inventory.md` | Approved | Deferred | Implemented in GoHighLevel | Pending | Pending | Complete | Uses correct two-item service breadcrumb. |
 | Client Advisory Services | `https://velu.us/services/nonprofit-client-advisory-services` | Missing | Missing | Missing | Missing | Missing | Missing | Missing | Source schema includes reviews in `source-data/approved-client-advisory-schema-source.txt` | Not documented | Not documented | Not documented | Not documented | Not documented | Missing | Only a reference schema source exists; current page records are not backfilled. |
 | Grant Advisory & Compliance | `https://velu.us/services/nonprofit-grant-advisory-compliance-services` | `page-assets/grant-advisory-compliance-page-copy.md` | `page-assets/grant-advisory-compliance-seo.md` | `page-assets/grant-advisory-compliance-schema-plan.md` | `page-assets/grant-advisory-compliance-schema.jsonld` | `page-assets/grant-advisory-compliance-image-inventory.md` | `page-assets/grant-advisory-compliance-image-brief.md` | `page-assets/grant-advisory-compliance-image-prompts.md` | References approved review source in schema plan | Not documented | Not documented | Schema entered/saved in GoHighLevel per plan | Pending | Pending | Complete with schema issue | Breadcrumb still includes non-existent `/services/` item. |
@@ -122,8 +122,8 @@ No Critical issues were identified in the repository files reviewed. All current
 Final approved URLs:
 
 - Home: `https://velu.us/`
-- About: `https://velu.us/about-us/`
-- Get Started: `https://velu.us/get-started/`
+- About: `https://velu.us/about-us`
+- Get Started: `https://velu.us/get-started`
 - Outsourced Accounting: `https://velu.us/services/nonprofit-outsourced-accounting-services`
 - Client Advisory Services: `https://velu.us/services/nonprofit-client-advisory-services`
 - Grant Advisory & Compliance: `https://velu.us/services/nonprofit-grant-advisory-compliance-services`
@@ -154,7 +154,7 @@ Historical references intentionally retained:
 
 Consistent findings:
 
-- Current primary conversion destination is consistently `https://velu.us/get-started/`.
+- Current primary conversion destination is consistently `https://velu.us/get-started`.
 - Home and Outsourced service copy use `Book Your Discovery Call`.
 - Get Started page consistently documents a 45-minute appointment.
 
@@ -210,8 +210,8 @@ SEO issues:
 
 | File | Parse result | Entity count | Entity types | Canonical | Breadcrumb count | Review markup present | AggregateRating present | Duplicate global entities | Old URLs present | Result |
 |---|---|---:|---|---|---|---|---|---|---|---|
-| `page-assets/about-page-schema.jsonld` | Valid | 5 | AboutPage, ImageObject, BreadcrumbList, Person, ScheduleAction | `https://velu.us/about-us/` | 2 | No | No | No full duplicate global entity | No | Pass |
-| `page-assets/get-started-page-schema.jsonld` | Valid | 4 | ContactPage, ImageObject, BreadcrumbList, ScheduleAction | `https://velu.us/get-started/` | 2 | No | No | No full duplicate global entity | No | Pass |
+| `page-assets/about-page-schema.jsonld` | Valid | 5 | AboutPage, ImageObject, BreadcrumbList, Person, ScheduleAction | `https://velu.us/about-us` | 2 | No | No | No full duplicate global entity | No | Pass |
+| `page-assets/get-started-page-schema.jsonld` | Valid | 4 | ContactPage, ImageObject, BreadcrumbList, ScheduleAction | `https://velu.us/get-started` | 2 | No | No | No full duplicate global entity | No | Pass |
 | `page-assets/grant-advisory-compliance-schema.jsonld` | Valid | 5 | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | `https://velu.us/services/nonprofit-grant-advisory-compliance-services` | 3 | No | No | No full duplicate global entity | No | Needs breadcrumb fix |
 | `page-assets/home-page-schema.jsonld` | Valid | 3 | WebSite, WebPage, AccountingService | `https://velu.us/` | Not applicable | No | No | Home intentionally defines global entities | No | Pass |
 | `page-assets/nonprofit-tax-services-schema.jsonld` | Valid | 5 | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | `https://velu.us/services/nonprofit-tax-services` | 3 | No | No | No full duplicate global entity | No | Needs breadcrumb fix |

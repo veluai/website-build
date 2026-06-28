@@ -7,7 +7,7 @@
 - SEO title: `Velu | Omaha-Based Nonprofit Outsourced Accounting Services`
 - Visible H1: `Outsourced Accounting for Nonprofits`
 - Primary CTA: `Book Your Discovery Call`
-- CTA URL: `https://velu.us/get-started/`
+- CTA URL: `https://velu.us/get-started`
 
 ## Deployment Context
 
@@ -202,7 +202,7 @@ Name:
 
 Target:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 Platforms:
 

@@ -3,8 +3,8 @@
 ## Page Status
 
 * Page: Get Started
-* URL: `https://velu.us/get-started/`
-* Relative path: `/get-started/`
+* URL: `https://velu.us/get-started`
+* Relative path: `/get-started`
 * Schema-planning status: Approved
 * JSON-LD generation status: Complete
 * Local validation status: Complete
@@ -56,13 +56,13 @@ Tyler is identified in visible copy and the action name, but the primary purpose
 
 ### Recommended ID
 
-`https://velu.us/get-started/#webpage`
+`https://velu.us/get-started#webpage`
 
 ### Recommended Properties
 
 * `@type`: `ContactPage`
-* `@id`: `https://velu.us/get-started/#webpage`
-* `url`: `https://velu.us/get-started/`
+* `@id`: `https://velu.us/get-started#webpage`
+* `url`: `https://velu.us/get-started`
 * `name`: `Book a Nonprofit Accounting Discovery Call | Velu`
 * `description`: `Schedule a 45-minute discovery call with Tyler J. Wilcox, CPA to discuss your nonprofit’s financial needs, current challenges, and goals.`
 * `inLanguage`: `en-US`
@@ -72,10 +72,10 @@ Use references for:
 * `isPartOf` → `https://velu.us/#website`
 * `about` → `https://velu.us/#organization`
 * `publisher` → `https://velu.us/#organization`
-* `breadcrumb` → `https://velu.us/get-started/#breadcrumb`
-* `primaryImageOfPage` → `https://velu.us/get-started/#primaryimage`
-* `image` → `https://velu.us/get-started/#primaryimage`
-* `potentialAction` → `https://velu.us/get-started/#schedule-action`
+* `breadcrumb` → `https://velu.us/get-started#breadcrumb`
+* `primaryImageOfPage` → `https://velu.us/get-started#primaryimage`
+* `image` → `https://velu.us/get-started#primaryimage`
+* `potentialAction` → `https://velu.us/get-started#schedule-action`
 
 ### Main Entity Treatment
 
@@ -83,7 +83,7 @@ Use the `ScheduleAction` as the page’s primary structured action.
 
 Do not use a separate `Person`, service entity, calendar-event entity, or booking-product entity as the page’s main entity.
 
-* `mainEntity` → `https://velu.us/get-started/#schedule-action`
+* `mainEntity` → `https://velu.us/get-started#schedule-action`
 
 The `ScheduleAction` is the page’s approved `mainEntity`.
 
@@ -111,7 +111,7 @@ Do not add:
 
 ### Recommended ID
 
-`https://velu.us/get-started/#primaryimage`
+`https://velu.us/get-started#primaryimage`
 
 ### Approved Image
 
@@ -143,7 +143,7 @@ Supporting line:
 ### Recommended Properties
 
 * `@type`: `ImageObject`
-* `@id`: `https://velu.us/get-started/#primaryimage`
+* `@id`: `https://velu.us/get-started#primaryimage`
 * `url`: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png`
 * `contentUrl`: `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c58c107cf451b94b0722d.png`
 * `width`: `1731`
@@ -164,7 +164,7 @@ The metadata-only image does not require webpage alt text.
 
 ### Recommended ID
 
-`https://velu.us/get-started/#breadcrumb`
+`https://velu.us/get-started#breadcrumb`
 
 ### Recommended Items
 
@@ -176,7 +176,7 @@ Position 1:
 Position 2:
 
 * Name: `Get Started`
-* URL: `https://velu.us/get-started/`
+* URL: `https://velu.us/get-started`
 
 Use exactly two `ListItem` entries with numeric positions `1` and `2`.
 
@@ -186,19 +186,19 @@ Do not add a Services breadcrumb because the page is not nested under a service 
 
 ### Recommended ID
 
-`https://velu.us/get-started/#schedule-action`
+`https://velu.us/get-started#schedule-action`
 
 ### Recommended Properties
 
 * `@type`: `ScheduleAction`
-* `@id`: `https://velu.us/get-started/#schedule-action`
+* `@id`: `https://velu.us/get-started#schedule-action`
 * `name`: `Discovery Call With Tyler J. Wilcox, CPA`
 * `description`: `Schedule a 45-minute conversation with Tyler J. Wilcox, CPA to discuss a nonprofit organization’s financial needs, challenges, and goals.`
 
 Use this target:
 
 * `@type`: `EntryPoint`
-* `urlTemplate`: `https://velu.us/get-started/`
+* `urlTemplate`: `https://velu.us/get-started`
 * `actionPlatform`: `https://schema.org/DesktopWebPlatform`
 * `actionPlatform`: `https://schema.org/MobileWebPlatform`
 
@@ -261,7 +261,7 @@ The Get Started page may name Tyler within:
 
 Do not cross-reference:
 
-`https://velu.us/about-us/#tyler-wilcox`
+`https://velu.us/about-us#tyler-wilcox`
 
 Do not use Tyler as the action’s `agent`, `participant`, `provider`, or another uncertain action property.
 
@@ -291,8 +291,8 @@ Do not add:
 
 * Global organization ID: `https://velu.us/#organization`
 * Global website ID: `https://velu.us/#website`
-* Final page URL: `https://velu.us/get-started/`
-* Booking destination: `https://velu.us/get-started/`
+* Final page URL: `https://velu.us/get-started`
+* Booking destination: `https://velu.us/get-started`
 * Appointment name: `Discovery Call With Tyler J. Wilcox, CPA`
 * Appointment duration: `45 minutes`
 * Appointment name and `45 min` duration are displayed within the embedded calendar, not as a separate visible page H2

@@ -4,8 +4,8 @@
 
 - Page name: Privacy Policy
 - Page-builder name: `privacy-policy`
-- Relative URL: `/privacy-policy/`
-- Canonical URL: `https://velu.us/privacy-policy/`
+- Relative URL: `/privacy-policy`
+- Canonical URL: `https://velu.us/privacy-policy`
 - Visible H1: Privacy Policy
 - Effective date: June 25, 2026
 - Visible copy status: Final approved copy implemented in GoHighLevel
@@ -36,7 +36,7 @@
 
 ### Canonical URL
 
-`https://velu.us/privacy-policy/`
+`https://velu.us/privacy-policy`
 
 ## Indexing And Sitemap
 

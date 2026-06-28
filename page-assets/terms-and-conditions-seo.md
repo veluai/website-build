@@ -4,8 +4,8 @@
 
 - Page name: Terms and Conditions
 - Page-builder name: `terms-and-conditions`
-- Relative URL: `/terms-and-conditions/`
-- Canonical URL: `https://velu.us/terms-and-conditions/`
+- Relative URL: `/terms-and-conditions`
+- Canonical URL: `https://velu.us/terms-and-conditions`
 - Visible H1: Terms and Conditions
 - Effective date: June 25, 2026
 - Publication status: Pending
@@ -34,7 +34,7 @@ Language:
 
 Canonical URL:
 
-`https://velu.us/terms-and-conditions/`
+`https://velu.us/terms-and-conditions`
 
 Recommended indexing:
 

@@ -3,7 +3,7 @@
 ## Page Status
 
 * Page: Get Started
-* Final URL: `/get-started/`
+* Final URL: `/get-started`
 * Image-planning status: Approved
 * Visible content-image requirement: None
 * Social-sharing image requirement: One metadata-only image

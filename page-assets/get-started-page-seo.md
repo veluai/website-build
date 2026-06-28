@@ -3,7 +3,7 @@
 ## Page Status
 
 * Page: Get Started
-* Page path: `/get-started/`
+* Page path: `/get-started`
 * SEO-planning status: Approved
 * GoHighLevel entry status: Complete
 * Social-sharing image metadata status: Complete
@@ -34,11 +34,11 @@ This is primarily a conversion page rather than a broad organic-search landing p
 
 ## Final URL
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 Relative path:
 
-`/get-started/`
+`/get-started`
 
 ## Primary Keyword
 
@@ -70,7 +70,7 @@ Use these terms naturally. Do not force keyword repetition into the visible page
 
 ## Recommended Canonical URL
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 ## Recommended Author
 
@@ -98,7 +98,7 @@ Use this comma-separated value:
 
 ### Open Graph URL
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 ### Open Graph Type
 
@@ -244,10 +244,10 @@ Do not add:
 
 Entered and confirmed:
 
-* Page path: `/get-started/`
+* Page path: `/get-started`
 * SEO title
 * Meta description
-* Canonical URL: `https://velu.us/get-started/`
+* Canonical URL: `https://velu.us/get-started`
 * Author
 * Language
 * Keywords

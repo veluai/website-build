@@ -3,7 +3,7 @@
 ## Page Status
 
 * Page: About
-* Page path: `/about-us/`
+* Page path: `/about-us`
 * SEO planning status: Approved
 * GoHighLevel entry status: Entered and confirmed
 * Social-sharing image status: Entered and confirmed
@@ -27,11 +27,11 @@ Users evaluating whether Velu has:
 
 ## Recommended URL
 
-`https://velu.us/about-us/`
+`https://velu.us/about-us`
 
 Relative path:
 
-`/about-us/`
+`/about-us`
 
 ## Recommended Primary Keyword
 
@@ -81,7 +81,7 @@ The meta description should emphasize:
 
 ## Recommended Canonical URL
 
-`https://velu.us/about-us/`
+`https://velu.us/about-us`
 
 ## Recommended Author
 
@@ -109,7 +109,7 @@ Use this comma-separated value:
 
 ### Open Graph URL
 
-`https://velu.us/about-us/`
+`https://velu.us/about-us`
 
 ### Open Graph Type
 
@@ -248,7 +248,7 @@ The following items are approved:
 * Final SEO title
 * Final meta description
 * Primary keyword: `nonprofit CPA firm`
-* Canonical URL: `https://velu.us/about-us/`
+* Canonical URL: `https://velu.us/about-us`
 * Author: `Tyler Wilcox, CPA`
 * Language: `en-US`
 * Keyword field
@@ -270,10 +270,10 @@ The following items are approved:
 
 The following fields are entered and confirmed:
 
-* Page path: `/about-us/`
+* Page path: `/about-us`
 * SEO title
 * Meta description
-* Canonical URL: `https://velu.us/about-us/`
+* Canonical URL: `https://velu.us/about-us`
 * Author
 * Language
 * Keywords

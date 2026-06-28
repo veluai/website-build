@@ -9,7 +9,7 @@
 - Primary outcome: Program-Finance Connection
 - Supporting outcome: Sustainable Growth
 - Primary CTA: Book Your Discovery Call
-- CTA URL: `https://velu.us/get-started/`
+- CTA URL: `https://velu.us/get-started`
 - Discovery-call duration: 45 minutes
 - Copy implementation status: Implemented in GoHighLevel
 - Publication status: Pending
@@ -45,7 +45,7 @@ Supporting line:
 
 Target:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 ## Service Section
 
@@ -174,7 +174,7 @@ Supporting line:
 
 CTA URL:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 ## Implementation Notes
 

@@ -7,7 +7,7 @@
 - Relative URL: `/services/nonprofit-outsourced-accounting-services`
 - Visible H1: `Outsourced Accounting for Nonprofits`
 - Primary CTA: `Book Your Discovery Call`
-- CTA URL: `https://velu.us/get-started/`
+- CTA URL: `https://velu.us/get-started`
 
 ## Approved SEO Metadata
 

@@ -5,7 +5,7 @@ Production-source record only. Final filename, hosted URL, dimensions, and imple
 ## Page Status
 
 * Page: Get Started
-* Final URL: `/get-started/`
+* Final URL: `/get-started`
 * Prompt-development status: Complete
 * Approved image count: `1`
 * Visible content images: `0`

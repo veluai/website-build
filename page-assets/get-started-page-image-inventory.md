@@ -3,7 +3,7 @@
 ## Page Status
 
 * Page: Get Started
-* Final URL: `/get-started/`
+* Final URL: `/get-started`
 * Image-planning status: Complete
 * Visible content-image count: `0`
 * Metadata-image count: `1`

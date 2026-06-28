@@ -102,7 +102,7 @@ Educational lead magnet markup should follow the `CreativeWork` guidance in the 
 
 Primary CTA:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 The homepage should keep this conversion path clear. Secondary actions may support learning, trust building, or lead magnet engagement, but they should not obscure the primary path for qualified nonprofit prospects.
 

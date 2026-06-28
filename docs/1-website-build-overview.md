@@ -39,7 +39,7 @@ Current active or planned initiatives:
 
 Current primary conversion:
 
-- https://velu.us/get-started/
+- https://velu.us/get-started
 
 Current lead magnet:
 
@@ -177,7 +177,7 @@ Image standards include:
 
 The primary conversion action is:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 Lead magnets may be used as secondary conversion actions. Lead magnets should support education, trust building, and topic authority without distracting from the primary action for qualified prospects.
 
@@ -206,7 +206,7 @@ Lead magnet pages and schema should accurately describe the resource being offer
 | Date | Decision Area | Decision | Reason | Approved By |
 | --- | --- | --- | --- | --- |
 | 2026-06-20 | Homepage positioning | Homepage is positioned around nonprofit accounting and advisory services. | Supports Velu's nonprofit specialization and avoids generic CPA firm positioning. | Tyler Wilcox |
-| 2026-06-20 | Primary conversion path | The primary website conversion path is https://velu.us/get-started/. | Provides a clear next step for qualified nonprofit prospects. | Tyler Wilcox |
+| 2026-06-20 | Primary conversion path | The primary website conversion path is https://velu.us/get-started. | Provides a clear next step for qualified nonprofit prospects. | Tyler Wilcox |
 | 2026-06-20 | Service outcome framework | Website messaging should align with Financial Foundation, Program-Finance Connection, Funding Confidence, and Sustainable Growth. | This positions Velu's services around leadership outcomes rather than isolated accounting tasks. | Tyler Wilcox |
 | 2026-06-20 | Nonprofit-specific positioning | Website content should not position Velu as a general CPA firm. | Nonprofit specialization is central to Velu's market positioning and SEO strategy. | Tyler Wilcox |
 | 2026-06-20 | Lead magnet strategy | Lead magnets may be used as secondary conversion and authority-building assets. | Educational resources support trust, SEO, and early-stage nonprofit audience development. | Tyler Wilcox |

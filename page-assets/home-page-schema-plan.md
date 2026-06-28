@@ -6,7 +6,7 @@
 - Canonical URL: `https://velu.us/`
 - SEO title: `Velu | Omaha-Based Nonprofit Accounting & Advisory`
 - Primary CTA: `Book Your Discovery Call`
-- CTA URL: `https://velu.us/get-started/`
+- CTA URL: `https://velu.us/get-started`
 
 ## Deployment Context
 
@@ -115,7 +115,7 @@ Logo URL:
 ## ScheduleAction
 
 - Name: `Book Your Discovery Call`
-- Target: `https://velu.us/get-started/`
+- Target: `https://velu.us/get-started`
 - Platforms:
   - DesktopWebPlatform
   - MobileWebPlatform

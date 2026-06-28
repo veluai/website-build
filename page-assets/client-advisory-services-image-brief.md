@@ -16,7 +16,7 @@ This brief does not create or modify schema.
 - Primary outcome: Program-Finance Connection
 - Supporting outcome: Sustainable Growth
 - Primary CTA: `Book Your Discovery Call`
-- CTA URL: `https://velu.us/get-started/`
+- CTA URL: `https://velu.us/get-started`
 - Repository image folder: `assets/images/client-advisory/`
 
 ## Visual Direction

@@ -149,7 +149,7 @@
       "name": "Book Your Discovery Call",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://velu.us/get-started/"
+        "urlTemplate": "https://velu.us/get-started"
       },
       "object": {
         "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#service"

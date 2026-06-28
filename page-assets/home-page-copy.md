@@ -42,7 +42,7 @@ Primary CTA:
 
 Primary CTA URL:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 Hero microcopy:
 
@@ -142,7 +142,7 @@ Supporting copy:
 
 Link:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 ## Section 4: Why Nonprofits Choose Velu
 
@@ -196,7 +196,7 @@ Final CTA:
 
 Final CTA URL:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 Final CTA microcopy:
 

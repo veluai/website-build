@@ -24,7 +24,7 @@ Book Your Discovery Call
 
 CTA URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 ## Approved Primary SEO Topic
 

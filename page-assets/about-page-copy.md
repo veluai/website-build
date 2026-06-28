@@ -3,11 +3,11 @@
 ## Page Status
 
 * Page: About
-* Final URL: `/about-us/`
+* Final URL: `/about-us`
 * Primary audience: Nonprofit executive directors, leadership teams, and board members
 * Primary objective: Build trust in Tyler Wilcox, CPA and demonstrate Velu’s nonprofit-sector experience
 * Primary CTA: Book Your Discovery Call
-* CTA URL: `https://velu.us/get-started/`
+* CTA URL: `https://velu.us/get-started`
 * Copy status: Approved and implemented in GoHighLevel; publication and live verification pending
 * SEO, image, and schema work: Implemented in GoHighLevel; publication and live verification pending
 
@@ -113,7 +113,7 @@ CTA label:
 
 CTA URL:
 
-`https://velu.us/get-started/`
+`https://velu.us/get-started`
 
 Supporting line:
 

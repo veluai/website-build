@@ -106,7 +106,7 @@ Service pages and utility pages should reference the global IDs rather than dupl
 | Opening hours | Monday-Friday, 09:00-17:00 |
 | Latitude | 41.2537337 |
 | Longitude | -95.9349443 |
-| Primary conversion URL | https://velu.us/get-started/ |
+| Primary conversion URL | https://velu.us/get-started |
 | LinkedIn | https://www.linkedin.com/company/velucpa/ |
 | Google Maps | https://www.google.com/maps/place/Velu+LLC,+1402+Jones+St+%231004,+Omaha,+NE+68102 |
 | QuickBooks ProAdvisor | https://proadvisor.intuit.com/app/accountant/search?searchId=tyler-wilcox77 |
@@ -258,7 +258,7 @@ The Home page currently excludes `Review` and `AggregateRating` markup, even whe
 
 The discovery call action should point to the primary conversion action:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 ## Service Page Schema Standard
 
@@ -363,7 +363,7 @@ Approved action name:
 
 Approved target URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 `ScheduleAction` should be used for real scheduling or get-started actions that a visitor can take from the page. It should not be used for pages where no scheduling or inquiry action exists.
 

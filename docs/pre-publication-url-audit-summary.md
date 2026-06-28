@@ -39,9 +39,9 @@ Core strategic lens:
 | Service page | 21 | Highest-priority preservation review group after core pages. |
 | Template | 16 | Likely future-funnel archive candidates rather than launch-site pages. |
 | Homepage | 4 | Preserve or redirect to the new homepage where appropriate. |
-| About page | 4 | Preserve or redirect to `https://velu.us/about-us/` where appropriate. |
+| About page | 4 | Preserve or redirect to `https://velu.us/about-us` where appropriate. |
 | Legal page | 2 | Preserve or redirect to the new legal page URLs. |
-| Contact / booking page | 1 | Preserve or redirect to `https://velu.us/get-started/`. |
+| Contact / booking page | 1 | Preserve or redirect to `https://velu.us/get-started`. |
 
 ## Counts By Preliminary Category
 
@@ -75,8 +75,8 @@ Top URLs by clicks and impressions:
 | --- | --- | --- | --- |
 | `https://velu.us/` | Homepage, brand relevance, strongest click volume | `https://velu.us/` | Highest-priority preservation check. |
 | `http://www.velu.us/` | Brand/homepage traffic with existing 301 behavior | `https://velu.us/` | Confirm final redirect behavior after publication. |
-| `https://velu.us/about-us/` | Trust/about content with GSC activity | `https://velu.us/about-us/` | Check trailing slash handling. |
-| `https://velu.us/get-started/` | Contact/booking intent | `https://velu.us/get-started/` | Preserve booking destination. |
+| `https://velu.us/about-us/` | Trust/about content with GSC activity | `https://velu.us/about-us` | Check trailing slash handling. |
+| `https://velu.us/get-started/` | Contact/booking intent | `https://velu.us/get-started` | Preserve booking destination. |
 | `https://velu.us/services/nonprofit-bookkeeping-and-accounting/` | Old accounting service page | `https://velu.us/services/nonprofit-outsourced-accounting-services` | Buyer-intent service mapping. |
 | `https://velu.us/virtual-cpa-services/` | Accounting/CPA service intent | `https://velu.us/services/nonprofit-outsourced-accounting-services` | Needs review for best destination. |
 | `https://velu.us/services/nonprofit-cfo/` | CFO/advisory service intent | `https://velu.us/services/nonprofit-client-advisory-services` | Working CSV may need destination correction if mapped elsewhere. |

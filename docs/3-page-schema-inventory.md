@@ -13,8 +13,8 @@ This inventory reflects repository-documented replacement-site schema, not verif
 | Page | Canonical URL | Status | Top-Level Schema Types | Review Markup | AggregateRating | Offer Count | Breadcrumb Count | ScheduleAction | Images Verified | Schema Validation Status | Primary Standard | Owner |
 | --- | --- | --- | --- | --- | --- | ---: | ---: | --- | --- | --- | --- | --- |
 | Home | https://velu.us/ | Generated and entered in GoHighLevel | WebSite, WebPage, AccountingService | Excluded | Excluded | 4 | Not applicable | Yes | Yes | GoHighLevel validation passed; live validation pending | Homepage Schema Standard | Tyler Wilcox |
-| About | https://velu.us/about-us/ | Generated and entered in GoHighLevel | AboutPage, ImageObject, BreadcrumbList, Person, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Utility Page Schema Standard | Tyler Wilcox |
-| Get Started | https://velu.us/get-started/ | Generated and entered in GoHighLevel | ContactPage, ImageObject, BreadcrumbList, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Utility Page Schema Standard | Tyler Wilcox |
+| About | https://velu.us/about-us | Generated and entered in GoHighLevel | AboutPage, ImageObject, BreadcrumbList, Person, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Utility Page Schema Standard | Tyler Wilcox |
+| Get Started | https://velu.us/get-started | Generated and entered in GoHighLevel | ContactPage, ImageObject, BreadcrumbList, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Utility Page Schema Standard | Tyler Wilcox |
 | Outsourced Accounting Services | https://velu.us/services/nonprofit-outsourced-accounting-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
 | Grant Advisory & Compliance | https://velu.us/services/nonprofit-grant-advisory-compliance-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
 | Nonprofit Tax Services | https://velu.us/services/nonprofit-tax-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 2 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
@@ -96,7 +96,7 @@ Do not invent schema structure until page records are created.
    - `https://velu.us/#organization`
 6. Confirm service breadcrumbs use Home > Current service page unless a real Services landing page is created.
 7. Confirm Review and AggregateRating markup are excluded unless a documented exception is approved.
-8. Confirm conversion actions point to `https://velu.us/get-started/`.
+8. Confirm conversion actions point to `https://velu.us/get-started`.
 9. Validate in GoHighLevel before publication.
 10. Validate with Schema.org Validator after publication.
 11. Test eligible markup with Google Rich Results Test after publication.

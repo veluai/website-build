@@ -26,7 +26,7 @@ No obligation · 45-minute conversation · See if we're the right fit
 
 CTA URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 Hero visual:
 
@@ -168,7 +168,7 @@ No obligation · 45-minute conversation · See if we're the right fit
 
 CTA URL:
 
-https://velu.us/get-started/
+https://velu.us/get-started
 
 ## Page Status
 
