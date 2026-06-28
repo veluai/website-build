@@ -1,0 +1,32 @@
+Old URL,New Destination,Redirect Type,Category,Notes
+https://www.velu.us/,https://velu.us/,301,Preserve / Redirect,Core homepage redirect; non-200 status: 301
+https://velu.us/,https://velu.us/,301,Preserve / Redirect,Core homepage redirect
+https://velu.us/services/nonprofit-bookkeeping-and-accounting/,https://velu.us/services/nonprofit-outsourced-accounting-services,301,Preserve / Redirect,Old accounting service mapped to Outsourced Accounting
+https://velu.us/services/nonprofit-taxes/,https://velu.us/services/nonprofit-tax-services,301,Preserve / Redirect,Old tax/Form 990 service mapped to Tax Services
+https://velu.us/privacy-policy/,https://velu.us/privacy-policy/,301,Preserve / Redirect,Legal page mapped to current legal page
+https://velu.us/terms-and-conditions/,https://velu.us/terms-and-conditions/,301,Preserve / Redirect,Legal page mapped to current legal page
+https://velu.us/services/,https://velu.us/,301,Preserve / Redirect,Old services overview mapped to homepage
+https://velu.us/services/nonprofit-cfo/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,Old CFO/advisory service mapped to Client Advisory
+https://velu.us/about-us/,https://velu.us/about-us,301,Preserve / Redirect,About/trust page redirect
+https://velu.us/get-started/,https://velu.us/get-started/,301,Preserve / Redirect,Booking/contact intent redirect
+https://velu.us/fractional-cfo-job-descriptions/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,CFO hiring and leadership-need intent maps to Client Advisory Services; preserve and redirect.
+https://www.velu.us/about-us/,https://velu.us/about-us,301,Preserve / Redirect,About/trust page redirect; non-200 status: 301
+https://velu.us/is-your-nonprofit-ready-for-a-fractional-cfo/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,Old CFO/advisory service mapped to Client Advisory
+https://velu.us/how-nonprofits-can-make-a-profit-and-generate-more-revenue/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,Leadership-oriented revenue and sustainability topic; preserve now and flag as future blog update/revision candidate.
+https://velu.us/rfp-template-for-fractional-cfo/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,High-GSC executive financial leadership intent; preserve and redirect to Client Advisory Services.
+https://velu.us/restricted-funds-what-nonprofit-leaders-need-to-know/,https://velu.us/services/nonprofit-grant-advisory-compliance-services,301,Preserve / Redirect,High-GSC restricted-fund topic supports Funding Confidence and Grant Advisory positioning; preserve and redirect to Grant Advisory & Compliance.
+https://velu.us/request-quote/,https://velu.us/get-started/,301,Preserve / Redirect,Booking/contact intent redirect
+http://www.velu.us/,https://velu.us/,301,Preserve / Redirect,Core homepage redirect; non-200 status: 301
+https://www.velu.us/about,https://velu.us/about-us,301,Preserve / Redirect,About/trust page redirect; non-200 status: 301
+https://velu.us/virtual-cpa-services/,https://velu.us/services/nonprofit-outsourced-accounting-services,301,Preserve / Redirect,Old nonprofit CPA/virtual CPA service mapped to Outsourced Accounting
+https://velu.us/resources/hiring-a-fractional-cfo/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,Old CFO/advisory service mapped to Client Advisory; non-200 status: 301
+https://velu.us/tax-compliance/,https://velu.us/services/nonprofit-tax-services,301,Preserve / Redirect,Old tax/Form 990 service mapped to Tax Services; non-200 status: 301
+https://velu.us/hiring-a-fractional-cfo/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,Old CFO/advisory service mapped to Client Advisory
+https://velu.us/form-990-for-nonprofits-guide/,https://velu.us/services/nonprofit-tax-services,301,Preserve / Redirect,Form 990 topic maps directly to the current Nonprofit Tax Services page; preserve and redirect to Tax Services.
+https://velu.us/benefits-of-outsourcing-bookkeeping/,https://velu.us/services/nonprofit-outsourced-accounting-services,301,Preserve / Redirect,Old bookkeeping service content mapped to Outsourced Accounting
+https://velu.us/services/tax-compliance/,https://velu.us/services/nonprofit-tax-services,301,Preserve / Redirect,Old tax/Form 990 service mapped to Tax Services; non-200 status: 301
+https://velu.us/digital-coffee/,https://velu.us/get-started/,301,Preserve / Redirect,Booking/contact intent redirect
+https://velu.us/resources/nonprofit-cpa/,https://velu.us/services/nonprofit-outsourced-accounting-services,301,Preserve / Redirect,Old nonprofit CPA service mapped to Outsourced Accounting; non-200 status: 301
+https://velu.us/resources/benefits-of-outsourcing-bookkeeping/,https://velu.us/services/nonprofit-outsourced-accounting-services,301,Preserve / Redirect,Old bookkeeping service content mapped to Outsourced Accounting; non-200 status: 301
+https://velu.us/nonprofit-cpa/,https://velu.us/services/nonprofit-outsourced-accounting-services,301,Preserve / Redirect,Old nonprofit CPA service mapped to Outsourced Accounting; canonical mismatch
+https://velu.us/nonprofit-cfo/,https://velu.us/services/nonprofit-client-advisory-services,301,Preserve / Redirect,Old CFO/advisory service mapped to Client Advisory; non-200 status: 301
