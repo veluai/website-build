@@ -157,7 +157,7 @@ Likely discard candidates include:
 | Old Content Type | Likely New Destination |
 | --- | --- |
 | Homepage | `https://velu.us/` |
-| About, founder, or team page | `https://velu.us/about-us` |
+| About, founder, or team page | `https://velu.us/about-us/` |
 | Contact, consultation, or schedule page | `https://velu.us/get-started/` |
 | Bookkeeping or accounting service page | `https://velu.us/services/nonprofit-outsourced-accounting-services` |
 | CFO, advisory, consulting, budgeting, forecasting, or financial planning page | `https://velu.us/services/nonprofit-client-advisory-services` |

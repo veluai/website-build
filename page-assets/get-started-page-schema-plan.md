@@ -261,7 +261,7 @@ The Get Started page may name Tyler within:
 
 Do not cross-reference:
 
-`https://velu.us/about-us#tyler-wilcox`
+`https://velu.us/about-us/#tyler-wilcox`
 
 Do not use Tyler as the action’s `agent`, `participant`, `provider`, or another uncertain action property.
 

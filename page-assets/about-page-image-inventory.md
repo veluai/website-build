@@ -3,7 +3,7 @@
 ## Page Status
 
 * Page: About
-* Final URL: `/about-us`
+* Final URL: `/about-us/`
 * Image planning status: Complete
 * Image selection status: Approved
 * GoHighLevel upload status: Complete for all 12 approved assets

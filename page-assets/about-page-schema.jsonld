@@ -3,8 +3,8 @@
   "@graph": [
     {
       "@type": "AboutPage",
-      "@id": "https://velu.us/about-us#webpage",
-      "url": "https://velu.us/about-us",
+      "@id": "https://velu.us/about-us/#webpage",
+      "url": "https://velu.us/about-us/",
       "name": "Velu | Omaha-Based Nonprofit CPA Firm Led by Tyler Wilcox, CPA",
       "description": "Meet Tyler Wilcox, CPA and learn how Velu’s nonprofit experience helps organizations build stronger financial foundations and make confident decisions.",
       "isPartOf": {
@@ -18,29 +18,29 @@
           "@id": "https://velu.us/#organization"
         },
         {
-          "@id": "https://velu.us/about-us#tyler-wilcox"
+          "@id": "https://velu.us/about-us/#tyler-wilcox"
         }
       ],
       "mainEntity": {
-        "@id": "https://velu.us/about-us#tyler-wilcox"
+        "@id": "https://velu.us/about-us/#tyler-wilcox"
       },
       "breadcrumb": {
-        "@id": "https://velu.us/about-us#breadcrumb"
+        "@id": "https://velu.us/about-us/#breadcrumb"
       },
       "primaryImageOfPage": {
-        "@id": "https://velu.us/about-us#primaryimage"
+        "@id": "https://velu.us/about-us/#primaryimage"
       },
       "image": {
-        "@id": "https://velu.us/about-us#primaryimage"
+        "@id": "https://velu.us/about-us/#primaryimage"
       },
       "inLanguage": "en-US",
       "potentialAction": {
-        "@id": "https://velu.us/about-us#schedule-action"
+        "@id": "https://velu.us/about-us/#schedule-action"
       }
     },
     {
       "@type": "ImageObject",
-      "@id": "https://velu.us/about-us#primaryimage",
+      "@id": "https://velu.us/about-us/#primaryimage",
       "url": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png",
       "contentUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c439fae7d4768394efb7b.png",
       "width": 1732,
@@ -54,7 +54,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://velu.us/about-us#breadcrumb",
+      "@id": "https://velu.us/about-us/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -66,18 +66,18 @@
           "@type": "ListItem",
           "position": 2,
           "name": "About",
-          "item": "https://velu.us/about-us"
+          "item": "https://velu.us/about-us/"
         }
       ]
     },
     {
       "@type": "Person",
-      "@id": "https://velu.us/about-us#tyler-wilcox",
+      "@id": "https://velu.us/about-us/#tyler-wilcox",
       "name": "Tyler Wilcox",
       "honorificSuffix": "CPA",
       "jobTitle": "Founder",
       "description": "Tyler Wilcox, CPA is the founder of Velu and has more than 15 years of accounting experience, including over a decade serving nonprofit organizations through nonprofit accounting, financial reporting, Form 990 preparation, federal tax compliance, consulting, and audit-related experience. He is a Certified Public Accountant, QuickBooks ProAdvisor Level 2, and holder of the AICPA Nonprofit Level 1 Certificate.",
-      "url": "https://velu.us/about-us",
+      "url": "https://velu.us/about-us/",
       "image": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png",
       "worksFor": {
         "@id": "https://velu.us/#organization"
@@ -99,12 +99,12 @@
         "Nonprofit financial management"
       ],
       "mainEntityOfPage": {
-        "@id": "https://velu.us/about-us#webpage"
+        "@id": "https://velu.us/about-us/#webpage"
       }
     },
     {
       "@type": "ScheduleAction",
-      "@id": "https://velu.us/about-us#schedule-action",
+      "@id": "https://velu.us/about-us/#schedule-action",
       "name": "Schedule a Discovery Call",
       "target": {
         "@type": "EntryPoint",
