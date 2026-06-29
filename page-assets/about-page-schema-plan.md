@@ -28,6 +28,8 @@ The schema should help search engines understand that:
 
 The schema should support the visible page without introducing claims or entities not presented on the page.
 
+Live About schema review found 4 validator errors caused by untyped `Thing` references used for `Person.worksFor` and `Person.affiliation`. Organization references have been updated to typed `AccountingService` references, and the `ScheduleAction.target.urlTemplate` has been updated to `https://velu.us/get-started`. GoHighLevel also required addresses on embedded typed `AccountingService` references, so address fields were added to GHL-facing organization references. Updated schema was entered into GoHighLevel, GoHighLevel replacement/retest is complete, and Schema.org Validator passed with 0 errors and 0 warnings.
+
 ## Proposed Top-Level Graph Structure
 
 Use the following top-level entities:
@@ -156,8 +158,8 @@ Do not add a Services breadcrumb because the About page is not a service page.
 * `description`: concise summary grounded in the approved page copy
 * `url`: `https://velu.us/about-us`
 * `image`: reference the approved Tyler founder image at `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png`
-* `worksFor`: reference `https://velu.us/#organization`
-* `affiliation`: reference `https://velu.us/#organization`
+* `worksFor`: typed `AccountingService` reference to `https://velu.us/#organization` with Velu address
+* `affiliation`: typed `AccountingService` reference to `https://velu.us/#organization` with Velu address
 * `knowsAbout`: an array of approved professional topics
 * `mainEntityOfPage`: reference `https://velu.us/about-us#webpage`
 
@@ -240,7 +242,7 @@ Avoid overloading the JSON-LD with unsupported sector entities.
 * `target`:
   * `@type`: `EntryPoint`
   * `urlTemplate`: `https://velu.us/get-started`
-* `object`: reference `https://velu.us/#organization`
+* `object`: typed `AccountingService` reference to `https://velu.us/#organization` with Velu address
 
 ### Notes
 
@@ -313,17 +315,17 @@ Completed locally:
 * Valid ImageObject dimensions and URL
 * Correct BreadcrumbList positions
 * Correct ScheduleAction target
+* Typed `AccountingService` references with Velu address for organization relationships
 * No duplicated global entities
 * No Review or AggregateRating
 * No FAQPage
 * No unsupported claims
 
-The generated graph contains exactly five top-level entities with unique `@id` values. Local About-page references resolve to graph entities, and global Website and Organization entities are referenced only by `@id`.
+The generated graph contains exactly five top-level entities with unique `@id` values. Local About-page references resolve to graph entities, and global Website and Organization entities are referenced without duplicating the full global entities.
 
 After publication, validate:
 
 * Live page source
-* Schema.org Validator
 * Google Rich Results Test, recognizing that an About page may not qualify for a special rich result
 * Canonical consistency
 * Image retrieval
@@ -357,11 +359,10 @@ Record these as complete:
 * Entity-ID uniqueness validation
 * Canonical URL and reference validation
 * Local exclusion checks
-* JSON-LD entered in GoHighLevel
-* GoHighLevel accepted the JSON-LD without errors
-* GoHighLevel page-level schema validation complete
-* Saved schema remains visible in GoHighLevel
 * Five-entity JSON-LD implementation complete
+* Updated schema entered into GoHighLevel
+* GoHighLevel replacement/retest complete
+* Schema.org Validator passed: 0 errors, 0 warnings
 
 Record these as pending:
 
@@ -370,7 +371,6 @@ Record these as pending:
 * Live canonical verification
 * Live metadata verification
 * Live image retrieval verification
-* Schema.org Validator
 * Google Rich Results Test
 * Robots/noindex verification
 * XML sitemap verification

@@ -44,7 +44,8 @@
       "caption": "Nonprofit client advisory services for budgeting, forecasting, financial foresight, and leadership decision-making.",
       "creator": {
         "@type": "Organization",
-        "@id": "https://velu.us/#organization"
+        "@id": "https://velu.us/#organization",
+        "name": "Velu"
       },
       "inLanguage": "en-US"
     },
@@ -85,28 +86,6 @@
         "@type": "Audience",
         "audienceType": "Nonprofit organizations seeking budgeting, forecasting, financial analysis, leadership reporting, and strategic financial guidance."
       },
-      "keywords": [
-        "nonprofit advisory services",
-        "nonprofit financial advisory services",
-        "nonprofit CFO services",
-        "nonprofit financial planning",
-        "nonprofit budgeting",
-        "nonprofit forecasting",
-        "nonprofit financial reporting",
-        "nonprofit financial analysis",
-        "nonprofit consulting services",
-        "nonprofit financial management",
-        "board financial reporting",
-        "nonprofit budget development",
-        "cash flow forecasting",
-        "strategic financial planning",
-        "grant budgeting",
-        "nonprofit growth strategy",
-        "financial sustainability",
-        "nonprofit leadership reporting",
-        "program budgeting",
-        "nonprofit accounting advisory"
-      ],
       "image": {
         "@id": "https://velu.us/services/nonprofit-client-advisory-services#primaryimage"
       },

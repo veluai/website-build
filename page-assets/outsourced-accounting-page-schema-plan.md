@@ -17,7 +17,7 @@
   - `https://velu.us/#website`
   - `https://velu.us/#organization`
 - The page must not duplicate a full WebSite or AccountingService organization entity.
-- Publication and live validation remain pending.
+- Publication and live source verification remain pending. Schema.org Validator retest has passed with 0 errors and 0 warnings.
 
 ## Final Top-Level Schema Structure
 
@@ -223,17 +223,19 @@ Reference the page-specific Outsourced Accounting Service
 - No `<script>` tags
 - Direct image URLs are used in image arrays
 - The ScheduleAction is embedded where needed and also defined as a top-level entity
-- GHL accepted the final JSON-LD
-- GoHighLevel validation passed
+- Live schema review showed 0 errors but 34 warnings caused by unsupported `Service.keywords`
+- `keywords` was removed from the Service entity
+- `ScheduleAction.urlTemplate` was updated to `https://velu.us/get-started`
+- Updated schema entered into GoHighLevel; GoHighLevel replacement/retest complete; Schema.org Validator passed with 0 errors and 0 warnings
 
 ## Current Status
 
 - Schema strategy complete
 - JSON-LD generated
-- Local JSON validation pending this task
-- Entered into GoHighLevel
-- GoHighLevel validation passed
+- Local JSON validation complete
+- Updated schema entered into GoHighLevel
+- GoHighLevel replacement/retest complete
+- Schema.org Validator passed: 0 errors, 0 warnings
 - Publication pending
 - Live source verification pending
-- Schema.org Validator pending
 - Google Rich Results Test pending

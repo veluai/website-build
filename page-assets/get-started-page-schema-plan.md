@@ -30,6 +30,8 @@ The schema should help search engines understand that:
 
 The schema must remain grounded in visible page content and must not introduce unsupported services, claims, availability, or appointment details.
 
+Live Get Started schema review showed 0 errors and 0 warnings, but the entered schema used trailing-slash page URLs. Schema URLs have been updated to the no-trailing-slash GoHighLevel standard. Updated schema was entered into GoHighLevel, GoHighLevel replacement/retest is complete, and Schema.org Validator passed with 0 errors and 0 warnings.
+
 ## Proposed Top-Level Graph Structure
 
 Use these four top-level entities:
@@ -336,7 +338,6 @@ The generated graph contains exactly four top-level entities with unique `@id` v
 After publication, validate:
 
 * Live page source
-* Schema.org Validator
 * Google Rich Results Test, recognizing that this page may not qualify for a special rich result
 * Canonical consistency
 * Image retrieval
@@ -381,20 +382,14 @@ Record as complete:
 * ScheduleAction target validation
 * Prohibited-entity review
 * Placeholder and wrapper review
-* GoHighLevel schema entry
-* JSON-LD accepted by GoHighLevel without errors
-* GoHighLevel page-level validation
-* GoHighLevel accepted exactly four top-level entities:
-  1. `ContactPage`
-  2. `ImageObject`
-  3. `BreadcrumbList`
-  4. `ScheduleAction`
+* Updated schema entered into GoHighLevel
+* GoHighLevel replacement/retest complete
+* Schema.org Validator passed: 0 errors, 0 warnings
 
 Record as pending:
 
 * Publication
 * Live source verification
-* Schema.org Validator
 * Google Rich Results Test
 * Canonical verification
 * Image retrieval verification

@@ -6,19 +6,19 @@ This document maintains a centralized inventory of repository-documented schema 
 
 The inventory should show which pages have schema documented, which top-level schema types are present, whether review markup is excluded, whether offer catalog and breadcrumb requirements are met, whether conversion actions are documented, and who owns final approval.
 
-This inventory reflects repository-documented replacement-site schema, not verified live production output.
+This inventory reflects repository-documented replacement-site schema and documented live Schema.org validation status where explicitly recorded.
 
 ## Inventory
 
 | Page | Canonical URL | Status | Top-Level Schema Types | Review Markup | AggregateRating | Offer Count | Breadcrumb Count | ScheduleAction | Images Verified | Schema Validation Status | Primary Standard | Owner |
 | --- | --- | --- | --- | --- | --- | ---: | ---: | --- | --- | --- | --- | --- |
-| Home | https://velu.us/ | Generated and entered in GoHighLevel | WebSite, WebPage, AccountingService | Excluded | Excluded | 4 | Not applicable | Yes | Yes | GoHighLevel validation passed; live validation pending | Homepage Schema Standard | Tyler Wilcox |
-| About | https://velu.us/about-us | Generated and entered in GoHighLevel | AboutPage, ImageObject, BreadcrumbList, Person, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Utility Page Schema Standard | Tyler Wilcox |
-| Get Started | https://velu.us/get-started | Generated and entered in GoHighLevel | ContactPage, ImageObject, BreadcrumbList, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Utility Page Schema Standard | Tyler Wilcox |
-| Outsourced Accounting Services | https://velu.us/services/nonprofit-outsourced-accounting-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
-| Grant Advisory & Compliance | https://velu.us/services/nonprofit-grant-advisory-compliance-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
-| Nonprofit Tax Services | https://velu.us/services/nonprofit-tax-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 2 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
-| Client Advisory Services | https://velu.us/services/nonprofit-client-advisory-services | Generated and entered in GoHighLevel | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | GoHighLevel validation passed; live validation pending | Service Page Schema Standard | Tyler Wilcox |
+| Home | https://velu.us/ | Entered in GoHighLevel; live Schema.org validation passed | WebSite, WebPage, AccountingService | Excluded | Excluded | 4 | Not applicable | Yes | Yes | Schema.org Validator passed: 0 errors, 0 warnings | Homepage Schema Standard | Tyler Wilcox |
+| About | https://velu.us/about-us | Entered in GoHighLevel; live Schema.org validation passed | AboutPage, ImageObject, BreadcrumbList, Person, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | Schema.org Validator passed: 0 errors, 0 warnings | Utility Page Schema Standard | Tyler Wilcox |
+| Get Started | https://velu.us/get-started | Entered in GoHighLevel; live Schema.org validation passed | ContactPage, ImageObject, BreadcrumbList, ScheduleAction | Excluded | Excluded | 0 | 2 | Yes | Yes | Schema.org Validator passed: 0 errors, 0 warnings | Utility Page Schema Standard | Tyler Wilcox |
+| Outsourced Accounting Services | https://velu.us/services/nonprofit-outsourced-accounting-services | Entered in GoHighLevel; live Schema.org validation passed | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | Schema.org Validator passed: 0 errors, 0 warnings | Service Page Schema Standard | Tyler Wilcox |
+| Grant Advisory & Compliance | https://velu.us/services/nonprofit-grant-advisory-compliance-services | Entered in GoHighLevel; live Schema.org validation passed | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | Schema.org Validator passed: 0 errors, 0 warnings | Service Page Schema Standard | Tyler Wilcox |
+| Nonprofit Tax Services | https://velu.us/services/nonprofit-tax-services | Entered in GoHighLevel; live Schema.org validation passed | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 2 | 2 | Yes | Yes | Schema.org Validator passed: 0 errors, 0 warnings | Service Page Schema Standard | Tyler Wilcox |
+| Client Advisory Services | https://velu.us/services/nonprofit-client-advisory-services | Entered in GoHighLevel; live Schema.org validation passed | WebPage, ImageObject, BreadcrumbList, Service, ScheduleAction | Excluded | Excluded | 4 | 2 | Yes | Yes | Schema.org Validator passed: 0 errors, 0 warnings | Service Page Schema Standard | Tyler Wilcox |
 
 ## Page Notes
 
@@ -29,18 +29,27 @@ This inventory reflects repository-documented replacement-site schema, not verif
 - Defines the global `AccountingService` organization entity at `https://velu.us/#organization`.
 - Excludes Review and AggregateRating markup.
 - Does not use `BreadcrumbList`.
+- `AccountingService.audience` was removed after live validator warning review.
+- `ScheduleAction` points to `https://velu.us/get-started`.
+- Updated JSON-LD was entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
 
 ### About
 
 - Uses `AboutPage`, `ImageObject`, `BreadcrumbList`, `Person`, and `ScheduleAction`.
 - References the global website and organization entities.
 - Excludes Review and AggregateRating markup.
+- Organization references were updated from untyped `Thing` references to typed `AccountingService` references after live validator error review.
+- Embedded typed `AccountingService` references include the Velu address to satisfy GoHighLevel schema requirements.
+- `ScheduleAction` points to `https://velu.us/get-started`.
+- Updated JSON-LD was entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
 
 ### Get Started
 
 - Uses `ContactPage`, `ImageObject`, `BreadcrumbList`, and `ScheduleAction`.
 - References the global website and organization entities.
 - Excludes Review and AggregateRating markup.
+- Schema URLs were updated to the no-trailing-slash GoHighLevel standard after live schema review showed 0 errors and 0 warnings.
+- Updated JSON-LD was entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
 
 ### Outsourced Accounting Services
 
@@ -48,6 +57,9 @@ This inventory reflects repository-documented replacement-site schema, not verif
 - OfferCatalog items are Financial Reporting, Fund Accounting, Financial Visibility, and Accounting Operations.
 - Breadcrumb count is 2: Home and current service page.
 - Excludes Review and AggregateRating markup.
+- `Service.keywords` was removed after live validator warning review.
+- `ScheduleAction` points to `https://velu.us/get-started`.
+- Updated JSON-LD was entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
 
 ### Grant Advisory & Compliance
 
@@ -55,7 +67,10 @@ This inventory reflects repository-documented replacement-site schema, not verif
 - OfferCatalog count is 4.
 - Breadcrumb count is 2 after local remediation: Home and current service page.
 - Excludes Review and AggregateRating markup.
-- Revised two-item breadcrumb JSON-LD was entered, validated, and saved in GoHighLevel; live validation remains pending publication.
+- Revised two-item breadcrumb JSON-LD was previously entered, validated, and saved in GoHighLevel.
+- `Service.keywords` was removed after live validator warning review.
+- `ScheduleAction` points to `https://velu.us/get-started`.
+- Updated JSON-LD was entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
 
 ### Nonprofit Tax Services
 
@@ -63,14 +78,20 @@ This inventory reflects repository-documented replacement-site schema, not verif
 - OfferCatalog count is 2.
 - Breadcrumb count is 2 after local remediation: Home and current service page.
 - Excludes Review and AggregateRating markup.
-- Revised two-item breadcrumb JSON-LD was entered, validated, and saved in GoHighLevel; live validation remains pending publication.
+- Revised two-item breadcrumb JSON-LD was previously entered, validated, and saved in GoHighLevel.
+- `Service.keywords` was removed after live validator warning review.
+- `ScheduleAction` points to `https://velu.us/get-started`.
+- Updated JSON-LD was entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
 
 ### Client Advisory Services
 
 - Schema plan exists at `page-assets/client-advisory-services-schema-plan.md`.
 - Production JSON-LD exists at `page-assets/client-advisory-services-schema.jsonld`.
-- Replacement JSON-LD was generated, locally validated, entered in GoHighLevel, saved, and accepted by page-level GoHighLevel validation.
-- Old schema was removed.
+- Replacement JSON-LD was previously generated, locally validated, entered in GoHighLevel, saved, and accepted by page-level GoHighLevel validation.
+- `Service.keywords` was removed after live validator warning review.
+- `ScheduleAction` points to `https://velu.us/get-started`.
+- Updated JSON-LD was entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
+- Old schema was removed during the prior GoHighLevel replacement.
 - Uses approved global IDs: `https://velu.us/#website` and `https://velu.us/#organization`.
 - Uses two-item service breadcrumb: Home -> Nonprofit Client Advisory Services.
 - Does not include a `/services/` breadcrumb item.

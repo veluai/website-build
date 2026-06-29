@@ -401,8 +401,8 @@ After production JSON-LD is created and entered:
 
 ## Current Status
 
-Launch-ready schema entered and saved in GoHighLevel; pending publication and live technical verification.
+Launch-ready schema was locally updated to remove unsupported Service keywords and align `ScheduleAction.urlTemplate` with `https://velu.us/get-started`. Updated schema was entered into GoHighLevel, GoHighLevel replacement/retest is complete, and Schema.org Validator passed with 0 errors and 0 warnings. Publication and live technical verification remain pending.
 
-The schema was entered into the GoHighLevel dedicated Schema Markup JSON View without `<script type="application/ld+json">` tags because the dedicated JSON View accepts pure JSON. GoHighLevel's built-in validation passed, and the schema was saved in GoHighLevel.
+Live schema review showed 0 errors but 33 warnings caused by unsupported `Service.keywords`. The `keywords` property was removed from the Service entity. The prior schema was entered into the GoHighLevel dedicated Schema Markup JSON View without `<script type="application/ld+json">` tags because the dedicated JSON View accepts pure JSON. The updated JSON-LD was re-entered in GoHighLevel and retested successfully in Schema.org Validator with 0 errors and 0 warnings.
 
-The visible review carousel remains on the page. The page remains unpublished. Schema.org Validator testing, Google Rich Results testing, live-source inspection, and all post-publication verification remain pending.
+The visible review carousel remains on the page. The page remains unpublished. Google Rich Results testing, live-source inspection, and all remaining post-publication verification remain pending.

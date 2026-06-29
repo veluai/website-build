@@ -340,7 +340,7 @@ Do not invent:
 
 ## Keywords Plan
 
-The implemented Service entity may use the following approved keywords where present in the final JSON-LD:
+The approved SEO keyword set remains documented in the Tax Services SEO record and page context, but the implemented Service entity should not use a `keywords` property. Live schema review showed 0 errors but 48 warnings caused by unsupported `Service.keywords`, so `keywords` was removed from the Service entity.
 
 * nonprofit tax services
 * Form 990 preparation
@@ -426,7 +426,6 @@ This boundary may inform schema wording but should not be inserted as contractua
 * Coordinated publication of the replacement website
 * Live page-source inspection
 * Duplicate-entity checks
-* Schema.org Validator testing
 * Google Rich Results testing
 * Canonical and Open Graph verification
 * Robots and noindex verification
@@ -441,16 +440,14 @@ JSON-LD generated.
 
 Local JSON syntax validation complete.
 
-Entered and saved in GoHighLevel.
+Locally updated to remove unsupported Service keywords and align `ScheduleAction.urlTemplate` with `https://velu.us/get-started`.
 
-Revised two-item breadcrumb JSON-LD re-entered and saved in GoHighLevel.
+Revised two-item breadcrumb JSON-LD was previously re-entered and saved in GoHighLevel.
 
-GoHighLevel validation passed.
+Updated schema entered into GoHighLevel; GoHighLevel replacement/retest complete; Schema.org Validator passed with 0 errors and 0 warnings.
 
 Publication pending.
 
 Live source verification pending.
-
-Schema.org Validator testing pending.
 
 Google Rich Results Test pending.

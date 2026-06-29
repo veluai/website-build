@@ -87,24 +87,6 @@
       "image": {
         "@id": "https://velu.us/services/nonprofit-tax-services#primaryimage"
       },
-      "keywords": [
-        "nonprofit tax services",
-        "Form 990 preparation",
-        "Form 990 filing",
-        "Form 990-EZ preparation",
-        "Form 990-EZ filing",
-        "Form 990-N preparation",
-        "Form 990-N filing",
-        "nonprofit tax preparation",
-        "nonprofit tax compliance",
-        "nonprofit federal tax filing",
-        "nonprofit tax-exempt status applications",
-        "nonprofit tax exemption",
-        "tax-exempt status reinstatement",
-        "Form 1023",
-        "Form 1023-EZ",
-        "Form 1024"
-      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "@id": "https://velu.us/services/nonprofit-tax-services#offer-catalog",

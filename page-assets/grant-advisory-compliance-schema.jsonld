@@ -90,19 +90,6 @@
       "image": {
         "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#primaryimage"
       },
-      "keywords": [
-        "nonprofit grant advisory services",
-        "nonprofit grant compliance services",
-        "nonprofit grant management",
-        "nonprofit grant reporting",
-        "grant budgeting for nonprofits",
-        "restricted funding management",
-        "grant reimbursement support",
-        "nonprofit funding strategy",
-        "grant financial management",
-        "funder confidence",
-        "future funding readiness"
-      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "@id": "https://velu.us/services/nonprofit-grant-advisory-compliance-services#offer-catalog",

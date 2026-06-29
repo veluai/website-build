@@ -84,10 +84,6 @@
         "@type": "Country",
         "name": "United States"
       },
-      "audience": {
-        "@type": "Audience",
-        "audienceType": "Nonprofit Organizations"
-      },
       "sameAs": [
         "https://www.linkedin.com/company/velucpa/",
         "https://www.google.com/maps/place/Velu+LLC,+1402+Jones+St+%231004,+Omaha,+NE+68102",

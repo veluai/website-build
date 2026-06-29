@@ -11,11 +11,31 @@
         "@id": "https://velu.us/#website"
       },
       "publisher": {
-        "@id": "https://velu.us/#organization"
+        "@type": "AccountingService",
+        "@id": "https://velu.us/#organization",
+        "name": "Velu",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1402 Jones St #1004",
+          "addressLocality": "Omaha",
+          "addressRegion": "NE",
+          "postalCode": "68102",
+          "addressCountry": "US"
+        }
       },
       "about": [
         {
-          "@id": "https://velu.us/#organization"
+          "@type": "AccountingService",
+          "@id": "https://velu.us/#organization",
+          "name": "Velu",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1402 Jones St #1004",
+            "addressLocality": "Omaha",
+            "addressRegion": "NE",
+            "postalCode": "68102",
+            "addressCountry": "US"
+          }
         },
         {
           "@id": "https://velu.us/about-us#tyler-wilcox"
@@ -48,7 +68,17 @@
       "name": "About Velu",
       "caption": "About Velu, a nonprofit-focused CPA firm led by Tyler Wilcox, CPA.",
       "creator": {
-        "@id": "https://velu.us/#organization"
+        "@type": "AccountingService",
+        "@id": "https://velu.us/#organization",
+        "name": "Velu",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1402 Jones St #1004",
+          "addressLocality": "Omaha",
+          "addressRegion": "NE",
+          "postalCode": "68102",
+          "addressCountry": "US"
+        }
       },
       "inLanguage": "en-US"
     },
@@ -80,10 +110,30 @@
       "url": "https://velu.us/about-us",
       "image": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png",
       "worksFor": {
-        "@id": "https://velu.us/#organization"
+        "@type": "AccountingService",
+        "@id": "https://velu.us/#organization",
+        "name": "Velu",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1402 Jones St #1004",
+          "addressLocality": "Omaha",
+          "addressRegion": "NE",
+          "postalCode": "68102",
+          "addressCountry": "US"
+        }
       },
       "affiliation": {
-        "@id": "https://velu.us/#organization"
+        "@type": "AccountingService",
+        "@id": "https://velu.us/#organization",
+        "name": "Velu",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1402 Jones St #1004",
+          "addressLocality": "Omaha",
+          "addressRegion": "NE",
+          "postalCode": "68102",
+          "addressCountry": "US"
+        }
       },
       "knowsAbout": [
         "Nonprofit accounting",
@@ -111,7 +161,17 @@
         "urlTemplate": "https://velu.us/get-started"
       },
       "object": {
-        "@id": "https://velu.us/#organization"
+        "@type": "AccountingService",
+        "@id": "https://velu.us/#organization",
+        "name": "Velu",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1402 Jones St #1004",
+          "addressLocality": "Omaha",
+          "addressRegion": "NE",
+          "postalCode": "68102",
+          "addressCountry": "US"
+        }
       }
     }
   ]

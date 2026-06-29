@@ -103,11 +103,12 @@ The testimonials are not treated as Client Advisory-specific review evidence and
 
 ## Current GoHighLevel Schema Status
 
-- Replacement production JSON-LD entered in GHL
-- Old schema removed
-- Replacement schema saved
-- GHL page-level validation passed
-- No other schema blocks are present
+- Live schema review showed 0 errors but 60 warnings caused by unsupported `Service.keywords`
+- `keywords` was removed from the Service entity
+- `ScheduleAction.urlTemplate` was updated to `https://velu.us/get-started`
+- `ImageObject.creator` now uses an explicit `Organization` object with `name`: `Velu`
+- Updated schema entered into GoHighLevel; GoHighLevel replacement/retest complete; Schema.org Validator passed with 0 errors and 0 warnings
+- The prior replacement schema had been entered in GHL, saved, and accepted by page-level validation before this local warning remediation
 - Page remains unpublished
 - Live validation remains pending publication
 
@@ -136,12 +137,13 @@ The old schema was replaced because it included or used:
 - OfferCatalog validation with exactly four offers: Complete
 - Two-item breadcrumb validation: Complete
 - Review and AggregateRating exclusion validation: Complete
+- Unsupported Service keywords removal: Complete
+- ScheduleAction no-trailing-slash target validation: Complete
 
 ## Pending Requirements
 
 - Publication
 - Live source verification
-- Schema.org Validator testing
 - Google Rich Results testing
 - Canonical verification
 - Image retrieval verification
@@ -151,4 +153,4 @@ The old schema was replaced because it included or used:
 
 ## Current Status
 
-The production JSON-LD has been generated, locally validated, entered in GoHighLevel, and accepted by page-level validation. Publication and live technical verification remain pending.
+The production JSON-LD has been generated, locally validated, and locally updated to remove unsupported Service keywords and satisfy the GoHighLevel `ImageObject.creator.name` requirement. Updated schema was entered into GoHighLevel, GoHighLevel replacement/retest is complete, and Schema.org Validator passed with 0 errors and 0 warnings. Publication and live technical verification remain pending.

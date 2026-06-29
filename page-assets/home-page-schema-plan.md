@@ -14,7 +14,7 @@
 - Old site remains live.
 - Home page defines the global Website and Organization entities for the replacement site.
 - Other page schemas reference these global IDs.
-- Publication and live validation remain pending.
+- Publication and live source verification remain pending. Schema.org Validator retest has passed with 0 errors and 0 warnings.
 
 ## Global Entity IDs
 
@@ -124,12 +124,17 @@ Logo URL:
 
 The final JSON-LD intentionally uses direct image URLs and an embedded ScheduleAction rather than reference-only `@id` objects in the fields that previously triggered GoHighLevel validation errors.
 
+Live Home schema review found 0 errors but returned warnings because `audience` is not recognized for `AccountingService`. The `audience` property was removed from the Home `AccountingService` object; nonprofit relevance remains represented through the description, `knowsAbout`, OfferCatalog service offers, and visible page copy.
+
+`ScheduleAction.target.urlTemplate` uses the approved GoHighLevel-compatible no-trailing-slash URL: `https://velu.us/get-started`.
+
 ## Current Schema Status
 
 - Generated
-- Entered into GoHighLevel
-- GoHighLevel validation passed
+- Updated locally after live validator warning review
+- Updated schema entered into GoHighLevel
+- GoHighLevel replacement/retest complete
+- Schema.org Validator passed: 0 errors, 0 warnings
 - Publication pending
 - Live source verification pending
-- Schema.org Validator pending
 - Google Rich Results Test pending

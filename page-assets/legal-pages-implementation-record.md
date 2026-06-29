@@ -24,7 +24,8 @@ This record documents the current implementation status of Velu's legal pages on
 - Language: Confirmed
 - Canonical URL: Confirmed
 - Indexing control in GHL: Not exposed
-- Indexing verification: Pending post-publication
+- Indexing request status: Requested in Google Search Console
+- Indexing monitoring: Pending
 - Keywords: Intentionally blank
 - Social image: Intentionally blank
 - Custom meta tags: Intentionally blank
@@ -34,10 +35,11 @@ This record documents the current implementation status of Velu's legal pages on
 - Footer-link verification: Complete
 - Form-link verification: Complete
 - Sitemap setting in GHL: Not exposed
-- Sitemap inclusion: Cannot be confirmed before publication
-- Sitemap verification: Pending post-publication
-- Publication status: Pending
-- Live verification: Pending publication
+- Sitemap inclusion: Confirmed in `https://velu.us/sitemap.xml`
+- Sitemap verification: Sitemap loads and includes approved Privacy Policy URL
+- robots.txt status: Configured and live; crawl allowed; sitemap referenced
+- Publication status: Live transition checks documented
+- Live verification: Initial routing and link checks passed; ongoing Search Console monitoring pending
 
 ## Terms and Conditions
 
@@ -57,6 +59,8 @@ This record documents the current implementation status of Velu's legal pages on
 - Language: Confirmed
 - Canonical URL: Confirmed
 - Robots/indexing status: Confirmed
+- Indexing request status: Requested in Google Search Console
+- Indexing monitoring: Pending
 - Footer link verification: Complete
 - Privacy Policy link verification: Complete
 - Keywords: Intentionally blank
@@ -64,9 +68,11 @@ This record documents the current implementation status of Velu's legal pages on
 - Custom meta tags: Intentionally blank
 - Schema: Intentionally blank
 - Sitemap setting in GHL: Not exposed
-- Sitemap verification: Pending post-publication
-- Publication status: Pending
-- Live verification: Pending publication
+- Sitemap inclusion: Confirmed in `https://velu.us/sitemap.xml`
+- Sitemap verification: Sitemap loads and includes approved Terms and Conditions URL
+- robots.txt status: Configured and live; crawl allowed; sitemap referenced
+- Publication status: Live transition checks documented
+- Live verification: Initial routing and link checks passed; ongoing Search Console monitoring pending
 
 ## Cookie Control Status
 
@@ -82,8 +88,8 @@ Current state:
 - Do Not Sell or Share link: Not implemented
 - Browser-setting guidance: Included in policy
 - Privacy request email: `info@velu.us`
-- Publication status: Pending
-- Live verification: Pending publication
+- Publication status: Live transition checks documented
+- Live verification: Ongoing monitoring pending
 
 Do not label cookie controls as complete.
 
@@ -179,9 +185,10 @@ Do not label SMS disclosure implementation as complete.
 - Privacy Policy language confirmed
 - Privacy Policy canonical URL confirmed
 - Privacy Policy indexing control not exposed in GHL
-- Privacy Policy indexing verification pending post-publication
+- Privacy Policy indexing requested in Google Search Console
+- Privacy Policy indexing monitoring pending
 - Privacy Policy sitemap control not exposed in GHL
-- Privacy Policy sitemap verification pending post-publication
+- Privacy Policy sitemap inclusion confirmed
 - Privacy Policy footer link verified
 - Privacy Policy form links verified
 - Terms and Conditions copy documented
@@ -190,7 +197,11 @@ Do not label SMS disclosure implementation as complete.
 - Terms and Conditions Privacy Policy link verified
 - Terms and Conditions canonical URL confirmed
 - Terms and Conditions indexing confirmed
-- Terms and Conditions sitemap verification pending post-publication
+- Terms and Conditions indexing requested in Google Search Console
+- Terms and Conditions indexing monitoring pending
+- Terms and Conditions sitemap inclusion confirmed
 - Privacy Policy links added to applicable forms
 - Terms and Conditions links added to applicable forms
-- Live page check pending publication
+- robots.txt configured and live; crawl allowed; sitemap referenced
+- Live page routing and link checks passed
+- Ongoing Search Console indexing, sitemap processing, 404, redirect-chain, and conversion monitoring pending

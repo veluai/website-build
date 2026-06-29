@@ -4,7 +4,7 @@
 
 This checklist supports manual implementation of approved launch redirects in GoHighLevel using `docs/pre-publication-launch-redirect-map.csv`.
 
-Current redirect implementation status: 31 approved redirects entered in GoHighLevel and tested successfully under the no-trailing-slash source/destination standard. Ongoing post-publication monitoring remains pending.
+Current redirect implementation status: 31 approved redirects entered in GoHighLevel and tested successfully under the no-trailing-slash source/destination standard. Same-URL redirects for current live pages were removed where appropriate. Ongoing 404, redirect-chain, Search Console, sitemap-processing, and conversion monitoring remains pending.
 
 ## Source of Truth
 
@@ -50,13 +50,33 @@ Current redirect implementation status: 31 approved redirects entered in GoHighL
 - Several final page routes initially fell back to Home in GoHighLevel.
 - The issue was corrected by temporarily remapping affected page URLs to `*-test`, publishing/testing, and then switching them back to their approved paths.
 - The affected approved page paths are now working through normal site links.
+- Core page routing passed for all nine approved live URLs.
+- Navigation, footer links, CTAs, and forms were checked and passed.
 - Remaining known issue: GHL source redirects are stored without trailing slashes, and destination URLs with trailing slashes may fall back to Home instead of resolving to the intended page.
 - Approved non-root GHL destination URLs should be entered without trailing slashes.
 - The root Home URL remains `https://velu.us/`.
+- GoHighLevel sitemap lists Home as `https://velu.us`, which is acceptable as long as the root page resolves and canonical remains consistent.
+- Non-root sitemap URLs use no trailing slash.
+- Same-URL redirects for `/about-us`, `/get-started`, `/privacy-policy`, and `/terms-and-conditions` were removed because those pages now load directly.
 - Current accepted approach: continue using GHL's no-trailing-slash source paths and no-trailing-slash non-root destination URLs.
 - Future redirect testing should verify no-trailing-slash destination URLs.
 - Any future trailing-slash workaround should be separately reviewed before implementation.
 - Do not treat the trailing-slash limitation as resolved.
+
+### Sitemap, Robots, and Search Console Notes
+
+- `https://velu.us/sitemap.xml` loads successfully.
+- Sitemap loads and includes all 9 approved launch URLs.
+- Sitemap lastmod values showed `2026-06-29`.
+- `https://velu.us/robots.txt` was configured in GoHighLevel domain settings.
+- Live robots.txt allows crawling and references `https://velu.us/sitemap.xml`.
+- Sitemap was detected in URL Inspection for inspected launch URLs.
+- Home `https://velu.us/` showed URL is on Google, page is indexed, and served over HTTPS.
+- New/rebuilt pages initially showed a mix of `Crawled - currently not indexed` and `Discovered - currently not indexed`.
+- No visible crawl block, no noindex issue, no HTTPS issue, no redirect error, and no canonical mismatch were observed from the provided inspection screens.
+- Indexing was requested for all approved launch URLs.
+- Search Console indexing monitoring remains pending.
+- Backlink-preservation audit created at `docs/backlink-preservation-audit-2026-06-29.md` and `docs/backlink-preservation-audit-2026-06-29.csv`; no new redirects were added from that audit.
 
 ## Spot-Check Before Publication
 
@@ -91,6 +111,8 @@ Current redirect implementation status: 31 approved redirects entered in GoHighL
 - [ ] Monitor Search Console coverage/indexing issues.
 - [ ] Monitor top old URLs for unexpected traffic.
 - [ ] Watch for redirect chains or loops.
+- [ ] Monitor canonical mismatch warnings.
+- [ ] Monitor sitemap processing.
 - [ ] Watch for wrong-fit traffic patterns.
 - [ ] Track discovery-call conversions and form submissions.
 - [ ] Review redirect performance after 30 days.
@@ -114,12 +136,18 @@ Current redirect implementation status: 31 approved redirects entered in GoHighL
 - Spot-check completed by: Tyler Wilcox
 - Date spot-check completed: 2026-06-28
 - Redirect testing status: Passed under GoHighLevel no-trailing-slash source/destination standard
-- Post-publication validation completed: Not fully completed
+- Post-publication validation completed: Partially completed; ongoing monitoring remains pending
 - Notes:
   - All 31 approved redirects were entered in GoHighLevel from `docs/pre-publication-launch-redirect-map.csv`.
   - Source paths were entered without trailing slashes.
   - Non-root destination URLs were entered without trailing slashes.
   - Home remains `https://velu.us/`.
   - Redirect testing passed under the confirmed GoHighLevel no-trailing-slash standard.
+  - Same-URL redirects for `/about-us`, `/get-started`, `/privacy-policy`, and `/terms-and-conditions` were removed because those pages now load directly.
+  - Core routing passed for all nine approved live URLs.
+  - Navigation, footer links, CTAs, and forms were checked and passed.
+  - Sitemap loads and includes all 9 approved launch URLs.
+  - robots.txt is configured and live; crawl is allowed; sitemap is referenced.
+  - Indexing was requested for all approved launch URLs.
   - Known limitation remains: trailing-slash variants may fall back to Home and should not be treated as resolved.
-  - Ongoing post-publication monitoring remains pending, including 404s, Search Console coverage, indexing behavior, redirect chains, and conversion quality.
+  - Ongoing monitoring remains pending, including 404s, Search Console coverage, indexing behavior, redirect chains, canonical mismatch warnings, sitemap processing, and conversion quality.
