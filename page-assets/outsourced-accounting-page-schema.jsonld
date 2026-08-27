@@ -63,7 +63,9 @@
       "name": "Outsourced Accounting for Nonprofits",
       "caption": "Outsourced accounting for nonprofits focused on building a reliable financial foundation.",
       "creator": {
-        "@id": "https://velu.us/#organization"
+        "@type": "Organization",
+        "@id": "https://velu.us/#organization",
+        "name": "Velu"
       },
       "inLanguage": "en-US"
     },

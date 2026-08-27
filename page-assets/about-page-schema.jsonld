@@ -68,17 +68,9 @@
       "name": "About Velu",
       "caption": "About Velu, a nonprofit-focused CPA firm led by Tyler Wilcox, CPA.",
       "creator": {
-        "@type": "AccountingService",
+        "@type": "Organization",
         "@id": "https://velu.us/#organization",
-        "name": "Velu",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "1402 Jones St #1004",
-          "addressLocality": "Omaha",
-          "addressRegion": "NE",
-          "postalCode": "68102",
-          "addressCountry": "US"
-        }
+        "name": "Velu"
       },
       "inLanguage": "en-US"
     },
