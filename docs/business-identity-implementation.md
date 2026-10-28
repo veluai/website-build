@@ -28,8 +28,9 @@ approach and placement in the shared footer on every page.
 The machine-readable source is [business-identity.json](../source-data/business-identity.json).
 The address is owner-confirmed. Phone and email were retained from the existing
 repository and the public [privacy policy](https://velu.us/privacy-policy).
-Direct access to the Google Business Profile management screen was not used to
-verify its current values; owner confirmation is recorded separately from that check.
+The initial identity implementation used owner confirmation. The subsequent
+[Google follow-up](google-search-follow-up.md) directly verified the signed-in
+Google Business Profile owner view; name, address, phone, and website matched.
 
 ## Website implementation
 
@@ -113,14 +114,16 @@ and the older validation history in the schema inventory.
 
 ## Directory reconciliation
 
-This task updates the website and repository; directory edits require a separate
-account workflow and have not been performed.
+The initial task updated the website and repository. During the authorized
+[Google and directory follow-up](google-search-follow-up.md), Google Business
+Profile was verified and LinkedIn was corrected. Other directory work remains
+pending as listed below.
 
 | Listing | Evidence or follow-up | Status |
 | --- | --- | --- |
-| Google Business Profile | Owner confirmed the Jones St address; compare name, address, phone, email/website fields where supported in the profile manager | Owner confirmation recorded; direct account check pending |
-| [LinkedIn](https://www.linkedin.com/company/velucpa/) | Public search result showed 617 S 14th St, Suite 204; reconcile with the owner-confirmed Jones St address | Correction pending |
-| [LocalityBiz](https://localitybiz.com/nebraska/cpa-tax-services-in-omaha) | Public search result showed 617 S 14th St #204 and the same phone | Correction pending |
+| Google Business Profile | Owner confirmed the Jones St address; compare name, address, phone, email/website fields where supported in the profile manager | Verified in signed-in owner view on 2026-10-28; no edit needed |
+| [LinkedIn](https://www.linkedin.com/company/velucpa/) | Old location replaced with 1402 Jones St, #1004, Omaha, NE 68102, US; website and phone aligned | Saved and verified in member view on 2026-10-28 |
+| [LocalityBiz](https://localitybiz.com/nebraska/cpa-tax-services-in-omaha) | Live listing confirmed the old 617 S 14th St #204 address; no public edit control or owner session available | Correction pending |
 | [Dosfinds](https://www.dosfinds.us/firms/velu-llc) | Public result showed Jones Street #1004, phone, info@velu.us, and an additional personal email | Check exact canonical fields; pending |
 | [QuickBooks ProAdvisor](https://proadvisor.intuit.com/app/accountant/search?searchId=tyler-wilcox77) | Existing schema links to this profile; current fields not inspected | Review pending |
 
@@ -128,15 +131,17 @@ Search-result excerpts can be stale. Verify the current listing in its managemen
 screen before editing. Use the canonical details above and keep a dated record
 of each correction. Do not claim directories match until verified.
 
-## Separate SEO follow-up
+## Grant Advisory canonical follow-up - resolved
 
-The live Grant Advisory page has canonical URL
+The initial live Grant Advisory check found canonical URL
 `https://velu.us/services/grant-advisory-compliance-services`, while its requested
 page URL and page-specific schema use
 `https://velu.us/services/nonprofit-grant-advisory-compliance-services`. This was
-observed during verification and is recorded in the evidence JSON. It was not
-changed in this identity update. Reconcile it in a separate URL/canonical review
-rather than silently changing established routes or redirects.
+observed during verification and is recorded in the evidence JSON. It was initially
+left outside the footer update. The subsequent authorized
+[Google follow-up](google-search-follow-up.md) corrected and published the
+canonical to the approved nonprofit-prefixed URL and verified exactly one
+matching canonical in the live DOM. Routes and redirects were preserved.
 
 ## Rollback
 
@@ -156,3 +161,10 @@ Record any rollback here; a Git revert alone does not change the public website.
 | 2026-10-28 | Updated schema standard, inventory revision note, SEO framework, roadmap, and homepage schema plan | Repository records distinguish prior live validation from this revision |
 | 2026-10-28 | Saved global Footer and published Home identity update | GoHighLevel save timestamp and public Home/About checks |
 | 2026-10-28 | Published the remaining named organization schema changes and verified every public page plus Home alias | All footer/contact/legal-link and JSON-LD identity checks passed; desktop/mobile screenshots retained |
+
+## Google submission and directory update
+
+See [Google search follow-up](google-search-follow-up.md) for the regenerated
+sitemap, successful Search Console submission, corrected grant canonical, direct
+Business Profile verification, LinkedIn correction, failed individual indexing
+requests, and the one-time Friday About-page retry.

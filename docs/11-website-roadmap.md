@@ -116,3 +116,12 @@ Roadmap updates should be made when major website initiatives are completed, new
 | Date | Version | Summary | Owner |
 | --- | --- | --- | --- |
 | 2026-06-20 | 1.0 | Initial website roadmap created for Velu website completed, active, planned, and proposed initiatives. | Tyler Wilcox |
+
+## Google follow-up - October 28, 2026
+
+Sitemap regeneration and resubmission, the grant canonical correction, Business
+Profile verification, and LinkedIn contact/location corrections are complete.
+Individual indexing requests remain pending because Google's reCAPTCHA service
+failed, including a manual user attempt. A one-time About-page retry is scheduled
+for October 30 at 9 AM Central. Remaining directories require separate access.
+See [the dated follow-up record](google-search-follow-up.md).

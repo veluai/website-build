@@ -189,3 +189,7 @@ After implementation, verify:
 ## Current Status
 
 Approved SEO strategy documented; GoHighLevel implementation and technical verification pending.
+
+## Live canonical correction - October 28, 2026
+
+Corrected the old canonical to `https://velu.us/services/nonprofit-grant-advisory-compliance-services` in GoHighLevel, saved, and published. Public DOM verification found exactly one matching canonical. No route or redirect changed. See [Google search follow-up](../docs/google-search-follow-up.md) for evidence and indexing-request status. Earlier pending/live notes above are historical.

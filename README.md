@@ -40,3 +40,5 @@ git diff --check
 
 These checks do not establish publication, search indexing, or agreement with
 external directories. Consult the implementation record for the current status.
+
+Google follow-up: [sitemap submission, canonical correction, Business Profile verification, LinkedIn update, and Friday retry](docs/google-search-follow-up.md).
