@@ -13,7 +13,7 @@
       "publisher": {
         "@type": "AccountingService",
         "@id": "https://velu.us/#organization",
-        "name": "Velu",
+        "name": "Velu LLC",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "1402 Jones St #1004",
@@ -27,7 +27,7 @@
         {
           "@type": "AccountingService",
           "@id": "https://velu.us/#organization",
-          "name": "Velu",
+          "name": "Velu LLC",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "1402 Jones St #1004",
@@ -70,7 +70,7 @@
       "creator": {
         "@type": "Organization",
         "@id": "https://velu.us/#organization",
-        "name": "Velu"
+        "name": "Velu LLC"
       },
       "inLanguage": "en-US"
     },
@@ -104,7 +104,7 @@
       "worksFor": {
         "@type": "AccountingService",
         "@id": "https://velu.us/#organization",
-        "name": "Velu",
+        "name": "Velu LLC",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "1402 Jones St #1004",
@@ -117,7 +117,7 @@
       "affiliation": {
         "@type": "AccountingService",
         "@id": "https://velu.us/#organization",
-        "name": "Velu",
+        "name": "Velu LLC",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "1402 Jones St #1004",
@@ -155,7 +155,7 @@
       "object": {
         "@type": "AccountingService",
         "@id": "https://velu.us/#organization",
-        "name": "Velu",
+        "name": "Velu LLC",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "1402 Jones St #1004",

@@ -1,0 +1,138 @@
+{
+  "checkedOn": "2026-10-28",
+  "timezone": "America/Chicago",
+  "method": "Read rendered public DOM and JSON-LD in Chrome after GoHighLevel publication; no form submissions.",
+  "pages": [
+    {
+      "canonical": "https://velu.us/",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/"
+    },
+    {
+      "canonical": "https://velu.us/about-us",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC",
+        "Velu LLC",
+        "Velu LLC",
+        "Velu LLC",
+        "Velu LLC",
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/about-us"
+    },
+    {
+      "canonical": "https://velu.us/get-started",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/get-started"
+    },
+    {
+      "canonical": "https://velu.us/services/nonprofit-outsourced-accounting-services",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/services/nonprofit-outsourced-accounting-services"
+    },
+    {
+      "canonical": "https://velu.us/services/nonprofit-client-advisory-services",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/services/nonprofit-client-advisory-services"
+    },
+    {
+      "canonical": "https://velu.us/services/grant-advisory-compliance-services",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/services/nonprofit-grant-advisory-compliance-services"
+    },
+    {
+      "canonical": "https://velu.us/services/nonprofit-tax-services",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/services/nonprofit-tax-services"
+    },
+    {
+      "canonical": "https://velu.us/privacy-policy",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/privacy-policy"
+    },
+    {
+      "canonical": "https://velu.us/terms-and-conditions",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/terms-and-conditions"
+    },
+    {
+      "canonical": "https://velu.us/",
+      "email": true,
+      "footer": true,
+      "jsonErrors": [],
+      "orgNames": [
+        "Velu LLC"
+      ],
+      "phone": true,
+      "privacy": true,
+      "terms": true,
+      "url": "https://velu.us/home"
+    }
+  ]
+}

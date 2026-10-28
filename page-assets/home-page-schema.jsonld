@@ -56,7 +56,7 @@
     {
       "@type": "AccountingService",
       "@id": "https://velu.us/#organization",
-      "name": "Velu",
+      "name": "Velu LLC",
       "legalName": "Velu LLC",
       "url": "https://velu.us/",
       "description": "Velu is a nonprofit-focused accounting and advisory firm that helps organizations build reliable cloud-based financial systems, maintain accurate accounting records, strengthen grant management, and gain the financial visibility needed to make informed decisions and plan for sustainable growth.",

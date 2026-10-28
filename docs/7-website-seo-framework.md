@@ -20,6 +20,10 @@ This framework applies to:
 
 This framework does not approve new services, claims, page launches, or schema types by itself. Those decisions must remain aligned with the website build overview, schema standard, service page framework, homepage framework, and Tyler Wilcox's approval.
 
+## Consistent business identity
+
+Every public page must visibly include Velu LLC, the confirmed Omaha street address, phone, and email in its shared footer. Maintain details in [business-identity.json](../source-data/business-identity.json), use [the shared block](../page-assets/global-business-identity.html), and follow [the publishing and directory checklist](business-identity-implementation.md). Keep named organization references consistent with the same entity ID. Do not treat a directory or search result as authority to change the address.
+
 ## SEO Objectives
 
 Velu's website SEO objectives are to:

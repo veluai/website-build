@@ -92,11 +92,17 @@ The Home page defines the organization entity as `AccountingService`.
 
 Service pages and utility pages should reference the global IDs rather than duplicating the full `WebSite`, `Organization`, `AccountingService`, or `ProfessionalService` entities unless a documented exception is approved.
 
+## Business identity update (2026-10-28)
+
+Use `Velu LLC` as the organization `name` and `legalName`, including named references to `https://velu.us/#organization`. See [canonical identity](../source-data/business-identity.json) and [implementation status](business-identity-implementation.md). Tyler confirmed publication of the full Jones St address. The visible shared footer must carry the same name, address, phone, and email on every page. Existing logo and prose may retain the Velu brand shorthand; do not rewrite testimonials. Website entity IDs and URLs stay unchanged.
+
+The original validation records below describe the previously published revision. The 2026-10-28 identity changes were published and verified in the live DOM; fresh external Schema.org/Rich Results validation remains a separate check.
+
 ## Standard Organization Data
 
 | Field | Approved Value |
 | --- | --- |
-| Name | Velu |
+| Name | Velu LLC |
 | Legal name | Velu LLC |
 | Organization schema type | `AccountingService` |
 | Website | https://velu.us |

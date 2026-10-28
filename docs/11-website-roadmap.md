@@ -32,6 +32,8 @@ Status definitions:
 
 Completed items:
 
+- SEO audit recommendation 3, website and repository implementation (2026-10-28): full identity in the shared footer, consistent named organization schema, AGENTS.md, and documented live checks. External directory reconciliation remains pending in [the implementation record](business-identity-implementation.md).
+
 - Homepage Framework
 - Service Page Framework
 - Schema Standards
@@ -47,6 +49,7 @@ Completed framework documents should remain source documents for future website 
 ## Active
 
 Active initiatives:
+
 
 - Grant Advisory & Compliance page development
 - Website framework expansion

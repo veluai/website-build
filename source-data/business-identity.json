@@ -1,0 +1,19 @@
+{
+  "name": "Velu LLC",
+  "url": "https://velu.us/",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1402 Jones St #1004",
+    "addressLocality": "Omaha",
+    "addressRegion": "NE",
+    "postalCode": "68102",
+    "addressCountry": "US"
+  },
+  "telephone": "+1-402-578-0622",
+  "telephoneDisplay": "(402) 578-0622",
+  "telephoneHref": "tel:+14025780622",
+  "email": "info@velu.us",
+  "organizationId": "https://velu.us/#organization",
+  "confirmedOn": "2026-10-28",
+  "source": "Address confirmed by Tyler Wilcox in chat; phone and email retained from repository and published privacy policy."
+}

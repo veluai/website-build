@@ -1,5 +1,9 @@
 # Home Page Copy
 
+## Business identity update - 2026-10-28
+
+The full business identity is maintained in the shared global footer. See [the implementation record](../docs/business-identity-implementation.md) for this revision's publication and verification status; older page-build status below is historical.
+
 ## Page Status
 
 - Page name: Home
@@ -214,6 +218,10 @@ Final CTA microcopy:
 Card titles and differentiator headings should be H3s or equivalent semantic subheadings beneath their section H2s.
 
 ## Global Footer
+
+Business identity: **Velu LLC** · 1402 Jones St #1004 · Omaha, NE 68102 · (402) 578-0622 · info@velu.us.
+
+Use the shared [business identity block](global-business-identity.html) in the existing global footer. Preserve the legal links below. Repository update: 2026-10-28; publication and live checks tracked separately in [the implementation record](../docs/business-identity-implementation.md).
 
 - Copyright 2026 - Velu LLC - All Rights Reserved
 - Privacy Policy

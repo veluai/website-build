@@ -19,6 +19,10 @@ The Velu website exists to:
 
 The website should help nonprofit leaders understand how stronger financial information, better reporting, clearer program-finance connection, responsible funding management, and advisory support contribute to sustainable growth and stronger mission stewardship.
 
+## Business identity - October 28, 2026
+
+The shared global footer identifies the business as **Velu LLC**, 1402 Jones St #1004, Omaha, NE 68102, (402) 578-0622, and info@velu.us. Tyler confirmed the full address and footer placement. The identity update is published and verified across all nine public pages and the Home alias. See [implementation evidence and directory follow-up](business-identity-implementation.md) and [agent guidance](../AGENTS.md). The older page-build status descriptions below are historical and do not supersede that dated record.
+
 ## Current Website State
 
 Current completed pages:

@@ -1,5 +1,9 @@
 # About Page Copy
 
+## Business identity update - 2026-10-28
+
+The full business identity is maintained in the shared global footer. See [the implementation record](../docs/business-identity-implementation.md) for this revision's publication and verification status; older page-build status below is historical.
+
 ## Page Status
 
 * Page: About
@@ -130,3 +134,7 @@ The final page flow is:
 The intended persuasive progression is:
 
 `Credibility → Sector Relevance → Conversion`
+
+## Shared Business Identity
+
+Include the [global business identity block](global-business-identity.html) in this page's existing footer, alongside its legal links. Canonical details are maintained in [business-identity.json](../source-data/business-identity.json). This requirement applies to desktop and mobile. Publication and live verification are tracked in [the implementation record](../docs/business-identity-implementation.md).
