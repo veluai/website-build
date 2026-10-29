@@ -28,7 +28,7 @@ SEO audit recommendation 3 uses one shared footer on all public pages: Velu LLC,
 
 - [Canonical identity](source-data/business-identity.json)
 - [Reusable contact block](page-assets/global-business-identity.html)
-- [GoHighLevel rich-text footer](page-assets/global-footer-gohighlevel.html)
+- [GoHighLevel footer source](page-assets/global-footer-gohighlevel.html)
 - [Implementation status, page checklist, and directory reconciliation](docs/business-identity-implementation.md)
 
 Validate identity consistency and JSON syntax locally:
@@ -42,3 +42,12 @@ These checks do not establish publication, search indexing, or agreement with
 external directories. Consult the implementation record for the current status.
 
 Google follow-up: [sitemap submission, canonical correction, Business Profile verification, LinkedIn update, and Friday retry](docs/google-search-follow-up.md).
+
+## Footer navigation - October 29, 2026
+
+Published and verified on all nine public pages plus the Home alias: simple
+Services and Explore links beside the contact block; business hours omitted.
+Sitemap regenerated and accepted by Google; Home live crawlability passed.
+See [the rollout and Google checks](docs/footer-navigation-implementation.md)
+for the current prepared, published, and verified status. Source:
+[shared footer HTML/CSS](page-assets/global-footer-gohighlevel.html).

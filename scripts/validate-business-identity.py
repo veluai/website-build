@@ -41,7 +41,7 @@ for name in ('global-business-identity.html', 'global-footer-gohighlevel.html'):
     for href in (identity['telephoneHref'], 'mailto:' + identity['email']):
         check(href in parser.links, f'{name}: missing link {href}')
     if name == 'global-footer-gohighlevel.html':
-        for href in ('https://velu.us/privacy-policy/', 'https://velu.us/terms-and-conditions'):
+        for href in ('https://velu.us/privacy-policy', 'https://velu.us/terms-and-conditions'):
             check(href in parser.links, f'{name}: missing legal link {href}')
 
 

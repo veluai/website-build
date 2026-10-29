@@ -112,6 +112,21 @@ Avoid generic-only language when nonprofit-specific language is better. Generic 
 
 Internal links should clarify relationships between outcomes, services, educational resources, and conversion paths. Links should not be added merely to increase link count.
 
+## Shared footer navigation
+
+Approved October 29, 2026: keep the full business identity beside four Services
+links and two Explore links. Services are Outsourced Accounting, Client Advisory
+Services, Grant Advisory & Compliance, and Nonprofit Tax Services. Explore links
+to About Velu and Get Started. The business name links to Home; Privacy Policy
+and Terms remain in a smaller legal row. Use the direct canonical destinations
+in [the footer source](../page-assets/global-footer-gohighlevel.html).
+
+Keep labels short and descriptive, links as ordinary HTML anchors, and the
+mobile layout stacked. Do not add business hours to the footer, duplicate
+keyword links, or links to planned pages. Simplicity takes priority over adding
+more sitewide links. Track publication, sitemap regeneration, and Search Console
+results in [the implementation record](footer-navigation-implementation.md).
+
 ## Schema SEO Relationship
 
 Schema standards are governed by:

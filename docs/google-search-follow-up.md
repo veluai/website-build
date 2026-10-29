@@ -114,3 +114,15 @@ and [LinkedIn contact record](evidence/google-follow-up-2026-10-28/linkedin-cont
 Use Search Console's native sitemap submission. Do not use the obsolete Google
 sitemap ping endpoint shown in older vendor instructions. Do not repeatedly
 submit unchanged sitemaps or claim that submission guarantees indexing.
+
+## Footer navigation follow-up - October 29, 2026
+
+The approved simple footer navigation is published and verified across all nine
+public pages and the Home alias. Regenerated the same nine-page sitemap after
+publication and resubmitted it once. Google confirmed successful submission;
+the table showed submitted October 29, last read October 29, Success, nine
+discovered pages. The post-publication Home live test at 5:17:50 PM Central showed
+crawl allowed Yes, successful fetch, indexing allowed Yes, and the correct Home
+canonical. This is a crawlability check, not a completed indexing request.
+The Friday About-only retry is unchanged. Full results and platform timestamp
+behavior: [footer navigation implementation](footer-navigation-implementation.md).

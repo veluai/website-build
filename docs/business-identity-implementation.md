@@ -32,6 +32,15 @@ The initial identity implementation used owner confirmation. The subsequent
 [Google follow-up](google-search-follow-up.md) directly verified the signed-in
 Google Business Profile owner view; name, address, phone, and website matched.
 
+## Subsequent footer navigation work
+
+The October 28 implementation below is historical. On October 29, Tyler approved
+adding simple footer navigation while preserving every identity detail. The full
+footer source has been revised for that work; use the separate
+[footer navigation record](footer-navigation-implementation.md) for its current
+publication status and implementation method. The original rich-text method
+below describes the October 28 revision.
+
 ## Website implementation
 
 The website is maintained in GoHighLevel. GitHub does not deploy it.

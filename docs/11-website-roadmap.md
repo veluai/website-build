@@ -125,3 +125,11 @@ Individual indexing requests remain pending because Google's reCAPTCHA service
 failed, including a manual user attempt. A one-time About-page retry is scheduled
 for October 30 at 9 AM Central. Remaining directories require separate access.
 See [the dated follow-up record](google-search-follow-up.md).
+
+## Footer navigation - October 29, 2026
+
+Approved: simple sitewide Services and Explore links alongside the business
+identity, with a smaller legal row and no visible hours. Published and verified
+across all nine pages plus the Home alias. Sitemap regenerated and accepted by
+Google; Home live crawlability passed. Source, validation, and results are tracked
+in [the dated implementation record](footer-navigation-implementation.md).

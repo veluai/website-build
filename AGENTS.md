@@ -31,8 +31,9 @@ invent another approval gate for routine implementation within that scope.
 - Put all five details in the shared global footer on every public page,
   including legal pages, on desktop and mobile. Keep legal links intact.
 - Maintain `page-assets/global-business-identity.html` as the reusable contact
-  block and `page-assets/global-footer-gohighlevel.html` as the rich-text footer
-  implementation, including copyright and legal links.
+  block and `page-assets/global-footer-gohighlevel.html` as the full footer
+  source, including navigation, copyright, and legal links. Follow the current
+  implementation status in `docs/footer-navigation-implementation.md`.
 - Use `Velu LLC` in named organization schema references. Preserve the IDs
   `https://velu.us/#organization` and `https://velu.us/#website`.
 - The existing logo, ordinary prose, and testimonials may retain `Velu` as brand
@@ -40,6 +41,17 @@ invent another approval gate for routine implementation within that scope.
 - Do not infer a new address from a search result. Obtain owner confirmation
   before changing the canonical identity, then update the footer, schema,
   standards, and directory checklist together.
+
+## Footer navigation
+
+The approved October 29, 2026 layout favors simplicity: contact details, four
+Services links, two Explore links (About Velu and Get Started), and a small legal
+row. Link the business name to Home. Use direct canonical URLs and ordinary HTML
+anchors. Keep business hours out of the visible footer. Do not add speculative
+pages, repeated keyword links, widgets, or social links without a new request.
+Use scoped CSS, a three-column desktop layout, a single-column mobile layout,
+visible keyboard focus, and descriptive navigation labels. Do not inject footer
+content through JavaScript. Keep the existing global section and its colors.
 
 ## Content and schema
 
