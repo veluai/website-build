@@ -41,7 +41,7 @@ git diff --check
 These checks do not establish publication, search indexing, or agreement with
 external directories. Consult the implementation record for the current status.
 
-Google follow-up: [sitemap submission, canonical correction, Business Profile verification, LinkedIn update, and Friday retry](docs/google-search-follow-up.md).
+Google follow-up: [sitemap submission, canonical correction, Business Profile verification, LinkedIn update, and completed About indexing request](docs/google-search-follow-up.md).
 
 ## Footer navigation - October 29, 2026
 
@@ -51,3 +51,7 @@ Sitemap regenerated and accepted by Google; Home live crawlability passed.
 See [the rollout and Google checks](docs/footer-navigation-implementation.md)
 for the current prepared, published, and verified status. Source:
 [shared footer HTML/CSS](page-assets/global-footer-gohighlevel.html).
+
+About indexing follow-up - October 30: Google accepted Tyler's manual request
+into its priority crawl queue. The one-time retry automation has been removed.
+Details and evidence summary: [Google follow-up](docs/google-search-follow-up.md).

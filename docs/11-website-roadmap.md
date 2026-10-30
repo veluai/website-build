@@ -133,3 +133,13 @@ identity, with a smaller legal row and no visible hours. Published and verified
 across all nine pages plus the Home alias. Sitemap regenerated and accepted by
 Google; Home live crawlability passed. Source, validation, and results are tracked
 in [the dated implementation record](footer-navigation-implementation.md).
+
+## About indexing submission - October 30, 2026
+
+Complete: Tyler's manual About submission was accepted by Google, confirmed by
+an **Indexing requested** screenshot showing the priority crawl queue. The
+scheduled attempt earlier that morning failed with a reCAPTCHA connection error;
+its one-time automation was deleted. No further About request is needed.
+Acceptance does not establish when the updated page will be recrawled. Other
+individual URL requests and directory work retain their separately recorded
+statuses. See [the Google follow-up record](google-search-follow-up.md).

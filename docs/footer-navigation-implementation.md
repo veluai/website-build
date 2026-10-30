@@ -132,8 +132,12 @@ showed **submitted October 29, last read October 29, Success, nine discovered
 pages, zero discovered videos**. This confirms successful submission and a new
 sitemap read; it does not establish that every linked page has been recrawled.
 
-The separate one-time About Request indexing retry remains scheduled for Friday,
-October 30 at 9 AM America/Chicago. See [the Google follow-up record](google-search-follow-up.md).
+The separate one-time About retry ran October 30 and failed with the same
+reCAPTCHA connection error; its automation was deleted. Tyler subsequently
+submitted About manually, and the screenshot supplied October 30 confirms
+**Indexing requested** and acceptance into the priority crawl queue. The About
+submission is complete; no additional request is needed. See
+[the Google follow-up record](google-search-follow-up.md).
 A live test or sitemap submission does not guarantee recrawl or indexing timing.
 
 ## Repository delivery

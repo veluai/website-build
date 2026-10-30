@@ -10,9 +10,12 @@ corrected and verified on the public page. Google Business Profile already
 matched the canonical business name, address, phone, and website. LinkedIn's old
 address was corrected, its website URL normalized, and the canonical phone saved.
 
-Individual Request indexing actions remain unsuccessful because Search Console
-could not connect to its reCAPTCHA service. The user reproduced the failure
-manually. No individual request is recorded as accepted.
+Update October 30: the About-page Request indexing action is **accepted**.
+Tyler's screenshot shows **Indexing requested** for `https://velu.us/about-us`
+and confirmation that the URL was added to a priority crawl queue. Tyler reported
+that no reCAPTCHA prompt appeared. This completes the pending About submission;
+it does not prove that Google has recrawled the latest content. The earlier
+October 28 failures and the October 30 automated failure remain recorded below.
 
 ## Sitemap
 
@@ -62,7 +65,7 @@ The earlier identity-verification snapshot is historical and predates this fix.
 | URL | Request result | Next step |
 | --- | --- | --- |
 | `https://velu.us/` | Failed twice; reCAPTCHA service connection error | Retry later if needed; not scheduled |
-| `https://velu.us/about-us` | Failed; same error; user also reproduced the error manually | One-time retry scheduled for Friday, October 30, 2026 at 9:00 AM America/Chicago |
+| `https://velu.us/about-us` | October 28 and October 30 automated attempts failed with a reCAPTCHA connection error; Tyler’s later manual attempt was accepted October 30 | Complete: request accepted into priority crawl queue; do not resubmit |
 | `https://velu.us/services/nonprofit-outsourced-accounting-services` | Not attempted while the shared verification service was unavailable | Request later if needed |
 | `https://velu.us/services/nonprofit-client-advisory-services` | Not attempted while the shared verification service was unavailable | Request later if needed |
 | `https://velu.us/services/nonprofit-grant-advisory-compliance-services` | Canonical corrected; individual request not attempted while verification service was unavailable | Request later if needed |
@@ -78,17 +81,24 @@ and no network or browser security settings were changed.
 The exact errors and request outcomes are recorded in the
 [Search Console status record](evidence/google-follow-up-2026-10-28/search-console-sitemap-status.json).
 
-## Scheduled retry
+## Scheduled retry - completed October 30, 2026
 
-- Active automation: `retry-about-page-indexing-friday`.
+- Former automation: `retry-about-page-indexing-friday`; deleted after its one-time run.
 - Name: Retry About page indexing Friday.
 - One run: Friday, October 30, 2026 at 9:00 AM America/Chicago.
 - Scope: retry only the failed About-page Request indexing action and report
   whether Google accepts it or requires user action.
 - The schedule does not submit additional pages, resubmit the sitemap, change
   website content, or mutate the repository/PR. It is not recurring monitoring.
-- Browser access and a signed-in Google session are required. A request accepted
-  by Google is not proof of completed crawling or indexing.
+- The scheduled run attempted only About once. Google returned "We had a problem
+  submitting your indexing request. Please try again later" and "Could not connect
+  to the reCAPTCHA service." No request was accepted by that run; no verification
+  was bypassed. The automation was deleted and no ongoing monitoring was created.
+- Tyler then manually submitted About successfully, as confirmed by the screenshot
+  supplied in this chat on October 30. No further About submission is needed.
+  A request accepted by Google is not proof of completed crawling or indexing.
+- This documentation update was made after Tyler supplied the successful result,
+  separately from the scheduled run, which did not modify repository files.
 
 ## Business Profile and directories
 
@@ -124,5 +134,16 @@ the table showed submitted October 29, last read October 29, Success, nine
 discovered pages. The post-publication Home live test at 5:17:50 PM Central showed
 crawl allowed Yes, successful fetch, indexing allowed Yes, and the correct Home
 canonical. This is a crawlability check, not a completed indexing request.
-The Friday About-only retry is unchanged. Full results and platform timestamp
+At the time of this October 29 check, the Friday About-only retry was unchanged;
+its October 30 outcome is recorded above. Full results and platform timestamp
 behavior: [footer navigation implementation](footer-navigation-implementation.md).
+
+## Evidence of accepted About request - October 30, 2026
+
+Source: Tyler's attached `Screenshot 2026-10-30 at 10.46.37 AM.png` and message
+that the manual request worked without a reCAPTCHA prompt. The screenshot visibly
+identifies `https://velu.us/about-us`, displays **Indexing requested**, and states
+that the URL was added to a priority crawl queue. It also explains that repeated
+submission does not change queue position or priority. No independent recrawl
+completion is claimed. The screenshot remains in the chat/local files; this
+repository stores only this Markdown evidence summary, not a new image upload.
