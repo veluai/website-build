@@ -1,0 +1,501 @@
+{
+  "approvedOn": "2026-10-30",
+  "purpose": "CSS aspect-ratio reservations in native HighLevel Custom CSS; CSS files contain the appended block only.",
+  "logo": {
+    "elementId": "nav-menu-v2-oA98SQ4dGb",
+    "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a224bccfc95b245497d57f8.jpg",
+    "width": 1,
+    "height": 1,
+    "note": "Square ratio; not a 1-pixel rendered size. Shared across all nine pages."
+  },
+  "dimensionSource": "Existing repository PNGs and published PNG headers; preserve existing breakpoint widths and crops.",
+  "pages": [
+    {
+      "url": "https://velu.us/",
+      "cssFile": "page-assets/image-layout/home.css",
+      "retainedPaddingSection": "section-PhF-XA0zZS",
+      "images": [
+        {
+          "elementId": "image-R0yReKa-aom",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3d9188db2129be183e0dee.png",
+          "width": 1672,
+          "height": 941,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-feature-sZPdTWBataH",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a223f7ada24932f12198b98.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-feature-5dPF3-6NLwW",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2241c6f607d4002b86adac.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-feature-bnRs16teh9W",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a224324da24932f1219d2b7.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-feature-b7bEGOoCZCe",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a22437cfc95b245497ca4ad.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-feature-3vxlm7-uGCC",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2243c749e55f851969f778.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-feature-z0CYVqOMRx6",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a22440b6a06f03d4466a882.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-NbaZzZymvYp",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2247afda24932f121a2b1a.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-JdbXYOJ1gvA",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a232f2cfc95b245498dfd69.png",
+          "width": 612,
+          "height": 408,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-bVES-eL1RMn",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3458010a683b64feee1622.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-OAehjJwG_vQ",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2330d05f72b50cf84de0aa.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-PK8K04oySVv",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a23319525d536ee37eb10b2.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-LY6cKGC0028",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a233b1efc95b245498ebda7.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-XqsCY3k_DLn",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2340086a06f03d447900e1.png",
+          "width": 1774,
+          "height": 887,
+          "preserveConfiguredWidth": false
+        }
+      ]
+    },
+    {
+      "url": "https://velu.us/about-us",
+      "cssFile": "page-assets/image-layout/about-us.css",
+      "retainedPaddingSection": "section-Zxr774wqBe",
+      "images": [
+        {
+          "elementId": "image-feature-qI8kw1b_kn",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3b6a12967e20d627d56a55.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-SyOWZFNRCFo",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2d05ed0b3a26211d2fc1.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-n0bua3NF1DB",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2dfc817563b473dbfe07.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-fjHL6qIJg8f",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2e71659bec99fce53ea3.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-l81TEM7RaSA",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2f8707cf451b94aa2fb1.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-1CUzxObCB1Y",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c2ff5817563b473dc7b9e.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-9GlvXo3Tep",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c3258ed0b3a26211e537b.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-8E02IDLyYw",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c32a7b3c8655da2a8959d.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-hQ__LOf3a1",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c32f307cf451b94aac58f.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-3pgi8JHhyx",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c3355817563b473dd1d5d.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-KHWJgTmjEL",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3c338aafaedd1c896657c3.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        }
+      ]
+    },
+    {
+      "url": "https://velu.us/get-started",
+      "cssFile": "page-assets/image-layout/get-started.css",
+      "retainedPaddingSection": "section-3mhWpaYaDL",
+      "images": []
+    },
+    {
+      "url": "https://velu.us/privacy-policy",
+      "cssFile": "page-assets/image-layout/privacy-policy.css",
+      "retainedPaddingSection": "section-pP6HWEBbfI",
+      "images": []
+    },
+    {
+      "url": "https://velu.us/terms-and-conditions",
+      "cssFile": "page-assets/image-layout/terms-and-conditions.css",
+      "retainedPaddingSection": "section-ylELUQDCgA",
+      "images": []
+    },
+    {
+      "url": "https://velu.us/services/nonprofit-outsourced-accounting-services",
+      "cssFile": "page-assets/image-layout/nonprofit-outsourced-accounting-services.css",
+      "retainedPaddingSection": "section-AMt9lJE7Uu",
+      "images": [
+        {
+          "elementId": "image-foPOUzQYLL1",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a357d7c0a683b64fe0edf90.png",
+          "width": 1774,
+          "height": 887,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-omNOMumral5",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a358c4cf2131051b8ee8152.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-kvT1niyD-VB",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a358cf90b9538a6a7106496.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-eEZcvqrgs1k",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a358d9072754a77aa655603.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-4rwW4pK2IOU",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3591780a683b64fe12c359.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-4g4kU608c6d",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2247afda24932f121a2b1a.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-W157D2zKJY",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a359a720a683b64fe14e671.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-k8Xbda6qxW",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a359bca72754a77aa69aeb1.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-RnTJLXjiAr",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a359ca72e3b9fd413e387fb.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-FgzlAY8Tx_",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a359d072e3b9fd413e3b812.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-feature-ERfTMJ91IlU",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a35a2410b9538a6a71649ba.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-Kt4gKF3UBp",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3452440a683b64feed2e46.png",
+          "width": 1774,
+          "height": 887,
+          "preserveConfiguredWidth": false
+        }
+      ]
+    },
+    {
+      "url": "https://velu.us/services/nonprofit-client-advisory-services",
+      "cssFile": "page-assets/image-layout/nonprofit-client-advisory-services.css",
+      "retainedPaddingSection": "section-PDnLs408pX",
+      "images": [
+        {
+          "elementId": "image-IT-WJboSvpX",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3452440a683b64feed2e46.png",
+          "width": 1774,
+          "height": 887,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-XL-rgoztFq3",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3466e2f0a5585082d3abba.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-mrcfhQslGLe",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a34677c6dd61c546a37fd51.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-UmCYFjp1Vcm",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3468376a6dd1b69a14a780.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-BBhWEguuBpt",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3468c4de4900e889a524ed.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-IyYntAKlKah",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2247afda24932f121a2b1a.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-KEM-14Lh1QF",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3470936a6dd1b69a15d078.png",
+          "width": 1810,
+          "height": 869,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-feature-FcNFBcDD5Yf",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a347482de4900e889a6a2fd.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        }
+      ]
+    },
+    {
+      "url": "https://velu.us/services/nonprofit-grant-advisory-compliance-services",
+      "cssFile": "page-assets/image-layout/nonprofit-grant-advisory-compliance-services.css",
+      "retainedPaddingSection": "section-s82_us481y",
+      "images": [
+        {
+          "elementId": "image-YRGdpOI82H4",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a36d17a0a683b64fe2fb45d.png",
+          "width": 1774,
+          "height": 887,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-w10UYcGlRk",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3706a10a683b64fe38783b.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-3S9S8K-0a2K",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3701b8f2131051b816061c.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-fMvBtGM6kp7",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a36ff000a683b64fe378849.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-aqk_fKCpz-Y",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a36ff566a6dd1b69a5d08e3.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-G5li9Cz4EH",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a36ff8d6a6dd1b69a5d0e07.png",
+          "width": 1254,
+          "height": 1254,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-qnrIb1CJDIr",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2247afda24932f121a2b1a.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-QWurEIWlMd",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39af5428e2dab9ea4ecf80.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-CTb0uUppGW",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39b01928e2dab9ea4f0eaf.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-gupcmI2oUI",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39b03371752c7f3e0c56c3.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-RW8ijIs8sm",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a39b04a21502f4c6105276f.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        }
+      ]
+    },
+    {
+      "url": "https://velu.us/services/nonprofit-tax-services",
+      "cssFile": "page-assets/image-layout/nonprofit-tax-services.css",
+      "retainedPaddingSection": "section-_g2mNknDkO",
+      "images": [
+        {
+          "elementId": "image-IB9yqte_4AU",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a73ccb2e956bc24ec5066.png",
+          "width": 1672,
+          "height": 941,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-wrqBLcio71",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a755b2ed3b9e3239df8ff.png",
+          "width": 1672,
+          "height": 941,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-7JCSzkpY-mE",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2247afda24932f121a2b1a.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": true
+        },
+        {
+          "elementId": "image-PcNzKnWTOI",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a79595ff04dbbc3b50217.png",
+          "width": 1536,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        },
+        {
+          "elementId": "image-6rINChskqC",
+          "assetUrl": "https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a3a79f92ed3b9e3239e761c.png",
+          "width": 1535,
+          "height": 1024,
+          "preserveConfiguredWidth": false
+        }
+      ]
+    }
+  ]
+}

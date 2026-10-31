@@ -25,6 +25,10 @@ jobs:
         run: python3 scripts/check-repository.py
       - name: Check business identity and approved HTML source
         run: python3 scripts/validate-business-identity.py
+      - name: Check image-layout reservation source
+        run: python3 scripts/validate-image-layout.py
+      - name: Test image-layout regression checks
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - name: Check whitespace in proposed changes
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
