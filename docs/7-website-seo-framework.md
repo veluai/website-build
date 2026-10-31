@@ -217,3 +217,14 @@ These clusters should remain planned or proposed until page strategy, content sc
 | Date | Version | Summary | Owner |
 | --- | --- | --- | --- |
 | 2026-06-20 | 1.0 | Initial website SEO framework created for Velu topic clusters, page type strategy, keyword guidance, internal linking, schema, image SEO, and future roadmap. | Tyler Wilcox |
+
+## Audit-tool decisions - October 30, 2026
+
+Tyler approved preserving the concise Get Started conversion page, readable
+`/about-us` and `/get-started` URLs, and accurate short legal-page titles despite
+Ubersuggest flags. Do not pad copy, rename URLs, add meta keywords, or lengthen
+legal titles merely to satisfy these tool thresholds. Google does not prescribe
+a minimum word count, does not use meta keywords, and recommends concise,
+descriptive titles. Public-email markup uses Cloudflare's per-email exclusion;
+validate delivered HTML separately from browser decoding. Decisions, sources,
+and the approved calendar-label change are in [the audit record](ubersuggest-audit-2026-10-30.md).

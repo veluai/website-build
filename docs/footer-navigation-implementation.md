@@ -161,3 +161,11 @@ Reverting repository files alone does not change the live website.
 - [Google: crawlable links](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
 - [Google: sitemap creation and accurate modification dates](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
 - [Google: URL Inspection tool and live-test limits](https://support.google.com/webmasters/answer/9012289)
+
+## Email source follow-up - October 30, 2026
+
+Added Cloudflare's per-email exclusion comments around the footer email anchor.
+The same global Footer section and all 11 links remain. Published and checked in
+both delivered HTML and rendered browser DOM on all nine pages plus Home alias.
+This prevents the generated email-protection links reported by Ubersuggest;
+see [the audit implementation record](ubersuggest-audit-2026-10-30.md).

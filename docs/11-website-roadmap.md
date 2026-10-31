@@ -143,3 +143,11 @@ its one-time automation was deleted. No further About request is needed.
 Acceptance does not establish when the updated page will be recrawled. Other
 individual URL requests and directory work retain their separately recorded
 statuses. See [the Google follow-up record](google-search-follow-up.md).
+
+## Ubersuggest cleanup - October 30, 2026
+
+Published and live-verified the targeted email-protection cleanup and Velu
+calendar-group label. Preserve current URLs, Get Started copy length, and legal
+titles as approved. A fresh Ubersuggest crawl confirmed zero broken links and
+zero 4XX pages, with score 83 → 89 and reported issues 15 → 5. Its result is tracked
+in [the implementation record](ubersuggest-audit-2026-10-30.md).

@@ -161,3 +161,11 @@ Use the shared [full footer source](global-footer-gohighlevel.html), retaining
 links, About Velu, Get Started, linked business name, and the smaller legal row.
 Business hours are omitted. Desktop uses three columns; mobile stacks contact,
 Services, Explore, and legal content. See [rollout status and Google checks](../docs/footer-navigation-implementation.md).
+
+## Email crawlability cleanup - October 30, 2026
+
+Published the [Contact Us HTML](privacy-policy-contact.html) in place of the
+original rich-text contact paragraph. Legal wording, website/phone links, and
+plain-text email behavior are unchanged. The source excludes the public email
+from Cloudflare obfuscation. The shared footer retains a clickable email link.
+See [source and live verification](../docs/ubersuggest-audit-2026-10-30.md).

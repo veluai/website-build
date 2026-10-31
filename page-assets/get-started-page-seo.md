@@ -1,5 +1,13 @@
 # Get Started Page SEO
 
+## Live verification update - October 30, 2026
+
+This page is published. The email-markup cleanup was published and verified in
+both delivered HTML and the browser. The existing title and canonical URL were
+retained and live-verified; no robots meta or X-Robots-Tag restriction was found,
+and the existing sitemap includes this page. Older pending-publication entries
+below describe the original page-build record. See [the current audit results](../docs/ubersuggest-audit-2026-10-30.md).
+
 ## Page Status
 
 * Page: Get Started

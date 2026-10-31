@@ -53,6 +53,19 @@ Use scoped CSS, a three-column desktop layout, a single-column mobile layout,
 visible keyboard focus, and descriptive navigation labels. Do not inject footer
 content through JavaScript. Keep the existing global section and its colors.
 
+## Public email markup
+
+The October 30 Ubersuggest cleanup preserves Cloudflare's documented
+`<!--email_off-->` and `<!--/email_off-->` comments around public contact email
+markup. Keep the comments in both footer assets and the Get Started / Privacy
+contact snippets. Do not substitute JavaScript-generated email links or change
+global Cloudflare security settings. Verify the delivered HTML as well as the
+rendered browser DOM: decoding can make an email look correct in the browser
+while leaving crawler-visible `/cdn-cgi/l/email-protection` links in the response.
+The body contact snippets intentionally retain plain-text emails; the footer
+retains its clickable mailto link. Current rollout status is in
+`docs/ubersuggest-audit-2026-10-30.md`.
+
 ## Content and schema
 
 Preserve nonprofit accounting and advisory positioning. Do not invent services,

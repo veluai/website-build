@@ -55,3 +55,12 @@ for the current prepared, published, and verified status. Source:
 About indexing follow-up - October 30: Google accepted Tyler's manual request
 into its priority crawl queue. The one-time retry automation has been removed.
 Details and evidence summary: [Google follow-up](docs/google-search-follow-up.md).
+
+## Ubersuggest cleanup - October 30, 2026
+
+Published targeted public-email markup fixes and renamed the booking widget's
+calendar-group heading to Velu. Delivered-source and browser checks passed on
+all nine public pages plus the Home alias. Existing URLs, copy length, and legal
+titles were retained as approved. A fresh Ubersuggest crawl confirmed zero
+broken links and zero 4XX pages; score improved from 83 to 89.
+See [decisions, source, rollout, and recrawl results](docs/ubersuggest-audit-2026-10-30.md).
