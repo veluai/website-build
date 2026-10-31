@@ -23,9 +23,33 @@ verification screenshots out of Git unless separately requested.
 Continue future changes on focused branches in the original checkout and use
 pull requests. Repository synchronization does not publish GoHighLevel changes.
 
+## Repository navigation and file conventions
+
+Maintain exactly one agent-guidance file: this root `AGENTS.md`. Do not create
+README files or numbered duplicate copies of repository files. If a duplicate
+appears locally, compare it with the canonical file and preserve any unique
+changes before removing it.
+
+- `docs/`: standards, decisions, audits, and implementation records.
+- `page-assets/`: page copy, SEO settings, JSON-LD, and reusable HTML source.
+- `assets/`: website images.
+- `source-data/`: approved source records and supporting evidence.
+- `scripts/`: focused repository validation.
+
+Current implementation records:
+
+- `docs/business-identity-implementation.md`: published business identity and
+  directory reconciliation.
+- `docs/footer-navigation-implementation.md`: published navigation and Google
+  crawlability checks.
+- `docs/google-search-follow-up.md`: sitemap, canonical, listing, and accepted
+  About indexing-request records.
+- `docs/ubersuggest-audit-2026-10-30.md`: email markup, calendar label, approved
+  audit exceptions, and the successful recrawl.
+- `docs/11-website-roadmap.md`: broader website work and priorities.
+
 ## Read before editing
 
-- `README.md`: repository map and current work.
 - `docs/1-website-build-overview.md`: positioning, scope, and governance.
 - `docs/2-schema-markup-standard.md`: schema rules and entity IDs.
 - `docs/7-website-seo-framework.md`: SEO requirements.
