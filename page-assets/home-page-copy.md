@@ -1,5 +1,9 @@
 # Home Page Copy
 
+## Business identity update - 2026-10-28
+
+The full business identity is maintained in the shared global footer. See [the implementation record](../docs/business-identity-implementation.md) for this revision's publication and verification status; older page-build status below is historical.
+
 ## Page Status
 
 - Page name: Home
@@ -215,6 +219,18 @@ Card titles and differentiator headings should be H3s or equivalent semantic sub
 
 ## Global Footer
 
+Business identity: **Velu LLC** · 1402 Jones St #1004 · Omaha, NE 68102 · (402) 578-0622 · info@velu.us.
+
+Use the shared [full footer source](global-footer-gohighlevel.html), which includes the [business identity block](global-business-identity.html), four Services links, About Velu, Get Started, and the legal row below. Published and verified October 29, 2026; see [the navigation implementation record](../docs/footer-navigation-implementation.md).
+
 - Copyright 2026 - Velu LLC - All Rights Reserved
 - Privacy Policy
 - Terms and Conditions
+
+## Footer navigation - October 29, 2026
+
+Use the shared [full footer source](global-footer-gohighlevel.html), retaining
+[canonical business details](global-business-identity.html), with four Services
+links, About Velu, Get Started, linked business name, and the smaller legal row.
+Business hours are omitted. Desktop uses three columns; mobile stacks contact,
+Services, Explore, and legal content. See [rollout status and Google checks](../docs/footer-navigation-implementation.md).

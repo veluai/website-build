@@ -1,0 +1,54 @@
+<!-- Place in one Custom HTML element in the existing global Footer section. -->
+<style>
+  .velu-footer { color: #fff; font-family: Montserrat, sans-serif; font-size: 14px; line-height: 1.7; text-align: left; padding: 32px 0; }
+  .velu-footer * { box-sizing: border-box; }
+  .velu-footer a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  .velu-footer a:hover { text-decoration-thickness: 2px; }
+  .velu-footer a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+  .velu-footer__columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 40px; }
+  .velu-footer address { margin: 0; font-style: normal; overflow-wrap: anywhere; }
+  .velu-footer__name, .velu-footer__heading { display: block; margin: 0 0 10px; font-size: 16px; font-weight: 700; line-height: 1.5; }
+  .velu-footer ul { list-style: none; margin: 0; padding: 0; }
+  .velu-footer li + li { margin-top: 8px; }
+  .velu-footer__legal { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; margin-top: 32px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.25); font-size: 12px; }
+  .velu-footer__legal p { margin: 0; }
+  .velu-footer__legal nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+  @media (max-width: 767px) {
+    .velu-footer__columns { grid-template-columns: 1fr; gap: 28px; }
+    .velu-footer__legal { flex-direction: column; margin-top: 28px; }
+  }
+</style>
+<footer class="velu-footer" aria-label="Velu LLC footer">
+  <div class="velu-footer__columns">
+    <address>
+      <a class="velu-footer__name" href="https://velu.us/">Velu LLC</a>
+      1402 Jones St #1004<br>
+      Omaha, NE 68102<br>
+      <a href="tel:+14025780622">(402) 578-0622</a><br>
+      <!--email_off--><a href="mailto:info@velu.us">info@velu.us</a><!--/email_off-->
+    </address>
+    <nav aria-label="Footer services">
+      <p class="velu-footer__heading">Services</p>
+      <ul>
+        <li><a href="https://velu.us/services/nonprofit-outsourced-accounting-services">Outsourced Accounting</a></li>
+        <li><a href="https://velu.us/services/nonprofit-client-advisory-services">Client Advisory Services</a></li>
+        <li><a href="https://velu.us/services/nonprofit-grant-advisory-compliance-services">Grant Advisory &amp; Compliance</a></li>
+        <li><a href="https://velu.us/services/nonprofit-tax-services">Nonprofit Tax Services</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Footer explore">
+      <p class="velu-footer__heading">Explore</p>
+      <ul>
+        <li><a href="https://velu.us/about-us">About Velu</a></li>
+        <li><a href="https://velu.us/get-started">Get Started</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="velu-footer__legal">
+    <p>Copyright 2026 - Velu LLC - All Rights Reserved</p>
+    <nav aria-label="Footer legal">
+      <a href="https://velu.us/privacy-policy">Privacy Policy</a>
+      <a href="https://velu.us/terms-and-conditions">Terms &amp; Conditions</a>
+    </nav>
+  </div>
+</footer>

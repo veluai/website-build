@@ -32,6 +32,8 @@ Status definitions:
 
 Completed items:
 
+- SEO audit recommendation 3, website and repository implementation (2026-10-28): full identity in the shared footer, consistent named organization schema, AGENTS.md, and documented live checks. External directory reconciliation remains pending in [the implementation record](business-identity-implementation.md).
+
 - Homepage Framework
 - Service Page Framework
 - Schema Standards
@@ -47,6 +49,7 @@ Completed framework documents should remain source documents for future website 
 ## Active
 
 Active initiatives:
+
 
 - Grant Advisory & Compliance page development
 - Website framework expansion
@@ -113,3 +116,38 @@ Roadmap updates should be made when major website initiatives are completed, new
 | Date | Version | Summary | Owner |
 | --- | --- | --- | --- |
 | 2026-06-20 | 1.0 | Initial website roadmap created for Velu website completed, active, planned, and proposed initiatives. | Tyler Wilcox |
+
+## Google follow-up - October 28, 2026
+
+Sitemap regeneration and resubmission, the grant canonical correction, Business
+Profile verification, and LinkedIn contact/location corrections are complete.
+Individual indexing requests remain pending because Google's reCAPTCHA service
+failed, including a manual user attempt. A one-time About-page retry is scheduled
+for October 30 at 9 AM Central. Remaining directories require separate access.
+See [the dated follow-up record](google-search-follow-up.md).
+
+## Footer navigation - October 29, 2026
+
+Approved: simple sitewide Services and Explore links alongside the business
+identity, with a smaller legal row and no visible hours. Published and verified
+across all nine pages plus the Home alias. Sitemap regenerated and accepted by
+Google; Home live crawlability passed. Source, validation, and results are tracked
+in [the dated implementation record](footer-navigation-implementation.md).
+
+## About indexing submission - October 30, 2026
+
+Complete: Tyler's manual About submission was accepted by Google, confirmed by
+an **Indexing requested** screenshot showing the priority crawl queue. The
+scheduled attempt earlier that morning failed with a reCAPTCHA connection error;
+its one-time automation was deleted. No further About request is needed.
+Acceptance does not establish when the updated page will be recrawled. Other
+individual URL requests and directory work retain their separately recorded
+statuses. See [the Google follow-up record](google-search-follow-up.md).
+
+## Ubersuggest cleanup - October 30, 2026
+
+Published and live-verified the targeted email-protection cleanup and Velu
+calendar-group label. Preserve current URLs, Get Started copy length, and legal
+titles as approved. A fresh Ubersuggest crawl confirmed zero broken links and
+zero 4XX pages, with score 83 → 89 and reported issues 15 → 5. Its result is tracked
+in [the implementation record](ubersuggest-audit-2026-10-30.md).

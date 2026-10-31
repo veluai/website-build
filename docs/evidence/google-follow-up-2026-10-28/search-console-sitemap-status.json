@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "property": "sc-domain:velu.us",
+  "sitemap": "https://velu.us/sitemap.xml",
+  "submitted": "2026-10-28",
+  "lastRead": "2026-10-23",
+  "status": "Success",
+  "discoveredPages": 9,
+  "submissionResult": "Sitemap submitted successfully",
+  "indexingRequests": {
+    "home": "Failed twice; reCAPTCHA service could not connect",
+    "about": "Failed; same reCAPTCHA connection issue",
+    "remaining": "Not attempted while shared verification service unavailable"
+  }
+}

@@ -1,5 +1,9 @@
 # Get Started Page Copy
 
+## Business identity update - 2026-10-28
+
+The full business identity is maintained in the shared global footer. See [the implementation record](../docs/business-identity-implementation.md) for this revision's publication and verification status; older page-build status below is historical.
+
 ## Page Status
 
 * Page: Get Started
@@ -31,6 +35,8 @@ There is no obligation. The conversation is simply an opportunity to learn more 
 
 * Retain the existing GoHighLevel calendar embed
 * Do not change the calendar workflow or appointment configuration
+* The embedded calendar displays group label `Velu` (approved October 30, 2026);
+  the group URL and membership remain unchanged.
 * The embedded calendar displays `Discovery Call With Tyler J. Wilcox, CPA`
 * The embedded calendar displays the duration as `45 min`
 * Keep the calendar as the primary visual focus of the page
@@ -74,3 +80,23 @@ Use only one H1.
 ## Page Flow
 
 `Introduction → Appointment Context → Calendar → Fallback Contact`
+
+## Shared Business Identity
+
+Include the [global business identity block](global-business-identity.html) in this page's existing footer, alongside its legal links. Canonical details are maintained in [business-identity.json](../source-data/business-identity.json). This requirement applies to desktop and mobile. Publication and live verification are tracked in [the implementation record](../docs/business-identity-implementation.md).
+
+## Footer navigation - October 29, 2026
+
+Use the shared [full footer source](global-footer-gohighlevel.html), retaining
+[canonical business details](global-business-identity.html), with four Services
+links, About Velu, Get Started, linked business name, and the smaller legal row.
+Business hours are omitted. Desktop uses three columns; mobile stacks contact,
+Services, Explore, and legal content. See [rollout status and Google checks](../docs/footer-navigation-implementation.md).
+
+## Email crawlability cleanup - October 30, 2026
+
+Published the [fallback contact HTML](get-started-contact.html) in place of the
+original rich-text paragraph. Wording and plain-text email behavior are retained;
+Cloudflare exclusion comments prevent generated email-protection links. The
+shared footer remains a clickable email link. Live source, layout, and calendar
+checks passed; see [the audit implementation record](../docs/ubersuggest-audit-2026-10-30.md).

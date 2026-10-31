@@ -20,6 +20,10 @@ This framework applies to:
 
 This framework does not approve new services, claims, page launches, or schema types by itself. Those decisions must remain aligned with the website build overview, schema standard, service page framework, homepage framework, and Tyler Wilcox's approval.
 
+## Consistent business identity
+
+Every public page must visibly include Velu LLC, the confirmed Omaha street address, phone, and email in its shared footer. Maintain details in [business-identity.json](../source-data/business-identity.json), use [the shared block](../page-assets/global-business-identity.html), and follow [the publishing and directory checklist](business-identity-implementation.md). Keep named organization references consistent with the same entity ID. Do not treat a directory or search result as authority to change the address.
+
 ## SEO Objectives
 
 Velu's website SEO objectives are to:
@@ -107,6 +111,21 @@ Avoid generic-only language when nonprofit-specific language is better. Generic 
 - Future blogs should support service and resource clusters.
 
 Internal links should clarify relationships between outcomes, services, educational resources, and conversion paths. Links should not be added merely to increase link count.
+
+## Shared footer navigation
+
+Approved October 29, 2026: keep the full business identity beside four Services
+links and two Explore links. Services are Outsourced Accounting, Client Advisory
+Services, Grant Advisory & Compliance, and Nonprofit Tax Services. Explore links
+to About Velu and Get Started. The business name links to Home; Privacy Policy
+and Terms remain in a smaller legal row. Use the direct canonical destinations
+in [the footer source](../page-assets/global-footer-gohighlevel.html).
+
+Keep labels short and descriptive, links as ordinary HTML anchors, and the
+mobile layout stacked. Do not add business hours to the footer, duplicate
+keyword links, or links to planned pages. Simplicity takes priority over adding
+more sitewide links. Track publication, sitemap regeneration, and Search Console
+results in [the implementation record](footer-navigation-implementation.md).
 
 ## Schema SEO Relationship
 
@@ -198,3 +217,14 @@ These clusters should remain planned or proposed until page strategy, content sc
 | Date | Version | Summary | Owner |
 | --- | --- | --- | --- |
 | 2026-06-20 | 1.0 | Initial website SEO framework created for Velu topic clusters, page type strategy, keyword guidance, internal linking, schema, image SEO, and future roadmap. | Tyler Wilcox |
+
+## Audit-tool decisions - October 30, 2026
+
+Tyler approved preserving the concise Get Started conversion page, readable
+`/about-us` and `/get-started` URLs, and accurate short legal-page titles despite
+Ubersuggest flags. Do not pad copy, rename URLs, add meta keywords, or lengthen
+legal titles merely to satisfy these tool thresholds. Google does not prescribe
+a minimum word count, does not use meta keywords, and recommends concise,
+descriptive titles. Public-email markup uses Cloudflare's per-email exclusion;
+validate delivered HTML separately from browser decoding. Decisions, sources,
+and the approved calendar-label change are in [the audit record](ubersuggest-audit-2026-10-30.md).

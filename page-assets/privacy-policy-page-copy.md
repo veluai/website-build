@@ -1,5 +1,9 @@
 # Privacy Policy Page Copy
 
+## Business identity update - 2026-10-28
+
+The full business identity is maintained in the shared global footer. See [the implementation record](../docs/business-identity-implementation.md) for this revision's publication and verification status; older page-build status below is historical.
+
 ## Page Status
 
 - Page name: Privacy Policy
@@ -145,3 +149,23 @@ Most browsers provide controls to block or delete cookies. Please refer to your 
 - Live verification remains pending publication.
 - Git history is the version history.
 - Do not add a manual revision-history section.
+
+## Shared Business Identity
+
+Include the [global business identity block](global-business-identity.html) in this page's existing footer, alongside its legal links. Canonical details are maintained in [business-identity.json](../source-data/business-identity.json). This requirement applies to desktop and mobile. Publication and live verification are tracked in [the implementation record](../docs/business-identity-implementation.md).
+
+## Footer navigation - October 29, 2026
+
+Use the shared [full footer source](global-footer-gohighlevel.html), retaining
+[canonical business details](global-business-identity.html), with four Services
+links, About Velu, Get Started, linked business name, and the smaller legal row.
+Business hours are omitted. Desktop uses three columns; mobile stacks contact,
+Services, Explore, and legal content. See [rollout status and Google checks](../docs/footer-navigation-implementation.md).
+
+## Email crawlability cleanup - October 30, 2026
+
+Published the [Contact Us HTML](privacy-policy-contact.html) in place of the
+original rich-text contact paragraph. Legal wording, website/phone links, and
+plain-text email behavior are unchanged. The source excludes the public email
+from Cloudflare obfuscation. The shared footer retains a clickable email link.
+See [source and live verification](../docs/ubersuggest-audit-2026-10-30.md).

@@ -8,6 +8,10 @@ The inventory should show which pages have schema documented, which top-level sc
 
 This inventory reflects repository-documented replacement-site schema and documented live Schema.org validation status where explicitly recorded.
 
+## 2026-10-28 identity revision
+
+Named organization references in the seven JSON-LD files now use `Velu LLC`. Entity IDs, existing address, contact details, services, and review exclusions are preserved. The identity revision is published and verified in the rendered JSON-LD on all seven schema-bearing pages. JSON syntax and identity consistency passed locally and in the public DOM. The external Schema.org validation statuses in the table below refer to the earlier revision; no fresh external validator result is claimed. Evidence is recorded in [Business identity implementation](business-identity-implementation.md).
+
 ## Inventory
 
 | Page | Canonical URL | Status | Top-Level Schema Types | Review Markup | AggregateRating | Offer Count | Breadcrumb Count | ScheduleAction | Images Verified | Schema Validation Status | Primary Standard | Owner |

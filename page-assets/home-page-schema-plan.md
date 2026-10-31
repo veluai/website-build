@@ -93,7 +93,7 @@ Supporting image 2:
 
 ## Organization Details
 
-- Name: Velu
+- Name: Velu LLC
 - Legal name: Velu LLC
 - URL: `https://velu.us/`
 - Address: `1402 Jones St #1004, Omaha, NE 68102`
@@ -138,3 +138,7 @@ Live Home schema review found 0 errors but returned warnings because `audience` 
 - Publication pending
 - Live source verification pending
 - Google Rich Results Test pending
+
+## Business identity revision - 2026-10-28
+
+Organization name and legal name: `Velu LLC`. Canonical address and contacts: [business-identity.json](../source-data/business-identity.json). Use [the shared footer](global-business-identity.html) on every page. This revision was published and its identity fields verified in the live DOM on 2026-10-28; previous external Schema.org validation records apply to the older revision.
