@@ -7,6 +7,22 @@ images, standards, and implementation records. The public website is built and
 published in **GoHighLevel**. There is no application build or automatic GitHub
 deployment. Editing or merging this repository does not update velu.us.
 
+## Working repository location
+
+Use `/Users/tyler.wilcox/Documents/website-build` as the canonical local checkout
+for this Mac. Confirm the repository root and working-tree status before editing.
+The GitHub remote is `https://github.com/veluai/website-build.git`.
+
+On October 30, 2026, Tyler approved consolidating the five website-update commits
+from `/Users/tyler.wilcox/Documents/ChatGPT/website-build/site` into this original
+checkout through PR #1. The duplicate checkout is retired after the merged
+history and tracked files are verified. Do not create or resume work in the old
+ChatGPT location. No backup copy is required for this consolidation. Keep local
+verification screenshots out of Git unless separately requested.
+
+Continue future changes on focused branches in the original checkout and use
+pull requests. Repository synchronization does not publish GoHighLevel changes.
+
 ## Read before editing
 
 - `README.md`: repository map and current work.
