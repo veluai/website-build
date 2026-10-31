@@ -1,5 +1,15 @@
 # Pre-Publication URL Audit Summary
 
+## Historical record - clarified October 30, 2026
+
+The WordPress inventory and preliminary classification below describe the
+pre-publication migration review, not the current nine-page live site.
+Use the [current overview](1-website-build-overview.md),
+[schema inventory](3-page-schema-inventory.md), and
+[Google follow-up](google-search-follow-up.md) for later status.
+Original findings are preserved below; this annotation does not claim every
+historical issue was resolved or newly retested.
+
 ## Purpose
 
 This file summarizes the working URL audit before classification. It is intended to help Tyler understand the current WordPress URL set, search-visibility patterns, and likely classification batches before final preservation, redirect, archive, or discard decisions are made.

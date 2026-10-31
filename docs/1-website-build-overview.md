@@ -21,7 +21,7 @@ The website should help nonprofit leaders understand how stronger financial info
 
 ## Business identity - October 28, 2026
 
-The shared global footer identifies the business as **Velu LLC**, 1402 Jones St #1004, Omaha, NE 68102, (402) 578-0622, and info@velu.us. Tyler confirmed the full address and footer placement. The identity update is published and verified across all nine public pages and the Home alias. See [implementation evidence and directory follow-up](business-identity-implementation.md) and [agent guidance](../AGENTS.md). The older page-build status descriptions below are historical and do not supersede that dated record.
+The shared global footer identifies the business as **Velu LLC**, 1402 Jones St #1004, Omaha, NE 68102, (402) 578-0622, and info@velu.us. Tyler confirmed the full address and footer placement. The identity update is published and verified across all nine public pages and the Home alias. See [implementation evidence and directory follow-up](business-identity-implementation.md) and [agent guidance](../AGENTS.md). The current page summary below is reconciled against the dated implementation records; historical audits remain separate evidence.
 
 ## Footer navigation - October 29, 2026
 
@@ -30,23 +30,32 @@ linked business name, and legal links. Business hours are omitted from the visib
 footer. Published and verified across all nine public pages and the Home alias;
 see [source, validation, sitemap, and crawlability results](footer-navigation-implementation.md).
 
-## Current Website State
+## Current Website State - October 30, 2026
 
-Current completed pages:
+Published pages, supported by the dated live checks in the
+[business identity record](business-identity-implementation.md) and
+[October 30 audit record](ubersuggest-audit-2026-10-30.md):
 
 - Home
+- About
+- Get Started
 - Outsourced Accounting Services
 - Client Advisory Services
+- Grant Advisory & Compliance
+- Nonprofit Tax Services
+- Privacy Policy
+- Terms and Conditions
 
-Current active or planned initiatives:
+The `/home` alias is checked separately and is not a tenth canonical page.
+All nine pages have the approved shared identity and footer navigation. The
+October 30 email cleanup and Velu booking-group label are published and verified.
+Homepage, service, messaging, SEO, schema, and image standards are documented;
+their maintenance does not mean the published pages are unfinished.
 
-- Grant Advisory & Compliance page
-- Additional service page expansion
-- Schema standardization
-- Image SEO standardization
-- Website messaging framework
-- Service page framework
-- Homepage framework
+Remaining work includes the separately recorded directory reconciliation and
+future improvements in the [roadmap](11-website-roadmap.md). Proposed resource,
+blog, lead-magnet, and service expansion is not approved publication work.
+This summary reconciles existing evidence; it does not claim a new live check.
 
 Current primary conversion:
 
@@ -250,5 +259,6 @@ Website standards, schema standards, content positioning, and governance decisio
 
 | Date | Version | Summary | Owner |
 | --- | --- | --- | --- |
+| 2026-10-30 | 1.2 | Reconciled the current nine-page summary with published implementation records; preserved historical audits. | Tyler Wilcox |
 | 2026-06-20 | 1.1 | Expanded current website state, major website decisions, and future AI agent instructions. | Tyler Wilcox |
 | 2026-06-20 | 1.0 | Initial website build overview created from current Velu website strategy, schema implementation, positioning, and governance requirements. | Tyler Wilcox |

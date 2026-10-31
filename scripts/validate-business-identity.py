@@ -16,13 +16,46 @@ class FooterParser(HTMLParser):
         super().__init__()
         self.text = []
         self.links = []
+        self.protected = False
+        self.exclusions = 0
+        self.email_seen = False
+        self.issues = []
+
+    def handle_comment(self, data):
+        if data == 'email_off':
+            if self.protected:
+                self.issues.append('nested email_off comments')
+            self.protected = True
+            self.exclusions += 1
+        elif data == '/email_off':
+            if not self.protected:
+                self.issues.append('unmatched closing email_off comment')
+            self.protected = False
 
     def handle_data(self, data):
         self.text.append(data.strip())
+        if identity['email'] in data:
+            self.email_seen = True
+            if not self.protected:
+                self.issues.append('visible email is outside email_off comments')
 
     def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        href = attrs.get('href', '') or ''
         if tag == 'a':
-            self.links.append(dict(attrs).get('href'))
+            self.links.append(href)
+        if href.startswith('mailto:') and not self.protected:
+            self.issues.append('mailto link is outside email_off comments')
+        if 'data-cfemail' in attrs or '/cdn-cgi/l/email-protection' in href:
+            self.issues.append('generated Cloudflare email markup in reusable source')
+
+    def finish(self, filename):
+        self.close()
+        check(not self.protected, f'{filename}: unclosed email_off comment')
+        check(self.exclusions == 1, f'{filename}: expected one email_off block')
+        check(self.email_seen, f'{filename}: missing visible canonical email')
+        for issue in self.issues:
+            check(False, f'{filename}: {issue}')
 
 
 def check(condition, message):
@@ -33,6 +66,7 @@ def check(condition, message):
 for name in ('global-business-identity.html', 'global-footer-gohighlevel.html'):
     parser = FooterParser()
     parser.feed((ROOT / 'page-assets' / name).read_text())
+    parser.finish(name)
     text = ' '.join(parser.text)
     for value in (identity['name'], address['streetAddress'],
                   f"{address['addressLocality']}, {address['addressRegion']} {address['postalCode']}",
@@ -41,8 +75,23 @@ for name in ('global-business-identity.html', 'global-footer-gohighlevel.html'):
     for href in (identity['telephoneHref'], 'mailto:' + identity['email']):
         check(href in parser.links, f'{name}: missing link {href}')
     if name == 'global-footer-gohighlevel.html':
-        for href in ('https://velu.us/privacy-policy', 'https://velu.us/terms-and-conditions'):
-            check(href in parser.links, f'{name}: missing legal link {href}')
+        expected_links = [
+            identity['url'], identity['telephoneHref'], 'mailto:' + identity['email'],
+            'https://velu.us/services/nonprofit-outsourced-accounting-services',
+            'https://velu.us/services/nonprofit-client-advisory-services',
+            'https://velu.us/services/nonprofit-grant-advisory-compliance-services',
+            'https://velu.us/services/nonprofit-tax-services',
+            'https://velu.us/about-us', 'https://velu.us/get-started',
+            'https://velu.us/privacy-policy', 'https://velu.us/terms-and-conditions',
+        ]
+        check(parser.links == expected_links, f'{name}: approved 11 footer links or order changed')
+
+for name in ('get-started-contact.html', 'privacy-policy-contact.html'):
+    parser = FooterParser()
+    parser.feed((ROOT / 'page-assets' / name).read_text())
+    parser.finish(name)
+    check(not any(href.startswith('mailto:') for href in parser.links),
+          f'{name}: retain the approved plain-text body email')
 
 
 def inspect(node, filename):
@@ -84,5 +133,5 @@ for path in copies:
 if errors:
     print('\n'.join('ERROR: ' + error for error in errors), file=sys.stderr)
     sys.exit(1)
-print(f'PASS: canonical identity, 2 footer assets, {len(schemas)} JSON-LD files, and {len(copies)} page-copy records.')
+print(f'PASS: canonical identity, 11 footer links, 4 protected email assets, {len(schemas)} JSON-LD files, and {len(copies)} page-copy records.')
 print('Local consistency only; GoHighLevel publication, live markup, and directory verification are separate checks.')

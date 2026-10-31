@@ -1,5 +1,15 @@
 # Velu Sitewide Page Documentation Audit
 
+## Historical record - clarified October 30, 2026
+
+The June 26 missing-file, breadcrumb, and implementation findings describe
+that repository snapshot. They are not a current task list.
+Use the [current overview](../docs/1-website-build-overview.md),
+[schema inventory](../docs/3-page-schema-inventory.md), and
+[Google follow-up](../docs/google-search-follow-up.md) for later status.
+Original findings are preserved below; this annotation does not claim every
+historical issue was resolved or newly retested.
+
 ## Audit Scope
 
 - Repository reviewed: `/Users/tyler.wilcox/Documents/website-build/`

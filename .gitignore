@@ -1,0 +1,14 @@
+# macOS and editor temporary files
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+
+# Python validation artifacts
+__pycache__/
+*.py[cod]
+
+# Local verification screenshots, not public website image assets
+/docs/evidence/local-verification/
+/docs/evidence/google-follow-up-2026-10-28/*.jpg

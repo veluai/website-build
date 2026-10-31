@@ -43,16 +43,25 @@ Completed items:
 - Current homepage schema
 - Outsourced Accounting page schema
 - Client Advisory Services page schema
+- Grant Advisory & Compliance and Nonprofit Tax Services pages and documented
+  schema; see the [schema inventory](3-page-schema-inventory.md).
+- About, Get Started, Privacy Policy, and Terms and Conditions published pages;
+  see the [nine-page verification record](business-identity-implementation.md).
+- Shared footer navigation, sitemap, and crawlability follow-up (October 29).
+- Targeted email markup and Velu calendar-group label cleanup (October 30),
+  verified by the fresh [Ubersuggest recrawl](ubersuggest-audit-2026-10-30.md).
 
 Completed framework documents should remain source documents for future website work unless updated through the revision history process.
 
 ## Active
 
-Active initiatives:
+Current follow-up:
 
+- Remaining external-directory reconciliation, including LocalityBiz, is pending
+  separate access as documented in the [identity record](business-identity-implementation.md).
 
-- Grant Advisory & Compliance page development
-- Website framework expansion
+No Grant Advisory page build remains active. Future framework expansion belongs
+under Planned until a specific implementation is authorized.
 
 Active initiatives may still require copy, design, schema, image, validation, and approval work before being considered complete.
 
@@ -60,6 +69,7 @@ Active initiatives may still require copy, design, schema, image, validation, an
 
 Planned initiatives:
 
+- Website framework maintenance and expansion
 - Additional service pages
 - Resource pages
 - Lead magnet expansion
@@ -115,9 +125,14 @@ Roadmap updates should be made when major website initiatives are completed, new
 
 | Date | Version | Summary | Owner |
 | --- | --- | --- | --- |
+| 2026-10-30 | 1.1 | Reconciled completed pages and follow-up work with dated evidence; marked October 28 request status historical. | Tyler Wilcox |
 | 2026-06-20 | 1.0 | Initial website roadmap created for Velu website completed, active, planned, and proposed initiatives. | Tyler Wilcox |
 
-## Google follow-up - October 28, 2026
+## Google follow-up - October 28, 2026 (historical snapshot)
+
+The scheduled retry and pending-request statements below describe October 28.
+The October 30 entry supersedes the About request status; its one-time automation
+was deleted. Do not recreate it from this historical entry.
 
 Sitemap regeneration and resubmission, the grant canonical correction, Business
 Profile verification, and LinkedIn contact/location corrections are complete.

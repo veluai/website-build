@@ -48,6 +48,25 @@ Current implementation records:
   audit exceptions, and the successful recrawl.
 - `docs/11-website-roadmap.md`: broader website work and priorities.
 
+## Repository checks and review
+
+`.github/workflows/repository-checks.yml` runs both local validators and a
+change-range whitespace check on pull requests and pushes to `main`; it can also
+be run manually. It has read-only repository permissions, pinned action commits,
+and no website publishing or scheduled monitoring. Local link checks cover file
+targets in Markdown links and reference definitions; external URLs and heading
+anchors still require separate review. They also flag numbered text-file copies
+when a canonical sibling exists; compare unique content before removing a copy.
+
+Use `.github/pull_request_template.md` to record the change, validation,
+HighLevel publication status, and remaining work. Keep the current overview and
+roadmap reconciled with dated implementation evidence. Add a historical note to
+superseded audits instead of rewriting their original findings.
+
+The shared `.gitignore` excludes macOS/editor/Python artifacts and the existing
+local screenshot locations. Website images under `assets/` and the approved
+October 28 footer evidence remain tracked. Do not broadly ignore image files.
+
 ## Read before editing
 
 - `docs/1-website-build-overview.md`: positioning, scope, and governance.
@@ -120,7 +139,11 @@ Avoid adding duplicate complete organization definitions to every page.
 
 ## Validation and delivery
 
-1. Run `python3 scripts/validate-business-identity.py` after identity changes.
+1. Run `python3 scripts/check-repository.py` and
+   `python3 scripts/validate-business-identity.py` before opening a pull request.
+   These dependency-free scripts check local Markdown file links, file
+   conventions, canonical identity, JSON syntax, the 11 approved footer links,
+   and email-exclusion comments in all four reusable contact assets.
 2. Run `git diff --check` and review the diff for unrelated changes.
 3. Preview footer layout on desktop and mobile in GoHighLevel before publication.
 4. After publication, verify all page URLs in
