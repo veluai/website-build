@@ -7,6 +7,20 @@ images, standards, and implementation records. The public website is built and
 published in **GoHighLevel**. There is no application build or automatic GitHub
 deployment. Editing or merging this repository does not update velu.us.
 
+## Priority to surface at the next website review
+
+At the next substantive website repository review or SEO/performance gap
+analysis, prominently surface **High — outstanding performance follow-up** in
+the [roadmap's Active follow-up](docs/11-website-roadmap.md#active). This issue is
+open and deferred; **no investigation is currently underway**. The completed
+image-reservation phase did not meet the mobile CLS target, and the cause of
+the slower measured homepage LCP has not been established. Raise the recorded
+CLS/LCP findings and possible font/body/hero-image contributors for review.
+
+This reminder does not authorize new performance tests, loading investigations,
+live changes, or scheduled/background work. Consult the existing implementation
+record and obtain the applicable task scope before starting a follow-up.
+
 ## Working repository location
 
 Use `/Users/tyler.wilcox/Documents/website-build` as the canonical local checkout
@@ -50,9 +64,9 @@ Current implementation records:
 
 ## Repository checks and review
 
-`.github/workflows/repository-checks.yml` runs both local validators and a
-change-range whitespace check on pull requests and pushes to `main`; it can also
-be run manually. It has read-only repository permissions, pinned action commits,
+`.github/workflows/repository-checks.yml` runs all three offline validators, the
+image-validator regression tests, and a change-range whitespace check on pull
+requests and pushes to `main`; it can also be run manually. It has read-only repository permissions, pinned action commits,
 and no website publishing or scheduled monitoring. Local link checks cover file
 targets in Markdown links and reference definitions; external URLs and heading
 anchors still require separate review. They also flag numbered text-file copies
@@ -139,11 +153,15 @@ Avoid adding duplicate complete organization definitions to every page.
 
 ## Validation and delivery
 
-1. Run `python3 scripts/check-repository.py` and
-   `python3 scripts/validate-business-identity.py` before opening a pull request.
-   These dependency-free scripts check local Markdown file links, file
-   conventions, canonical identity, JSON syntax, the 11 approved footer links,
-   and email-exclusion comments in all four reusable contact assets.
+1. Run `python3 scripts/check-repository.py`,
+   `python3 scripts/validate-business-identity.py`, and
+   `python3 scripts/validate-image-layout.py` before opening or updating a pull
+   request. Also run `python3 -m unittest discover -s scripts -p 'test_*.py'`.
+   These dependency-free checks cover local Markdown links, file conventions,
+   identity/JSON/footer/email consistency, and the nine image-layout CSS files:
+   all 61 mapped selectors, source aspect ratios, width-preservation rules, and
+   shared-logo rules. The tests include the known decorative-width regression
+   and the homepage inventory's 13 informative / 1 decorative / 1 metadata split.
 2. Run `git diff --check` and review the diff for unrelated changes.
 3. Preview footer layout on desktop and mobile in GoHighLevel before publication.
 4. After publication, verify all page URLs in

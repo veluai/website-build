@@ -13,6 +13,24 @@ canonical pages plus `/home`. The image phase is complete; mobile CLS is **not
 fully resolved** and no sitewide Core Web Vitals pass is claimed. GitHub changes
 do not publish HighLevel; the live edits were made separately in its builder.
 
+## High — outstanding performance follow-up (open, deferred)
+
+**Priority: High — outstanding performance follow-up.** No investigation is
+currently underway. The next trigger is **the next substantive website
+repository review or SEO/performance gap analysis**. This priority is recorded
+in the [existing roadmap's Active follow-up](11-website-roadmap.md#active).
+
+Recorded mobile findings: Home CLS improved from 0.538 to 0.158 but remains above
+the good 0.10 threshold; Get Started remains 0.159; Outsourced Accounting measured
+0.262. Home LCP was 1.1 seconds in the original baseline and 3.9/3.5 seconds in
+the final measurements. Possible contributors include font-associated movement,
+an unresolved body-level shift, and hero-image loading behavior. **The cause of
+the slower LCP measurements has not been established.**
+
+This repository review records the open priority; it performs no new performance
+tests, investigation, live edits, or scheduled/background work. Earlier live
+verification and measurement statements below describe the original rollout.
+
 ## Evidence and diagnosis
 
 Ubersuggest reported mobile visual stability 0.37, described by its interface as
@@ -142,13 +160,18 @@ measurements and are not used as the current final results.
 Other metrics also varied: corrected Home LCP was 3.9 s and 3.5 s in the two
 final mobile runs, compared with 1.1s in the original baseline. These post-change
 LCP measurements are slower; the cause has not been isolated, so neither a
-loading improvement nor a purely CSS-caused regression is claimed. Follow-up
-must investigate hero-image loading and retest LCP as well as CLS. HighLevel's automatic lazy loading remains enabled; disabling Image
-Optimization would not remove it. The old Ubersuggest 0.37 visitor-window metric
+loading improvement nor a purely CSS-caused regression is claimed. When
+separately authorized, follow-up should investigate hero-image loading and
+retest LCP as well as CLS. HighLevel's automatic lazy loading remains enabled;
+disabling Image Optimization would not remove it. The old Ubersuggest 0.37 visitor-window metric
 was not marked fixed or expected to update immediately; no ongoing monitoring
 was scheduled.
 
 ## Remaining work - separate review required
+
+**High — open and deferred, not currently under investigation.** Surface this
+issue at the next substantive repository review or SEO/performance gap analysis,
+as specified in the [Active follow-up](11-website-roadmap.md#active).
 
 The latest corrected Home report lists a font-associated text-shift cluster
 around 0.082 and a separate body-level cluster around 0.158; the largest cluster
@@ -166,6 +189,38 @@ proposing publication. This record does not authorize removing fonts/widgets,
 changing booking behavior, adding persistent analytics, or publishing those
 follow-up changes. Image reservations are published; complete CLS remediation
 remains open.
+
+## Repository-only PR #4 review — October 31, 2026
+
+The remaining performance issue is now a High, open and deferred priority in the
+roadmap's Active follow-up and near the top of `AGENTS.md`. No investigation is
+currently underway. The next substantive repository review or SEO/performance
+gap analysis must surface the recorded findings above.
+
+The existing free GitHub Actions workflow now runs
+`scripts/validate-image-layout.py` and its standard-library regression tests,
+alongside the existing repository and business-identity checks. No additional
+service, subscription, dependency, schedule, or deployment was introduced.
+
+Local validation results for this repository-only adjustment:
+
+- Repository conventions and all 225 local Markdown file links: passed.
+- Existing business-identity, footer, email, schema, and copy checks: passed.
+- Image reservations: all nine expected CSS files, 61 mapped image selectors,
+  source aspect ratios, width-preservation rules, and 18 shared-logo rules passed.
+- All 21 offline regression tests passed, including malformed mappings, missing
+  selectors, incorrect ratios, width overrides, and the decorative-width regression.
+- Homepage inventory: 13 informative visible images plus one decorative image
+  match the 14 Home source-map entries; the separate metadata image is excluded.
+  Empty decorative alt text is confirmed in the existing October 30 HTML capture;
+  current live re-verification and local asset matching remain deferred.
+- `git diff --check`: passed. The nine CSS files, reservation map, original
+  informative-image descriptions, and metadata entry remain unchanged.
+
+These are offline repository checks, not new PageSpeed/Lighthouse measurements
+or evidence of fresh live verification. No website, font, hero-loading, chat,
+calendar, or booking changes were made. The GitHub Actions result for the pushed
+commit is recorded on PR #4, which remains open for final approval.
 
 ## Rollback
 

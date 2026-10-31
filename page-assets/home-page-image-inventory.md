@@ -6,6 +6,16 @@ This inventory documents the approved Home-page image assets stored in the repos
 
 Git history is the version history for this file. Do not add a manual revision-history section.
 
+## Inventory scope and reservation-map reconciliation
+
+The homepage inventory distinguishes **13 informative visible images**, **one
+additional decorative visible image**, and **one separate social-sharing
+metadata image**. The 14 visible page-image entries match the Home records in
+[image-layout-reservations.json](../source-data/image-layout-reservations.json).
+The shared navigation logo is recorded separately in that map; testimonial
+avatars and business logos are outside this page-asset inventory. The metadata
+image is not a visible page image and is not part of the 14 CSS reservations.
+
 ## Inventory
 
 | Repository filename | Repository path | Original filename | GHL element name | Hosted URL | Width in pixels | Height in pixels | Aspect ratio | File format | File size | Transparency present | Page section | Visible or metadata-only | Current alt text | Recommended alt text | Decorative or meaningful | Recommended schema use | Notes |
@@ -24,13 +34,34 @@ Git history is the version history for this file. Do not add a manual revision-h
 | `home-sustainable-growth-roadmap.png` | `assets/images/home/home-sustainable-growth-roadmap.png` | `IMAGE_Velu_Roadmap.png` | Sustainable Growth roadmap | `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a23319525d536ee37eb10b2.png` | 1536 | 1024 | 1.50 | PNG | 2227764 bytes (2175.6 KB) | Yes | How We Help Nonprofits Move Forward | Visible | Roadmap icon representing nonprofit strategic planning, budgeting, forecasting, and sustainable organizational growth. | Roadmap icon representing nonprofit strategic planning, budgeting, forecasting, and sustainable organizational growth. | Informative supporting image | No | Adjacent heading and copy communicate the meaning. |
 | `home-velu-team-collaboration.png` | `assets/images/home/home-velu-team-collaboration.png` | `IMAGE_Velu_Collaboration.png` | Collaboration | `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a233b1efc95b245498ebda7.png` | 1536 | 1024 | 1.50 | PNG | 2327190 bytes (2272.6 KB) | No | Why Nonprofits Choose Velu | Visible | Tyler Wilcox and the Velu team collaborating on nonprofit accounting, financial planning, and advisory services. | Tyler Wilcox and the Velu team collaborating on nonprofit accounting, financial planning, and advisory services. | Meaningful | Yes, supporting image | Renamed from original repository filename. |
 | `home-financial-self-sufficiency-quote.png` | `assets/images/home/home-financial-self-sufficiency-quote.png` | `IMAGE_Velu_Goal Quote.png` | Goal quote | `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2340086a06f03d447900e1.png` | 1774 | 887 | 2.00 | PNG | 900157 bytes (879.1 KB) | No | Why Nonprofits Choose Velu | Visible | “Our goal isn’t to make you dependent on us. It’s to help you build an organization that thrives without us.” Velu’s approach to nonprofit financial self-sufficiency. | “Our goal isn’t to make you dependent on us. It’s to help you build an organization that thrives without us.” Velu’s approach to nonprofit financial self-sufficiency. | Meaningful | No | Meaningful because the quote does not appear separately as HTML text. |
+| Not matched to a repository filename | Not matched to a repository asset | Not recorded | `image-NbaZzZymvYp` | `https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2247afda24932f121a2b1a.png` | 1536 | 1024 | 1.50 | PNG | Not recorded | Not recorded | Decorative page element | Visible | Empty (`alt=""`) — existing captured source | Retain empty `alt=""` | Decorative | No | Additional decorative image in the reservation map; retain the existing 100px width. Local asset correspondence is not established. |
+
+## Decorative-image evidence
+
+The additional decorative image is `image-NbaZzZymvYp`, using the hosted PNG
+listed above. Its source-map dimensions are 1536 x 1024; it is not the separate
+social-sharing image. An existing October 30 HTML capture from the original
+PR #4 analysis records this image with **`alt=""`**. The capture was read locally
+for this reconciliation; the live website was not accessed. A source excerpt is:
+
+```html
+<img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/p7nQ61CA0CEz850Cs2rU/media/6a2247afda24932f121a2b1a.png" alt="" style="" class="img-effects-none hl-optimized mw-100" loading="lazy" fetchpriority="auto" data-animation-class="">
+```
+
+Empty alt text is the retained decorative treatment; no approved informative
+image descriptions or live image settings were changed. Current live
+re-verification and matching this hosted image to a local repository file remain
+deferred; no new website inspection was performed. Original image-production
+status fields below are historical and do not claim a fresh live check.
 
 ## Accessibility Summary
 
 - Visible informative images: 13
-- Visible decorative images: 0
+- Visible decorative images: 1 (additional captured decorative element)
+- Total visible page images in the CSS map: 14 (13 informative + 1 decorative)
 - Metadata-only social images: 1
-- Confirmed GHL alt-text implementation: 13
+- Confirmed GHL alt-text implementation: 13 informative images (existing records)
+- Decorative alt-text evidence: empty `alt=""` in the existing October 30 capture; current live re-verification deferred
 - GHL alt-text verification required: 0
 - Exact transcription pending: 0
 - Publication status: Pending
@@ -182,15 +213,15 @@ The Home social-sharing metadata image exists at `assets/images/home/home-velu-s
 
 ## Validation Notes
 
-- All inventory repository paths exist.
+- All recorded repository asset paths exist; the additional decorative hosted image has not been matched to a repository file.
 - Every hosted URL listed for the 13 approved visible assets and the Home social-sharing metadata image is recorded exactly once in the inventory table.
-- Every inventoried asset has measured width and height values.
+- The 13 informative images and metadata image retain their measured dimensions; the decorative image uses the documented reservation-map dimensions.
 - No duplicate repository paths are present.
 - No duplicate normalized filenames are present.
 - SHA-256 checksums matched before and after rename for all 13 approved assets.
 - No approved Home-page asset remains loose in the root `assets/images/` folder.
 - Files in other page-specific folders were not treated as loose Home-page assets.
-- GoHighLevel alt-text implementation is confirmed for all 13 visible Home images. Exact repository transcription is complete for all 13 visible Home images.
+- Existing GoHighLevel alt-text records and exact transcriptions cover all 13 informative visible Home images. The separate decorative image retains empty alt text based on the existing captured source.
 
 ## Layout reservation update - October 30, 2026
 

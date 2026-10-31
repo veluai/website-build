@@ -238,3 +238,8 @@ mobile issue as fixed. Font-associated text movement and an unresolved body-leve
 shift require a separately reviewed follow-up. Distinguish fresh Lighthouse
 tests from Ubersuggest's older visitor-window metric and retain repeated results,
 including less favorable runs. See [the implementation and measurements](mobile-image-layout-stability-2026-10-30.md).
+
+The outstanding work is **High priority, open and deferred** in the
+[roadmap's Active follow-up](11-website-roadmap.md#active). No investigation is
+currently underway; surface it at the next substantive repository review or
+SEO/performance gap analysis. The slower LCP cause has not been established.

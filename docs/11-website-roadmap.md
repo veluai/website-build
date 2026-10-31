@@ -62,6 +62,31 @@ Completed framework documents should remain source documents for future website 
 
 Current follow-up:
 
+### High — outstanding performance follow-up
+
+**Priority: High — outstanding performance follow-up.**
+**Status: Open, deferred. No investigation is currently underway.**
+**Next trigger: The next substantive website repository review or SEO/performance gap analysis.**
+
+| Outstanding measurement | Recorded result |
+| --- | --- |
+| Homepage mobile CLS | Improved from 0.538 to 0.158, still above the good threshold of 0.10 |
+| Get Started mobile CLS | Remains 0.159 |
+| Outsourced Accounting mobile CLS | Measured 0.262 |
+| Homepage mobile LCP | Original baseline 1.1 seconds; final measurements 3.9/3.5 seconds |
+
+Possible contributors include font-associated movement, an unresolved body-level
+shift, and hero-image loading behavior. **The cause of the slower LCP
+measurements has not been established.** Surface these findings prominently at
+the next review; do not describe the completed image-reservation phase as full
+mobile performance remediation. The existing measurements and limitations are
+in the [implementation record](mobile-image-layout-stability-2026-10-30.md).
+
+This is a deferred priority in the existing roadmap, not an instruction to begin
+investigation, change the live website, or create scheduled/background work.
+
+### Other open follow-up
+
 - Remaining external-directory reconciliation, including LocalityBiz, is pending
   separate access as documented in the [identity record](business-identity-implementation.md).
 
@@ -87,10 +112,6 @@ Planned initiatives should be developed in alignment with existing framework doc
 ## Proposed
 
 Proposed initiatives:
-
-- Separately review remaining mobile CLS from font-associated text movement and
-  an unresolved body-level shift, plus variable hero-image loading. Preserve
-  fonts and widget behavior pending approval; see [the image-phase results](mobile-image-layout-stability-2026-10-30.md).
 
 - Blog architecture
 - Resource library
