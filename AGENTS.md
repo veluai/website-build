@@ -158,3 +158,20 @@ Avoid adding duplicate complete organization definitions to every page.
 Do not add unrelated tooling or a framework build to this content repository.
 Preserve historical records; annotate superseded findings rather than silently
 rewriting them as current facts. Do not store credentials or private client data.
+
+## Image layout stability
+
+The approved October 30 image phase is published on all nine pages. Use
+`source-data/image-layout-reservations.json` and the per-page CSS blocks in
+`page-assets/image-layout/`. Append the matching block through native Custom CSS
+and preserve unrelated CSS and the existing breakpoint-specific image widths.
+Do not stretch percentage-sized images, apply a blanket image ratio, or alter
+fixed-size testimonial content. Verify real viewport widths and compare rendered
+geometry before publishing. Keep Image Optimization enabled; turning it off does
+not remove HighLevel's automatic lazy loading. Do not move the reservation CSS
+into late tracking-code injection.
+
+Read `docs/mobile-image-layout-stability-2026-10-30.md` for measured before/after
+results, rollback, and remaining work. Image-triggered shifts improved, but
+mobile CLS is not fully resolved. Font/widget changes require the separately
+documented review; do not infer authorization from this image-only rollout.

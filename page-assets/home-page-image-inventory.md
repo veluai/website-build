@@ -191,3 +191,11 @@ The Home social-sharing metadata image exists at `assets/images/home/home-velu-s
 - No approved Home-page asset remains loose in the root `assets/images/` folder.
 - Files in other page-specific folders were not treated as loose Home-page assets.
 - GoHighLevel alt-text implementation is confirmed for all 13 visible Home images. Exact repository transcription is complete for all 13 visible Home images.
+
+## Layout reservation update - October 30, 2026
+
+The homepage's native image-space reservation changes are published and verified.
+Image URLs and alt text are retained. The original production-status summaries
+above describe earlier work; this dated update covers CSS sizing only. Source,
+current test results, and remaining font/body shifts are documented in the
+[mobile image-layout record](../docs/mobile-image-layout-stability-2026-10-30.md).

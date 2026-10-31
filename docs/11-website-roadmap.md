@@ -32,6 +32,11 @@ Status definitions:
 
 Completed items:
 
+- Image-space reservations (October 30): native Custom CSS published and verified
+  on nine pages for the shared logo and 61 native image elements; see the
+  [implementation record](mobile-image-layout-stability-2026-10-30.md). This
+  completes the image phase, not all mobile CLS remediation.
+
 - SEO audit recommendation 3, website and repository implementation (2026-10-28): full identity in the shared footer, consistent named organization schema, AGENTS.md, and documented live checks. External directory reconciliation remains pending in [the implementation record](business-identity-implementation.md).
 
 - Homepage Framework
@@ -82,6 +87,10 @@ Planned initiatives should be developed in alignment with existing framework doc
 ## Proposed
 
 Proposed initiatives:
+
+- Separately review remaining mobile CLS from font-associated text movement and
+  an unresolved body-level shift, plus variable hero-image loading. Preserve
+  fonts and widget behavior pending approval; see [the image-phase results](mobile-image-layout-stability-2026-10-30.md).
 
 - Blog architecture
 - Resource library

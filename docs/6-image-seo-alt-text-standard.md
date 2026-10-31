@@ -116,3 +116,16 @@ Schema image references should not be treated as a substitute for accessible ima
 | Date | Version | Summary | Owner |
 | --- | --- | --- | --- |
 | 2026-06-20 | 1.0 | Initial image SEO and alt text standard created for Velu public website images. | Tyler Wilcox |
+
+## Responsive image-space reservations - October 30, 2026
+
+Reserve image space before resources load using correct intrinsic dimensions or
+an appropriate CSS aspect ratio. Preserve existing pixel/percentage widths,
+responsive overrides, crops, and approved alt text. Do not stretch images merely
+to satisfy a diagnostic. Native HighLevel Custom CSS is used for the current
+rollout so the rules are delivered before the images; late tracking-code
+injection is not an equivalent reservation strategy. Keep Image Optimization
+enabled and retain off-screen lazy loading. Eager loading should be used for
+important initial images only where the platform supports it safely.
+
+See [the published image phase, source map, results, and remaining CLS work](mobile-image-layout-stability-2026-10-30.md).
