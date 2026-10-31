@@ -1,5 +1,15 @@
 # Pre-Publication Audit Findings
 
+## Historical record - clarified October 30, 2026
+
+The launch-transition findings and monitoring suggestions below are
+historical. They do not authorize scheduled monitoring or new indexing requests.
+Use the [current overview](1-website-build-overview.md),
+[schema inventory](3-page-schema-inventory.md), and
+[Google follow-up](google-search-follow-up.md) for later status.
+Original findings are preserved below; this annotation does not claim every
+historical issue was resolved or newly retested.
+
 ## Audit Status
 
 - Audit type: Repository documentation audit
