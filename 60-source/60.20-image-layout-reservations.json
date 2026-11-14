@@ -12,7 +12,7 @@
   "pages": [
     {
       "url": "https://velu.us/",
-      "cssFile": "page-assets/image-layout/home.css",
+      "cssFile": "40-pages/40.16-home.css",
       "retainedPaddingSection": "section-PhF-XA0zZS",
       "images": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "url": "https://velu.us/about-us",
-      "cssFile": "page-assets/image-layout/about-us.css",
+      "cssFile": "40-pages/40.27-about-us.css",
       "retainedPaddingSection": "section-Zxr774wqBe",
       "images": [
         {
@@ -201,25 +201,25 @@
     },
     {
       "url": "https://velu.us/get-started",
-      "cssFile": "page-assets/image-layout/get-started.css",
+      "cssFile": "40-pages/40.38-get-started.css",
       "retainedPaddingSection": "section-3mhWpaYaDL",
       "images": []
     },
     {
       "url": "https://velu.us/privacy-policy",
-      "cssFile": "page-assets/image-layout/privacy-policy.css",
+      "cssFile": "40-pages/40.83-privacy-policy.css",
       "retainedPaddingSection": "section-pP6HWEBbfI",
       "images": []
     },
     {
       "url": "https://velu.us/terms-and-conditions",
-      "cssFile": "page-assets/image-layout/terms-and-conditions.css",
+      "cssFile": "40-pages/40.92-terms-and-conditions.css",
       "retainedPaddingSection": "section-ylELUQDCgA",
       "images": []
     },
     {
       "url": "https://velu.us/services/nonprofit-outsourced-accounting-services",
-      "cssFile": "page-assets/image-layout/nonprofit-outsourced-accounting-services.css",
+      "cssFile": "40-pages/40.45-nonprofit-outsourced-accounting-services.css",
       "retainedPaddingSection": "section-AMt9lJE7Uu",
       "images": [
         {
@@ -310,7 +310,7 @@
     },
     {
       "url": "https://velu.us/services/nonprofit-client-advisory-services",
-      "cssFile": "page-assets/image-layout/nonprofit-client-advisory-services.css",
+      "cssFile": "40-pages/40.56-nonprofit-client-advisory-services.css",
       "retainedPaddingSection": "section-PDnLs408pX",
       "images": [
         {
@@ -373,7 +373,7 @@
     },
     {
       "url": "https://velu.us/services/nonprofit-grant-advisory-compliance-services",
-      "cssFile": "page-assets/image-layout/nonprofit-grant-advisory-compliance-services.css",
+      "cssFile": "40-pages/40.67-nonprofit-grant-advisory-compliance-services.css",
       "retainedPaddingSection": "section-s82_us481y",
       "images": [
         {
@@ -457,7 +457,7 @@
     },
     {
       "url": "https://velu.us/services/nonprofit-tax-services",
-      "cssFile": "page-assets/image-layout/nonprofit-tax-services.css",
+      "cssFile": "40-pages/40.77-nonprofit-tax-services.css",
       "retainedPaddingSection": "section-_g2mNknDkO",
       "images": [
         {

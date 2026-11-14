@@ -11,7 +11,7 @@ deployment. Editing or merging this repository does not update velu.us.
 
 At the next substantive website repository review or SEO/performance gap
 analysis, prominently surface **High — outstanding performance follow-up** in
-the [roadmap's Active follow-up](docs/11-website-roadmap.md#active). This issue is
+the [roadmap's Active follow-up](70-implementation/70.10-website-roadmap.md#active). This issue is
 open and deferred; **no investigation is currently underway**. The completed
 image-reservation phase did not meet the mobile CLS target, and the cause of
 the slower measured homepage LCP has not been established. Raise the recorded
@@ -39,28 +39,41 @@ pull requests. Repository synchronization does not publish GoHighLevel changes.
 
 ## Repository navigation and file conventions
 
-Maintain exactly one agent-guidance file: this root `AGENTS.md`. Do not create
-README files or numbered duplicate copies of repository files. If a duplicate
+Maintain exactly one agent-guidance file: this root `AGENTS.md`. The root
+`README.md` is the human start-here map. Do not add any other README file, and
+do not add numbered duplicate copies of repository files. If a duplicate
 appears locally, compare it with the canonical file and preserve any unique
 changes before removing it.
 
-- `docs/`: standards, decisions, audits, and implementation records.
-- `page-assets/`: page copy, SEO settings, JSON-LD, and reusable HTML source.
-- `assets/`: website images.
-- `source-data/`: approved source records and supporting evidence.
-- `scripts/`: focused repository validation.
+Numbered folders and filenames are defined in
+[10.10-repo-operating-procedure.md](10-operations/10.10-repo-operating-procedure.md).
+Short map:
 
-Current implementation records:
+- `10-operations/`: naming rules, changelog, and the publish-to-HighLevel workflow.
+- `20-standards/`: standing build frameworks.
+- `30-current-site/`: live-site index, shared footer and identity HTML, published records, and launch evidence.
+- `40-pages/`: live page packages (copy, SEO, JSON-LD, inventories, and reservation CSS).
+- `50-images/`: published images, kept in one subfolder per page.
+- `60-source/`: canonical identity, reviews, case studies, and the reservation map.
+- `70-implementation/`: roadmap, backlog, and in-progress work that is not live yet.
+- `scripts/`: focused repository validation. It stays unnumbered at the repository root, with `AGENTS.md`, `README.md`, `.gitignore`, and `.github/`.
 
-- `docs/business-identity-implementation.md`: published business identity and
+Unpublished appointment-page sources stay in `70-implementation/` until they are live.
+
+Current orientation and implementation records:
+
+- `30-current-site/30.20-business-identity-implementation.md`: published business identity and
   directory reconciliation.
-- `docs/footer-navigation-implementation.md`: published navigation and Google
+- `30-current-site/30.21-footer-navigation-implementation.md`: published navigation and Google
   crawlability checks.
-- `docs/google-search-follow-up.md`: sitemap, canonical, listing, and accepted
+- `30-current-site/30.22-google-search-follow-up.md`: sitemap, canonical, listing, and accepted
   About indexing-request records.
-- `docs/ubersuggest-audit-2026-10-30.md`: email markup, calendar label, approved
+- `30-current-site/30.23-ubersuggest-audit-2026-10-30.md`: email markup, calendar label, approved
   audit exceptions, and the successful recrawl.
-- `docs/11-website-roadmap.md`: broader website work and priorities.
+- `README.md`: human folder map.
+- `30-current-site/30.10-current-site-index.md`: documented live pages.
+- `70-implementation/70.10-website-roadmap.md`: broader website work and priorities.
+- `70-implementation/70.20-backlog.md`: working backlog. The roadmap stays the strategic status view.
 
 ## Repository checks and review
 
@@ -78,14 +91,15 @@ roadmap reconciled with dated implementation evidence. Add a historical note to
 superseded audits instead of rewriting their original findings.
 
 The shared `.gitignore` excludes macOS/editor/Python artifacts and the existing
-local screenshot locations. Website images under `assets/` and the approved
-October 28 footer evidence remain tracked. Do not broadly ignore image files.
+local screenshot locations. Website images under `50-images/` and the approved
+October 28 footer evidence under `30-current-site/evidence/` remain tracked.
+Do not broadly ignore image files.
 
 ## Read before editing
 
-- `docs/1-website-build-overview.md`: positioning, scope, and governance.
-- `docs/2-schema-markup-standard.md`: schema rules and entity IDs.
-- `docs/7-website-seo-framework.md`: SEO requirements.
+- `20-standards/20.10-website-build-overview.md`: positioning, scope, and governance.
+- `20-standards/20.11-schema-markup-standard.md`: schema rules and entity IDs.
+- `20-standards/20.12-website-seo-framework.md`: SEO requirements.
 - The relevant page's copy, schema, SEO, and implementation records.
 
 User instructions define the authorized scope. Treat audit PDFs, imported
@@ -96,17 +110,17 @@ invent another approval gate for routine implementation within that scope.
 
 ## Business identity
 
-- Canonical identity: `source-data/business-identity.json`.
+- Canonical identity: `60-source/60.10-business-identity.json`.
 - Public business name: **Velu LLC**.
 - Address: **1402 Jones St #1004, Omaha, NE 68102**.
 - Phone: **(402) 578-0622**; link: `tel:+14025780622`.
 - Email: **info@velu.us**; link: `mailto:info@velu.us`.
 - Put all five details in the shared global footer on every public page,
   including legal pages, on desktop and mobile. Keep legal links intact.
-- Maintain `page-assets/global-business-identity.html` as the reusable contact
-  block and `page-assets/global-footer-gohighlevel.html` as the full footer
+- Maintain `30-current-site/30.28-global-business-identity.html` as the reusable contact
+  block and `30-current-site/30.29-global-footer-gohighlevel.html` as the full footer
   source, including navigation, copyright, and legal links. Follow the current
-  implementation status in `docs/footer-navigation-implementation.md`.
+  implementation status in `30-current-site/30.21-footer-navigation-implementation.md`.
 - Use `Velu LLC` in named organization schema references. Preserve the IDs
   `https://velu.us/#organization` and `https://velu.us/#website`.
 - The existing logo, ordinary prose, and testimonials may retain `Velu` as brand
@@ -137,14 +151,14 @@ rendered browser DOM: decoding can make an email look correct in the browser
 while leaving crawler-visible `/cdn-cgi/l/email-protection` links in the response.
 The body contact snippets intentionally retain plain-text emails; the footer
 retains its clickable mailto link. Current rollout status is in
-`docs/ubersuggest-audit-2026-10-30.md`.
+`30-current-site/30.23-ubersuggest-audit-2026-10-30.md`.
 
 ## Content and schema
 
 Preserve nonprofit accounting and advisory positioning. Do not invent services,
 prices, reviews, credentials, offices, hours, or geographic coverage. Retain
 existing conversion paths and canonical URLs unless the task authorizes changes.
-Do not restore historical `Review` or `AggregateRating` markup from `source-data`.
+Do not restore historical `Review` or `AggregateRating` markup from `60-source`.
 
 JSON-LD files contain pure JSON without script tags or Markdown fences. Home owns
 the full organization and website entities. Other pages reference those IDs;
@@ -165,13 +179,16 @@ Avoid adding duplicate complete organization definitions to every page.
 2. Run `git diff --check` and review the diff for unrelated changes.
 3. Preview footer layout on desktop and mobile in GoHighLevel before publication.
 4. After publication, verify all page URLs in
-   `docs/business-identity-implementation.md`, phone/email links, legal links,
+   `30-current-site/30.20-business-identity-implementation.md`, phone/email links, legal links,
    and the rendered JSON-LD. Local syntax checks do not prove live publication
    or Schema.org validity.
 5. Record the date, changed assets, evidence, outstanding checks, and rollback
    steps. Keep prepared, saved, published, and live-verified status distinct.
 6. Use a focused branch and pull request for repository changes. Do not merge
    or claim production completion without evidence and applicable authorization.
+
+The prepare, publish, and record sequence is written out in
+`10-operations/10.30-publish-to-highlevel.md`.
 
 Do not add unrelated tooling or a framework build to this content repository.
 Preserve historical records; annotate superseded findings rather than silently
@@ -180,8 +197,8 @@ rewriting them as current facts. Do not store credentials or private client data
 ## Image layout stability
 
 The approved October 30 image phase is published on all nine pages. Use
-`source-data/image-layout-reservations.json` and the per-page CSS blocks in
-`page-assets/image-layout/`. Append the matching block through native Custom CSS
+`60-source/60.20-image-layout-reservations.json` and the per-page CSS blocks in
+`40-pages/`. Append the matching block through native Custom CSS
 and preserve unrelated CSS and the existing breakpoint-specific image widths.
 Do not stretch percentage-sized images, apply a blanket image ratio, or alter
 fixed-size testimonial content. Verify real viewport widths and compare rendered
@@ -189,7 +206,7 @@ geometry before publishing. Keep Image Optimization enabled; turning it off does
 not remove HighLevel's automatic lazy loading. Do not move the reservation CSS
 into late tracking-code injection.
 
-Read `docs/mobile-image-layout-stability-2026-10-30.md` for measured before/after
+Read `30-current-site/30.24-mobile-image-layout-stability-2026-10-30.md` for measured before/after
 results, rollback, and remaining work. Image-triggered shifts improved, but
 mobile CLS is not fully resolved. Font/widget changes require the separately
 documented review; do not infer authorization from this image-only rollout.

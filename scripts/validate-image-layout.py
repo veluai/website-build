@@ -19,8 +19,18 @@ EXPECTED_PAGES = {
     'nonprofit-grant-advisory-compliance-services': ('/services/nonprofit-grant-advisory-compliance-services', 11),
     'nonprofit-tax-services': ('/services/nonprofit-tax-services', 5),
 }
-EXPECTED_FILES = {f'page-assets/image-layout/{key}.css': value
-                  for key, value in EXPECTED_PAGES.items()}
+CSS_PATHS = {
+    'home': '40-pages/40.16-home.css',
+    'about-us': '40-pages/40.27-about-us.css',
+    'get-started': '40-pages/40.38-get-started.css',
+    'privacy-policy': '40-pages/40.83-privacy-policy.css',
+    'terms-and-conditions': '40-pages/40.92-terms-and-conditions.css',
+    'nonprofit-outsourced-accounting-services': '40-pages/40.45-nonprofit-outsourced-accounting-services.css',
+    'nonprofit-client-advisory-services': '40-pages/40.56-nonprofit-client-advisory-services.css',
+    'nonprofit-grant-advisory-compliance-services': '40-pages/40.67-nonprofit-grant-advisory-compliance-services.css',
+    'nonprofit-tax-services': '40-pages/40.77-nonprofit-tax-services.css',
+}
+EXPECTED_FILES = {CSS_PATHS[key]: value for key, value in EXPECTED_PAGES.items()}
 BLOCK = re.compile(r'([^{}]+)\{([^{}]*)\}')
 IDENTIFIER = re.compile(r'[A-Za-z_][A-Za-z0-9_-]*')
 NUMBER = r'(?:\d+(?:\.\d*)?|\.\d+)'
@@ -80,16 +90,17 @@ def positive_dimensions(record):
 def validate(root=ROOT):
     errors = []
     try:
-        data = json.loads((root / 'source-data/image-layout-reservations.json').read_text())
+        data = json.loads((root / '60-source/60.20-image-layout-reservations.json').read_text())
     except (OSError, ValueError) as exc:
-        return [f'image-layout-reservations.json: {exc}']
+        return [f'60.20-image-layout-reservations.json: {exc}']
     if not isinstance(data, dict) or not isinstance(data.get('pages'), list):
-        return ['image-layout-reservations.json: expected a pages list']
+        return ['60.20-image-layout-reservations.json: expected a pages list']
     pages = data['pages']
     if len(pages) != 9:
         errors.append(f'Expected nine mapped pages; found {len(pages)}')
-    actual_files = {p.relative_to(root).as_posix()
-                    for p in (root / 'page-assets/image-layout').glob('*.css')}
+    css_dir = root / '40-pages'
+    actual_files = ({p.relative_to(root).as_posix() for p in css_dir.glob('*.css')}
+                    if css_dir.is_dir() else set())
     if actual_files != set(EXPECTED_FILES):
         errors.append(f'Expected nine CSS files; missing {sorted(set(EXPECTED_FILES) - actual_files)}, '
                       f'unexpected {sorted(actual_files - set(EXPECTED_FILES))}')
