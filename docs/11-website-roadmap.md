@@ -85,6 +85,17 @@ in the [implementation record](mobile-image-layout-stability-2026-10-30.md).
 This is a deferred priority in the existing roadmap, not an instruction to begin
 investigation, change the live website, or create scheduled/background work.
 
+### Appointment pages — preparation in progress
+
+Tyler's November 14 direction selects separate Discovery and Digital Coffee
+confirmation pages, plus a simple Digital Coffee booking page based on Get
+Started. Onboarding is explicitly deferred, including its calendar destination.
+Copy, confirmation-body HTML, and proposed settings are prepared;
+HighLevel assembly, publication, calendar cutover, and live verification are
+pending. See [the implementation record](appointment-pages-implementation.md).
+This supersedes the earlier shared-page design for this task. `/resources/`
+remains an open strategy choice; no resources build or redirect is authorized.
+
 ### Other open follow-up
 
 - Remaining external-directory reconciliation, including LocalityBiz, is pending

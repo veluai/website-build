@@ -57,6 +57,17 @@ future improvements in the [roadmap](11-website-roadmap.md). Proposed resource,
 blog, lead-magnet, and service expansion is not approved publication work.
 This summary reconciles existing evidence; it does not claim a new live check.
 
+## Appointment page preparation — November 14, 2026
+
+Separate Discovery and Digital Coffee confirmation pages and a Digital Coffee
+booking page are being prepared under Tyler's current instruction. Onboarding
+is explicitly deferred; its page/calendar destination remains unchanged.
+The Coffee page reuses the Get Started layout with the existing 15-minute Coffee
+calendar and its own purpose-specific copy. These are prepared assets, **not
+additional published pages**. The nine-page October 30 snapshot above remains
+historical evidence. [Implementation, cutover, and verification status](appointment-pages-implementation.md)
+are recorded separately. `/resources/` remains undecided and is outside this build.
+
 Current primary conversion:
 
 - https://velu.us/get-started
