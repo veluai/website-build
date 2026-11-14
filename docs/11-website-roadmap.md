@@ -91,8 +91,9 @@ Tyler's November 14 direction selects separate Discovery and Digital Coffee
 confirmation pages, plus a simple Digital Coffee booking page based on Get
 Started. Onboarding is explicitly deferred, including its calendar destination.
 Copy, confirmation-body HTML, and proposed settings are prepared;
-HighLevel assembly, publication, calendar cutover, and live verification are
-pending. See [the implementation record](appointment-pages-implementation.md).
+A Digital Coffee copy is now saved Unpublished in HighLevel using the existing
+15-minute Coffee calendar. Styling/metadata/mobile review and both confirmation
+page builds remain pending, along with final publication and calendar cutover. See [the implementation record](appointment-pages-implementation.md).
 This supersedes the earlier shared-page design for this task. `/resources/`
 remains an open strategy choice; no resources build or redirect is authorized.
 

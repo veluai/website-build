@@ -2,10 +2,13 @@
 
 ## Current status — November 14, 2026
 
-**Prepared for owner review. No HighLevel page, redirect, calendar, notification,
-tracking, or live website setting has been changed.** Repository copy, two
-confirmation-body HTML assets, and page settings are prepared. Native builder
-assembly, preview, publication, and live verification remain pending.
+**Native Digital Coffee preparation started on the DGX Spark in Chrome.**
+The new Coffee copy is saved and Unpublished on its generated temporary path.
+Its heading/introduction and displayed calendar are updated; it is not ready for
+launch. Both confirmation pages remain repository-prepared only. Existing
+booking pages, calendar configurations, redirects, workflows, and Onboarding
+were not edited. See the dated execution checkpoint below for the clone's brief
+initial live state, containment, verification limits, and exact resume point.
 
 Tyler's current instruction replaces the earlier shared-page recommendation:
 prepare simple, useful **individual** confirmation pages for Discovery and Digital
@@ -73,7 +76,11 @@ created without a defined test authorization and controlled destination.
    existing Coffee calendar. Remove Discovery-specific copy, 45-minute metadata,
    schema, and image. Inspect the existing `/digital-coffee` → `/get-started`
    redirect; restore that exact rule if the later cutover must be reversed.
-3. Create the two confirmation pages using their body assets and existing
+3. Before editing a new clone, verify its publication status: this session
+   demonstrated that Clone can immediately expose the copied content publicly.
+   Use the builder Pages panel to unpublish only that new page, and verify it
+   no longer serves the copied content. Do not infer Draft from not clicking
+   Publish. Create the two confirmation pages using their body assets and existing
    shared header/footer. Preview desktop/mobile; verify titles, links, current
    durations/method, inherited scripts, and proposed indexing settings.
 4. Resolve the exact conflicting Coffee redirect and publish/check all three
@@ -130,8 +137,8 @@ safer, and contain only the failing change.
 - Legacy `/call-confirmation/` remains unchanged; its documented homepage fallback
   is unresolved for Onboarding while that work is deferred.
 - Native assembly, publication, scoped calendar cutover, and separate live/runtime
-  acceptance evidence. Connected tools in this chat do not provide HighLevel
-  builder access; no live step has been attempted or claimed.
+  acceptance evidence. HighLevel access through the DGX Chrome desktop is now verified. Only the
+  bounded Coffee draft work in the checkpoint below has been performed.
 - Social Media documentation reconciliation after reviewed design/cutover.
 
 `/resources/`, LinkedIn edits, notifications/CRM changes, Onboarding and other
@@ -146,3 +153,62 @@ preparation. Description character counts are recorded in the settings file.
 The two body assets are script-free and contain one H1 each. These checks do not
 verify HighLevel rendering, real booking success, notifications, analytics
 receipt, publication, or indexing. Native desktop/mobile preview remains pending.
+
+## DGX Chrome implementation checkpoint — November 14, 2026
+
+**Authority:** Tyler explicitly requested merging PR #5 and beginning the work
+using the DGX Spark's Chrome browser. PR #5 merged successfully at
+`0d391f5407381aa792654a560ccaae3dd3686b41` after the Repository checks workflow
+passed for its exact head. Onboarding remains explicitly deferred.
+
+**Access:** Existing NVIDIA Sync SSH alias `DGX-Spark`; existing signed-in Chrome
+session and native HighLevel UI. No browser restart, remote-debugging listener,
+credential/cookie extraction, browser-security change, new account connection,
+AI generation, or paid action. A new Chrome window was used for the Velu website.
+
+**Exact saved asset:** In the existing Velu LLC website
+`4TO9KFUGOVUf3uFrAta8`, cloned Get Started once, then renamed that new page
+**Digital Coffee - PREPARATION**. Retained generated path `/get-started-143622`;
+`/digital-coffee` and its existing redirect are untouched. Reuse this copy—do not
+clone it again. Native page editor is left open on the DGX.
+
+**Unexpected effect and containment:** Clone immediately served the copied
+Discovery page at the generated path without an explicit Publish action. A
+public read returned HTTP 200 at that path with the Discovery title and canonical
+`https://velu.us/get-started`. In the builder Pages panel, opened only the new
+copy's menu → Unpublish → Standard 404 page → Unpublish. Native success toast,
+header, and page list showed Unpublished. Public read afterwards ended at
+`/home` with HTTP 200 and the homepage title, rather than a literal 404. Thus the
+copied page is no longer served, but the platform's selected Standard 404 option
+must not be documented as a verified HTTP 404. Original `/get-started` remained
+HTTP 200 at its original path with its Discovery title and introduction.
+
+HighLevel's [single-page unpublish documentation](https://ideas.gohighlevel.com/changelog/single-page-unpublish-for-funnels-and-websites)
+describes the builder-side menu and reversible per-page control. The outer
+website-card menu inspected here did not expose Unpublish; use the **builder
+Pages panel**, not a sitewide/domain change. Current live behavior above takes
+precedence over the documentation's expected standard-404 response.
+
+**Draft content saved:** H1 `Book a Digital Coffee`; both introductory paragraphs
+from the repository copy; existing Digital Coffee calendar selected via native
+Calendar → Change → Calendar → Digital Coffee → Add to page. Widget rendered
+Digital Coffee, 15 min, and Microsoft Teams. Retained `Use action from calendar
+builder` redirect behavior; no calendar settings or confirmation destination
+was changed. Heading uses an existing brand navy. Body typography still needs
+reconciliation with the copied page and mobile review. Save was used; Publish
+was not. This draft still carries inherited Discovery metadata/schema/social
+settings until explicitly replaced or removed; do not launch it in this state.
+
+**Not performed:** No appointment/form submission, message, customer-record
+inspection, workflow/notification/analytics edit, calendar destination change,
+new confirmation-page creation, final path cutover, or Onboarding change. The
+public checks were bounded non-submitting reads; page views are not bookings.
+No screenshot or preview/session link was added to the repository.
+
+**Next implementation:** Reopen this exact saved Unpublished copy; verify saved
+copy/calendar selection and status, reconcile text styles and inherited
+metadata/schema/social image, inspect mobile layout and footer/contact, then
+prepare both confirmation pages using the same immediate-unpublish safeguard.
+The `/digital-coffee` routing baseline and the three launch destinations still
+need native inspection/verification before any calendar cutover. No background
+continuation or monitoring is configured.

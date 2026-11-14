@@ -63,8 +63,10 @@ Separate Discovery and Digital Coffee confirmation pages and a Digital Coffee
 booking page are being prepared under Tyler's current instruction. Onboarding
 is explicitly deferred; its page/calendar destination remains unchanged.
 The Coffee page reuses the Get Started layout with the existing 15-minute Coffee
-calendar and its own purpose-specific copy. These are prepared assets, **not
-additional published pages**. The nine-page October 30 snapshot above remains
+calendar and its own purpose-specific copy. A Coffee copy is now saved
+**Unpublished** in HighLevel; confirmation pages remain repository-prepared.
+The clone was briefly live automatically and then individually unpublished,
+as recorded in the implementation checkpoint. No new launch is complete. The nine-page October 30 snapshot above remains
 historical evidence. [Implementation, cutover, and verification status](appointment-pages-implementation.md)
 are recorded separately. `/resources/` remains undecided and is outside this build.
 
