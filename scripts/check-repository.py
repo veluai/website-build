@@ -41,8 +41,8 @@ def main():
     links = 0
     for path in files:
         name = path.relative_to(ROOT).as_posix()
-        if path.name.lower().startswith('readme'):
-            errors.append(f'{name}: README files are not used; maintain AGENTS.md')
+        if path.name.lower().startswith('readme') and name != 'README.md':
+            errors.append(f'{name}: only the root README.md is allowed; do not add other README files')
         if path.name == '.DS_Store' or path.name.startswith('._'):
             errors.append(f'{name}: remove this macOS metadata file from Git')
         duplicate = re.fullmatch(r'(.+) \d+(\.(?:md|html|json|jsonld|py|yml|yaml|txt|csv))', path.name, re.I)
@@ -70,7 +70,7 @@ def main():
     if errors:
         print('\n'.join('ERROR: ' + e for e in errors), file=sys.stderr)
         return 1
-    print(f'PASS: one AGENTS.md, no README or numbered copies, and {links} local Markdown file links.')
+    print(f'PASS: one AGENTS.md, no README outside the repository root, no numbered copies, and {links} local Markdown file links.')
     print('Checks Git-listed files and unignored local additions; external URLs and heading anchors are not checked.')
     return 0
 

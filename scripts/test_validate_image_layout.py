@@ -17,11 +17,14 @@ class ImageLayoutValidationTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix='velu-image-layout-')
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        self.mapping = self.root / 'source-data/image-layout-reservations.json'
+        self.mapping = self.root / '60-source/60.20-image-layout-reservations.json'
         self.mapping.parent.mkdir()
-        shutil.copyfile(ROOT / 'source-data/image-layout-reservations.json', self.mapping)
-        shutil.copytree(ROOT / 'page-assets/image-layout', self.root / 'page-assets/image-layout')
-        self.home = self.root / 'page-assets/image-layout/home.css'
+        shutil.copyfile(ROOT / '60-source/60.20-image-layout-reservations.json', self.mapping)
+        css_dir = self.root / '40-pages'
+        css_dir.mkdir()
+        for path in (ROOT / '40-pages').glob('*.css'):
+            shutil.copyfile(path, css_dir / path.name)
+        self.home = css_dir / '40.16-home.css'
 
     def rejects(self, message):
         self.assertTrue(any(message in error for error in CHECKER.validate(self.root)),
@@ -113,7 +116,7 @@ class ImageLayoutValidationTests(unittest.TestCase):
         self.rejects('unsupported property height')
 
     def test_home_inventory_matches_map(self):
-        text = (ROOT / 'page-assets/home-page-image-inventory.md').read_text()
+        text = (ROOT / '40-pages/40.14-home-page-image-inventory.md').read_text()
         table = text.split('## Inventory\n', 1)[1].split('\n## ', 1)[0]
         self.assertTrue(all(line.startswith('|') for line in table.strip().splitlines()),
                         'Inventory must remain one contiguous Markdown table')

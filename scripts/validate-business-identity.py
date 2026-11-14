@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
-identity = json.loads((ROOT / 'source-data/business-identity.json').read_text())
+identity = json.loads((ROOT / '60-source/60.10-business-identity.json').read_text())
 address = identity['address']
 
 
@@ -63,9 +63,10 @@ def check(condition, message):
         errors.append(message)
 
 
-for name in ('global-business-identity.html', 'global-footer-gohighlevel.html'):
+for name in ('30-current-site/30.28-global-business-identity.html',
+             '30-current-site/30.29-global-footer-gohighlevel.html'):
     parser = FooterParser()
-    parser.feed((ROOT / 'page-assets' / name).read_text())
+    parser.feed((ROOT / name).read_text())
     parser.finish(name)
     text = ' '.join(parser.text)
     for value in (identity['name'], address['streetAddress'],
@@ -74,7 +75,7 @@ for name in ('global-business-identity.html', 'global-footer-gohighlevel.html'):
         check(value in text, f'{name}: missing visible {value}')
     for href in (identity['telephoneHref'], 'mailto:' + identity['email']):
         check(href in parser.links, f'{name}: missing link {href}')
-    if name == 'global-footer-gohighlevel.html':
+    if name.endswith('30.29-global-footer-gohighlevel.html'):
         expected_links = [
             identity['url'], identity['telephoneHref'], 'mailto:' + identity['email'],
             'https://velu.us/services/nonprofit-outsourced-accounting-services',
@@ -86,9 +87,10 @@ for name in ('global-business-identity.html', 'global-footer-gohighlevel.html'):
         ]
         check(parser.links == expected_links, f'{name}: approved 11 footer links or order changed')
 
-for name in ('get-started-contact.html', 'privacy-policy-contact.html'):
+for name in ('40-pages/40.37-get-started-contact.html',
+             '40-pages/40.82-privacy-policy-contact.html'):
     parser = FooterParser()
-    parser.feed((ROOT / 'page-assets' / name).read_text())
+    parser.feed((ROOT / name).read_text())
     parser.finish(name)
     check(not any(href.startswith('mailto:') for href in parser.links),
           f'{name}: retain the approved plain-text body email')
@@ -111,14 +113,14 @@ def inspect(node, filename):
             inspect(value, filename)
 
 
-schemas = sorted((ROOT / 'page-assets').glob('*.jsonld'))
+schemas = sorted((ROOT / '40-pages').glob('*.jsonld'))
 for path in schemas:
     try:
         inspect(json.loads(path.read_text()), path.name)
     except json.JSONDecodeError as exc:
         errors.append(f'{path.name}: invalid JSON: {exc}')
 
-home = json.loads((ROOT / 'page-assets/home-page-schema.jsonld').read_text())
+home = json.loads((ROOT / '40-pages/40.12-home-page-schema.jsonld').read_text())
 organization = next(node for node in home['@graph'] if node.get('@id') == identity['organizationId'])
 for key in ('name', 'address', 'telephone', 'email'):
     check(organization.get(key) == identity[key], f'Home organization: missing or conflicting {key}')
@@ -126,7 +128,8 @@ check(organization.get('legalName') == identity['name'], 'Home organization: con
 for key in ('telephone', 'email'):
     check(organization.get('contactPoint', {}).get(key) == identity[key], f'Home contactPoint: conflicting {key}')
 
-copies = sorted((ROOT / 'page-assets').glob('*copy.md'))
+copies = sorted((ROOT / '40-pages').glob('*copy.md'))
+copies += sorted((ROOT / '70-implementation').glob('*copy.md'))
 for path in copies:
     check('global-business-identity.html' in path.read_text(), f'{path.name}: missing shared footer reference')
 

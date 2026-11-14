@@ -10,5 +10,5 @@ __pycache__/
 *.py[cod]
 
 # Local verification screenshots, not public website image assets
-/docs/evidence/local-verification/
-/docs/evidence/google-follow-up-2026-10-28/*.jpg
+/30-current-site/evidence/local-verification/
+/30-current-site/evidence/google-follow-up-2026-10-28/*.jpg
