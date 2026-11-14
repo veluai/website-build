@@ -228,3 +228,18 @@ a minimum word count, does not use meta keywords, and recommends concise,
 descriptive titles. Public-email markup uses Cloudflare's per-email exclusion;
 validate delivered HTML separately from browser decoding. Decisions, sources,
 and the approved calendar-label change are in [the audit record](ubersuggest-audit-2026-10-30.md).
+
+## Mobile layout stability - October 30, 2026
+
+The image-space reservation phase is published on all nine pages. Repeat mobile
+Home lab CLS improved from 0.538 to 0.158 in two corrected final runs, but remains above the good 0.10
+target; Outsourced Accounting still measured 0.262. Do not describe the entire
+mobile issue as fixed. Font-associated text movement and an unresolved body-level
+shift require a separately reviewed follow-up. Distinguish fresh Lighthouse
+tests from Ubersuggest's older visitor-window metric and retain repeated results,
+including less favorable runs. See [the implementation and measurements](mobile-image-layout-stability-2026-10-30.md).
+
+The outstanding work is **High priority, open and deferred** in the
+[roadmap's Active follow-up](11-website-roadmap.md#active). No investigation is
+currently underway; surface it at the next substantive repository review or
+SEO/performance gap analysis. The slower LCP cause has not been established.

@@ -32,6 +32,11 @@ Status definitions:
 
 Completed items:
 
+- Image-space reservations (October 30): native Custom CSS published and verified
+  on nine pages for the shared logo and 61 native image elements; see the
+  [implementation record](mobile-image-layout-stability-2026-10-30.md). This
+  completes the image phase, not all mobile CLS remediation.
+
 - SEO audit recommendation 3, website and repository implementation (2026-10-28): full identity in the shared footer, consistent named organization schema, AGENTS.md, and documented live checks. External directory reconciliation remains pending in [the implementation record](business-identity-implementation.md).
 
 - Homepage Framework
@@ -56,6 +61,31 @@ Completed framework documents should remain source documents for future website 
 ## Active
 
 Current follow-up:
+
+### High — outstanding performance follow-up
+
+**Priority: High — outstanding performance follow-up.**
+**Status: Open, deferred. No investigation is currently underway.**
+**Next trigger: The next substantive website repository review or SEO/performance gap analysis.**
+
+| Outstanding measurement | Recorded result |
+| --- | --- |
+| Homepage mobile CLS | Improved from 0.538 to 0.158, still above the good threshold of 0.10 |
+| Get Started mobile CLS | Remains 0.159 |
+| Outsourced Accounting mobile CLS | Measured 0.262 |
+| Homepage mobile LCP | Original baseline 1.1 seconds; final measurements 3.9/3.5 seconds |
+
+Possible contributors include font-associated movement, an unresolved body-level
+shift, and hero-image loading behavior. **The cause of the slower LCP
+measurements has not been established.** Surface these findings prominently at
+the next review; do not describe the completed image-reservation phase as full
+mobile performance remediation. The existing measurements and limitations are
+in the [implementation record](mobile-image-layout-stability-2026-10-30.md).
+
+This is a deferred priority in the existing roadmap, not an instruction to begin
+investigation, change the live website, or create scheduled/background work.
+
+### Other open follow-up
 
 - Remaining external-directory reconciliation, including LocalityBiz, is pending
   separate access as documented in the [identity record](business-identity-implementation.md).

@@ -6,6 +6,8 @@ What changed and why?
 
 - [ ] `python3 scripts/check-repository.py`
 - [ ] `python3 scripts/validate-business-identity.py`
+- [ ] `python3 scripts/validate-image-layout.py`
+- [ ] `python3 -m unittest discover -s scripts -p 'test_*.py'`
 - [ ] `git diff --check`
 
 ## HighLevel status
