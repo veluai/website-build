@@ -58,7 +58,9 @@ Short map:
 - `70-implementation/`: roadmap, backlog, and in-progress work that is not live yet.
 - `scripts/`: focused repository validation. It stays unnumbered at the repository root, with `AGENTS.md`, `README.md`, `.gitignore`, and `.github/`.
 
-Unpublished appointment-page sources stay in `70-implementation/` until they are live.
+Appointment pages published November 15 are in `40-pages/40.93`–`40.98`.
+`70.30` retains the implementation history and remaining runtime/marketing
+acceptance. New unpublished page sources stay in `70-implementation/` until live.
 
 Current orientation and implementation records:
 
