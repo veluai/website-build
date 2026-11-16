@@ -40,8 +40,10 @@ Open [30.10-current-site-index.md](30-current-site/30.10-current-site-index.md)
 for the documented live pages. Open
 [70.10-website-roadmap.md](70-implementation/70.10-website-roadmap.md) and
 [70.20-backlog.md](70-implementation/70.20-backlog.md) for work that is not part
-of that live set. Unpublished appointment pages live under `70-implementation/`
-until they are live.
+of that live set. Appointment page sources are published in `40.93`–`40.98`;
+[70.30](70-implementation/70.30-appointment-pages-implementation.md) tracks their
+remaining runtime/marketing acceptance. New unpublished sources stay in
+`70-implementation/` until live.
 
 How a change gets from this repository into GoHighLevel is
 [10.30-publish-to-highlevel.md](10-operations/10.30-publish-to-highlevel.md).
