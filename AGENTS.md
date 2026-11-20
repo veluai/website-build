@@ -76,6 +76,8 @@ Current orientation and implementation records:
 - `30-current-site/30.10-current-site-index.md`: documented live pages.
 - `70-implementation/70.10-website-roadmap.md`: broader website work and priorities.
 - `70-implementation/70.20-backlog.md`: working backlog. The roadmap stays the strategic status view.
+- `70-implementation/70.40-canonical-url-consolidation.md`: prepared URL form
+  (HTTPS apex, `/home` folded into `/`). Not saved in GoHighLevel.
 
 ## Repository checks and review
 
