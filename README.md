@@ -42,7 +42,11 @@ for the documented live pages. Open
 [70.20-backlog.md](70-implementation/70.20-backlog.md) for work that is not part
 of that live set. Appointment page sources are published in `40.93`–`40.98`;
 [70.30](70-implementation/70.30-appointment-pages-implementation.md) tracks their
-remaining runtime/marketing acceptance. New unpublished sources stay in
+remaining runtime/marketing acceptance.
+[70.40](70-implementation/70.40-canonical-url-consolidation.md) records the
+canonical URL form. Part of it was live-verified on November 20, 2026
+(America/Chicago); GoDaddy, listing website fields, the `www` chain, and
+trailing-slash removal remain open. New unpublished sources stay in
 `70-implementation/` until live.
 
 How a change gets from this repository into GoHighLevel is
