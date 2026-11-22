@@ -29,6 +29,9 @@
         "@id": "https://velu.us/services/nonprofit-client-advisory-services#primaryimage"
       },
       "inLanguage": "en-US",
+      "hasPart": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#faq"
+      },
       "potentialAction": {
         "@id": "https://velu.us/services/nonprofit-client-advisory-services#schedule-action"
       }
@@ -140,6 +143,57 @@
       "object": {
         "@id": "https://velu.us/services/nonprofit-client-advisory-services#service"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://velu.us/services/nonprofit-client-advisory-services#faq",
+      "url": "https://velu.us/services/nonprofit-client-advisory-services",
+      "isPartOf": {
+        "@id": "https://velu.us/services/nonprofit-client-advisory-services#webpage"
+      },
+      "inLanguage": "en-US",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Velu's client advisory service include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our advisory services combine budgeting, financial analysis, forecasting, and structured advisory meetings. The work covers budgeting and financial planning, budget performance analysis, forecasting and financial visibility, and board and leadership reporting. Every advisory engagement includes structured advisory meetings where we review financial performance, discuss opportunities and challenges, and help leadership teams make informed decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is client advisory the same as a fractional CFO, outsourced CFO, or part-time CFO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional CFO, outsourced CFO, and part-time CFO are names leaders use when they want ongoing financial guidance without hiring a full-time CFO. Those titles are not a separate service on this page. Client advisory is the support described here: budgets that connect funding, staffing, and programs; review of actual results against the plan, including funding gaps; forecasting, scenarios, and projections; board-ready reports and executive summaries; and a regular rhythm of advisory meetings. The overlap with CFO-level advisory is the planning, the interpretation, and the leadership conversation. The page does not appoint Velu as the organization's CFO, and this service does not, on its own, take on every duty a full-time CFO might hold inside an organization."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are nonprofit CFO services, and what does this page cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nonprofit CFO services usually mean financial leadership for a nonprofit: planning, interpreting results, and advising executives and the board. This page covers the advisory parts of that work: budgeting and financial planning, budget performance analysis, forecasting and financial visibility, board and leadership reporting, and structured advisory meetings. It does not list prices, promise a result, or include every responsibility in a CFO job description."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this different from a nonprofit controller, outsourced controller, or fractional controller?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A nonprofit controller, an outsourced controller, or a fractional controller is usually responsible for controller-level oversight of the accounting function: keeping records current, closing the books, and reviewing the work behind the financial statements. On this website, that work is part of <a href=\"https://velu.us/services/nonprofit-outsourced-accounting-services\">outsourced accounting</a>, including timely bookkeeping, bank reconciliations, month-end close procedures, and internal accountant oversight. Client advisory starts from those numbers. It helps leaders compare results with the plan, identify funding gaps, look ahead through forecasts, and decide with the leadership team. An organization may need both. Accounting helps you understand what happened. Advisory services help you understand what to do next."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Omaha-area nonprofits use this service without a full-time CFO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Velu is based in Omaha, and Omaha-area nonprofits can use client advisory without first hiring a full-time CFO. The service helps leaders connect programs, funding, staffing, and expenses, then plan what to do next. It is not a statement that every organization should skip an in-house finance role. The next step is a 45-minute discovery call, with no obligation, to see if we're the right fit."
+          }
+        }
+      ]
     }
   ]
 }
