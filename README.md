@@ -46,7 +46,10 @@ remaining runtime/marketing acceptance.
 [70.40](70-implementation/70.40-canonical-url-consolidation.md) records the
 canonical URL form. Part of it was live-verified on November 20, 2026
 (America/Chicago); GoDaddy, listing website fields, the `www` chain, and
-trailing-slash removal remain open. New unpublished sources stay in
+trailing-slash removal remain open.
+[70.50](70-implementation/70.50-ga4-cta-click-tracking.md) is the prepared,
+unpublished GA4 click-event snippet for booking buttons and service links.
+New unpublished sources stay in
 `70-implementation/` until live.
 
 How a change gets from this repository into GoHighLevel is

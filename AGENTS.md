@@ -80,6 +80,9 @@ Current orientation and implementation records:
   Partially live-verified November 20, 2026 (America/Chicago): two anchors,
   Home slug `/velu-home`, and the `/home` 301. GoDaddy, listing fields, the
   `www` chain, and trailing-slash removal remain open.
+- `70-implementation/70.50-ga4-cta-click-tracking.md`: prepared GA4 click events
+  for booking buttons, service links, and About links, with the Head
+  tracking-code snippet in the paired `.html` file. Not published.
 
 ## Repository checks and review
 
