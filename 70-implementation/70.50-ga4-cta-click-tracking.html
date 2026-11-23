@@ -1,0 +1,132 @@
+<!--
+  Velu GA4 click events: booking CTAs, service links and About links.
+  Source record: 70-implementation/70.50-ga4-cta-click-tracking.md
+  Status: Prepared. Not saved or published in GoHighLevel.
+  Install: HighLevel Website Settings > Tracking Code > Head, pasted after the
+  existing gtag('config', ...) lines. Do not remove or reorder those lines.
+  Sends no form values, names, emails or phone numbers. Query strings and
+  fragments are dropped from link_url.
+-->
+<script>
+(function () {
+  'use strict';
+  if (window.veluClickEventsLoaded) { return; }
+  window.veluClickEventsLoaded = true;
+
+  // Both collecting properties, matching the two gtag('config') lines and the
+  // two HighLevel booking-workflow actions.
+  var SEND_TO = ['G-9BB7KPXPCQ', 'G-7LGS60FFST'];
+
+  // Destination path -> booking_type. A click on one of these is the
+  // booking-intent event (book_call_click).
+  var BOOKING_PATHS = {
+    '/get-started': 'discovery_call',
+    '/digital-coffee': 'digital_coffee'
+  };
+  // Visitors on these pages have usually just booked. A booking link there
+  // is not counted, so the key event is not inflated after a booking.
+  var CONFIRMATION_PATHS = {
+    '/discovery-call-confirmation': true,
+    '/digital-coffee-confirmation': true
+  };
+  var SERVICE_PREFIX = '/services/';
+  var ABOUT_PATH = '/about-us';
+  var NAV_SELECTOR = '.c-nav-menu-v2, [class*="nav-menu"]';
+  var FOOTER_SELECTOR = 'footer, .velu-footer';
+  var SECTION_SELECTOR = '[id^="section-"]';
+
+  function normalizePath(path) {
+    var p = (path || '/').toLowerCase().replace(/\/+$/, '');
+    return p === '' ? '/' : p;
+  }
+
+  function isVeluHost(host) {
+    host = (host || '').toLowerCase();
+    return host === 'velu.us' || host === 'www.velu.us' ||
+      host === window.location.hostname.toLowerCase();
+  }
+
+  // HighLevel buttons put the label in .main-heading-button and the
+  // microcopy in .sub-heading-button; keep only the label.
+  function linkText(el) {
+    var main = el.querySelector('.main-heading-button');
+    var t = (main && main.textContent) || el.innerText || el.textContent ||
+      el.getAttribute('aria-label') || '';
+    return t.replace(/\s+/g, ' ').trim().slice(0, 100);
+  }
+
+  function topLevelSections() {
+    var all = document.querySelectorAll(SECTION_SELECTOR);
+    var out = [];
+    for (var i = 0; i < all.length; i++) {
+      var parent = all[i].parentElement;
+      if (!parent || !parent.closest(SECTION_SELECTOR)) { out.push(all[i]); }
+    }
+    return out;
+  }
+
+  // header | hero | section | closing | footer | body
+  function linkLocation(a) {
+    if (a.closest(FOOTER_SELECTOR)) { return 'footer'; }
+    if (a.closest(NAV_SELECTOR)) { return 'header'; }
+    var section = a.closest(SECTION_SELECTOR);
+    if (!section) { return 'body'; }
+    var sections = topLevelSections();
+    var bodySections = [];
+    var top = null;
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].contains(section)) { top = sections[i]; }
+      var isHeader = !!sections[i].querySelector(NAV_SELECTOR);
+      var isFooter = !!sections[i].querySelector(FOOTER_SELECTOR);
+      if (!isHeader && !isFooter) { bodySections.push(sections[i]); }
+    }
+    if (!top) { return 'body'; }
+    if (top.querySelector(NAV_SELECTOR)) { return 'header'; }
+    if (top.querySelector(FOOTER_SELECTOR)) { return 'footer'; }
+    if (top === bodySections[0]) { return 'hero'; }
+    if (top === bodySections[bodySections.length - 1]) { return 'closing'; }
+    return 'section';
+  }
+
+  function handle(event) {
+    if (event.type === 'auxclick' && event.button !== 1) { return; }
+    if (typeof window.gtag !== 'function') { return; }
+    var target = event.target;
+    if (!target || !target.closest) { return; }
+    var a = target.closest('a[href]');
+    if (!a) { return; }
+
+    var url;
+    try { url = new URL(a.getAttribute('href'), window.location.href); } catch (e) { return; }
+    if (!/^https?:$/.test(url.protocol) || !isVeluHost(url.hostname)) { return; }
+
+    var destPath = normalizePath(url.pathname);
+    var pagePath = normalizePath(window.location.pathname);
+    // A link to the page already open (for example the header Get Started
+    // button on /get-started) is not a new intent signal.
+    if (destPath === pagePath) { return; }
+
+    var params = {
+      link_text: linkText(a),
+      link_url: 'https://velu.us' + destPath,
+      link_id: a.id || '',
+      link_location: linkLocation(a),
+      send_to: SEND_TO
+    };
+
+    if (Object.prototype.hasOwnProperty.call(BOOKING_PATHS, destPath)) {
+      if (CONFIRMATION_PATHS[pagePath]) { return; }
+      params.booking_type = BOOKING_PATHS[destPath];
+      window.gtag('event', 'book_call_click', params);
+    } else if (destPath.indexOf(SERVICE_PREFIX) === 0) {
+      params.service_slug = destPath.slice(SERVICE_PREFIX.length);
+      window.gtag('event', 'service_link_click', params);
+    } else if (destPath === ABOUT_PATH) {
+      window.gtag('event', 'about_link_click', params);
+    }
+  }
+
+  document.addEventListener('click', handle, true);
+  document.addEventListener('auxclick', handle, true);
+})();
+</script>
