@@ -40,10 +40,11 @@ pull requests. Repository synchronization does not publish GoHighLevel changes.
 ## Repository navigation and file conventions
 
 Maintain exactly one agent-guidance file: this root `AGENTS.md`. The root
-`README.md` is the human start-here map. Do not add any other README file, and
-do not add numbered duplicate copies of repository files. If a duplicate
-appears locally, compare it with the canonical file and preserve any unique
-changes before removing it.
+`README.md` is the human start-here map. The only other README allowed is
+`80-backlinks/README.md`, the index for that folder. Do not add any further
+README file, and do not add numbered duplicate copies of repository files. If a
+duplicate appears locally, compare it with the canonical file and preserve any
+unique changes before removing it.
 
 Numbered folders and filenames are defined in
 [10.10-repo-operating-procedure.md](10-operations/10.10-repo-operating-procedure.md).
@@ -56,6 +57,7 @@ Short map:
 - `50-images/`: published images, kept in one subfolder per page.
 - `60-source/`: canonical identity, reviews, case studies, and the reservation map.
 - `70-implementation/`: roadmap, backlog, and in-progress work that is not live yet.
+- `80-backlinks/`: dated backlink audits, snapshots, redirect maps, outreach, disavow candidates, and the playbook. Index: `80-backlinks/README.md`.
 - `scripts/`: focused repository validation. It stays unnumbered at the repository root, with `AGENTS.md`, `README.md`, `.gitignore`, and `.github/`.
 
 Appointment pages published November 15 are in `40-pages/40.93`–`40.98`.
@@ -83,6 +85,42 @@ Current orientation and implementation records:
 - `70-implementation/70.50-ga4-cta-click-tracking.md`: prepared GA4 click events
   for booking buttons, service links, and About links, with the Head
   tracking-code snippet in the paired `.html` file. Not published.
+- `80-backlinks/README.md`: backlink current state (`80.10`–`80.49`) and
+  implementation (`80.60`–`80.89`). The June 29, 2026 preservation audit stays
+  in `30-current-site/30.45` and `30.46`; later audits link to it.
+
+## Backlinks
+
+Recurring backlink work lives in `80-backlinks/`. Read
+`80-backlinks/README.md` and `80-backlinks/80.10-backlink-playbook.md` first.
+
+Current-state files (`80.10`–`80.49`) hold the dated audit, CSV snapshots,
+referring-domain inventory, broken-target inventory, lost-link status,
+disavow candidates, link equity, competitor gap, and citation gap. Mark a
+check that was not fetched as unverified. Do not invent competitor or
+directory numbers.
+
+Implementation files (`80.60`–`80.89`) hold the prioritized backlog, one file
+per recommendation (`BL-01` and up), and the log of completed work. Findings
+become recommendations. Implement one recommendation at a time, and only the
+ID Tyler named. Update that item's status and append
+`80-backlinks/80.80-implementation-log.md` when it is done.
+
+- A velu.us URL that has inbound links and returns 404 gets a GoHighLevel 301
+  to the most relevant live page when that recommendation is the one being
+  implemented. Domain `velu.us`, path with no trailing slash, action `url`,
+  target the canonical URL. Record the old URL, the new URL, the linking
+  domains, and the live result.
+- A valuable guide or template with no live equivalent is a restoration
+  recommendation. Do not send it to the homepage.
+- Do not add a redirect for `/wp-content/uploads/`. On November 25, 2026 those
+  rules were stored and the URLs still returned 404. Delete a rule that does
+  not change the response.
+- Verify a new rule: first response 301, final response 200. Keep prepared,
+  published, and live-verified distinct.
+- A disavow candidate list stays in current state. Do not upload it unless
+  that recommendation is the one Tyler asked for. The November 25
+  SEO-directory pattern is one Google generally ignores.
 
 ## Repository checks and review
 
