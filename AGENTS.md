@@ -85,22 +85,32 @@ Current orientation and implementation records:
 - `70-implementation/70.50-ga4-cta-click-tracking.md`: prepared GA4 click events
   for booking buttons, service links, and About links, with the Head
   tracking-code snippet in the paired `.html` file. Not published.
-- `80-backlinks/README.md`: where backlink audits, snapshots, redirect maps,
-  outreach, and disavow candidates live. The June 29, 2026 preservation audit
-  stays in `30-current-site/30.45` and `30.46`; later audits link to it.
+- `80-backlinks/README.md`: backlink current state (`80.10`–`80.49`) and
+  implementation (`80.60`–`80.89`). The June 29, 2026 preservation audit stays
+  in `30-current-site/30.45` and `30.46`; later audits link to it.
 
 ## Backlinks
 
 Recurring backlink work lives in `80-backlinks/`. Read
-`80-backlinks/README.md` and `80-backlinks/80.10-backlink-playbook.md` before
-adding an audit or a redirect.
+`80-backlinks/README.md` and `80-backlinks/80.10-backlink-playbook.md` first.
 
-- File each pull as a dated audit. Do not overwrite an older one. Save the
-  domain-level export as CSV snapshots next to it.
+Current-state files (`80.10`–`80.49`) hold the dated audit, CSV snapshots,
+referring-domain inventory, broken-target inventory, lost-link status,
+disavow candidates, link equity, competitor gap, and citation gap. Mark a
+check that was not fetched as unverified. Do not invent competitor or
+directory numbers.
+
+Implementation files (`80.60`–`80.89`) hold the prioritized backlog, one file
+per recommendation (`BL-01` and up), and the log of completed work. Findings
+become recommendations. Implement one recommendation at a time, and only the
+ID Tyler named. Update that item's status and append
+`80-backlinks/80.80-implementation-log.md` when it is done.
+
 - A velu.us URL that has inbound links and returns 404 gets a GoHighLevel 301
-  to the most relevant live page. Domain `velu.us`, path with no trailing
-  slash, action `url`, target the canonical URL. Record the old URL, the new
-  URL, the linking domains, and the live result in this folder.
+  to the most relevant live page when that recommendation is the one being
+  implemented. Domain `velu.us`, path with no trailing slash, action `url`,
+  target the canonical URL. Record the old URL, the new URL, the linking
+  domains, and the live result.
 - A valuable guide or template with no live equivalent is a restoration
   recommendation. Do not send it to the homepage.
 - Do not add a redirect for `/wp-content/uploads/`. On November 25, 2026 those
@@ -108,8 +118,9 @@ adding an audit or a redirect.
   not change the response.
 - Verify a new rule: first response 301, final response 200. Keep prepared,
   published, and live-verified distinct.
-- A disavow candidate list stays in the folder. Do not upload it unless Tyler
-  asks. The November 25 SEO-directory pattern is one Google generally ignores.
+- A disavow candidate list stays in current state. Do not upload it unless
+  that recommendation is the one Tyler asked for. The November 25
+  SEO-directory pattern is one Google generally ignores.
 
 ## Repository checks and review
 
