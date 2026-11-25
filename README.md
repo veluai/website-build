@@ -21,6 +21,7 @@ Repository changes are logged in
 | `50-images/` | Published image library. Page subfolders stay so the files remain browsable. |
 | `60-source/` | Canonical records the pages and validators read: identity, reviews, case studies, and the reservation map. |
 | `70-implementation/` | Roadmap, backlog, and in-progress work that is not live yet. |
+| `80-backlinks/` | Backlink audits, snapshots, redirect maps, outreach, and disavow candidates. Start at [80-backlinks/README.md](80-backlinks/README.md). |
 | `scripts/` | Offline validators. Kept at the root so the checks can run them. |
 
 Root files that stay unnumbered: `README.md`, `AGENTS.md`, `.gitignore`,
@@ -51,6 +52,9 @@ trailing-slash removal remain open.
 unpublished GA4 click-event snippet for booking buttons and service links.
 New unpublished sources stay in
 `70-implementation/` until live.
+Backlink audits from November 25, 2026 onward are in
+[80-backlinks](80-backlinks/README.md). The June 29, 2026 preservation audit
+stays in `30-current-site`.
 
 How a change gets from this repository into GoHighLevel is
 [10.30-publish-to-highlevel.md](10-operations/10.30-publish-to-highlevel.md).
